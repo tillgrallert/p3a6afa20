@@ -50,7 +50,7 @@ This paper presents the dual race to catch up with methodological and epistemolo
 
 <!-- image of a pages -->
 <!-- word cloud -->
-![Figure: Wordcloud of authors published in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-bylines.png)
+![Figure: Word cloud of authors published in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png)
 <!-- map -->
 ![Figure: Locations in bylines in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png)
 
