@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Till Grallert" />
+  <meta name="dcterms.date" content="2018-09-11" />
+  <title>Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of “digitised” Arabic periodicals from the Ottoman Empire&quot;</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+        /* general settings for the whole page */
+       body,
+       footer,
+       header {
+          display: block;
+          background-color: white;
+          color: black;
+        }
+        body {
+          /*font-family: Helvetica, Arial, sans-serif;*/
+          font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+          font-size: 18px;
+          line-height: 1.5em;
+          text-align: justify;
+          margin-left: auto;
+          margin-right: auto;
+          padding-right: 60px;
+          padding-left: 60px;
+          max-width: 800px;
+          min-width: 300px;
+          word-wrap: break-word;
+          /* counters */
+          counter-reset: p;
+        }
+        /* automatic numbering */
+        body > p{
+          counter-increment: p;
+        }
+        body > p:before {
+          content: "§ " counter(p) " ";
+          direction:ltr;
+          vertical-align:top;
+          font-size: 0.8em;
+          color: gray;
+          display: inline-block;
+          position: relative;
+          left: -60px;
+        }
+        /* section headings */
+        h1, h2, h3, h4, h5 {
+          font-family: "American Typewriter", sans-serif;
+          font-weight: lighter;
+          margin-top: 1em;
+          line-height: 1.2em;
+          text-align: center;
+        }
+        
+        /* spacing / padding between paragraphs */
+        p, ol, ul, li {
+          /*margin-left: 1em;*/
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          line-height: 1.5em;
+        }
+        div.footnotes p {
+          padding-bottom: 0;
+          padding-top: 0;
+        }
+        /* code */
+        code {
+          font-size: 14px;
+          line-height: 1;
+          padding-bottom: 0;
+          padding-top: 0;
+        }
+        
+        /* images */
+        
+        img,
+        figure, 
+        div.figure {
+          width: 90%;
+          display: block;
+          clear:both;
+          margin-left: 5%;
+          margin-top: 1em;
+        }
+        img {
+          background-color: rgba(0,0,0,0.04);
+          border-radius: 5px;
+          box-shadow: 2px 2px 5px #000;
+          border:gray solid 1px;
+        }
+        
+        /* what about captions? */
+        /* they are provided in @alt (inline images) and <figcaption/> (images separated by empty lines) */
+        /* if I render HMTL with Pandoc and Marked, images are rendered as <div class="figure">
+        <img src="img0030.jpg" alt="Fig. 1, Construction works at the new municipality." /><p class="caption">Fig. 1, Construction works at the new municipality.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+        </div>
+        */
+        figure > img, 
+        div.figure img {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          position: relative;
+          /*background-color: rgba(0,0,0,0.04);
+          border-radius: 15px;
+          box-shadow: 2px 2px 5px #000;
+          border:gray solid 1px;*/
+        }
+        figcaption,
+        p.caption {
+          width:100%;
+          position:relative;
+          display: block;
+          margin-top: 1em;
+          font-size:0.8em;
+          text-align: right;
+          font-weight:lighter;
+        }   
+        
+        /* tables */
+        table {
+          display: block;
+          width:inherit;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: inherit;
+          padding-bottom: inherit;
+          border-collapse: collapse;
+          /* use smaller font-size than the surrounding text*/
+          font-size: 0.7em;
+        }
+        
+        tr.header {
+          border-bottom: double black;
+        }
+        tr {
+          border-bottom: 1px solid black;
+        }
+        th,
+        td {
+          text-align: left;
+          padding-bottom: 0.1em;
+          padding-top: 0.1em;
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+        }
+        
+        /* links */
+        a {
+          color: orange;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: #AB1733;
+          text-decoration: none;
+        }
+        
+        a:hover, a:active {
+          color: #E62347;
+          text-decoration: underline;
+        }
+        /* footnotes */
+        a.footnote {
+          font-size: 0.7em;
+          vertical-align: super;
+          display: inline-block;
+          padding-left: 0.3em;
+        }
+        /* in case of transcriptions, the html might contain pb elements to indicate page breaks in the original */
+        pb:before {
+          content: " [page " attr(n) "] ";
+          font-size: 0.8em;
+          color:#959595;
+          vertical-align: top;
+          position: relative;
+          display: inline-block;
+          margin-left: 0.5em;
+          margin-right: 0.5em;
+        }
+        
+        /* navigation */
+        nav {
+          display: block;
+          position: fixed;
+          /* vertical scrolling */
+          overflow-y: auto;
+          top: 0px;
+          width: 300px;
+          height: 100%;
+          transition: 0.5s;
+          /*background-color: #E3DFE0;*/
+          z-index: 100;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 0.8em;
+          text-align: left;
+        }
+        
+        nav {
+          left: -320px;
+        }
+        nav,
+        nav:before {
+          /*background-color: #F0ECEC;*/
+          background-color:#AB1733; 
+        }
+        nav *,
+        nav:before {
+          color:white;
+        }
+        nav a:visited,
+        nav a:hover,
+        nav a:active {
+          color:white;
+          text-decoration: none;
+        }
+        /* add button */
+        nav:before {
+          display: block;
+          width: 45px;
+          height: 40px;
+          position: fixed;
+          left: -5px;
+          top: 20px;
+          content: "\2261";
+          font-size: 40px;
+          /*background-color: #E3DFE0;*/
+          /*border-bottom-left-radius: 5px;*/
+          border-bottom-right-radius: 5px;
+          /*border-top-left-radius: 5px;*/
+          border-top-right-radius: 5px;
+          box-sizing: border-box;
+          cursor: pointer;
+          padding-bottom: 5px;
+          padding-left: 15px;
+          padding-right: 10px;
+          padding-top: 5px;
+          transition: 0.5s;
+        }
+        /*hover state*/
+        nav:hover {
+          left: 0px;
+          top: 0px;
+        }
+        nav:hover:before {
+          left: 315px;
+        }
+        nav ul,
+        nav li {
+          list-style: none;
+          padding-top: 0.5em;
+          padding-bottom: 0;
+          /*margin-top: 10px;*/
+          line-height: 1.5em;
+          /*margin-block-start:0;*/
+        }
+        nav ol,
+        nav ul {
+          margin-block-start:0;
+          margin-block-end:0;
+          /* add indention of nested lists */
+          padding-inline-start:20px;
+        }
+        /* footer and header */
+        footer {
+          border-top: 1px solid black;
+          padding-top: 5px;
+          /*fixed display at the bottom of the page */
+          display: block;
+          position: fixed;
+          bottom: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          left: 0px;
+          width: 100%;
+          height: 30px;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 16px;
+        }
+        footer * {
+          background-color: inherit;
+          font-family: inherit;
+          font-size: inherit;
+          margin-top:0px;
+          margin-bottom: 0px;
+        }
+        span.c_info {
+          display: block;
+          padding-left: 5px;
+          padding-right: 5px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        footer img {
+          display: inline;
+          background-color: inherit;
+          border-radius: 0px;
+          box-shadow: none;
+          border:none;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        span.c_license img {
+          width: 60px;
+        }
+        /* badges and shields */
+            #sec-badges {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            #sec-badges a,
+            #sec-badges img {
+              display: inline-block;
+              /*height: 20px;*/
+              padding-left: 5px;
+              padding-right: 5px;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              margin: 0;
+            }
+            #sec-badges img {
+              height: 24px;
+              background-color: inherit;
+              border-radius: 0px;
+              box-shadow: none;
+              border:none;
+            }
+          /* author and date */
+          p.date:before {
+            content: "Last edited: "
+          } 
+        
+        /* show urls in print */
+        @media print {
+          a[href]:after {
+            content: " (" attr(href) ") ";
+          }
+        }
+    </style>
+  <style type="text/css">
+  /* these styles mirror oXygen's highlight colours for XML */
+  pre.sourceCode {
+      background-color:white;
+  }
+  code.sourceCode {
+      font-weight:normal;
+  }
+  /* provide a readible font-size */
+  .sourceCode * {
+      font-size: 16px;
+  }
+  /* xml element names */
+  .xml > code > span.kw {
+  	color: #0F0F9C;
+  	font-weight: bold;
+  }
+  /* xml attribute names */
+  .xml > code > span.ot {
+  	color:#FF8041;
+  }
+  /* xml attribute values */
+  .xml > code > span.st {
+  	color:#993300;
+  }
+  /* xml comments */
+  .xml > code > span.co {
+  	color:#167116;
+  	font-style: italic;
+  }
+  /* xml computing instructions: not implemented in Pandoc syntax highlighting */
+  /* .xml > code > span {
+  	color:#9132CC;
+  } */
+  </style>
+</head>
+<body>
+<header>
+<h1 class="title">Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of “digitised” Arabic periodicals from the Ottoman Empire&quot;</h1>
+<p class="author">Till Grallert</p>
+<p class="date">2018-09-11</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#sec-about">About</a></li>
+<li><a href="#sec-introduction">Introduction</a></li>
+<li><a href="#paper">paper</a></li>
+<li><a href="#openarabicpe-as-a-framework">OpenArabicPE as a framework</a></li>
+<li><a href="#network-of-authors-and-texts">Network of authors and texts</a><ul>
+<li><a href="#openarabicpes-corpus">OpenArabicPE’s corpus</a></li>
+</ul></li>
+</ul>
+</nav>
+<!-- # processing instructions -->
+<!-- ## 1. HTML -->
+<!-- pandoc -F pandoc-crossref -s -S -f markdown -t html5 --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript catch-me-if-you-can.md -o index.html -->
+<!-- ## 2. DOCX -->
+<!-- pandoc -F pandoc-crossref -s -S -f markdown -t docx catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
+<div id="sec-badges" class="c_badges">
+<!-- ORCID -->
+<p><a href="https://orcid.org/0000-0002-5739-8094"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID" /></a> <!-- licence --> <a href="http://creativecommons.org/licenses/by-nd/4.0/"><img src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" alt="CC BY-ND 4.0" /></a> <!-- release --> <a href="https://github.com/tillgrallert/p3a6afa20/releases"><img src="https://img.shields.io/github/release/tillgrallert/p3a6afa20.svg" alt="GitHub release" /></a> <!-- DOI --> <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo..svg)](https://doi.org/10.5281/zenodo.) --></p>
+</div>
+<h1 id="sec-about">About</h1>
+<blockquote>
+<p>This is a draft paper to be presented at the Turkologentag 2018 in Bamberg, Germany, 19–21. September 2018.</p>
+</blockquote>
+<blockquote>
+<p>The current stable draft of this paper is version <a href="https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html">v0.1</a> and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click <a href="https://via.hypothes.is/https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html">here</a>. The most recent changes are available <a href="https://tillgrallert.github.io/p3a6afa20/index.html">here</a>.</p>
+</blockquote>
+<h1 id="sec-introduction">Introduction</h1>
+<p>Early Arabic periodicals from the late nineteenth and early twentieth centuries, such as Butrus al-Bustānī’s <em>al-Jinān</em> (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs’ <em>al-Muqtaṭaf</em> (Beirut and Cairo, 1876–1952), Muhammad Kurd Ali’s <em>al-Muqtabas</em> (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā’s <em>al-Manār</em> (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic renaissance (<em>al-nahḍa</em>), Arab nationalism, and the Islamic reform movement. The better known and at the time widely popular journals—unlike their smaller rivals and more ephemeral newspaper copies—do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are distributed throughout libraries and institutions worldwide. This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.</p>
+<p>Digitisation promises an “easy” solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of <em>digitised</em> periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant.</p>
+<!-- potential questions to be computationally answered with big data -->
+<p>The public and many scholars expect to be able to put a computer to such diverse tasks as: Show me all instances of the word <em>waṭan</em> across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I. Or: Show me the discursive field of authors and their texts and its changes over time. Unfortunately, the eager student of <em>digitised</em> periodicals will immediately find tools, data and skills lacking.</p>
+<!-- some comments / summary of the following paper -->
+<p>This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals. It introduces the project <a href="https://openarabicpe.github.io">OpenArabicPE</a> as a framework to unite transcriptions of currently two early twentieth-century periodicals, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, from gray online platforms with digital facsimiles. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analysis on this corpus of some 130 periodical issues of more than 2.2 million words.</p>
+<!-- image of a pages -->
+<!-- word cloud -->
+<p><img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-bylines.png" alt="Figure: Wordcloud of authors published in al-Muqtabas" /> <!-- map --> <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /></p>
+<h1 id="paper">paper</h1>
+<!-- problem: there is no big data. on the difference between *digitised* and *digital* -->
+<p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to gray online libraries<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>digitised</em> commonly means nothing more (but also not less) than the provision of digital facsimiles. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, provide extremely limited search functions. The former is obviously dysfunctional for Arabic text, but since the latter does not make the text layer accessible to scrutiny we will never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions—that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.</p>
+<!-- If the "data" is lacking, can we use (bibliographic) metadata? -->
+<p>Any sort of meaningful computational analysis of the global connections between authors, texts, and periodicals as a venue for publication and review requires access to reliable standardised bibliographic metadata as a bare minimum. Unfortunately, reliable metadata on the article level is practically non-existant and the situation is only marginally better on the issue level. Available metadata is not commonly provided in a standard-compliant and machine-actionable format. Even if we had perfectly reliable digital re-mediations of the bibliographic information found in the periodical issues themselves, the vast majority of articles would remain outside our analytical scopes, since publishers did not provide (meaningful) bylines—most articles in both journals and newspapers from Beirut, Cairo or Damascus did not credit their authors. One approach would be to subject all articles to stylometric analysis but this again presupposes truly <em>digital</em> editions.</p>
+<!-- identify the areas to catch up with -->
+<p>Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. They are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.</p>
+<!-- get the full text -->
+<p>Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> Despite promising developments with the application of machine-learning technologies to pattern recognition,<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> automatic conversion of images of early Arabic periodicals is hampered by two factors: 1. all OCR technologies depend on a fairly large training set of “gold standard” transcriptions as ground truth; 2. low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality. Consequently these texts can currently only be reliably digitised by human transcription.{&gt;&gt;add footnote&lt;&lt;} Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.</p>
+<p>Gray online-libraries of Arabic literature, namely <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shamila</em> (<em>shamela.ws</em>)</a>, <a href="http://almeshkat.net/"><em>Mishkat</em></a>, <a href="http://saaid.net/"><em>Saydal-Fawa’id</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a>, provide access to a vast body of (mostly classical) Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. These gray “editions” lack information linking the digital representation to material originals, namely bibliographic metadata and page breaks, which makes them almost impossible to employ for scholarly research.</p>
+<p>Since we do not have the resources to proof and correct these texts, we had the idea to unite transcriptions from gray online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus “Open Arabic Periodical Editions” (OpenArabicPE) was born in autumn 2015.</p>
+<h1 id="openarabicpe-as-a-framework">OpenArabicPE as a framework</h1>
+<!-- this needs to be expanded upon -->
+<p><a href="https://github.com/openarabicpe">OpenArabicPE</a> establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as <em>accessibilty</em>, <em>sustainability</em>, <em>credibility</em>. Starting with the mostly Damascene periodicals <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems—including the absence of expensive infrastructure—through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.</p>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png" alt="Figure: Project scheme" /><figcaption>Figure: Project scheme</figcaption>
+</figure>
+<p>Within OpenArabicPE we devise workflows and tools to transform digital texts from <a href="http://www.shamela.ws/"><em>shamela.ws</em></a> into an open, standardised file format (XML) following the <a href="https://www.tei-c.org">Text Encoding Initiative (TEI)</a>’s guidelines,<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a> to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely <a href="http://eap.bl.uk/">EAP</a>, <a href="http://catalog.hathitrust.org/">HathiTrust</a>, and [archive.sakhrit.co][]. The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were {–commonly–} ignored by <em>shamela.ws</em>’s anonymous transcribers.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> This point needs to be emphasised: every one of the c.8500 pages breaks needs to manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers. So far Dimitar Dragnev, Talha Güzel, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.</p>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png" alt="Figure: Web view of al-Muqtabas 6/2" /><figcaption>Figure: Web view of <a href="https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml">al-Muqtabas 6/2</a></figcaption>
+</figure>
+<p>The editions (TEI, markdown, and a web-display) are then hosted as a GitHub repository with open licenses for reading, contribution, and re-use.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> {&gt;&gt;mention collaboration with Leipzig and the integration of Muqtabas into CLARIN&lt;&lt;} As part of the editions we also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems or individual scholars’ reference managing software. In order to improve access to individual articles and allow for a search of bibliographic metadata we feed this data into a <a href="https://www.zotero.org/groups/openarabicpe">public Zotero group</a>.</p>
+<p>With OpenArabicPE we argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Such an approach as proposed by Christian Wittern {2013} has recently seen a number of concurrent practical implementations such as project <a href="https://gitenberg.github.io/">GITenberg</a> led by Seth Woodworth, Jonathan Reeve’s <a href="https://github.com/Git-Lit/git-lit">Git-lit</a>, and others.</p>
+<p>For the future we plan to produce the necessary ground truth to train OCR technologies from some hundred pages of either journal.</p>
+<p>{&gt;&gt;Some paragraphs on the importance of the two journals&lt;&lt;}</p>
+<!-- corpus -->
+<!-- full editions -->
+<!-- some information on al-Muqtabas -->
+<!-- some information on al-Ḥaqāʾiq -->
+<!-- bibliographic metadata -->
+<h1 id="network-of-authors-and-texts">Network of authors and texts</h1>
+<p>With major work on modelling both <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> done, we can now begin to submit this corpus to initial analyses of the networks of authors and their texts as well as the material read and reviewed in Damascus.</p>
+<h2 id="openarabicpes-corpus">OpenArabicPE’s corpus</h2>
+<p>The corpus comprises TEI files for each issue of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> The edition of <em>al-Muqtabas</em> gathers all 96 issues published between 1906 and 1917/18 with a total of some 7.000 pages and almost 2 million words. {&gt;&gt;comment on publication dates&lt;&lt;} Issues consist of longer independent articles and sections with shorter articles such as brief reports on new discoveries and book announcements. Issues and pages differed widely in length. On average, each issue contained 65 pages with almost 300 words or 20354 word per issue.</p>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png" alt="Figure: Words per page and page counts for al-Muqtabas" /><figcaption>Figure: Words per page and page counts for <em>al-Muqtabas</em></figcaption>
+</figure>
+<!-- statistics on our editions -->
+<p>The edition of <em>al-Ḥaqāʾiq</em> comprises all 36 issues, grouped into three volumes and published by ʿAbd al-Qādir al-Iskandarānī in Damascus between 1910 and 1913. {&gt;&gt;comment on publication dates&lt;&lt;} Pages contain much less text and issues are much shorter than <em>al-Muqtabas</em> with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of <em>al-Muqtabas</em>.</p>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png" alt="Figure: Words per page and page counts for al-Ḥaqāʾiq" /><figcaption>Figure: Words per page and page counts for <em>al-Ḥaqāʾiq</em></figcaption>
+</figure>
+<!-- state of the data -->
+<p>The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as “Rashīd Riḍā” and “Owner of al-Manār”. In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{&gt;&gt;Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script&lt;&lt;}</p>
+<p>Before looking at this aggregated information is is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis. <em>al-Muqtabas</em> printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at <em>al-Ḥaqāʾiq</em>: Only one fifth (76) of the 360 articles provide explicit author information. {&gt;&gt;add information on the number of words, which is more meaningful than the number of articles&lt;&lt;} We can currently identify only a maximum of 128 named authors for <em>al-Muqtabas</em> and less than 60 for <em>al-Haqāʾiq</em> [See word clouds below].<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> Quite a significant number appear only with their initials, particularly in <em>al-Ḥaqāʾiq</em> and all of them were men. Only 50 authors published more than one article in <em>al-Muqtabas</em>. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {&gt;&gt;add comments on genre of texts by these authors&lt;&lt;}</p>
+<p>{&gt;&gt;al-Ḥaqāʾiq&lt;&lt;} <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. --></p>
+<!-- Muqtabas: authors by byline -->
+<table>
+<thead>
+<tr class="header">
+<th>rank</th>
+<th>name</th>
+<th>words</th>
+<th>articles</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Maʿrūf al-Ruṣāfī</td>
+<td>12437</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>ʿĪsā Iskandar al-Maʿlūf</td>
+<td>23297</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Sātsunā</td>
+<td>19849</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Yūsuf Jirjis Zakham</td>
+<td>21613</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Jamāl al-Dīn al-Qāsimī</td>
+<td>38541</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Muḥammad Kurd ʿAlī</td>
+<td>42489</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Aḥmad Zakī</td>
+<td>40311</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Muḥammad Riḍā al-Shabībī</td>
+<td>17894</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>ʿAbd al-Qādir al-Maghribī</td>
+<td>14074</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Rafīq al-ʿAẓm</td>
+<td>13237</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Aḥmad Taymūr</td>
+<td>7905</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<!-- plots -->
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of articles" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of articles</figcaption>
+</figure>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Ḥaqāʾiq" /><figcaption>Figure: Word cloud of authors published in <em>al-Ḥaqāʾiq</em></figcaption>
+</figure>
+<p>The picture changes decisively if we consider total word counts instead of bylines/articles. Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled <em>Gharāʾib al-gharb</em>. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in <em>al-Muqtabas</em>, is Ibn al-Muqaffaʿ (d.759), the famous author of <em>Kalīla wa dhimna</em>, which points to an important function of <em>al-Muqtabas</em>: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, he provided many such manuscript to Muḥammad Kurd ʿAlī for publication and frequently wrote the introduction.</p>
+<!-- Muqtabas: authors by word count -->
+<table>
+<thead>
+<tr class="header">
+<th>rank</th>
+<th>name</th>
+<th>words</th>
+<th>articles</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Muḥammad Kurd ʿAlī</td>
+<td>42489</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Aḥmad Zakī</td>
+<td>40311</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Jamāl al-Dīn al-Qāsimī</td>
+<td>38541</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Jirjī Ḥaddād</td>
+<td>24124</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>ʿĪsā Iskandar al-Maʿlūf</td>
+<td>23297</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Yūsuf Jirjis Zakham</td>
+<td>21613</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Sātsunā</td>
+<td>19849</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Muḥammad Riḍā al-Shabībī</td>
+<td>17894</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Ibn al-Muqaffaʿ [sic!]</td>
+<td>15520</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>ʿAbd al-Qādir al-Maghribī</td>
+<td>14074</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Maʿrūf al-Ruṣāfī</td>
+<td>12437</td>
+<td>24</td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-words.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of words" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of words</figcaption>
+</figure>
+<p><em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical.</p>
+<p>What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts. This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.</p>
+<p>Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical’s editor. In the case of <em>al-Muqtabas</em>, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the <em>network</em> of authors, texts, and locations, this would be an utterly pointless endeavour.</p>
+<p>If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:</p>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /><figcaption>Figure: Locations in bylines in <em>al-Muqtabas</em></figcaption>
+</figure>
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_haqaiq-bylines-all.png" alt="Figure: Locations in bylines in al-Ḥaqāʾiq" /><figcaption>Figure: Locations in bylines in <em>al-Ḥaqāʾiq</em></figcaption>
+</figure>
+<p>{&gt;&gt;missing comment on maps&lt;&lt;}</p>
+<p>{&gt;&gt;missing conclusion&lt;&lt;}</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Such as <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, <a href="http://catalog.hathitrust.org/">Hathitrust</a>, the <a href="http://eap.bl.uk/">British Library’s “Endangered Archives Programme” (EAP)</a>, <a href="http://menadoc.bibliothek.uni-halle.de/">MenaDoc</a>, <a href="http://web.nli.org.il/sites/nlis/en/jrayed">“<em>Jarāyid</em>: Arabic newspaper archive of Ottoman and Mandatory Palestine”</a>, the <a href="https://lebanesestudies.omeka.chass.ncsu.edu/collections/browse">Moise A. Khayrallah Center for Lebanese Diaspora Studies</a> or the <a href="http://ima.bibalex.org/IMA/presentation/home/list.jsf">Institut du Monde Arabe</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>such as <a href="http://archive.sakhrit.co"><em>Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya</em></a> or <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shāmila</em></a>, <a href="http://almeshkat.net/"><em>Mishkāt</em></a>, <a href="http://saaid.net/"><em>Ṣayyid al-Fawāʾid</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>It must be noted that the US-based HathiTrust does not provide public or open access to its collections even to material deemed in the public domain under extremely strict US copyright laws when users try to connect to the collection from outside the USA. Citing the absence of editors able to read many of the languages written in non-Latin scripts, HathiTrust tends to be extra cautious with the material of interest to us and restricts access by default to US-IPs. These restrictions can be lifted on a case-by-case basis, which requires at least an English email conversation and prevents access to the collection for many of the communities who produced these cultural artefacts; see <a href="https://www.hathitrust.org/access_use" class="uri">https://www.hathitrust.org/access_use</a> for the access policies.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>One major research project for HTR is <a href="https://transkribus.eu/Transkribus/">transkribus.eu</a>.<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>For the abominable state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The <a href="http://gale.cengage.co.uk/arabic">“Early Arabic Printed Books” (EAPB) project</a>, currently under development by GALE in collaboration with the British Library, makes repeated claims of employing “newly developed optical character recognition software (OCR) for early Arabic printed script” (see this <a href="http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf">factsheet</a>). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>The <a href="http://iti-corpus.github.io/">Open Islamicate Text Initiative (OpenITI)</a> project planned to publish its tool chain in 2018. For an overview of their work see <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf" class="uri">http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</a>.<a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.<a href="#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>In other instances, such as the <a href="http://shamela.ws/index.php/book/1242">two volumes of Yūsuf Ilyān Sarkīs’ <em>Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba</em> (Miṣr: Maṭbaʿat Sarkīs, 1928)</a>, <em>shamela.ws</em> did provide page breaks that correspond to a printed edition.<a href="#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>We argue that text of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself is in the public domain even under the most restrictive definitions (i.e. in the USA). {&gt;&gt;Further note on licences: MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &lt;&lt;} the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile’s without copying or downloading them.<a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p>These word clouds were produced with R on macOS. Take note that most visualisations in R for macOS—unlike Windows or Linux—cannot correctly display Arabic script.<a href="#fnref10" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+<footer>
+<span class="c_info c_license"><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</span>
+</footer>
+</body>
+</html>
