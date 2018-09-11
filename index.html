@@ -365,25 +365,25 @@
   }
   /* xml element names */
   .xml > code > span.kw {
-  	color: #0F0F9C;
-  	font-weight: bold;
+    color: #0F0F9C;
+    font-weight: bold;
   }
   /* xml attribute names */
   .xml > code > span.ot {
-  	color:#FF8041;
+    color:#FF8041;
   }
   /* xml attribute values */
   .xml > code > span.st {
-  	color:#993300;
+    color:#993300;
   }
   /* xml comments */
   .xml > code > span.co {
-  	color:#167116;
-  	font-style: italic;
+    color:#167116;
+    font-style: italic;
   }
   /* xml computing instructions: not implemented in Pandoc syntax highlighting */
   /* .xml > code > span {
-  	color:#9132CC;
+    color:#9132CC;
   } */
   </style>
 </head>
@@ -397,10 +397,12 @@
 <ul>
 <li><a href="#sec-about">About</a></li>
 <li><a href="#sec-introduction">Introduction</a></li>
-<li><a href="#paper">paper</a></li>
-<li><a href="#openarabicpe-as-a-framework">OpenArabicPE as a framework</a></li>
+<li><a href="#the-promised-land-of-digitised-arabic-periodicals">The promised land of <em>digitised</em> Arabic periodicals</a></li>
+<li><a href="#openarabicpe-attempts-at-catching-up">OpenArabicPE attempts at catching up</a></li>
 <li><a href="#network-of-authors-and-texts">Network of authors and texts</a><ul>
 <li><a href="#openarabicpes-corpus">OpenArabicPE’s corpus</a></li>
+<li><a href="#analysis-of-metadata">analysis of metadata</a></li>
+<li><a href="#going-beyond-bibliographic-metadata">going beyond bibliographic metadata</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -429,8 +431,8 @@
 <p>This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals. It introduces the project <a href="https://openarabicpe.github.io">OpenArabicPE</a> as a framework to unite transcriptions of currently two early twentieth-century periodicals, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, from gray online platforms with digital facsimiles. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analysis on this corpus of some 130 periodical issues of more than 2.2 million words.</p>
 <!-- image of a pages -->
 <!-- word cloud -->
-<p><img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-bylines.png" alt="Figure: Wordcloud of authors published in al-Muqtabas" /> <!-- map --> <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /></p>
-<h1 id="paper">paper</h1>
+<p><img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas" /> <!-- map --> <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /></p>
+<h1 id="the-promised-land-of-digitised-arabic-periodicals">The promised land of <em>digitised</em> Arabic periodicals</h1>
 <!-- problem: there is no big data. on the difference between *digitised* and *digital* -->
 <p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to gray online libraries<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>digitised</em> commonly means nothing more (but also not less) than the provision of digital facsimiles. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, provide extremely limited search functions. The former is obviously dysfunctional for Arabic text, but since the latter does not make the text layer accessible to scrutiny we will never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions—that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.</p>
 <!-- If the "data" is lacking, can we use (bibliographic) metadata? -->
@@ -441,7 +443,7 @@
 <p>Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> Despite promising developments with the application of machine-learning technologies to pattern recognition,<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> automatic conversion of images of early Arabic periodicals is hampered by two factors: 1. all OCR technologies depend on a fairly large training set of “gold standard” transcriptions as ground truth; 2. low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality. Consequently these texts can currently only be reliably digitised by human transcription.{&gt;&gt;add footnote&lt;&lt;} Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.</p>
 <p>Gray online-libraries of Arabic literature, namely <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shamila</em> (<em>shamela.ws</em>)</a>, <a href="http://almeshkat.net/"><em>Mishkat</em></a>, <a href="http://saaid.net/"><em>Saydal-Fawa’id</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a>, provide access to a vast body of (mostly classical) Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. These gray “editions” lack information linking the digital representation to material originals, namely bibliographic metadata and page breaks, which makes them almost impossible to employ for scholarly research.</p>
 <p>Since we do not have the resources to proof and correct these texts, we had the idea to unite transcriptions from gray online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus “Open Arabic Periodical Editions” (OpenArabicPE) was born in autumn 2015.</p>
-<h1 id="openarabicpe-as-a-framework">OpenArabicPE as a framework</h1>
+<h1 id="openarabicpe-attempts-at-catching-up">OpenArabicPE attempts at catching up</h1>
 <!-- this needs to be expanded upon -->
 <p><a href="https://github.com/openarabicpe">OpenArabicPE</a> establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as <em>accessibilty</em>, <em>sustainability</em>, <em>credibility</em>. Starting with the mostly Damascene periodicals <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems—including the absence of expensive infrastructure—through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.</p>
 <figure>
@@ -451,7 +453,7 @@
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png" alt="Figure: Web view of al-Muqtabas 6/2" /><figcaption>Figure: Web view of <a href="https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml">al-Muqtabas 6/2</a></figcaption>
 </figure>
-<p>The editions (TEI, markdown, and a web-display) are then hosted as a GitHub repository with open licenses for reading, contribution, and re-use.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> {&gt;&gt;mention collaboration with Leipzig and the integration of Muqtabas into CLARIN&lt;&lt;} As part of the editions we also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems or individual scholars’ reference managing software. In order to improve access to individual articles and allow for a search of bibliographic metadata we feed this data into a <a href="https://www.zotero.org/groups/openarabicpe">public Zotero group</a>.</p>
+<p>The editions (TEI, markdown, and a web-display) are hosted as a GitHub repository with open licenses for reading, contribution, and re-use.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> {&gt;&gt;mention collaboration with Leipzig and the integration of Muqtabas into CLARIN&lt;&lt;} As part of the editions we also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems or individual scholars’ reference managing software. In order to improve access to individual articles and allow for a search of bibliographic metadata we feed this data into a <a href="https://www.zotero.org/groups/openarabicpe">public Zotero group</a>.</p>
 <p>With OpenArabicPE we argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Such an approach as proposed by Christian Wittern {2013} has recently seen a number of concurrent practical implementations such as project <a href="https://gitenberg.github.io/">GITenberg</a> led by Seth Woodworth, Jonathan Reeve’s <a href="https://github.com/Git-Lit/git-lit">Git-lit</a>, and others.</p>
 <p>For the future we plan to produce the necessary ground truth to train OCR technologies from some hundred pages of either journal.</p>
 <p>{&gt;&gt;Some paragraphs on the importance of the two journals&lt;&lt;}</p>
@@ -474,6 +476,7 @@
 </figure>
 <!-- state of the data -->
 <p>The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as “Rashīd Riḍā” and “Owner of al-Manār”. In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{&gt;&gt;Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script&lt;&lt;}</p>
+<h2 id="analysis-of-metadata">analysis of metadata</h2>
 <p>Before looking at this aggregated information is is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis. <em>al-Muqtabas</em> printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at <em>al-Ḥaqāʾiq</em>: Only one fifth (76) of the 360 articles provide explicit author information. {&gt;&gt;add information on the number of words, which is more meaningful than the number of articles&lt;&lt;} We can currently identify only a maximum of 128 named authors for <em>al-Muqtabas</em> and less than 60 for <em>al-Haqāʾiq</em> [See word clouds below].<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> Quite a significant number appear only with their initials, particularly in <em>al-Ḥaqāʾiq</em> and all of them were men. Only 50 authors published more than one article in <em>al-Muqtabas</em>. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {&gt;&gt;add comments on genre of texts by these authors&lt;&lt;}</p>
 <p>{&gt;&gt;al-Ḥaqāʾiq&lt;&lt;} <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. --></p>
 <!-- Muqtabas: authors by byline -->
@@ -562,7 +565,8 @@
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Ḥaqāʾiq" /><figcaption>Figure: Word cloud of authors published in <em>al-Ḥaqāʾiq</em></figcaption>
 </figure>
-<p>The picture changes decisively if we consider total word counts instead of bylines/articles. Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled <em>Gharāʾib al-gharb</em>. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in <em>al-Muqtabas</em>, is Ibn al-Muqaffaʿ (d.759), the famous author of <em>Kalīla wa dhimna</em>, which points to an important function of <em>al-Muqtabas</em>: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, he provided many such manuscript to Muḥammad Kurd ʿAlī for publication and frequently wrote the introduction.</p>
+<h2 id="going-beyond-bibliographic-metadata">going beyond bibliographic metadata</h2>
+<p>We can easily add another dimension to our analysis of the authors published in <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>. One could argue that, within genre boundaries, the number of texts is less significant for the relative importance of an author than the total length of all texts by a single author. With access to the full text with structural mark-up, we can easily calculate word counts.{– The picture changes decisively if we consider total word counts instead of bylines/articles.–} Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled <em>Gharāʾib al-gharb</em>. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in <em>al-Muqtabas</em>, is Ibn al-Muqaffaʿ (d.759), the famous author of <em>Kalīla wa dhimna</em>, which points to an important function of <em>al-Muqtabas</em>: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, Aḥmad Taymūr provided many such manuscript to Muḥammad Kurd ʿAlī for publication and he frequently wrote the introductions.</p>
 <!-- Muqtabas: authors by word count -->
 <table>
 <thead>
@@ -674,7 +678,7 @@
 <li id="fn6"><p>The <a href="http://iti-corpus.github.io/">Open Islamicate Text Initiative (OpenITI)</a> project planned to publish its tool chain in 2018. For an overview of their work see <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf" class="uri">http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</a>.<a href="#fnref6" class="footnote-back">↩</a></p></li>
 <li id="fn7"><p>TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.<a href="#fnref7" class="footnote-back">↩</a></p></li>
 <li id="fn8"><p>In other instances, such as the <a href="http://shamela.ws/index.php/book/1242">two volumes of Yūsuf Ilyān Sarkīs’ <em>Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba</em> (Miṣr: Maṭbaʿat Sarkīs, 1928)</a>, <em>shamela.ws</em> did provide page breaks that correspond to a printed edition.<a href="#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>We argue that text of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself is in the public domain even under the most restrictive definitions (i.e. in the USA). {&gt;&gt;Further note on licences: MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &lt;&lt;} the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile’s without copying or downloading them.<a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>We claim that text of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself is in the public domain even under the most restrictive definitions (i.e. in the USA). {&gt;&gt;Further note on licences: MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &lt;&lt;} the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile’s without copying or downloading them.<a href="#fnref9" class="footnote-back">↩</a></p></li>
 <li id="fn10"><p>These word clouds were produced with R on macOS. Take note that most visualisations in R for macOS—unlike Windows or Linux—cannot correctly display Arabic script.<a href="#fnref10" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
