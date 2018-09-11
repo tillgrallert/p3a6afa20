@@ -3,7 +3,7 @@ title: Catch me if you can! Attempts to track networks of authors and publicatio
 author: Till Grallert
 date: 2018-09-11
 ORCID: orcid.org/0000-0002-5739-8094
-DOI: doi.org/
+DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
 markdown: 
 - pandoc
@@ -26,7 +26,7 @@ include-after: <footer><span class="c_info c_license"><a rel="license" href="htt
 <!-- release -->
 [![GitHub release](https://img.shields.io/github/release/tillgrallert/p3a6afa20.svg)](https://github.com/tillgrallert/p3a6afa20/releases)
 <!-- DOI -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo..svg)](https://doi.org/10.5281/zenodo.) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1413610.svg)](https://doi.org/10.5281/zenodo.1413610)
 </div>
 
 # About {#sec-about}
@@ -51,6 +51,7 @@ This paper presents the dual race to catch up with methodological and epistemolo
 <!-- image of a pages -->
 <!-- word cloud -->
 ![Figure: Word cloud of authors published in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png)
+
 <!-- map -->
 ![Figure: Locations in bylines in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png)
 
