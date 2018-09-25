@@ -49,6 +49,8 @@ The public and many scholars expect to be able to put a computer to such diverse
 This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals. It introduces the project [OpenArabicPE](https://openarabicpe.github.io) as a framework to unite transcriptions of currently two early twentieth-century periodicals, *al-Muqtabas* and *al-Ḥaqāʾiq*, from gray online platforms with digital facsimiles. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analysis on this corpus of some 130 periodical issues of more than 2.2 million words.
 
 <!-- image of a pages -->
+![Figure: facsimiles of *al-Muqtabas* and *al-Ḥaqāiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/facsimile_first-pages.png)
+
 <!-- word cloud -->
 ![Figure: Word cloud of authors published in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png)
 
