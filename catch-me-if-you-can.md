@@ -164,7 +164,7 @@ Before looking at this aggregated information is is worth going back to the bibl
 |   10 | [viaf:32272677](https://viaf.org/viaf/32272677/)   | [محمد كرد علي](https://en.wikipedia.org/wiki/Muhammad_Kurd_Ali)                   |         1876 |        7 |      42489 |
 |   11 | [viaf:49218655](https://viaf.org/viaf/49218655/)   | [أحمد بك زكي](https://en.wikipedia.org/wiki/Ahmad_Zaki_Pasha)                     |         1866 |        7 |      40311 |
 
-Table: authors in *al-Muqtabas* sorted by number of bylines.
+Table: Authors in *al-Muqtabas* sorted by number of bylines.
 
 {>>Further comments on this table: 
     1. all but one of the most frequently published authors have entries in authority files and wikipedia
@@ -185,7 +185,7 @@ Table: authors in *al-Muqtabas* sorted by number of bylines.
 |    6 |                                                    | محمد القاسمي الحلاق      |              |        2 |       3619 |
 |    7 |                                                    | محي الدين الخاني         |              |        2 |         74 |
 
-Table: authors in *al-Ḥaqāʾiq* sorted by number of bylines
+Table: Authors in *al-Ḥaqāʾiq* sorted by number of bylines
 
 ![Figure: Word cloud of authors published in *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png)
 
@@ -245,7 +245,9 @@ Our initial submission of a corpus of all articles published by *al-Muqtabas* to
 | القاسمي-oclc_4770057679-i_61-div_2.d1e1517  | NN-oclc_4770057679-i_33-div_3.d1e696        |     16 | undirected |
 | القاسمي-oclc_4770057679-i_39-div_7.d1e2166  | عنحوري-oclc_4770057679-i_54-div_2.d1e1300   |     15 | undirected |
 
-Table: selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī
+Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī
+
+
 
 |                    source                   |                 target                 | weight |    type    |
 |---------------------------------------------|----------------------------------------|--------|------------|
@@ -270,7 +272,10 @@ Table: selection of results from the stylometric analysis of all articles publis
 | الرصافي-oclc_4770057679-i_35-div_3.d1e696   | NN-oclc_4770057679-i_2-div_21.d1e2160  |     20 | undirected |
 | الرصافي-oclc_4770057679-i_68-div_9.d1e4370  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     20 | undirected |
 
-Table: selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī
+Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī
+
+
+
 
 |                    source                   |                   target                   | weight | type           |
 |---------------------------------------------|--------------------------------------------|--------|------------|
@@ -292,10 +297,11 @@ Table: selection of results from the stylometric analysis of all articles publis
 | المعلوف-oclc_4770057679-i_53-div_33.d1e6920 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     23 | undirected |
 | المعلوف-oclc_4770057679-i_63-div_30.d1e2971 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     21 | undirected |
 
-Table: selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf
+Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf
+
+
 
 Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical's editor. In the case of *al-Muqtabas*, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the *network* of authors, texts, and locations, this would be an utterly pointless endeavour.
-
 
 If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:
 
