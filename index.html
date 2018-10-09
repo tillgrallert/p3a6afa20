@@ -344,12 +344,51 @@
             content: "Last edited: "
           } 
         
-        /* show urls in print */
-        @media print {
-          a[href]:after {
-            content: " (" attr(href) ") ";
+        /*  print */
+          @media print {
+            /* general layout */
+            body {
+              font-size: 12pt;
+              max-width: 1200px;
+              padding-right:20mm;
+              padding-left: 20mm;
+              color: black;
+              background-color: white;
+            }
+            /* remove navigation */
+            nav {
+              display: none;
+            }
+            /* footer: commonly contains licence information ; */
+            footer {
+              display: none;
+              /*border-top: 1px solid black;*/
+              /*font-size: 10pt;*/
+            }
+            /* running head with basic information */
+            /* foot notes*/
+            section.footnotes * {
+              padding-top: 0;
+              padding-bottom: 0;
+              padding-right: 0;
+              padding-left: 0;
+            }
+            /* marker */
+            section.footnotes>ol>li {
+              font-size: 8pt;
+              vertical-align: top;
+            }
+            /* content */
+            section.footnotes p {
+              font-size: 10pt;
+              padding-top: 0.5em;
+              padding-bottom: 0.5em;
+            }
+            /* show URLs */
+            a[href]:after {
+              content: " (" attr(href) ") ";
+            }
           }
-        }
     </style>
   <style type="text/css">
   /* these styles mirror oXygen's highlight colours for XML */
@@ -365,25 +404,25 @@
   }
   /* xml element names */
   .xml > code > span.kw {
-    color: #0F0F9C;
-    font-weight: bold;
+  	color: #0F0F9C;
+  	font-weight: bold;
   }
   /* xml attribute names */
   .xml > code > span.ot {
-    color:#FF8041;
+  	color:#FF8041;
   }
   /* xml attribute values */
   .xml > code > span.st {
-    color:#993300;
+  	color:#993300;
   }
   /* xml comments */
   .xml > code > span.co {
-    color:#167116;
-    font-style: italic;
+  	color:#167116;
+  	font-style: italic;
   }
   /* xml computing instructions: not implemented in Pandoc syntax highlighting */
   /* .xml > code > span {
-    color:#9132CC;
+  	color:#9132CC;
   } */
   </style>
 </head>
@@ -430,6 +469,9 @@
 <!-- some comments / summary of the following paper -->
 <p>This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals. It introduces the project <a href="https://openarabicpe.github.io">OpenArabicPE</a> as a framework to unite transcriptions of currently two early twentieth-century periodicals, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, from gray online platforms with digital facsimiles. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analysis on this corpus of some 130 periodical issues of more than 2.2 million words.</p>
 <!-- image of a pages -->
+<figure>
+<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/facsimile_first-pages.png" alt="Figure: facsimiles of al-Muqtabas and al-Ḥaqāiq" /><figcaption>Figure: facsimiles of <em>al-Muqtabas</em> and <em>al-Ḥaqāiq</em></figcaption>
+</figure>
 <!-- word cloud -->
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em></figcaption>
@@ -440,7 +482,7 @@
 </figure>
 <h1 id="the-promised-land-of-digitised-arabic-periodicals">The promised land of <em>digitised</em> Arabic periodicals</h1>
 <!-- problem: there is no big data. on the difference between *digitised* and *digital* -->
-<p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to gray online libraries<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>digitised</em> commonly means nothing more (but also not less) than the provision of digital facsimiles. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, provide extremely limited search functions. The former is obviously dysfunctional for Arabic text, but since the latter does not make the text layer accessible to scrutiny we will never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions—that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.</p>
+<p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to gray online libraries<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>digitised</em> commonly means nothing more than the provision of digital facsimiles. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, include search functions, but these are extremely limited. The former, Google-powered, platform is obviously dysfunctional for Arabic text, but since the latter does not make the text layer accessible to scrutiny we will never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions—that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.</p>
 <!-- If the "data" is lacking, can we use (bibliographic) metadata? -->
 <p>Any sort of meaningful computational analysis of the global connections between authors, texts, and periodicals as a venue for publication and review requires access to reliable standardised bibliographic metadata as a bare minimum. Unfortunately, reliable metadata on the article level is practically non-existant and the situation is only marginally better on the issue level. Available metadata is not commonly provided in a standard-compliant and machine-actionable format. Even if we had perfectly reliable digital re-mediations of the bibliographic information found in the periodical issues themselves, the vast majority of articles would remain outside our analytical scopes, since publishers did not provide (meaningful) bylines—most articles in both journals and newspapers from Beirut, Cairo or Damascus did not credit their authors. One approach would be to subject all articles to stylometric analysis but this again presupposes truly <em>digital</em> editions.</p>
 <!-- identify the areas to catch up with -->
@@ -484,97 +526,195 @@
 <p>The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as “Rashīd Riḍā” and “Owner of al-Manār”. In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{&gt;&gt;Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script&lt;&lt;}</p>
 <h2 id="analysis-of-metadata">analysis of metadata</h2>
 <p>Before looking at this aggregated information is is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis. <em>al-Muqtabas</em> printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at <em>al-Ḥaqāʾiq</em>: Only one fifth (76) of the 360 articles provide explicit author information. {&gt;&gt;add information on the number of words, which is more meaningful than the number of articles&lt;&lt;} We can currently identify only a maximum of 128 named authors for <em>al-Muqtabas</em> and less than 60 for <em>al-Haqāʾiq</em> [See word clouds below].<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> Quite a significant number appear only with their initials, particularly in <em>al-Ḥaqāʾiq</em> and all of them were men. Only 50 authors published more than one article in <em>al-Muqtabas</em>. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {&gt;&gt;add comments on genre of texts by these authors&lt;&lt;}</p>
-<p>{&gt;&gt;al-Ḥaqāʾiq&lt;&lt;} <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. --></p>
+<!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. -->
 <!-- Muqtabas: authors by byline -->
 <table>
+<caption>authors in <em>al-Muqtabas</em> sorted by number of bylines.</caption>
 <thead>
 <tr class="header">
 <th>rank</th>
-<th>name</th>
-<th>words</th>
+<th>author.id</th>
+<th>author.name</th>
+<th>author.birth</th>
 <th>articles</th>
+<th>word.count</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>Maʿrūf al-Ruṣāfī</td>
-<td>12437</td>
+<td><a href="https://viaf.org/viaf/14924300/">viaf:14924300</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Maarouf_Al_Rasafi">معروف الرصافي</a></td>
+<td>1875</td>
 <td>24</td>
+<td>12437</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>ʿĪsā Iskandar al-Maʿlūf</td>
-<td>23297</td>
+<td><a href="https://viaf.org/viaf/40250618/">viaf:40250618</a></td>
+<td><a href="https://ar.wikipedia.org/wiki/عيسى_إسكندر_المعلوف">عيسى أفندي اسكندر المعلوف</a></td>
+<td>1869</td>
 <td>20</td>
+<td>23297</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>Sātsunā</td>
-<td>19849</td>
+<td><a href="https://viaf.org/viaf/39370998/">viaf:39370998</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Anastas_Al-Karmali">ساتسنا (بطرس بن جبرائيل عواد)</a></td>
+<td>1866</td>
 <td>14</td>
+<td>19849</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Yūsuf Jirjis Zakham</td>
-<td>21613</td>
+<td></td>
+<td>يوسف جرجس زخم</td>
+<td></td>
 <td>13</td>
+<td>21613</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>Jamāl al-Dīn al-Qāsimī</td>
-<td>38541</td>
+<td><a href="https://viaf.org/viaf/93607460/">viaf:93607460</a></td>
+<td><a href="https://ar.wikipedia.org/wiki/جمال_الدين_القاسمي">جمال الدين القاسمي</a></td>
+<td>1866</td>
 <td>8</td>
+<td>38541</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>Muḥammad Kurd ʿAlī</td>
-<td>42489</td>
+<td><a href="https://viaf.org/viaf/118432135/">viaf:118432135</a></td>
+<td><a href="https://ar.wikipedia.org/wiki/عبد_القادر_المغربي">عبد القادر أفندي المغربي</a></td>
+<td>1867</td>
 <td>7</td>
+<td>14074</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>Aḥmad Zakī</td>
-<td>40311</td>
+<td><a href="https://viaf.org/viaf/19737865/">viaf:19737865</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Ahmed_Taymour">أحمد بك تيمور</a></td>
+<td>1871</td>
 <td>7</td>
+<td>7905</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>Muḥammad Riḍā al-Shabībī</td>
-<td>17894</td>
+<td><a href="https://viaf.org/viaf/22006374/">viaf:22006374</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Mohammed_Ridha_Al-Shabibi">محمد رضا الشبيبي</a></td>
+<td>1889</td>
 <td>7</td>
+<td>17894</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>ʿAbd al-Qādir al-Maghribī</td>
-<td>14074</td>
+<td><a href="https://viaf.org/viaf/28125663/">viaf:28125663</a></td>
+<td><a href="https://ar.wikipedia.org/wiki/رفيق_العظم">رفيق بك العظم</a></td>
+<td>1865</td>
 <td>7</td>
+<td>13237</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>Rafīq al-ʿAẓm</td>
-<td>13237</td>
+<td><a href="https://viaf.org/viaf/32272677/">viaf:32272677</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Muhammad_Kurd_Ali">محمد كرد علي</a></td>
+<td>1876</td>
 <td>7</td>
+<td>42489</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td>Aḥmad Taymūr</td>
-<td>7905</td>
+<td><a href="https://viaf.org/viaf/49218655/">viaf:49218655</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Ahmad_Zaki_Pasha">أحمد بك زكي</a></td>
+<td>1866</td>
 <td>7</td>
+<td>40311</td>
 </tr>
 </tbody>
 </table>
-<!-- plots -->
+<p>{&gt;&gt;Further comments on this table: 1. all but one of the most frequently published authors have entries in authority files and wikipedia 2. data from the authority files shows that all but one were born between the mid-1860s and the mid-1870s &lt;&lt;}</p>
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of articles" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of articles</figcaption>
 </figure>
+<p>{&gt;&gt;al-Ḥaqāʾiq&lt;&lt;}</p>
+<table>
+<caption>authors in <em>al-Ḥaqāʾiq</em> sorted by number of bylines</caption>
+<thead>
+<tr class="header">
+<th>rank</th>
+<th>author.id</th>
+<th>author.name</th>
+<th>author.birth</th>
+<th>articles</th>
+<th>word.count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><a href="https://viaf.org/viaf/299025643/">viaf:299025643</a></td>
+<td>محمد عارف المنير الحسيني</td>
+<td>1847/48</td>
+<td>4</td>
+<td>3134</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td></td>
+<td>ع</td>
+<td></td>
+<td>3</td>
+<td>2833</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td></td>
+<td>عبد الرحمن القصار</td>
+<td></td>
+<td>3</td>
+<td>628</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><a href="https://viaf.org/viaf/267054449/">viaf:267054449</a></td>
+<td>مختار المؤيد</td>
+<td>1822</td>
+<td>3</td>
+<td>820</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><a href="https://viaf.org/viaf/17087051/">viaf:17087051</a></td>
+<td>محمد أبو الخير الطباع</td>
+<td></td>
+<td>2</td>
+<td>2887</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td></td>
+<td>محمد القاسمي الحلاق</td>
+<td></td>
+<td>2</td>
+<td>3619</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td></td>
+<td>محي الدين الخاني</td>
+<td></td>
+<td>2</td>
+<td>74</td>
+</tr>
+</tbody>
+</table>
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Ḥaqāʾiq" /><figcaption>Figure: Word cloud of authors published in <em>al-Ḥaqāʾiq</em></figcaption>
 </figure>
 <h2 id="going-beyond-bibliographic-metadata">going beyond bibliographic metadata</h2>
-<p>We can easily add another dimension to our analysis of the authors published in <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>. One could argue that, within genre boundaries, the number of texts is less significant for the relative importance of an author than the total length of all texts by a single author. With access to the full text with structural mark-up, we can easily calculate word counts.{– The picture changes decisively if we consider total word counts instead of bylines/articles.–} Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled <em>Gharāʾib al-gharb</em>. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in <em>al-Muqtabas</em>, is Ibn al-Muqaffaʿ (d.759), the famous author of <em>Kalīla wa dhimna</em>, which points to an important function of <em>al-Muqtabas</em>: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, Aḥmad Taymūr provided many such manuscript to Muḥammad Kurd ʿAlī for publication and he frequently wrote the introductions.</p>
+<p>We can easily add another dimension to our analysis of the authors published in <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>. One could argue that, within genre boundaries, the number of texts is less significant for the relative importance of an author than the total length of all texts by a single author. With access to the full text with structural mark-up, we can easily calculate word counts. Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled <em>Gharāʾib al-gharb</em>. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in <em>al-Muqtabas</em>, is Ibn al-Muqaffaʿ (d.759), the famous author of <em>Kalīla wa dhimna</em>, which points to an important function of <em>al-Muqtabas</em>: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, Aḥmad Taymūr provided many such manuscript to Muḥammad Kurd ʿAlī for publication and he frequently wrote the introductions.</p>
 <!-- Muqtabas: authors by word count -->
 <table>
+<caption>authors in <em>al-Muqtabas</em> sorted by number of words.</caption>
 <thead>
 <tr class="header">
 <th>rank</th>
@@ -662,7 +802,407 @@
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-words.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of words" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of words</figcaption>
 </figure>
 <p><em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical.</p>
-<p>What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts. This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.</p>
+<p>What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.</p>
+<p>Our initial submission of a corpus of all articles published by <em>al-Muqtabas</em> to stylometric analysis using a comparison of the 1000 most-frequent words (MFWS) and without any preprocessing of the Arabic—such as morphologising or lemmatizing—show mixed results. Whereas a comparison of articles known to have been authored by Jamāl al-Dīn al-Qasimī shows a high degree of similarity with other articles written by him and therefore seemingly confirms the correct working of the algorithms, this is not the case for either Maʿrūf al-Ruṣāfī or ʿĪsā Iskandar al-Maʿlūf. This is puzzling as the degree of likeliness for the top-most stylistically similar articles by al-Maʿlūf, expressed by the weight in the tables below, is in the same range as for those by al-Qāsimī.</p>
+<table>
+<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī</caption>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 40%" />
+<col style="width: 7%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>source</th>
+<th>target</th>
+<th>weight</th>
+<th>type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_61-div_2.d1e1517</td>
+<td>القاسمي-oclc_4770057679-i_62-div_2.d1e1491</td>
+<td>54</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_62-div_2.d1e1491</td>
+<td>القاسمي-oclc_4770057679-i_61-div_2.d1e1517</td>
+<td>54</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_61-div_2.d1e1517</td>
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>52</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>القاسمي-oclc_4770057679-i_61-div_2.d1e1517</td>
+<td>52</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_49-div_2.d1e1499</td>
+<td>NN-oclc_4770057679-i_48-div_4.d1e1914</td>
+<td>45</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_62-div_2.d1e1491</td>
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>44</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>القاسمي-oclc_4770057679-i_62-div_2.d1e1491</td>
+<td>44</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_52-div_10.d1e2681</td>
+<td>القاسمي-oclc_4770057679-i_53-div_3.d1e3775</td>
+<td>42</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_53-div_3.d1e3775</td>
+<td>القاسمي-oclc_4770057679-i_52-div_10.d1e2681</td>
+<td>42</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_50-div_4.d1e2033</td>
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>38</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>القاسمي-oclc_4770057679-i_50-div_4.d1e2033</td>
+<td>38</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_49-div_2.d1e1499</td>
+<td>NN-oclc_4770057679-i_47-div_2.d1e1470</td>
+<td>31</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_55-div_23.d1e4814</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_49-div_2.d1e1499</td>
+<td>NN-oclc_4770057679-i_87-div_3.d1e696</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_50-div_4.d1e2033</td>
+<td>NN-oclc_4770057679-i_64-div_2.d1e1188</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_63-div_7.d1e1810</td>
+<td>NN-oclc_4770057679-i_15-div_3.d1e696</td>
+<td>18</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_49-div_2.d1e1499</td>
+<td>NN-oclc_4770057679-i_19-div_9.d1e2206</td>
+<td>17</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_55-div_23.d1e4814</td>
+<td>NN-oclc_4770057679-i_3-div_18.d1e1764</td>
+<td>16</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>القاسمي-oclc_4770057679-i_61-div_2.d1e1517</td>
+<td>NN-oclc_4770057679-i_33-div_3.d1e696</td>
+<td>16</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>القاسمي-oclc_4770057679-i_39-div_7.d1e2166</td>
+<td>عنحوري-oclc_4770057679-i_54-div_2.d1e1300</td>
+<td>15</td>
+<td>undirected</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī</caption>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 38%" />
+<col style="width: 7%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>source</th>
+<th>target</th>
+<th>weight</th>
+<th>type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_10-div_9.d1e1418</td>
+<td>NN-oclc_4770057679-i_94-div_11.d1e5944</td>
+<td>27</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_24-div_9.d1e1716</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>27</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_36-div_5.d2e3004</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>27</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_20-div_6.d1e1588</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>26</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_19-div_6.d1e1081</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_28-div_25.d1e3388</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_37-div_7.d1e1907</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_40-div_14.d1e2780</td>
+<td>NN-oclc_4770057679-i_94-div_11.d1e5944</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_13-div_9.d1e1285</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_14-div_7.d1e1428</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_22-div_9.d1e1772</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_31-div_10.d1e2096</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_39-div_5.d1e1387</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_41-div_7.d1e3728</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_25-div_11.d1e2206</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>23</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_29-div_6.d1e1333</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>23</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_40-div_4.d1e832</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>21</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_33-div_5.d1e1329</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>20</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>الرصافي-oclc_4770057679-i_35-div_3.d1e696</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>20</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>الرصافي-oclc_4770057679-i_68-div_9.d1e4370</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>20</td>
+<td>undirected</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf</caption>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 40%" />
+<col style="width: 7%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>source</th>
+<th>target</th>
+<th>weight</th>
+<th>type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_53-div_2.d1e1568</td>
+<td>NN-oclc_4770057679-i_64-div_3.d1e2089</td>
+<td>47</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_53-div_2.d1e1568</td>
+<td>NN-oclc_4770057679-i_35-div_6.d1e2205</td>
+<td>32</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_37-div_10.d1e3397</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>27</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_42-div_9.d1e1281</td>
+<td>NN-oclc_4770057679-i_23-div_25.d1e2996</td>
+<td>26</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_53-div_2.d1e1568</td>
+<td>NN-oclc_4770057679-i_56-div_2.d1e1398</td>
+<td>26</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_55-div_10.d1e2970</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>26</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_93-div_8.d1e1268</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>26</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_54-div_5.d1e1854</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_94-div_11.d1e6080</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_95-div_51.d1e3324</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>25</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_44-div_6.d1e1798</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_45-div_8.d1e2304</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_47-div_6.d1e2816</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_55-div_22.d1e4313</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_93-div_7.d1e1147</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>24</td>
+<td>undirected</td>
+</tr>
+<tr class="even">
+<td>المعلوف-oclc_4770057679-i_53-div_33.d1e6920</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>23</td>
+<td>undirected</td>
+</tr>
+<tr class="odd">
+<td>المعلوف-oclc_4770057679-i_63-div_30.d1e2971</td>
+<td>NN-oclc_4770057679-i_2-div_21.d1e2160</td>
+<td>21</td>
+<td>undirected</td>
+</tr>
+</tbody>
+</table>
 <p>Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical’s editor. In the case of <em>al-Muqtabas</em>, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the <em>network</em> of authors, texts, and locations, this would be an utterly pointless endeavour.</p>
 <p>If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:</p>
 <figure>
@@ -680,12 +1220,13 @@
 <li id="fn2"><p>such as <a href="http://archive.sakhrit.co"><em>Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya</em></a> or <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shāmila</em></a>, <a href="http://almeshkat.net/"><em>Mishkāt</em></a>, <a href="http://saaid.net/"><em>Ṣayyid al-Fawāʾid</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a><a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>It must be noted that the US-based HathiTrust does not provide public or open access to its collections even to material deemed in the public domain under extremely strict US copyright laws when users try to connect to the collection from outside the USA. Citing the absence of editors able to read many of the languages written in non-Latin scripts, HathiTrust tends to be extra cautious with the material of interest to us and restricts access by default to US-IPs. These restrictions can be lifted on a case-by-case basis, which requires at least an English email conversation and prevents access to the collection for many of the communities who produced these cultural artefacts; see <a href="https://www.hathitrust.org/access_use" class="uri">https://www.hathitrust.org/access_use</a> for the access policies.<a href="#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p>One major research project for HTR is <a href="https://transkribus.eu/Transkribus/">transkribus.eu</a>.<a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>For the abominable state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The <a href="http://gale.cengage.co.uk/arabic">“Early Arabic Printed Books” (EAPB) project</a>, currently under development by GALE in collaboration with the British Library, makes repeated claims of employing “newly developed optical character recognition software (OCR) for early Arabic printed script” (see this <a href="http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf">factsheet</a>). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>C.f. <span class="citation" data-cites="Margner_2012">[@Margner_2012]</span>. {–For recent promising approaches using machine-learning and neural networks see <span class="citation" data-cites="Romanov_2016">[@Romanov_2016]</span>.–}For examples of the state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The <a href="http://gale.cengage.co.uk/arabic">“Early Arabic Printed Books” (EAPB) project</a>, currently under development by GALE in collaboration with the British Library, makes repeated claims of employing “newly developed optical character recognition software (OCR) for early Arabic printed script” (see this <a href="http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf">factsheet</a>). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.<a href="#fnref5" class="footnote-back">↩</a></p></li>
 <li id="fn6"><p>The <a href="http://iti-corpus.github.io/">Open Islamicate Text Initiative (OpenITI)</a> project planned to publish its tool chain in 2018. For an overview of their work see <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf" class="uri">http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</a>.<a href="#fnref6" class="footnote-back">↩</a></p></li>
 <li id="fn7"><p>TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.<a href="#fnref7" class="footnote-back">↩</a></p></li>
 <li id="fn8"><p>In other instances, such as the <a href="http://shamela.ws/index.php/book/1242">two volumes of Yūsuf Ilyān Sarkīs’ <em>Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba</em> (Miṣr: Maṭbaʿat Sarkīs, 1928)</a>, <em>shamela.ws</em> did provide page breaks that correspond to a printed edition.<a href="#fnref8" class="footnote-back">↩</a></p></li>
 <li id="fn9"><p>We claim that text of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself is in the public domain even under the most restrictive definitions (i.e. in the USA). {&gt;&gt;Further note on licences: MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &lt;&lt;} the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile’s without copying or downloading them.<a href="#fnref9" class="footnote-back">↩</a></p></li>
 <li id="fn10"><p>These word clouds were produced with R on macOS. Take note that most visualisations in R for macOS—unlike Windows or Linux—cannot correctly display Arabic script.<a href="#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p>For an introduction to stylometry and the stylo package for R see {&gt;&gt;add references&lt;&lt;}<a href="#fnref11" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
 <footer>
