@@ -150,21 +150,25 @@ Before looking at this aggregated information is is worth going back to the bibl
 
 <!-- Muqtabas: authors by byline -->
 
-| rank |                     author.id                      |                                    author.name                                    | author.birth | articles | word.count |
-|------|----------------------------------------------------|-----------------------------------------------------------------------------------|--------------|----------|------------|
-|    1 | [viaf:14924300](https://viaf.org/viaf/14924300/)   | [معروف الرصافي](https://en.wikipedia.org/wiki/Maarouf_Al_Rasafi)                  |         1875 |       24 |      12437 |
-|    2 | [viaf:40250618](https://viaf.org/viaf/40250618/)   | [عيسى أفندي اسكندر المعلوف](https://ar.wikipedia.org/wiki/عيسى_إسكندر_المعلوف)    |         1869 |       20 |      23297 |
-|    3 | [viaf:39370998](https://viaf.org/viaf/39370998/)   | [ساتسنا (بطرس بن جبرائيل عواد)](https://en.wikipedia.org/wiki/Anastas_Al-Karmali) |         1866 |       14 |      19849 |
-|    4 |                                                    | يوسف جرجس زخم                                                                     |              |       13 |      21613 |
-|    5 | [viaf:93607460](https://viaf.org/viaf/93607460/)   | [جمال الدين القاسمي](https://ar.wikipedia.org/wiki/جمال_الدين_القاسمي)            |         1866 |        8 |      38541 |
-|    6 | [viaf:118432135](https://viaf.org/viaf/118432135/) | [عبد القادر أفندي المغربي](https://ar.wikipedia.org/wiki/عبد_القادر_المغربي)      |         1867 |        7 |      14074 |
-|    7 | [viaf:19737865](https://viaf.org/viaf/19737865/)   | [أحمد بك تيمور](https://en.wikipedia.org/wiki/Ahmed_Taymour)                      |         1871 |        7 |       7905 |
-|    8 | [viaf:22006374](https://viaf.org/viaf/22006374/)   | [محمد رضا الشبيبي](https://en.wikipedia.org/wiki/Mohammed_Ridha_Al-Shabibi)       |         1889 |        7 |      17894 |
-|    9 | [viaf:28125663](https://viaf.org/viaf/28125663/)   | [رفيق بك العظم](https://ar.wikipedia.org/wiki/رفيق_العظم)                         |         1865 |        7 |      13237 |
-|   10 | [viaf:32272677](https://viaf.org/viaf/32272677/)   | [محمد كرد علي](https://en.wikipedia.org/wiki/Muhammad_Kurd_Ali)                   |         1876 |        7 |      42489 |
-|   11 | [viaf:49218655](https://viaf.org/viaf/49218655/)   | [أحمد بك زكي](https://en.wikipedia.org/wiki/Ahmad_Zaki_Pasha)                     |         1866 |        7 |      40311 |
+| author.id                                                                   | author.name                           | author.birth   | author.death   | works.viaf.count   | article.count   | word.count   |
+| --------------------------------------------------------------------------- | ------------------------------------- | -------------- | -------------- | ------------------ | --------------- | ------------ |
+| [viaf:14924300](https://viaf.org/viaf/14924300)                             | معروف الرصافي                         | 1875-01-01     | 1945-01-01     | 36                 | 24              | 12438        |
+| [viaf:40250618](https://viaf.org/viaf/40250618)                             | عيسى أفندي اسكندر المعلوف             | 1869-04-11     | 1956-07-02     | 26                 | 20              | 23297        |
+| [viaf:39370998](https://viaf.org/viaf/39370998)                             | ساتسنا                                | 1866-08-05     | 1947-01-07     | 55                 | 14              | 19844        |
+|                                                                             | يوسف جرجس زخم                         |                |                |                    | 12              | 19638        |
+| [viaf:93607460](https://viaf.org/viaf/93607460)                             | جمال الدين القاسمي                    | 1866-10-01     | 1914-04-18     | 67                 | 8               | 38531        |
+|                                                                             | إبراهيم حلمي العمر                    |                |                |                    | 8               | 20117        |
+| [viaf:32272677](https://viaf.org/viaf/32272677)                             | Muḥammad Kurd ʿAlī                    | 1876-01-01     | 1953-01-01     | 58                 | 7               | 42488        |
+| [viaf:49218655](https://viaf.org/viaf/49218655)                             | أحمد بك زكي                           | 1866-05-26     | 1934-07-06     | 62                 | 7               | 40311        |
+| [viaf:22006374](https://viaf.org/viaf/22006374)                             | محمد رضا الشبيبي                      | 1889-01-01     | 1965-01-01     | 13                 | 7               | 17870        |
+| [viaf:118432135](https://viaf.org/viaf/118432135)                           | عبد القادر أفندي المغربي              | 1867           | 1956-06-07     | 12                 | 7               | 14074        |
+| [viaf:28125663](https://viaf.org/viaf/28125663)                             | رفيق بك العظم                         | 1865-01-01     | 1925-06-30     | 21                 | 7               | 13237        |
+| [viaf:19737865](https://viaf.org/viaf/19737865)                             | أحمد بك تيمور                         | 1871-11-06     | 1930           | 63                 | 7               | 7899         |
+| [viaf:305214884](https://viaf.org/viaf/305214884)                           | جرجي حداد                             |                |                | 0                  | 5               | 24124        |
+| [viaf:299037057](https://viaf.org/viaf/299037057)                           | عبد الله أفندي مخلص                   | 1878           | 1947           | 10                 | 5               | 13494        |
+|                                                                             | خليل سعد                              |                |                |                    | 5               | 5932         |
 
-Table: Authors in *al-Muqtabas* sorted by number of bylines.
+Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
 
 {>>Further comments on this table: 
     1. all but one of the most frequently published authors have entries in authority files and wikipedia
@@ -175,17 +179,25 @@ Table: Authors in *al-Muqtabas* sorted by number of bylines.
 
 {>>al-Ḥaqāʾiq<<}
 
-| rank |                     author.id                      |       author.name        | author.birth | articles | word.count |
-|------|----------------------------------------------------|--------------------------|--------------|----------|------------|
-|    1 | [viaf:299025643](https://viaf.org/viaf/299025643/) | محمد عارف المنير الحسيني | 1847/48      |        4 |       3134 |
-|    2 |                                                    | ع                        |              |        3 |       2833 |
-|    3 |                                                    | عبد الرحمن القصار        |              |        3 |        628 |
-|    4 | [viaf:267054449](https://viaf.org/viaf/267054449/) | مختار المؤيد             | 1822         |        3 |        820 |
-|    5 | [viaf:17087051](https://viaf.org/viaf/17087051/)   | محمد أبو الخير الطباع    |              |        2 |       2887 |
-|    6 |                                                    | محمد القاسمي الحلاق      |              |        2 |       3619 |
-|    7 |                                                    | محي الدين الخاني         |              |        2 |         74 |
+| author.id                                                                   | author.name                                  | author.birth   | author.death   | works.viaf.count   | article.count   | word.count   |
+| --------------------------------------------------------------------------- | -------------------------------------------- | -------------- | -------------- | ------------------ | --------------- | ------------ |
+|                                                                             | إبراهيم خليل مردم بك                         |                |                |                    | 6               | 4702         |
+| [viaf:53094077](https://viaf.org/viaf/53094077)                             | محمد فريد أفندي وجدي                         | 1875           | 1954           | 54                 | 5               | 8344         |
+| [viaf:299025643](https://viaf.org/viaf/299025643)                           | محمد عارف المنير الحسيني                     | 1847/48        |                | 2                  | 5               | 3151         |
+|                                                                             | عبد الرحمن القصار                            |                |                |                    | 5               | 1429         |
+| [viaf:58892856](https://viaf.org/viaf/58892856)                             | الشيخ صالح أفندي الشريف                      | 1869           | 1920           | 8                  | 4               | 5000         |
+| [viaf:267054449](https://viaf.org/viaf/267054449)                           | مختار المؤيد                                 | 1822           | 1921           | 2                  | 4               | 949          |
+|                                                                             | أبو الضيا                                    |                |                |                    | 3               | 5097         |
+|                                                                             | أحمد الباشا                                  |                |                |                    | 3               | 4274         |
+|                                                                             | ع                                            |                |                |                    | 3               | 2833         |
+|                                                                             | صلاح الدين الزعيم                            |                |                |                    | 3               | 2448         |
+|                                                                             | محمد القاسمي الحلاق                          |                |                |                    | 2               | 3619         |
+| [viaf:17087051](https://viaf.org/viaf/17087051)                             | محمد أبو الخير الطباع                        |                |                | 1                  | 2               | 2881         |
+| [viaf:63117968](https://viaf.org/viaf/63117968)                             | محمد راغب طباخ                               | 1877           | 1951           | 10                 | 2               | 1445         |
+|                                                                             | عبد المجيد القصاب                            |                |                |                    | 2               | 1405         |
+|                                                                             | أحمد الجوبري                                 |                |                |                    | 2               | 1113         |
 
-Table: Authors in *al-Ḥaqāʾiq* sorted by number of bylines
+Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines
 
 ![Figure: Word cloud of authors published in *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png)
 
