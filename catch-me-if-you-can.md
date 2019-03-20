@@ -5,10 +5,16 @@ date: 2018-09-11
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
-markdown: 
+markdown:
 - pandoc
 - CriticMarkup
 include-after: <footer><span class="c_info c_license"><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</span></footer>
+tags:
+    - periodical studies
+    - social network analysis
+    - stylometry
+    - Arabic periodicals
+    - digital humanities
 ---
 
 
@@ -37,9 +43,9 @@ include-after: <footer><span class="c_info c_license"><a rel="license" href="htt
 
 # Introduction {#sec-introduction}
 
-Early Arabic periodicals from the late nineteenth and early twentieth centuries,  such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muhammad Kurd Ali's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic renaissance (*al-nahḍa*), Arab nationalism, and the Islamic reform movement. The better known and at the time widely popular journals---unlike their smaller rivals and more ephemeral newspaper copies---do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are distributed throughout libraries and institutions worldwide. This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.  
+Early Arabic periodicals from the late nineteenth and early twentieth centuries,  such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muhammad Kurd Ali's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic renaissance (*al-nahḍa*), Arab nationalism, and the Islamic reform movement. The better known and at the time widely popular journals---unlike their smaller rivals and more ephemeral newspaper copies---do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are distributed throughout libraries and institutions worldwide. This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.
 
-Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant. 
+Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant.
 
 <!-- potential questions to be computationally answered with big data -->
 The public and many scholars expect to be able to put a computer to such diverse tasks as: Show me all instances of the word *waṭan* across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I. Or: Show me the discursive field of authors and their texts and its changes over time. Unfortunately, the eager student of *digitised* periodicals will immediately find tools, data and skills lacking.
@@ -76,7 +82,7 @@ Note that a the full text of a periodical is necessary but not sufficient for ma
 <!-- get the full text -->
 Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.[^9] Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.[^4] Despite promising developments with the application of machine-learning technologies to pattern recognition,[^7] automatic conversion of images of early Arabic periodicals is hampered by two factors: 1. all OCR technologies depend on a fairly large training set of "gold standard" transcriptions as ground truth; 2.  low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality. Consequently these texts can currently only be reliably digitised by human transcription.{>>add footnote<<} Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.
 
-[^4]: C.f. [@Margner_2012]. {--For recent promising approaches using machine-learning and neural networks see [@Romanov_2016].--}For examples of the state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The ["Early Arabic Printed Books" (EAPB) project](http://gale.cengage.co.uk/arabic), currently under development by GALE in collaboration with the British Library, makes repeated claims of employing "newly developed optical character recognition software (OCR) for early Arabic printed script" (see this [factsheet](http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf)). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely. 
+[^4]: C.f. [@Margner_2012]. {--For recent promising approaches using machine-learning and neural networks see [@Romanov_2016].--}For examples of the state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The ["Early Arabic Printed Books" (EAPB) project](http://gale.cengage.co.uk/arabic), currently under development by GALE in collaboration with the British Library, makes repeated claims of employing "newly developed optical character recognition software (OCR) for early Arabic printed script" (see this [factsheet](http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf)). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.
 
 [^7]: The [Open Islamicate Text Initiative (OpenITI)](http://iti-corpus.github.io/) project planned to publish its tool chain in 2018. For an overview of their work see <http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf>.
 
@@ -84,20 +90,20 @@ Optical character recognition (OCR), the technology to convert an image into a t
 
 Gray online-libraries of Arabic literature, namely [*al-Maktaba al-Shamila* (*shamela.ws*)][shamela], [*Mishkat*][almeshkat], [*Saydal-Fawa'id*][saaid] or [*al-Waraq*][alwaraq], provide access to a vast body of (mostly classical) Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. These gray "editions" lack information linking the digital representation to material originals, namely bibliographic metadata and page breaks, which makes them almost impossible to employ for scholarly research.
 
-Since we do not have the resources to proof and correct these texts, we had the idea to unite transcriptions from gray online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus "Open Arabic Periodical Editions" (OpenArabicPE) was born in autumn 2015. 
+Since we do not have the resources to proof and correct these texts, we had the idea to unite transcriptions from gray online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus "Open Arabic Periodical Editions" (OpenArabicPE) was born in autumn 2015.
 
 # OpenArabicPE attempts at catching up
 
 <!-- this needs to be expanded upon -->
 
-[OpenArabicPE](https://github.com/openarabicpe) establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as *accessibilty*, *sustainability*, *credibility*. Starting with the mostly Damascene periodicals *al-Muqtabas* and *al-Ḥaqāʾiq*, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other. 
+[OpenArabicPE](https://github.com/openarabicpe) establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as *accessibilty*, *sustainability*, *credibility*. Starting with the mostly Damascene periodicals *al-Muqtabas* and *al-Ḥaqāʾiq*, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.
 
 ![Figure: Project scheme](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png)
 
 Within OpenArabicPE we devise workflows and tools to transform digital texts from [*shamela.ws*][shamela] into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines,[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [archive.sakhrit.co][]. The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were {--commonly--} ignored by *shamela.ws*'s anonymous transcribers.[^6] This point needs to be emphasised: every one of the c.8500 pages breaks needs to manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers. So far Dimitar Dragnev, Talha Güzel, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
 
 [^6]: In other instances, such as the [two volumes of Yūsuf Ilyān Sarkīs' *Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba* (Miṣr: Maṭbaʿat Sarkīs, 1928)](http://shamela.ws/index.php/book/1242), *shamela.ws* did provide page breaks that correspond to a printed edition.
-[^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving. 
+[^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.
 
 ![Figure: Web view of [al-Muqtabas 6/2](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml)](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png)
 
@@ -170,7 +176,7 @@ Before looking at this aggregated information is is worth going back to the bibl
 
 Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
 
-{>>Further comments on this table: 
+{>>Further comments on this table:
     1. all but one of the most frequently published authors have entries in authority files and wikipedia
     2. data from the authority files shows that all but one were born between the mid-1860s and the mid-1870s
 <<}
@@ -226,7 +232,7 @@ Table: authors in *al-Muqtabas* sorted by number of words.
 
 ![Figure: Word cloud of authors published in *al-Muqtabas*; by number of words](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-words.png)
 
-*al-Muqtabas* and *al-Ḥaqāʾiq*, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical. 
+*al-Muqtabas* and *al-Ḥaqāʾiq*, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical.
 
 What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts.[^11] This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
 
