@@ -33,8 +33,11 @@ Arabist, journalist, politician. Born in Baghdad, dropped out of the military *r
         * OA from [Hindawi](https://www.hindawi.org/books/51703160/)
         * from [shamela](http://shamela.ws/rep.php/book/4427)
         * individual *qaṣāʾid* from [adab.com](http://www.adab.com/modules.php?name=Sh3er&doWhat=lsq&shid=301)
-        * **1903**, *Dīwān al-Ruṣāfī: wa-huwa majmūʿ mā naẓamahu al-shāʿir al-ijtimāʿī al-kabīr Maʿrūf Efendi al-Ruṣāfī al-Baghdādī*, edited by Muḥī al-Dīn al-Khayyāṭ and Muṣṭafā Ghalāyīnī, Bayrūt: Maktaba al-Ahliyya, 1903 (1324 aH). [worldcat](https://www.worldcat.org/oclc/4770928968)
+        * **1910**, *Dīwān al-Ruṣāfī: wa-huwa majmūʿ mā naẓamahu al-shāʿir al-ijtimāʿī al-kabīr Maʿrūf Efendi al-Ruṣāfī al-Baghdādī*, edited by Muḥī al-Dīn al-Khayyāṭ and Muṣṭafā Ghalāyīnī, Bayrūt: al-Maktaba al-Ahliyya, 1910 (1328 aH).
+            - [worldcat](https://www.worldcat.org/oclc/4770928968) claims 1903 as publication date,
+            - but articles in the Beiruti press suggest 1910 as the correct publication date.
 - to do: check if the qaṣīdas printed in magazines were taken from the *Dīwān*
+    + some of them can be found in the Hindawi edition of the *Dīwān* but were they part of the original majmūʿ
 
 ### ʿĪsā Iskandar al-Maʿlūf (1869--)
 
