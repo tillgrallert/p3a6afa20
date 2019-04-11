@@ -10,6 +10,51 @@ tags:
     - digital humanities
 ---
 
+# Methodological notes
+## network of authors
+
++ questions:
+    * what are the most important authors?
+        - evaluated by number of articles and journals they published in.
+    * what is the reach of journals?
+        - indicated by locations of writing provided in bylines etc.
++ required data
+    * bibliographic data on the article level
++ data sets:
+    * OpenArabicPE: semi-automatic mark-up
+        - *al-Muqtabas*
+        - *al-Ḥaqāʾiq*
+        - *Lughat al-ʿArab*
+        - *al-Ḥasnāʾ*
+    * Sakhrit (cut-off after 1920)
+        -
++ problems
+    * general issue: disambiguation of personal names and toponyms
+    * originals: bylines frequently missing
+    * OpenArabicPE
+    * Sakhrit
+        - no full text editions
+        - unknown origin and quality of bibliographic metadata
+        - *main issue*: false negatives
+        - publication dates cannot be trusted
+
+
+## network of texts referenced
+
++ questions:
+    * what did people read?
+        - culling bibliographic data from review sections
+    * what are the most important periodicals?
+        - number of articles and journals that reference a specific periodical
++ required data
+    * full text editions with mark-up of referenced texts
++ data sets:
+    * OpenArabicPE
+        - *al-Muqtabas*
+        - *al-Ḥaqāʾiq*
+        - *Lughat al-ʿArab*
+
+
 # Biographical notes
 
 There are family relations between the Qāsimīs in the two journals
