@@ -105,7 +105,7 @@ Within OpenArabicPE we devise workflows and tools to transform digital texts fro
 [^6]: In other instances, such as the [two volumes of Yūsuf Ilyān Sarkīs' *Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba* (Miṣr: Maṭbaʿat Sarkīs, 1928)](http://shamela.ws/index.php/book/1242), *shamela.ws* did provide page breaks that correspond to a printed edition.
 [^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.
 
-![Figure: Web view of [al-Muqtabas 6/2](https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml)](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png)
+![Figure: Web view of [al-Muqtabas 6/2](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml)](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png)
 
 The editions (TEI, markdown, and a web-display) are hosted as a GitHub repository with open licenses for reading, contribution, and re-use.[^10] {>>mention collaboration with Leipzig and the integration of Muqtabas into CLARIN<<} As part of the editions we also provide structured bibliographic metadata for every article  in machine-readable format that can easily be integrated into larger bibliographic information systems or individual scholars' reference managing software. In order to improve access to individual articles and allow for a search of bibliographic metadata we feed this data into a [public Zotero group](https://www.zotero.org/groups/openarabicpe).
 
@@ -339,11 +339,11 @@ If we assume that information on the place of writing of any one article was not
 [bl]: http://eap.bl.uk/
 [hathitrust]: http://catalog.hathitrust.org/
 [openarabicpe_schema]: https://github.com/OpenArabicPE/OpenArabicPE_ODD
-[rawgit]: https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_54.TEIP5.xml#pb_61.d1e2036
-[rawgit 2]: https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_59.TEIP5.xml#pb_51.d1e2281
-[rawgit 3]: https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_38.TEIP5.xml#p_60.d1e2238
-[rawgit 4]: https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_39.TEIP5.xml#gap_1.d1e3111
-[rawgit 5]: https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_71.TEIP5.xml#pb_126.d1e4373
+[rawgit]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_54.TEIP5.xml#pb_61.d1e2036
+[rawgit 2]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_59.TEIP5.xml#pb_51.d1e2281
+[rawgit 3]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_38.TEIP5.xml#p_60.d1e2238
+[rawgit 4]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_39.TEIP5.xml#gap_1.d1e3111
+[rawgit 5]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_71.TEIP5.xml#pb_126.d1e4373
 [saaid]: http://saaid.net/
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
