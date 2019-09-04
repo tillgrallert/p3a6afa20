@@ -88,7 +88,7 @@ Any sort of meaningful computational analysis of the global connections between 
 
 <!-- identify the areas to catch up with -->
 
-Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. They are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.
+Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. These texts are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.
 
 <!-- get the full text -->
 Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.[^9] Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.[^4] Despite promising developments with the application of machine-learning technologies to pattern recognition,[^7] automatic conversion of images of early Arabic periodicals is hampered by two factors: 1. all OCR technologies depend on a fairly large training set of "gold standard" transcriptions as ground truth; 2.  low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality. Consequently these texts can currently only be reliably digitised by human transcription.{>>add footnote<<} Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.
@@ -107,7 +107,7 @@ Since we do not have the resources to proof and correct these texts, we had the 
 
 <!-- this needs to be expanded upon -->
 
-[OpenArabicPE](https://github.com/openarabicpe) establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as *accessibilty*, *sustainability*, *credibility*. Starting with the mostly Damascene periodicals *al-Muqtabas* and *al-Ḥaqāʾiq*, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.
+[OpenArabicPE](https://github.com/openarabicpe) establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as *accessibility*, *sustainability*, *credibility*. Starting with the mostly Damascene periodicals *al-Muqtabas* and *al-Ḥaqāʾiq*, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.
 
 ![Figure: Project scheme](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png)
 
@@ -150,16 +150,18 @@ The corpus comprises TEI files for each issue of *al-Muqtabas* and *al-Ḥaqāʾ
 ![Figure: Words per page and page counts for *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png)
 
 <!-- statistics on our editions -->
+
 The edition of *al-Ḥaqāʾiq* comprises all 36 issues, grouped into three volumes and published by ʿAbd al-Qādir al-Iskandarānī in Damascus between 1910 and 1913. {>>comment on publication dates<<} Pages contain much less text and issues are much shorter than *al-Muqtabas* with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of *al-Muqtabas*.
 
 ![Figure: Words per page and page counts for *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png)
 
 <!-- state of the data -->
+
 The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as "Rashīd Riḍā" and "Owner of al-Manār". In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{>>Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script<<}
 
 ## analysis of metadata
 
-Before looking at this aggregated information is is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis. *al-Muqtabas* printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at *al-Ḥaqāʾiq*: Only one fifth (76) of the 360 articles provide explicit author information. {>>add information on the number of words, which is more meaningful than the number of articles<<} We can currently identify only a maximum of 128 named authors for *al-Muqtabas* and less than 60 for *al-Haqāʾiq* [See word clouds below].[^5] Quite a significant number appear only with their initials, particularly in *al-Ḥaqāʾiq* and all of them were men. Only 50 authors published more than one article in *al-Muqtabas*. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {>>add comments on genre of texts by these authors<<}
+It is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. *al-Muqtabas* printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at *al-Ḥaqāʾiq*: Only one fifth (76) of the 360 articles provide explicit author information. {>>add information on the number of words, which is more meaningful than the number of articles<<} We can currently identify only a maximum of 128 named authors for *al-Muqtabas* and less than 60 for *al-Haqāʾiq* [See word clouds below].[^5] Quite a significant number appear only with their initials, particularly in *al-Ḥaqāʾiq* and all of them were men. Only 50 authors published more than one article in *al-Muqtabas*. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {>>add comments on genre of texts by these authors<<}
 
 <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. -->
 
@@ -245,7 +247,9 @@ Table: authors in *al-Muqtabas* sorted by number of words.
 
 *al-Muqtabas* and *al-Ḥaqāʾiq*, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical.
 
-What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts.[^11] This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
+# Stylometry
+
+What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts.[^11] {==This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.==}{>>It definitely is and this needs to be done here<<} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
 
 [^11]: For an introduction to stylometry and the stylo package for R see {>>add references<<}
 
@@ -329,17 +333,30 @@ Table: Selection of results from the stylometric analysis of all articles publis
 Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf
 
 
+# Geographic distribution
 
 Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical's editor. In the case of *al-Muqtabas*, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the *network* of authors, texts, and locations, this would be an utterly pointless endeavour.
 
 If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:
 
-![Figure: Locations in bylines in *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png)
+![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_4770057679-bylines-middle-east.png)
 
-![Figure: Locations in bylines in *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_haqaiq-bylines-all.png)
+![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_644997575-bylines-middle-east.png)
+
+![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_792756327-bylines-middle-east.png)
+
+![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_472450345-bylines-middle-east.png)
 
 
 {>>missing comment on maps<<}
+
+# Network of referenced periodicals
+
+![Figure: Network of periodicals mentioned in *al-Haqāʾiq*, *al-Muqtabas* and *Lughat al-ʿArab*](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals.png)
+
+![](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-article_2019-08-16.png)
+
+![](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-issue_2019-08-16.png)
 
 {>>missing conclusion<<}
 
