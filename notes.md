@@ -1,7 +1,7 @@
 ---
 title: "Catch me if you can! Notes"
 author: Till Grallert
-date: 2019-03-20 10:59:04 +0200
+date: 2019-08-10
 tags:
     - periodical studies
     - social network analysis
@@ -10,7 +10,18 @@ tags:
     - digital humanities
 ---
 
-# Methodological notes
+# to do
+
+- **done** make a map of the holding institutions
+- check meaning of weight in stylo() output
+- process stylo() edges table, to include further columns
+    + number of works in worldcat
+- make TEI bibliography of the most referenced periodicals (minimum 2 journals in my corpus): currently 36 titles
+    + **done**
+    + **done**: write XSLT to enrich bibliography and link `<title>`s to bibliography
+    + **done**: improve CSV of referenced periodicals
+
+# 1. Methodological notes
 ## network of authors
 
 + questions:
@@ -18,13 +29,16 @@ tags:
         - evaluated by number of articles and journals they published in.
     * what is the reach of journals?
         - indicated by locations of writing provided in bylines etc.
-+ required data
++ required data/ approach
     * bibliographic data on the article level
+    * full text for stlometric analysis
 + data sets:
     * OpenArabicPE: semi-automatic mark-up
         - *al-Muqtabas*
         - *al-Ḥaqāʾiq*
-        - *Lughat al-ʿArab*
+        - *Lughat al-ʿArab*: 34 issues before the gap in publication between 1912 and 1926
+        - *al-Manār*: volumes 9 to 20 from 1906 onwards until the end of October 1918
+            + this subset overlaps with *al-Muqtabas* in order to avoid a heavy bias towards *al-Manār*
         - *al-Ḥasnāʾ*
     * Sakhrit (cut-off after 1920)
         -
@@ -48,12 +62,106 @@ tags:
         - number of articles and journals that reference a specific periodical
 + required data
     * full text editions with mark-up of referenced texts
+    * The mark-up is done semi-automatically with [XSLT](https://github.com/OpenArabicPE/tools/blob/master/xslt/tei_mark-up-references-to-periodicals.xsl) utilising regular expressions. Afterwards one needs to manually check the marked-up strings for obvious errors.
 + data sets:
     * OpenArabicPE
         - *al-Muqtabas*
         - *al-Ḥaqāʾiq*
-        - *Lughat al-ʿArab*
+        - *Lughat al-ʿArab*: first three volumes,
+        - *al-Manār*: first 20 volumes, has not been incorporated into the analysis yet
+        - *al-Ḥasnāʾ*
++ processing data
+    * an [XSLT stylesheet](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/xslt/tei_statistics.xsl) gathers statistics from TEI XML input and writes CSV to `oclc_\d+.*-i_\d+-stats_tei-referenced-periodicals.csv`
+    * This input is processed with [R](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/r/oape_process-data.R), which combines the individual CSV files into a single data frame. Output is saved as `oape_referenced-periodicals.rda` and `oape_referenced-periodicals.csv`
+        - necessary information for mapping the network
+            1. source
+                - title
+                    + Arabic
+                    + IJMES
+                - ID: OCLC
+                - publication place
+                    + name
+                        * original
+                        * IJMES
+                    + ID: GeoNames
+                    + coordinates
+            2. target
+                - title
+                    + original / Arabic
+                    + IJMES
+                - ID: OCLC
+                - publication place
+                    + name
+                        * original
+                        * IJMES
+                    + ID: GeoNames
+                    + coordinates
+            3. weight
+                - number of articles
+                - number of issues
+        - the necessary information for mapping can be done by left and right joins in R
+    * The network of periodicals is then plotted using another [R script](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/r/oape_network-analysis.R)
+    * load edges table into Gephi and compute various network statistics
 
+## 2019-08-16
+
+1. data set
+    - referenced periodicals from four titles (al-Muqtabas, Lughat al-ʿArab, al-Ḥasnāʾ, and al-Ḥaqāʾiq)
+    - 423 different periodical titles
+2. general observations
+    1. all journals are self-referencial, they are the main source of references to themselves
+    2. the vast majority of periodicals (90,33 % or 387 titles) are referred to by only a single journal. 313 periodicals are only mentioned in a single issue and 311 in a single article.
+1. network of referenced periodicals *per article*
+    - in-degree (per journal):
+        + 1: 90,33 % or 387 periodicals
+        + 2: 7,55 % or 31 periodicals
+        + 3: 1,18 % or 5 periodicals
+            1. *al-Muqtabas*
+            * *al-Hilāl*
+            * *al-Manār*
+            * *al-Muqtaṭaf*
+            * *al-Mufīd*
+2. network of referenced periodicals *per issue*
+    - in-degree (per journal):
+        + 1: 90,33 % or 387 periodicals
+        + 2: 7,55 % or 31 periodicals
+        + 3: 1,18 % or 5 periodicals
+            1. *al-Muqtabas*
+            * *al-Hilāl*
+            * *al-Manār*
+            * *al-Muqtaṭaf*
+            * *al-Mufīd*
+
+# 2. Where is everything
+
+1. data
+    - git repository for all the analytical questions at [`/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis`](https://github.com/openarabicpe/OpenArabicPE_analysis). It is **important** to add the material referenced in the paper to the repository of this paper to avoid issues with erroneous cross-linking of visualisations and data sets.
+        - bibliographic data
+        - plain text files for stylometric analysis
+        - xslt and R scripts
+        - statistics as CSV and RData files
+        - visualisations
+2. writing / drafts
+    - git repository for the 2018 conference paper and other writing at [`/BachUni/publications/github/p3a6afa20`](https://github.com/tillgrallert/p3a6afa20)
+3. additional notes
+    - a text file with my notes on stylometry at [`/BachUni/BachBibliothek/NotationalVelocityLib/stylometry- OpenArabicPE.txt`](/BachUni/BachBibliothek/NotationalVelocityLib/stylometry- OpenArabicPE.txt)
+4. literature
+    1. in Sente: I have organised literature in Sente using tags
+        - `Paper: authorship`
+            + currently only one reference
+        - `Project: OpenArabicPE`
+    1. subject:
+        - **Arabic press**: I have a good overview and have pretty much read everything there is on this matter
+        - **nahḍa**: I have a rather rudimentary overview
+        - **digitised newspapers**:
+        - **OCR**: some limited literature on the issue of OCR for Arabic
+            + I can reference them all
+    2. methodology:
+        - **bibliometry**: do I need this?
+        - **stylometry**: I have read a number of articles
+            + can I explain my methodology?
+        - **social network analysis**: I have not read a lot on this but I am able to do it
+            + can I interpret my own results?
 
 # Biographical notes
 
