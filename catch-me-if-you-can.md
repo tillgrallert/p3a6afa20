@@ -108,10 +108,11 @@ Since we do not have the resources to proof and correct these texts, we had the 
 
 ![Figure: Project scheme](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png)
 
-Within OpenArabicPE we devise workflows and tools to transform digital texts from [*shamela.ws*][shamela] into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines,[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [archive.sakhrit.co][]. The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were {--commonly--} ignored by *shamela.ws*'s anonymous transcribers.[^6] This point needs to be emphasised: every one of the c.8500 pages breaks needs to manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers. So far Dimitar Dragnev, Talha Güzel, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
+Within OpenArabicPE we devise workflows and tools to transform digital texts from [*shamela.ws*][shamela] into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines,[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [archive.sakhrit.co][sakhrit].[^20] The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were {--commonly--} ignored by *shamela.ws*'s anonymous transcribers.[^6] This point needs to be emphasised: every one of the c.8500 pages breaks needs to manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers. So far Dimitar Dragnev, Talha Güzel, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
 
 [^6]: In other instances, such as the [two volumes of Yūsuf Ilyān Sarkīs' *Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba* (Miṣr: Maṭbaʿat Sarkīs, 1928)](http://shamela.ws/index.php/book/1242), *shamela.ws* did provide page breaks that correspond to a printed edition.
 [^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.
+[^20]: Note that archive.sakhrit.co has since moved to [http://archive.alsharekh.org/](http://archive.alsharekh.org/)
 
 ![Figure: Web view of [al-Muqtabas 6/2](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml)](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png)
 
@@ -384,6 +385,7 @@ If we assume that information on the place of writing of any one article was not
 [rawgit 4]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_39.TEIP5.xml#gap_1.d1e3111
 [rawgit 5]: https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_71.TEIP5.xml#pb_126.d1e4373
 [saaid]: http://saaid.net/
+[sakhrit]: http://archive.sakhrit.co
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
 [wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1
