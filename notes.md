@@ -14,6 +14,7 @@ tags:
 
 - **done** make a map of the holding institutions
 - check meaning of weight in stylo() output
+    + kind of **done**
 - process stylo() edges table, to include further columns
     + number of works in worldcat
 - make TEI bibliography of the most referenced periodicals (minimum 2 journals in my corpus): currently 36 titles
