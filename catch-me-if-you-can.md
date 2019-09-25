@@ -168,7 +168,7 @@ With major work on modelling on three journals from Baghdad, Cairo and Damascus-
 
 ## OpenArabicPE's corpus
 
-The corpus comprises {--TEI files for--} each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* until the end of World War I. {>>total of 166 issues<<} 
+The corpus comprises {--TEI files for--} each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* until the end of World War I. {>>total of 165 issues<<} 
 
 {>>*al-Muqtabas*<<}
 {--Muḥammad Kurd ʿAlī published 96 issues of his monthly journal *al-Muqtabas* (The Digest / Acquired Learning) between 1906 and 1917/18.--} 
@@ -182,9 +182,11 @@ The edition of *al-Muqtabas* gathers all 96 issues published between 1906 and 19
 ![Figure: Words per page and page counts for *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png)
 
 {>>*al-Ḥaqāʾiq*<<}
-Much less is known about the second Damascene journal in our corpus. ʿAbd al-Qādir al-Iskandarānī (1875--1943) published three volumes with a total of 36 issues of *al-Ḥaqāʾiq* (The Facts) in Damascus between 1910 and 1913. {>>Add: periodical of the conservative establishment, already apparent from the layout, content. Main opponent is al-Muqtabas<<} Unlike *al-Muqtabas* *al-Ḥaqāʾiq* was a periodical of the conservative Muslim establishment. This becomes clear from the content of *al-Haqāʾiq* with its focus on Islamic topics, its constant critique of "liberal" and "Westernised" journals, such as *al-Muqtabas*, and its makers' apparent lack of familiarity with the by then established layout conventions of Arabic journals. Unlike Kurd ʿAlī, al-Iskandarānī did not claim a single byline in "his" journal.
+Much less is known about the second Damascene journal in our corpus and the people behind it. The *ʿālim* ʿAbd al-Qādir al-Iskandarānī (1875--1943) from the notable al-Kaylānī family, who were closely associated with the Qadriyya Sufi order, published three volumes with a total of 35 issues of *al-Ḥaqāʾiq* (The Facts) in Damascus between 1910 and 1913. {>>Add: periodical of the conservative establishment, already apparent from the layout, content. Main opponent is al-Muqtabas<<} {--Unlike *al-Muqtabas*--} *al-Ḥaqāʾiq* was a periodical of the conservative Muslim establishment, who called themselves *mutayyinūn* (the very pious). This becomes clear from the content of *al-Haqāʾiq* with its focus on Islamic topics, its constant critique of Salafism and "Westernised" journals, such as *al-Muqtabas*, and its makers' apparent lack of familiarity with the by then established layout conventions of Arabic journals.[^37] Unlike Kurd ʿAlī, al-Iskandarānī did not claim a single byline in "his" journal.
 
 Pages contain much less text and issues are much shorter than *al-Muqtabas* with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of *al-Muqtabas*.
+
+[^37]: For controversies between *al-Muqtabas* and *al-Haqāʾiq* see {Gelvin 2012; Commins 1990@118-122}.
 
 ![Figure: Words per page and page counts for *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png)
 
