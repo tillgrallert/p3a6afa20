@@ -328,84 +328,6 @@ These findings have severe implications for the application of stylometry to per
 Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travellogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.
 
 
-Whereas a comparison of articles known to have been authored by Jamāl al-Dīn al-Qasimī shows a high degree of similarity with other articles written by him and therefore seemingly confirms the correct working of the algorithms, this is not the case for either Maʿrūf al-Ruṣāfī or ʿĪsā Iskandar al-Maʿlūf. This is puzzling as the degree of likeliness for the top-most stylistically similar articles by al-Maʿlūf, expressed by the weight in the tables below, is in the same range as for those by al-Qāsimī.
-
-|                    source                   |                    target                   | weight |    type    |
-|---------------------------------------------|---------------------------------------------|--------|------------|
-| القاسمي-oclc_4770057679-i_61-div_2.d1e1517  | القاسمي-oclc_4770057679-i_62-div_2.d1e1491  |     54 | undirected |
-| القاسمي-oclc_4770057679-i_62-div_2.d1e1491  | القاسمي-oclc_4770057679-i_61-div_2.d1e1517  |     54 | undirected |
-| القاسمي-oclc_4770057679-i_61-div_2.d1e1517  | القاسمي-oclc_4770057679-i_63-div_7.d1e1810  |     52 | undirected |
-| القاسمي-oclc_4770057679-i_63-div_7.d1e1810  | القاسمي-oclc_4770057679-i_61-div_2.d1e1517  |     52 | undirected |
-| القاسمي-oclc_4770057679-i_49-div_2.d1e1499  | NN-oclc_4770057679-i_48-div_4.d1e1914       |     45 | undirected |
-| القاسمي-oclc_4770057679-i_62-div_2.d1e1491  | القاسمي-oclc_4770057679-i_63-div_7.d1e1810  |     44 | undirected |
-| القاسمي-oclc_4770057679-i_63-div_7.d1e1810  | القاسمي-oclc_4770057679-i_62-div_2.d1e1491  |     44 | undirected |
-| القاسمي-oclc_4770057679-i_52-div_10.d1e2681 | القاسمي-oclc_4770057679-i_53-div_3.d1e3775  |     42 | undirected |
-| القاسمي-oclc_4770057679-i_53-div_3.d1e3775  | القاسمي-oclc_4770057679-i_52-div_10.d1e2681 |     42 | undirected |
-| القاسمي-oclc_4770057679-i_50-div_4.d1e2033  | القاسمي-oclc_4770057679-i_63-div_7.d1e1810  |     38 | undirected |
-| القاسمي-oclc_4770057679-i_63-div_7.d1e1810  | القاسمي-oclc_4770057679-i_50-div_4.d1e2033  |     38 | undirected |
-| القاسمي-oclc_4770057679-i_49-div_2.d1e1499  | NN-oclc_4770057679-i_47-div_2.d1e1470       |     31 | undirected |
-| القاسمي-oclc_4770057679-i_55-div_23.d1e4814 | NN-oclc_4770057679-i_2-div_21.d1e2160       |     24 | undirected |
-| القاسمي-oclc_4770057679-i_49-div_2.d1e1499  | NN-oclc_4770057679-i_87-div_3.d1e696        |     24 | undirected |
-| القاسمي-oclc_4770057679-i_50-div_4.d1e2033  | NN-oclc_4770057679-i_64-div_2.d1e1188       |     24 | undirected |
-| القاسمي-oclc_4770057679-i_63-div_7.d1e1810  | NN-oclc_4770057679-i_15-div_3.d1e696        |     18 | undirected |
-| القاسمي-oclc_4770057679-i_49-div_2.d1e1499  | NN-oclc_4770057679-i_19-div_9.d1e2206       |     17 | undirected |
-| القاسمي-oclc_4770057679-i_55-div_23.d1e4814 | NN-oclc_4770057679-i_3-div_18.d1e1764       |     16 | undirected |
-| القاسمي-oclc_4770057679-i_61-div_2.d1e1517  | NN-oclc_4770057679-i_33-div_3.d1e696        |     16 | undirected |
-| القاسمي-oclc_4770057679-i_39-div_7.d1e2166  | عنحوري-oclc_4770057679-i_54-div_2.d1e1300   |     15 | undirected |
-
-Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī
-
-
-
-|                    source                   |                 target                 | weight |    type    |
-|---------------------------------------------|----------------------------------------|--------|------------|
-| الرصافي-oclc_4770057679-i_10-div_9.d1e1418  | NN-oclc_4770057679-i_94-div_11.d1e5944 |     27 | undirected |
-| الرصافي-oclc_4770057679-i_24-div_9.d1e1716  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     27 | undirected |
-| الرصافي-oclc_4770057679-i_36-div_5.d2e3004  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     27 | undirected |
-| الرصافي-oclc_4770057679-i_20-div_6.d1e1588  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     26 | undirected |
-| الرصافي-oclc_4770057679-i_19-div_6.d1e1081  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     25 | undirected |
-| الرصافي-oclc_4770057679-i_28-div_25.d1e3388 | NN-oclc_4770057679-i_2-div_21.d1e2160  |     25 | undirected |
-| الرصافي-oclc_4770057679-i_37-div_7.d1e1907  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     25 | undirected |
-| الرصافي-oclc_4770057679-i_40-div_14.d1e2780 | NN-oclc_4770057679-i_94-div_11.d1e5944 |     25 | undirected |
-| الرصافي-oclc_4770057679-i_13-div_9.d1e1285  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_14-div_7.d1e1428  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_22-div_9.d1e1772  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_31-div_10.d1e2096 | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_39-div_5.d1e1387  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_41-div_7.d1e3728  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     24 | undirected |
-| الرصافي-oclc_4770057679-i_25-div_11.d1e2206 | NN-oclc_4770057679-i_2-div_21.d1e2160  |     23 | undirected |
-| الرصافي-oclc_4770057679-i_29-div_6.d1e1333  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     23 | undirected |
-| الرصافي-oclc_4770057679-i_40-div_4.d1e832   | NN-oclc_4770057679-i_2-div_21.d1e2160  |     21 | undirected |
-| الرصافي-oclc_4770057679-i_33-div_5.d1e1329  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     20 | undirected |
-| الرصافي-oclc_4770057679-i_35-div_3.d1e696   | NN-oclc_4770057679-i_2-div_21.d1e2160  |     20 | undirected |
-| الرصافي-oclc_4770057679-i_68-div_9.d1e4370  | NN-oclc_4770057679-i_2-div_21.d1e2160  |     20 | undirected |
-
-Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī
-
-
-
-
-|                    source                   |                   target                   | weight | type           |
-|---------------------------------------------|--------------------------------------------|--------|------------|
-| المعلوف-oclc_4770057679-i_53-div_2.d1e1568  | NN-oclc_4770057679-i_64-div_3.d1e2089      |     47 | undirected |
-| المعلوف-oclc_4770057679-i_53-div_2.d1e1568  | NN-oclc_4770057679-i_35-div_6.d1e2205      |     32 | undirected |
-| المعلوف-oclc_4770057679-i_37-div_10.d1e3397 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     27 | undirected |
-| المعلوف-oclc_4770057679-i_42-div_9.d1e1281  | NN-oclc_4770057679-i_23-div_25.d1e2996     |     26 | undirected |
-| المعلوف-oclc_4770057679-i_53-div_2.d1e1568  | NN-oclc_4770057679-i_56-div_2.d1e1398      |     26 | undirected |
-| المعلوف-oclc_4770057679-i_55-div_10.d1e2970 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     26 | undirected |
-| المعلوف-oclc_4770057679-i_93-div_8.d1e1268  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     26 | undirected |
-| المعلوف-oclc_4770057679-i_54-div_5.d1e1854  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     25 | undirected |
-| المعلوف-oclc_4770057679-i_94-div_11.d1e6080 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     25 | undirected |
-| المعلوف-oclc_4770057679-i_95-div_51.d1e3324 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     25 | undirected |
-| المعلوف-oclc_4770057679-i_44-div_6.d1e1798  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     24 | undirected |
-| المعلوف-oclc_4770057679-i_45-div_8.d1e2304  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     24 | undirected |
-| المعلوف-oclc_4770057679-i_47-div_6.d1e2816  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     24 | undirected |
-| المعلوف-oclc_4770057679-i_55-div_22.d1e4313 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     24 | undirected |
-| المعلوف-oclc_4770057679-i_93-div_7.d1e1147  | NN-oclc_4770057679-i_2-div_21.d1e2160      |     24 | undirected |
-| المعلوف-oclc_4770057679-i_53-div_33.d1e6920 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     23 | undirected |
-| المعلوف-oclc_4770057679-i_63-div_30.d1e2971 | NN-oclc_4770057679-i_2-div_21.d1e2160      |     21 | undirected |
-
-Table: Selection of results from the stylometric analysis of all articles published in *al-Muqtabas* based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf
 
 
 # Geographic distribution
@@ -452,3 +374,4 @@ If we assume that information on the place of writing of any one article was not
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
 [wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1
+
