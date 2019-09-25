@@ -162,34 +162,31 @@ With OpenArabicPE we argue that by linking facsimiles to the digital text, every
 
 [^27]: {Wittern 2013}
 
-{>>Some paragraphs on the importance of the two journals<<}
-
-
-<!-- corpus -->
-<!-- full editions -->
-<!-- some information on al-Muqtabas -->
-
-<!-- some information on al-Ḥaqāʾiq -->
-
-
-
-<!-- bibliographic metadata -->
-
 # Network of authors and texts
 
-With major work on modelling both *al-Muqtabas* and *al-Ḥaqāʾiq* done, we can now begin to submit this corpus to initial analyses of the networks of authors and their texts as well as the material read and reviewed in Damascus.
+With major work on modelling on three journals from Baghdad, Cairo and Damascus---*Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq*---done, we can now begin to submit this corpus to initial analyses of the social and geographic networks of authors and their texts as well as the network of periodicals referenced and cited in these three journals.
 
 ## OpenArabicPE's corpus
 
-The corpus comprises TEI files for each issue of *al-Muqtabas* and *al-Ḥaqāʾiq*. The edition of *al-Muqtabas* gathers all 96 issues published between 1906 and 1917/18 with a total of some 7.000 pages and almost 2 million words. {>>comment on publication dates<<} Issues consist of longer independent articles and sections with shorter articles such as brief reports on new discoveries and book announcements. Issues and pages differed widely in length. On average, each issue contained 65 pages with almost 300 words or 20354 word per issue.
+The corpus comprises {--TEI files for--} each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* until the end of World War I. {>>total of 166 issues<<} 
+
+{>>*al-Muqtabas*<<}
+{--Muḥammad Kurd ʿAlī published 96 issues of his monthly journal *al-Muqtabas* (The Digest / Acquired Learning) between 1906 and 1917/18.--} 
+Muḥammad Kurd ʿAlī (1876–1953) was the best known and, after the Young Turk Revolution of 1908, the most influential journalist and intellectual in Damascus. Before establishing his own journal *al-Muqtabas* (The Digest) in Cairo in 1906 and the first daily newspaper to be published in Damascus in 1908 (also confusingly called *al-Muqtabas*), he had held minor government offices and worked at various public and private presses and periodicals in Damascus and Cairo. He was well-acquainted with leading figures of the Islamic reform movement in Egypt and Greater Syria.{--, like Ṭāhir al-Jazāʾirī, Rashīd Riḍā and Muḥammad ʿAbduh.--} He was a member in Ṭāhir al-Jazāʾirī's "senior circle" in the early 1890s in Damascus and later moved and worked in Rashīd Riḍā's and Muḥammad ʿAbduh's circles in Cairo. After the Young Turk Revolution, Kurd ʿAlī returned to his hometown and the publication of *al-Muqtabas* moved from Cairo to Damascus in the journal's third year. In Damascus, *al-Muqtabas* soon became "the boldest, most coherent, consistent and committed proponent of reform and modernity [...] prior to World War I".[^33] Due to conflicts with the authorities over the reprint of a poem, Kurd ʿAlī again fled Damascus for Cairo and Europe in 1912. Consequently, *al-Muqtabas* was published from Cairo for a couple of months before Kurd ʿAlī was allowed to return once again. During World War I and Cemal Pasha's infamous term as commander-in-chief of the 4th Army and governor general of Syria, Kurd ʿAlī was able to win his support. He thus escaped the fate of Shukrī al-ʿAsalī{>> his co-editor at *al-Muqtabas*<<}, ʿAbd al-Ghanī al-ʿUraysī and other journalists from Beirut and Damascus, who were publicly executed on charges of treason. Similarly to their editor, the journal and the newspaper *al-Muqtabas* survived and continued publication until the final days of the war---albeit in shorter and less frequent editions due to material shortages. After the end of the war and the disintegration of the Ottoman Empire, Kurd ʿAlī abandoned the monthly and left the editorship of the revived daily newspaper *al-Muqtabas* to his brother Aḥmad. He founded the Arab Scientific Academy whose president he became in 1919 and served twice as Minister of Education (1920–22, 1928–32) during the French Mandate over Syria.[^34]
+
+The edition of *al-Muqtabas* gathers all 96 issues published between 1906 and 1917/18 with a total of some 7.000 pages and almost 2 million words. {>>comment on print runs<<} Issues consist of longer independent articles and sections with shorter articles such as brief reports on new discoveries and book announcements. Issues and pages differed widely in length. On average, each issue contained 65 pages with almost 300 words or 20354 word per issue.
+
+[^33]: {Seikaly 1981@128}
+[^34]: For an autobiographic sketch see {KurdʿAlī 1928@411-425}. For intellectual biographies see {Seikaly 1981; Hermann 1990}.
 
 ![Figure: Words per page and page counts for *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png)
 
-<!-- statistics on our editions -->
-
-The edition of *al-Ḥaqāʾiq* comprises all 36 issues, grouped into three volumes and published by ʿAbd al-Qādir al-Iskandarānī in Damascus between 1910 and 1913. {>>comment on publication dates<<} Pages contain much less text and issues are much shorter than *al-Muqtabas* with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of *al-Muqtabas*.
+{>>*al-Ḥaqāʾiq*<<}
+Much less is known about the second Damascene journal in our corpus. ʿAbd al-Qādir al-Iskandarānī published three volumes with a total of 36 issues of *al-Ḥaqāʾiq* (The Facts) in Damascus between 1910 and 1913. {>>Add: periodical of the conservative establishment, already apparent from the layout, content. Main opponent is al-Muqtabas<<} Pages contain much less text and issues are much shorter than *al-Muqtabas* with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of *al-Muqtabas*.
 
 ![Figure: Words per page and page counts for *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png)
+
+{>>*Lughat al-ʿArab*<<}
 
 <!-- state of the data -->
 
