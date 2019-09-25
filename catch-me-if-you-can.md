@@ -284,21 +284,22 @@ Table: authors in *al-Muqtabas* sorted by number of words.
 
 # Stylometry
 
-What are the consequences of such a severe lack of information and are there means of filling the gap? One obvious approach to follow would be to submit the entire corpus to stylometric analysis. Stylometry is one of the methods frequently referred to as *distant reading*.[^13]  It can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of vocabulary used in a given text.[^11] Stylometry is based on the empirical observation "that authors tend to write in relatively consistent, recognizable and unique ways"[^14] which is particularly true for an author's vocabulary. Stylometry then computes degrees of similarity between texts, called distance measure, through {--various methods of --}comparing multivariant frequency lists of textual features. 
-
-{==This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.==}{>>It definitely is and this needs to be done here<<} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
+What are the consequences of such a severe lack of information and are there means of filling the gap? One obvious approach to follow would be to submit the entire corpus to stylometric analysis. Stylometry is one of the methods frequently referred to as *distant reading*.[^13]  It can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of vocabulary used in a given text.[^11] Stylometry is based on the empirical observation "that authors tend to write in relatively consistent, recognizable and unique ways"[^14] which is particularly true for an author's vocabulary. Stylometry then computes degrees of similarity between texts, called distance measure, through {--various methods of --}comparing multivariant frequency lists of textual features. {--This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.--} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
 
 [^14]: {Laramée 2018}
 
-[^13]: For a good summary of genealogy of large-scale literary history under the label "distant reading" see {Underwood 2017}. The most often referenced founding works are {Moretti 2013} (collection of reprinted essays), {Jockers 2013} {>> Jockers, Underwood<<}.
+[^13]: For a good summary of genealogy of large-scale literary history under the label "distant reading" see {Underwood 2017}. The most often referenced founding works are {Moretti 2013} (collection of reprinted essays), {Jockers 2013}.
 
 [^11]: For an introduction to stylometry see {>>add references<<}
 
-## my methodology
-
-All stylometric analysis in this paper was done using the "stylo" package for R.[^15]
+There is some debate in stylometry as to which style-markers and distance measure should be considered for authorship attribution, but throughout this following sections of this paper I have settled on lists of Most Frequent Words (MFWs) and Burrow's Delta, which can be visualised as dendrograms.[^38] All stylometric analysis {--in this paper--} was done using the "stylo" package for R.[^15] Maciej Eder, inspired by phylogenetics, suggested to use *bootstrap consensus trees* and *consensus networks* in order to separate signal and noise and in order to overcome selection bias when picking from a range of dendrograms. In the latter method, one computes the nearest neighbour as well as the first two runners-up for a sequence of MFWs, let's say from 100 to 1000 MFWs in increments of 100, and then combine the results in a single output, which serves as a form of self-validation for the more robust signals.[^39] 
+<!-- minimum length of texts -->
+There has been some debate about the minimal required length for attribution. In order to experimentally establish a threshold length, Eder ran a series of stylometric analyses on medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek using Burrow's Delta on 200 MFWs. He found that 5000 words is the minimal length for meaningful attribution below which the signal is "immensely affected by random noise".[^40] Yet, contrary to common assumptions that longer text will lead to ever improving attribution results, Eder also established that beyond a length of 15000 words accuracy of authorship attribution does not improve any further.
 
 [^15]: {Eder 2016b}
+[^38]: {>>footnote on Burrow's Delta<<}
+[^39]: {Eder 2017}
+[^40]: {Eder 2015@170}
 
 ## first results 
 
