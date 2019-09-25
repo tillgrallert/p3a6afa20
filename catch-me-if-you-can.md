@@ -231,9 +231,13 @@ Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
     2. data from the authority files shows that all but one were born between the mid-1860s and the mid-1870s
 <<}
 
+The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s) and worked as journalists, teachers, and occasionally politicians. All of them, were highly mobile and well-travelled and had good command of local as well as foreign languages{>> to the extent that some of them published translations<<}.
+
 ![Figure: Word cloud of authors published in *al-Muqtabas*; by number of articles](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png)
 
 {>>al-Ḥaqāʾiq<<}
+
+The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents, among them Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. Against this backdrop the initially surprising finding of practically no overlap between the two networks of authors published in journals from the same city, becomes less so.
 
 | author.id                                                                   | author.name                                  | author.birth   | author.death   | works.viaf.count   | article.count   | word.count   |
 | --------------------------------------------------------------------------- | -------------------------------------------- | -------------- | -------------- | ------------------ | --------------- | ------------ |
