@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Till Grallert" />
   <meta name="dcterms.date" content="2018-09-11" />
-  <title>Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of ‘digitised’ Arabic periodicals from the Ottoman Empire</title>
+  <title>Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of 'digitised' Arabic periodicals from the Ottoman Empire</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -397,27 +397,32 @@
   }
   code.sourceCode {
       font-weight:normal;
+      color: black;
   }
   /* provide a readible font-size */
   .sourceCode * {
       font-size: 16px;
   }
   /* xml element names */
-  .xml > code > span.kw {
-  	color: #0F0F9C;
+  .xml > code span.kw {
+  	/*color: #0F0F9C;*/
+  	color: #000096;
   	font-weight: bold;
   }
   /* xml attribute names */
-  .xml > code > span.ot {
-  	color:#FF8041;
+  .xml > code span.ot {
+  	/*color:#FF8041;*/
+  	color: #FF9159;
   }
   /* xml attribute values */
-  .xml > code > span.st {
-  	color:#993300;
+  .xml > code span.st {
+  	/*color:#993300;*/
+  	color: #993300;
   }
   /* xml comments */
-  .xml > code > span.co {
-  	color:#167116;
+  .xml > code span.co {
+  	/*color:#167116;*/
+  	color: #2F8132;
   	font-style: italic;
   }
   /* xml computing instructions: not implemented in Pandoc syntax highlighting */
@@ -428,26 +433,32 @@
 </head>
 <body>
 <header>
-<h1 class="title">Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of ‘digitised’ Arabic periodicals from the Ottoman Empire</h1>
+<h1 class="title">Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of 'digitised' Arabic periodicals from the Ottoman Empire</h1>
 <p class="author">Till Grallert</p>
 <p class="date">2018-09-11</p>
 </header>
 <nav id="TOC">
 <ul>
 <li><a href="#sec-about">About</a></li>
-<li><a href="#sec-introduction">Introduction</a></li>
+<li><a href="#introduction">Introduction</a></li>
 <li><a href="#the-promised-land-of-digitised-arabic-periodicals">The promised land of <em>digitised</em> Arabic periodicals</a></li>
 <li><a href="#openarabicpe-attempts-at-catching-up">OpenArabicPE attempts at catching up</a></li>
 <li><a href="#network-of-authors-and-texts">Network of authors and texts</a><ul>
-<li><a href="#openarabicpes-corpus">OpenArabicPE’s corpus</a></li>
+<li><a href="#openarabicpes-corpus">OpenArabicPE's corpus</a></li>
 <li><a href="#analysis-of-metadata">analysis of metadata</a></li>
 <li><a href="#going-beyond-bibliographic-metadata">going beyond bibliographic metadata</a></li>
 </ul></li>
+<li><a href="#stylometry">Stylometry</a><ul>
+<li><a href="#my-methodology">my methodology</a></li>
+<li><a href="#first-results">first results</a></li>
+</ul></li>
+<li><a href="#geographic-distribution">Geographic distribution</a></li>
+<li><a href="#network-of-referenced-periodicals">Network of referenced periodicals</a></li>
 </ul>
 </nav>
 <!-- # processing instructions -->
 <!-- ## 1. HTML -->
-<!-- pandoc -F pandoc-crossref -s -S -f markdown -t html5 --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript catch-me-if-you-can.md -o index.html -->
+<!-- pandoc -F pandoc-crossref -s -f markdown-smart -t html5 --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript catch-me-if-you-can.md -o index.html -->
 <!-- ## 2. DOCX -->
 <!-- pandoc -F pandoc-crossref -s -S -f markdown -t docx catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
 <div id="sec-badges" class="c_badges">
@@ -456,178 +467,223 @@
 </div>
 <h1 id="sec-about">About</h1>
 <blockquote>
-<p>This is a draft paper to be presented at the Turkologentag 2018 in Bamberg, Germany, 19–21. September 2018.</p>
+<p>This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21. September 2018.</p>
 </blockquote>
 <blockquote>
 <p>The current stable draft of this paper is version <a href="https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html">v0.1</a> and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click <a href="https://via.hypothes.is/https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html">here</a>. The most recent changes are available <a href="https://tillgrallert.github.io/p3a6afa20/index.html">here</a>.</p>
 </blockquote>
-<h1 id="sec-introduction">Introduction</h1>
-<p>Early Arabic periodicals from the late nineteenth and early twentieth centuries, such as Butrus al-Bustānī’s <em>al-Jinān</em> (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs’ <em>al-Muqtaṭaf</em> (Beirut and Cairo, 1876–1952), Muhammad Kurd Ali’s <em>al-Muqtabas</em> (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā’s <em>al-Manār</em> (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic renaissance (<em>al-nahḍa</em>), Arab nationalism, and the Islamic reform movement. The better known and at the time widely popular journals—unlike their smaller rivals and more ephemeral newspaper copies—do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are distributed throughout libraries and institutions worldwide. This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.</p>
-<p>Digitisation promises an “easy” solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of <em>digitised</em> periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant.</p>
-<!-- potential questions to be computationally answered with big data -->
-<p>The public and many scholars expect to be able to put a computer to such diverse tasks as: Show me all instances of the word <em>waṭan</em> across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I. Or: Show me the discursive field of authors and their texts and its changes over time. Unfortunately, the eager student of <em>digitised</em> periodicals will immediately find tools, data and skills lacking.</p>
-<!-- some comments / summary of the following paper -->
-<p>This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals. It introduces the project <a href="https://openarabicpe.github.io">OpenArabicPE</a> as a framework to unite transcriptions of currently two early twentieth-century periodicals, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, from gray online platforms with digital facsimiles. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analysis on this corpus of some 130 periodical issues of more than 2.2 million words.</p>
-<!-- image of a pages -->
+<h1 id="introduction">Introduction</h1>
+<p>{&gt;&gt;research questions are still missing&lt;&lt;}</p>
+<p>This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals.</p>
+<p>{&gt;&gt;add comment on the need to build one's own corpus for working on texts in non-Western languages&lt;&lt;}</p>
+<p>It introduces the project <a href="https://openarabicpe.github.io">OpenArabicPE</a> as a framework to unite transcriptions of {<del>currently two~&gt;a small number of</del>} early twentieth-century periodicals{--, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>,--}{&gt;&gt;the corpus needs to be discussed at a later stage&lt;&lt;} from grey online platforms with digital facsimiles for the purpose of validating the former. After substantial modelling efforts, we are now able to generate and analyse bibliographic datasets as well as run first stylometric analyses on this corpus of some {==130 periodical issues of more than 2.2 million words==}{&gt;&gt;update with latest numbers&lt;&lt;}. This corpus is small if compared to the vast data sets available for the global north through <a href="https://chroniclingamerica.loc.gov/"><em>Chronicling America</em></a>, <a href="https://trove.nla.gov.au/"><em>Trove</em></a> Australia, the <a href="https://www.britishnewspaperarchive.co.uk/"><em>British Newspaper Archive</em></a> etc. {&gt;&gt;add projects&lt;&lt;}, which gave rise to numerous distant reading projects.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Although our approach can by no means be characterised as distant reading of big data, it is the first systematic attempt to empirically answer core questions for the nascent field of Arabic periodical studies,{--<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>--} which are in turn indispensable for a proper source critique if one wanted to employ these periodicals for the historiography of the late Ottoman Eastern Mediterranean. For the purpose of the present paper, we will focus our exploration on the question of authorship and references to other periodical titles and the resulting intellectual, social and geographic networks.</p>
+<p>The periodical press of the late Ottoman Eastern Mediterranean has received scholarly attention since the early twentieth century. Early Arabic periodicals from the late nineteenth and early twentieth centuries, such as Butrus al-Bustānī's <em>al-Jinān</em> (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' <em>al-Muqtaṭaf</em> (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī's <em>al-Muqtabas</em> (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's <em>al-Manār</em> (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic (cultural) renaissance (<em>al-nahḍa</em>), Arab nationalism, and the Islamic reform movement. However, scholarly approaches to these periodicals have been, for a long time, both encyclopaedic and anecdotal. Often compiled by authors who themselves were journalists, these works adhere to a specific political view of Arab nationalism.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> After the publication of some union catalogues and indexes,<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> focus shifted to the intellectual history of the <em>naḥda</em> and Arab nationalism from the 1970s onwards. The focus of this work was---and to a large extent still is---on opinion pieces and editorials in a small sample of canonical journals while the {--social, economic and intellectual --}historiography of the periodical press itself was relegated to the margins. Two noteworthy exceptions to this rule are Donald Cioeta's work on the history of <em>Thamarāt al-Funūn</em> and censorship in Ottoman Beirut<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> and Ami Ayalon's extensive writings on the press in the Arab Middle East.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> Detailed studies on longer---if not entire---periods of individual publications are still lacking beyond Cioeta's unpublished thesis and Dagmar Glaß' study on <em>al-Muqtaṭaf</em>.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
+<p>{&gt;&gt; add one sentence on core questions of authorship, readership, modes of production etc. being open. add comment on the geographic bias of Cairo and Beiurt and nothing beyond&lt;&lt;} {&gt;&gt;problem of access and basic information on holdings&lt;&lt;}</p>
+<p>The better known and at the time widely popular journals---unlike their smaller rivals and more ephemeral newspaper copies---do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are scattered across libraries and institutions worldwide. This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.</p>
+<p>A quick look at <em>al-Muqtabas</em>{--, one of the journals in the corpus at the basis of this paper--} shall {--suffice to--} illustrate this point. A search in <a href="https://www.worldcat.org">WorldCat</a> for the nine volumes of <em>al-Muqtabas</em> {--using a combination of Arabic and transcriptions into Latin script--} will return six different bibliographic entries, the first of which has 13 variants (called &quot;editions&quot; in the context of WorldCat), pointing to 34 libraries. If one follows each entry to the holding library's catalogue, one will find that the large majority of collections is incomplete and that collections commonly combine original volumes, reprints, microfilms, microfiches and even photo copies. {&gt;&gt;comment on the geographic distribution of collections&lt;&lt;}</p>
 <figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/facsimile_first-pages.png" alt="Figure: facsimiles of al-Muqtabas and al-Ḥaqāiq" /><figcaption>Figure: facsimiles of <em>al-Muqtabas</em> and <em>al-Ḥaqāiq</em></figcaption>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_4770057679-holdings-vol_1-9.png" alt="Figure: geographic distribution of library holdings of al-Muqtabas" /><figcaption>Figure: geographic distribution of library holdings of <em>al-Muqtabas</em></figcaption>
 </figure>
-<!-- word cloud -->
-<figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em></figcaption>
-</figure>
-<!-- map -->
-<figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /><figcaption>Figure: Locations in bylines in <em>al-Muqtabas</em></figcaption>
-</figure>
+<p>Digitisation promises an &quot;easy&quot; solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of <em>digitised</em> periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant. The public and many scholars expect to be able to put a computer to such diverse tasks as a keyword search: Show me all instances of the word <em>waṭan</em> (Arabic for &quot;homeland&quot;, &quot;nation&quot;) across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I. Or a social network analysis: Show me the discursive field of authors and their texts and its changes over time. These are important and---for a variety of reasons, some of which will be discussed in this article---still open questions. Unfortunately, the eager student of <em>digitised</em> Arabic periodicals will immediately find tools, data and skills lacking.</p>
 <h1 id="the-promised-land-of-digitised-arabic-periodicals">The promised land of <em>digitised</em> Arabic periodicals</h1>
 <!-- problem: there is no big data. on the difference between *digitised* and *digital* -->
-<p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> to gray online libraries<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <em>digitised</em> commonly means nothing more than the provision of digital facsimiles. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, include search functions, but these are extremely limited. The former, Google-powered, platform is obviously dysfunctional for Arabic text, but since the latter does not make the text layer accessible to scrutiny we will never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions—that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.</p>
+<p>The first question we encounter in our attempt to track the network of authors and texts is to which extent can we submit <em>digitised</em> periodicals to computational analysis, or rather, what is the meaning of <em>digitised</em> and <em>access</em>? The answer is, of course, very different from periodical corpora in Western languages. It is sobering and will put off but the most enthusiastic readers: from large corporate and institution-backed platforms<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> to grey online libraries<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> <em>digitised</em> commonly means nothing more than the provision of digital facsimiles in the context of Arabic and Ottoman periodicals. Some platforms, such as <a href="http://catalog.hathitrust.org/">Hathitrust</a> and <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, include search functions, but these are extremely limited. The former, Google-powered, platform is obviously dysfunctional for Arabic text if one has a look at the text layer. The latter makes grand claims of &quot;Newly-developed optical character recognition software (OCR) for early Arabic printed script&quot;<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> but does not make the text layer accessible to scrutiny. We will therefore never know the extent of false negatives (one can manually check for false positives by going through the search results). Beyond copyright, <em>access</em> to these <em>digitised facsimiles</em> is always restricted to viewing individual pages in web interfaces and limited by subscription fees and membership of specific academic institutions.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> To computationally answer the above questions, however, one would need unrestricted access to truly <em>digital</em> editions---that is, machine-readable editions of the full text with embedded structural and semantic information and in a standardised exchange format.<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></p>
 <!-- If the "data" is lacking, can we use (bibliographic) metadata? -->
-<p>Any sort of meaningful computational analysis of the global connections between authors, texts, and periodicals as a venue for publication and review requires access to reliable standardised bibliographic metadata as a bare minimum. Unfortunately, reliable metadata on the article level is practically non-existant and the situation is only marginally better on the issue level. Available metadata is not commonly provided in a standard-compliant and machine-actionable format. Even if we had perfectly reliable digital re-mediations of the bibliographic information found in the periodical issues themselves, the vast majority of articles would remain outside our analytical scopes, since publishers did not provide (meaningful) bylines—most articles in both journals and newspapers from Beirut, Cairo or Damascus did not credit their authors. One approach would be to subject all articles to stylometric analysis but this again presupposes truly <em>digital</em> editions.</p>
+<p>In the absence of <em>digital</em> editions, any meaningful computational analysis of the {--global--} connections between authors, texts, and periodicals as a venue for publication and review requires access to reliable standardised bibliographic metadata as a bare minimum. Unfortunately, even this data is practically non-existent{-- on the article level and the situation is only marginally better on the issue level--}. This is due to ambiguity and incorrect data found in the original artefact; to lacking familiarity with the particularities of these artefacts among cataloguers, librarians and scholars; and to a software stack ill-suited for anything but Western concepts of dates and names and Western scripts.</p>
+<p>{&gt;&gt;Add comment on faulty publication data as provided by the periodicals themselves; a) dates, b) names&lt;&lt;} Periodicals seem to provide no dating challenges since publication dates were conveniently recorded in a masthead. However, periodicals across the Arabic speaking late Ottoman Eastern Mediterranean made use of at least four calendars. Newspapers and journals provided dates in any combination of the Ottoman fiscal, or <em>mālī</em> calendar and the reformed Julian calendar as well as the better known Islamic <em>hijri</em> and Gregorian calendars. In addition to at least three different year counts, these calendars and their users also differed in their conception of the calendric day. Most retained the old notion of a day commencing at sundown, while others adopted <em>alla franca</em> time with 24 equinoctial hours and a date change at midnight.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> Unfortunately supplied dates from mastheads frequently neither matched each other nor the day of the week the paper was supposedly printed on. A particularly illuminating example in our corpus can be found in the masthead to issue 6 of the Damascene journal <em>al-Ḥaqāʾiq</em> that read &quot;First of the holy month of <em>Muḥarram</em> 1229 [<em>hijrī</em>], 3 <em>Kānūn Awwal</em> 1327 [<em>mālī</em>], and 20 December (<em>Kānūn Awwal</em>) of the year 1911 [Gregorian]&quot;.<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> This line contains at least four errors: First the <em>hijrī</em> date is set in the wrong century and should read 1329. Second, the days of the <em>mālī</em> and Gregorian dates got mixed up. The Gregorian calendar was thirteen days ahead of Julian calendars since the year 1900. The corrected <em>mālī</em> date should read 20 <em>Kānūn Awwal</em> instead of the third, but because the <em>mālī</em> years began in spring with the month of <em>mārt</em> (March), the year count should not have been incremented to 1327 with the beginning of the new <em>hijrī</em> year. Therefore the correct <em>mālī</em> date would have been &quot;20 <em>Kānūn Awwal</em> 1326&quot;. The Gregorian date, finally, is even wrong after fixing the mix-up of days with the <em>mālī</em> date. Instead of <em>Kānūn Awwal</em> (December) it should be <em>Kānūn Thānī</em> (January) and since December has 31 days, the correct Gregorian date should ultimately read &quot;2 (instead of the substituted 3 from the original, faulty, <em>mālī</em> date) January 1911&quot;. How should one record this bibliographic nightmare? And which date-calendar combination should be considered the authoritative one? What if recorded publication dates were fictional to simulate a regular publication cycle and should therefore be conceived of as issue numbers that have only limited relation to an actual date?<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></p>
+<p>{&gt;&gt;2) lack of knowledge among cataloguers&lt;&lt;} Any attempt to answer these questions relies on the affordances of available information systems, that is people and their skills, abstract concepts, and actual tools to record and retrieve these data points. But cataloguers, librarians and even specialists of the late Ottoman Eastern Mediterranean are frequently unfamiliar with calendric systems beyond the solar Gregorian and the Islamic lunar <em>hijrī</em> calendars. <em>Mālī</em> years are frequently misread as <em>hijrī</em> years, which introduces a margin of error of up to two years for the last decades before World War I.<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a> {&gt;&gt;3) short-comings of the software&lt;&lt;} Second, most software is unable to work with anything but Gregorian dates out of the box. Even if cataloguers were able to correctly establish the calendar used in a periodical's masthead, the computing infrastructure would not allow them to enter this date into the digital record.<a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a> Finally, even if bibliographic data is internally kept in structured {--and machine-actionable--} form, it is not commonly shared in a standard-compliant and machine-actionable format, such as MARC or MODS.<a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a> A good example for this state of affairs is the British Library's otherwise excellent Endangered Archives Programme (EAP), which digitised periodical holdings of the al-Aqsa Mosque's library in Jerusalem. If we look at the <a href="https://eap.bl.uk/archive-file/EAP119-1-4-3">fourth volume</a> of the journal <em>al-Muqtabas</em> available through EAP, we find that bibliographic information is solely provided in unstructured plain text either through the web interface or the IIIF API.<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a> {~~In addition, p<sub>&gt;P</sub>~}ublication dates are provided as Gregorian months even though the cover clearly states that <em>al-Muqtabas</em> follows the &quot;Arabic&quot;, i.e. Islamic <em>hijrī</em>, calendar and despite each issue reporting the publication date as <em>hijrī</em> month. Consequently, there is a dissonance between the facsimile and the bibliographic information. <em>al-Muqtabas</em> 4(1) recorded the month of <em>Muḥarram</em> 1327 aH in its masthead. Depending on the local observation of the moon in Damascus, the journal's place of publication, this month began around 27 January 1909. Should <em>al-Muqtabas</em> 4(1) therefore be considered the January issue? The cataloguers at EAP clearly thought so or their cataloguing software did not allow for date ranges.</p>
+<p>Even if we had perfectly reliable digital re-mediations of the bibliographic information found in the periodical issues themselves, the vast majority of articles would remain outside our analytical scopes, since publishers did not provide (meaningful) bylines---most articles in {--both--} journals and newspapers from Baghdad, Beirut, Cairo or Damascus did not credit their authors.{&gt;&gt;The illegality of this behaviour is mentioned below&lt;&lt;} One approach would be to subject all articles to stylometric analysis for authorship attribution (more on this below) but this again presupposes truly <em>digital</em> editions.</p>
 <!-- identify the areas to catch up with -->
-<p>Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. They are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.</p>
+<p>Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. These texts are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.</p>
 <!-- get the full text -->
-<p>Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> Despite promising developments with the application of machine-learning technologies to pattern recognition,<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a> automatic conversion of images of early Arabic periodicals is hampered by two factors: 1. all OCR technologies depend on a fairly large training set of “gold standard” transcriptions as ground truth; 2. low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality. Consequently these texts can currently only be reliably digitised by human transcription.{&gt;&gt;add footnote&lt;&lt;} Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.</p>
-<p>Gray online-libraries of Arabic literature, namely <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shamila</em> (<em>shamela.ws</em>)</a>, <a href="http://almeshkat.net/"><em>Mishkat</em></a>, <a href="http://saaid.net/"><em>Saydal-Fawa’id</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a>, provide access to a vast body of (mostly classical) Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. These gray “editions” lack information linking the digital representation to material originals, namely bibliographic metadata and page breaks, which makes them almost impossible to employ for scholarly research.</p>
-<p>Since we do not have the resources to proof and correct these texts, we had the idea to unite transcriptions from gray online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus “Open Arabic Periodical Editions” (OpenArabicPE) was born in autumn 2015.</p>
+<p>Optical character recognition (OCR), the technology to convert an image into a text, has come a long way and even hand-written text recognition (HTR) is fairly successful at least for Latin script.<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a> Automatic recognition of Arabic script, however, is severely lacking behind for a variety of reasons beyond the scope of this paper.<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> Despite promising developments with the application of machine-learning technologies to pattern recognition,<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a> automatic conversion of images of early Arabic periodicals is hampered by three factors: first, all OCR technologies depend on {--fairly large--} training sets of &quot;gold standard&quot; transcriptions as ground truth; second, low-quality fonts, inks, and paper employed at the turn of the twentieth century will inevitably result in poor print quality; and third, text recognition depends on layout recognition and multi-column texts with various intersections of boilerplate, ads, etc. pose serious challenges. Consequently these texts can currently only be reliably digitised by human transcription.<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a> Funds for transcribing the tens to hundreds of thousands of pages of an average mundane periodical are simply not available, despite of their cultural significance and unlike for valuable manuscripts and high-brow literature.</p>
+<p>Grey online-libraries of Arabic literature, namely <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shamila</em> (<em>shamela.ws</em>)</a>, <a href="http://almeshkat.net/"><em>Mishkat</em></a>, <a href="http://saaid.net/"><em>Saydal-Fawa'id</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a>, provide access to a vast body of (mostly classical) Arabic texts including transcriptions of unknown provenance, editorial principals, and quality for some of the mentioned periodicals. These grey &quot;editions&quot; lack information linking the digital representation to material originals, namely bibliographic metadata and page breaks, which makes them almost impossible to employ for scholarly research.</p>
+<p>Since we do not have the resources to proof and correct these texts, we had the idea to build our own corpus by uniting transcriptions from grey online libraries with the digital facsimiles from other sources as a means to verify the quality of the digital text. Thus &quot;Open Arabic Periodical Editions&quot; (OpenArabicPE) was born in autumn 2015.</p>
 <h1 id="openarabicpe-attempts-at-catching-up">OpenArabicPE attempts at catching up</h1>
-<!-- this needs to be expanded upon -->
-<p><a href="https://github.com/openarabicpe">OpenArabicPE</a> establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as <em>accessibilty</em>, <em>sustainability</em>, <em>credibility</em>. Starting with the mostly Damascene periodicals <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems—including the absence of expensive infrastructure—through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.</p>
-<figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png" alt="Figure: Project scheme" /><figcaption>Figure: Project scheme</figcaption>
-</figure>
-<p>Within OpenArabicPE we devise workflows and tools to transform digital texts from <a href="http://www.shamela.ws/"><em>shamela.ws</em></a> into an open, standardised file format (XML) following the <a href="https://www.tei-c.org">Text Encoding Initiative (TEI)</a>’s guidelines,<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a> to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely <a href="http://eap.bl.uk/">EAP</a>, <a href="http://catalog.hathitrust.org/">HathiTrust</a>, and [archive.sakhrit.co][]. The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were {–commonly–} ignored by <em>shamela.ws</em>’s anonymous transcribers.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> This point needs to be emphasised: every one of the c.8500 pages breaks needs to manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers. So far Dimitar Dragnev, Talha Güzel, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.</p>
-<figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png" alt="Figure: Web view of al-Muqtabas 6/2" /><figcaption>Figure: Web view of <a href="https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/oclc_4770057679-i_61.TEIP5.xml">al-Muqtabas 6/2</a></figcaption>
-</figure>
-<p>The editions (TEI, markdown, and a web-display) are hosted as a GitHub repository with open licenses for reading, contribution, and re-use.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> {&gt;&gt;mention collaboration with Leipzig and the integration of Muqtabas into CLARIN&lt;&lt;} As part of the editions we also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems or individual scholars’ reference managing software. In order to improve access to individual articles and allow for a search of bibliographic metadata we feed this data into a <a href="https://www.zotero.org/groups/openarabicpe">public Zotero group</a>.</p>
-<p>With OpenArabicPE we argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or gray transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub’s core functionality. Such an approach as proposed by Christian Wittern {2013} has recently seen a number of concurrent practical implementations such as project <a href="https://gitenberg.github.io/">GITenberg</a> led by Seth Woodworth, Jonathan Reeve’s <a href="https://github.com/Git-Lit/git-lit">Git-lit</a>, and others.</p>
-<p>For the future we plan to produce the necessary ground truth to train OCR technologies from some hundred pages of either journal.</p>
-<p>{&gt;&gt;Some paragraphs on the importance of the two journals&lt;&lt;}</p>
-<!-- corpus -->
-<!-- full editions -->
-<!-- some information on al-Muqtabas -->
-<!-- some information on al-Ḥaqāʾiq -->
-<!-- bibliographic metadata -->
+<p><a href="https://openarabicpe.github.io">OpenArabicPE</a> establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as <em>accessibility</em>, <em>sustainability</em>, <em>credibility</em>. Starting with the mostly Damascene periodicals <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.</p>
+<p>{--<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png" alt="Figure: Project scheme" />--}</p>
+<p>Within OpenArabicPE we devise workflows and tools to transform digital texts from <a href="http://www.shamela.ws/"><em>shamela.ws</em></a> into an open, standardised file format (XML) following the <a href="https://www.tei-c.org">Text Encoding Initiative (TEI)</a>'s guidelines,<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a> to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely <a href="http://eap.bl.uk/">EAP</a>, <a href="http://catalog.hathitrust.org/">HathiTrust</a>, and <a href="http://archive.sakhrit.co">archive.sakhrit.co</a>.<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a> The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were commonly ignored by <em>shamela.ws</em>'s anonymous transcribers. This point needs to be emphasised: each of the c.8500 pages breaks in <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> needed to be manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a> So far Dimitar Dragnev, Talha Güzel, Dilan Hatun, Hans Magne Jaatun, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Tobias Sick, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.</p>
+<p>{--<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png" alt="Figure: Web view of al-Muqtabas 6/2" />--}</p>
+<p>All tools and the editions are hosted on the code-sharing platform <a href="https://www.github.com">GitHub</a> under MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> licenses for reading, contribution, and re-use.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a> {&gt;&gt;mention collaboration with Leipzig and the integration of Muqtabas into CLARIN&lt;&lt;} As part of the editions we provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems{-- or individual scholars' reference managing software--}.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></p>
+<p>With OpenArabicPE we argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or grey transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Improvements of the transcription and mark-up can be crowd-sourced with clear attribution of authorship and version control using .git and GitHub's core functionality. Such an approach as proposed by Christian Wittern<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a> has recently seen a number of concurrent practical implementations such as project <a href="https://gitenberg.github.io/">GITenberg</a> led by Seth Woodworth, Jonathan Reeve's <a href="https://github.com/Git-Lit/git-lit">Git-lit</a>, and others.</p>
 <h1 id="network-of-authors-and-texts">Network of authors and texts</h1>
-<p>With major work on modelling both <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> done, we can now begin to submit this corpus to initial analyses of the networks of authors and their texts as well as the material read and reviewed in Damascus.</p>
-<h2 id="openarabicpes-corpus">OpenArabicPE’s corpus</h2>
-<p>The corpus comprises TEI files for each issue of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> The edition of <em>al-Muqtabas</em> gathers all 96 issues published between 1906 and 1917/18 with a total of some 7.000 pages and almost 2 million words. {&gt;&gt;comment on publication dates&lt;&lt;} Issues consist of longer independent articles and sections with shorter articles such as brief reports on new discoveries and book announcements. Issues and pages differed widely in length. On average, each issue contained 65 pages with almost 300 words or 20354 word per issue.</p>
+<p>With major work on modelling on three journals from Baghdad, Cairo and Damascus---<em>Lughat al-ʿArab</em>, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>---done, we can now begin to submit this corpus to initial analyses of the social and geographic networks of authors and their texts as well as the network of periodicals referenced and cited in these three journals.</p>
+<h2 id="openarabicpes-corpus">OpenArabicPE's corpus</h2>
+<p>The corpus comprises {--TEI files for--} each issue of <em>Lughat al-ʿArab</em>, <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> until the end of World War I. {&gt;&gt;total of 166 issues&lt;&lt;}</p>
+<p>{&gt;&gt;<em>al-Muqtabas</em>&lt;&lt;} {--Muḥammad Kurd ʿAlī published 96 issues of his monthly journal <em>al-Muqtabas</em> (The Digest / Acquired Learning) between 1906 and 1917/18.--} Muḥammad Kurd ʿAlī (1876–1953) was the best known and, after the Young Turk Revolution of 1908, the most influential journalist and intellectual in Damascus. Before establishing his own journal <em>al-Muqtabas</em> (The Digest) in Cairo in 1906 and the first daily newspaper to be published in Damascus in 1908 (also confusingly called <em>al-Muqtabas</em>), he had held minor government offices and worked at various public and private presses and periodicals in Damascus and Cairo. He was well-acquainted with leading figures of the Islamic reform movement in Egypt and Greater Syria.{--, like Ṭāhir al-Jazāʾirī, Rashīd Riḍā and Muḥammad ʿAbduh.--} He was a member in Ṭāhir al-Jazāʾirī's &quot;senior circle&quot; in the early 1890s in Damascus and later moved and worked in Rashīd Riḍā's and Muḥammad ʿAbduh's circles in Cairo. After the Young Turk Revolution, Kurd ʿAlī returned to his hometown and the publication of <em>al-Muqtabas</em> moved from Cairo to Damascus in the journal's third year. In Damascus, <em>al-Muqtabas</em> soon became &quot;the boldest, most coherent, consistent and committed proponent of reform and modernity [...] prior to World War I&quot;.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a> Due to conflicts with the authorities over the reprint of a poem, Kurd ʿAlī again fled Damascus for Cairo and Europe in 1912. Consequently, <em>al-Muqtabas</em> was published from Cairo for a couple of months before Kurd ʿAlī was allowed to return once again. During World War I and Cemal Pasha's infamous term as commander-in-chief of the 4th Army and governor general of Syria, Kurd ʿAlī was able to win his support. He thus escaped the fate of Shukrī al-ʿAsalī{&gt;&gt; his co-editor at <em>al-Muqtabas</em>&lt;&lt;}, ʿAbd al-Ghanī al-ʿUraysī and other journalists from Beirut and Damascus, who were publicly executed on charges of treason. Similarly to their editor, the journal and the newspaper <em>al-Muqtabas</em> survived and continued publication until the final days of the war---albeit in shorter and less frequent editions due to material shortages. After the end of the war and the disintegration of the Ottoman Empire, Kurd ʿAlī abandoned the monthly and left the editorship of the revived daily newspaper <em>al-Muqtabas</em> to his brother Aḥmad. He founded the Arab Scientific Academy whose president he became in 1919 and served twice as Minister of Education (1920–22, 1928–32) during the French Mandate over Syria.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></p>
+<p>The edition of <em>al-Muqtabas</em> gathers all 96 issues published between 1906 and 1917/18 with a total of some 7.000 pages and almost 2 million words. {&gt;&gt;comment on print runs&lt;&lt;} Issues consist of longer independent articles and sections with shorter articles such as brief reports on new discoveries and book announcements. Issues and pages differed widely in length. On average, each issue contained 65 pages with almost 300 words or 20354 word per issue.</p>
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png" alt="Figure: Words per page and page counts for al-Muqtabas" /><figcaption>Figure: Words per page and page counts for <em>al-Muqtabas</em></figcaption>
 </figure>
-<!-- statistics on our editions -->
-<p>The edition of <em>al-Ḥaqāʾiq</em> comprises all 36 issues, grouped into three volumes and published by ʿAbd al-Qādir al-Iskandarānī in Damascus between 1910 and 1913. {&gt;&gt;comment on publication dates&lt;&lt;} Pages contain much less text and issues are much shorter than <em>al-Muqtabas</em> with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of <em>al-Muqtabas</em>.</p>
+<p>{&gt;&gt;<em>al-Ḥaqāʾiq</em>&lt;&lt;} Much less is known about the second Damascene journal in our corpus. ʿAbd al-Qādir al-Iskandarānī (1875--1943) published three volumes with a total of 36 issues of <em>al-Ḥaqāʾiq</em> (The Facts) in Damascus between 1910 and 1913. {&gt;&gt;Add: periodical of the conservative establishment, already apparent from the layout, content. Main opponent is al-Muqtabas&lt;&lt;} Unlike <em>al-Muqtabas</em> <em>al-Ḥaqāʾiq</em> was a periodical of the conservative Muslim establishment. This becomes clear from the content of <em>al-Haqāʾiq</em> with its focus on Islamic topics, its constant critique of &quot;liberal&quot; and &quot;Westernised&quot; journals, such as <em>al-Muqtabas</em>, and its makers' apparent lack of familiarity with the by then established layout conventions of Arabic journals. Unlike Kurd ʿAlī, al-Iskandarānī did not claim a single byline in &quot;his&quot; journal.</p>
+<p>Pages contain much less text and issues are much shorter than <em>al-Muqtabas</em> with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8577 words per issue compared to the 20354 words of <em>al-Muqtabas</em>.</p>
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png" alt="Figure: Words per page and page counts for al-Ḥaqāʾiq" /><figcaption>Figure: Words per page and page counts for <em>al-Ḥaqāʾiq</em></figcaption>
 </figure>
+<p>{&gt;&gt;<em>Lughat al-ʿArab</em>&lt;&lt;}</p>
 <!-- state of the data -->
-<p>The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as “Rashīd Riḍā” and “Owner of al-Manār”. In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{&gt;&gt;Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script&lt;&lt;}</p>
+<p>The quality and significance of the analysis is directly dependent on the quality of the information provided by the periodicals themselves and of our mark-up in the TEI source files. All relevant personal and place names in bylines and other source information must be marked up and linked to local and external authority files. References to authority files allow for the necessary disambiguation and grouping of entities that might be referenced by multiple names in our periodicals, such as &quot;Rashīd Riḍā&quot; and &quot;Owner of al-Manār&quot;. In addition, by linking references to external authority files and the semantic web, we can harvest additional information on authors and locations, namely the geolocation for toponyms, transcriptions into Latin script necessary for working with most visualisation tools, and life dates for persons in order to establish the age of authors upon publication.{&gt;&gt;Comment on the issue of many visualisation tools, such as R and Gephi for macOS, not working with Arabic script&lt;&lt;}</p>
 <h2 id="analysis-of-metadata">analysis of metadata</h2>
-<p>Before looking at this aggregated information is is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis. <em>al-Muqtabas</em> printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at <em>al-Ḥaqāʾiq</em>: Only one fifth (76) of the 360 articles provide explicit author information. {&gt;&gt;add information on the number of words, which is more meaningful than the number of articles&lt;&lt;} We can currently identify only a maximum of 128 named authors for <em>al-Muqtabas</em> and less than 60 for <em>al-Haqāʾiq</em> [See word clouds below].<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> Quite a significant number appear only with their initials, particularly in <em>al-Ḥaqāʾiq</em> and all of them were men. Only 50 authors published more than one article in <em>al-Muqtabas</em>. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātsunā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {&gt;&gt;add comments on genre of texts by these authors&lt;&lt;}</p>
+<p>It is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. <em>al-Muqtabas</em> printed a total of 2737 articles, 2020 of which were shorter articles in sections. Of the 717 independent articles, about two fifths (284) explicitly mentioned an author. Another 39 shorter articles carry bylines. The situation is similar at <em>al-Ḥaqāʾiq</em>: Only one fifth (76) of the 360 articles provide explicit author information. {&gt;&gt;add information on the number of words, which is more meaningful than the number of articles&lt;&lt;} We can currently identify only a maximum of 128 named authors for <em>al-Muqtabas</em> and less than 60 for <em>al-Haqāʾiq</em> [See word clouds below].<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> Quite a significant number appear only with their initials, particularly in <em>al-Ḥaqāʾiq</em> and all of them were men. Only 50 authors published more than one article in <em>al-Muqtabas</em>. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātisnā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Jamāl al-Dīn al-Qāsimī (8). {&gt;&gt;add comments on genre of texts by these authors&lt;&lt;}</p>
 <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. -->
 <!-- Muqtabas: authors by byline -->
 <table>
-<caption>authors in <em>al-Muqtabas</em> sorted by number of bylines.</caption>
+<caption>The fifteen most prolific authors in <em>al-Muqtabas</em> by number of bylines.</caption>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 20%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 6%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>rank</th>
 <th>author.id</th>
 <th>author.name</th>
 <th>author.birth</th>
-<th>articles</th>
+<th>author.death</th>
+<th>works.viaf.count</th>
+<th>article.count</th>
 <th>word.count</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td><a href="https://viaf.org/viaf/14924300/">viaf:14924300</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Maarouf_Al_Rasafi">معروف الرصافي</a></td>
-<td>1875</td>
+<td><a href="https://viaf.org/viaf/14924300">viaf:14924300</a></td>
+<td>معروف الرصافي</td>
+<td>1875-01-01</td>
+<td>1945-01-01</td>
+<td>36</td>
 <td>24</td>
-<td>12437</td>
+<td>12438</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td><a href="https://viaf.org/viaf/40250618/">viaf:40250618</a></td>
-<td><a href="https://ar.wikipedia.org/wiki/عيسى_إسكندر_المعلوف">عيسى أفندي اسكندر المعلوف</a></td>
-<td>1869</td>
+<td><a href="https://viaf.org/viaf/40250618">viaf:40250618</a></td>
+<td>عيسى أفندي اسكندر المعلوف</td>
+<td>1869-04-11</td>
+<td>1956-07-02</td>
+<td>26</td>
 <td>20</td>
 <td>23297</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td><a href="https://viaf.org/viaf/39370998/">viaf:39370998</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Anastas_Al-Karmali">ساتسنا (بطرس بن جبرائيل عواد)</a></td>
-<td>1866</td>
+<td><a href="https://viaf.org/viaf/39370998">viaf:39370998</a></td>
+<td>ساتسنا</td>
+<td>1866-08-05</td>
+<td>1947-01-07</td>
+<td>55</td>
 <td>14</td>
-<td>19849</td>
+<td>19844</td>
 </tr>
 <tr class="even">
-<td>4</td>
 <td></td>
 <td>يوسف جرجس زخم</td>
 <td></td>
-<td>13</td>
-<td>21613</td>
+<td></td>
+<td></td>
+<td>12</td>
+<td>19638</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td><a href="https://viaf.org/viaf/93607460/">viaf:93607460</a></td>
-<td><a href="https://ar.wikipedia.org/wiki/جمال_الدين_القاسمي">جمال الدين القاسمي</a></td>
-<td>1866</td>
+<td><a href="https://viaf.org/viaf/93607460">viaf:93607460</a></td>
+<td>جمال الدين القاسمي</td>
+<td>1866-10-01</td>
+<td>1914-04-18</td>
+<td>67</td>
 <td>8</td>
-<td>38541</td>
+<td>38531</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td><a href="https://viaf.org/viaf/118432135/">viaf:118432135</a></td>
-<td><a href="https://ar.wikipedia.org/wiki/عبد_القادر_المغربي">عبد القادر أفندي المغربي</a></td>
+<td></td>
+<td>إبراهيم حلمي العمر</td>
+<td></td>
+<td></td>
+<td></td>
+<td>8</td>
+<td>20117</td>
+</tr>
+<tr class="odd">
+<td><a href="https://viaf.org/viaf/32272677">viaf:32272677</a></td>
+<td>Muḥammad Kurd ʿAlī</td>
+<td>1876-01-01</td>
+<td>1953-01-01</td>
+<td>58</td>
+<td>7</td>
+<td>42488</td>
+</tr>
+<tr class="even">
+<td><a href="https://viaf.org/viaf/49218655">viaf:49218655</a></td>
+<td>أحمد بك زكي</td>
+<td>1866-05-26</td>
+<td>1934-07-06</td>
+<td>62</td>
+<td>7</td>
+<td>40311</td>
+</tr>
+<tr class="odd">
+<td><a href="https://viaf.org/viaf/22006374">viaf:22006374</a></td>
+<td>محمد رضا الشبيبي</td>
+<td>1889-01-01</td>
+<td>1965-01-01</td>
+<td>13</td>
+<td>7</td>
+<td>17870</td>
+</tr>
+<tr class="even">
+<td><a href="https://viaf.org/viaf/118432135">viaf:118432135</a></td>
+<td>عبد القادر أفندي المغربي</td>
 <td>1867</td>
+<td>1956-06-07</td>
+<td>12</td>
 <td>7</td>
 <td>14074</td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td><a href="https://viaf.org/viaf/19737865/">viaf:19737865</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ahmed_Taymour">أحمد بك تيمور</a></td>
-<td>1871</td>
-<td>7</td>
-<td>7905</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td><a href="https://viaf.org/viaf/22006374/">viaf:22006374</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Mohammed_Ridha_Al-Shabibi">محمد رضا الشبيبي</a></td>
-<td>1889</td>
-<td>7</td>
-<td>17894</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td><a href="https://viaf.org/viaf/28125663/">viaf:28125663</a></td>
-<td><a href="https://ar.wikipedia.org/wiki/رفيق_العظم">رفيق بك العظم</a></td>
-<td>1865</td>
+<td><a href="https://viaf.org/viaf/28125663">viaf:28125663</a></td>
+<td>رفيق بك العظم</td>
+<td>1865-01-01</td>
+<td>1925-06-30</td>
+<td>21</td>
 <td>7</td>
 <td>13237</td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td><a href="https://viaf.org/viaf/32272677/">viaf:32272677</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Muhammad_Kurd_Ali">محمد كرد علي</a></td>
-<td>1876</td>
+<td><a href="https://viaf.org/viaf/19737865">viaf:19737865</a></td>
+<td>أحمد بك تيمور</td>
+<td>1871-11-06</td>
+<td>1930</td>
+<td>63</td>
 <td>7</td>
-<td>42489</td>
+<td>7899</td>
 </tr>
 <tr class="odd">
-<td>11</td>
-<td><a href="https://viaf.org/viaf/49218655/">viaf:49218655</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ahmad_Zaki_Pasha">أحمد بك زكي</a></td>
-<td>1866</td>
-<td>7</td>
-<td>40311</td>
+<td><a href="https://viaf.org/viaf/305214884">viaf:305214884</a></td>
+<td>جرجي حداد</td>
+<td></td>
+<td></td>
+<td>0</td>
+<td>5</td>
+<td>24124</td>
+</tr>
+<tr class="even">
+<td><a href="https://viaf.org/viaf/299037057">viaf:299037057</a></td>
+<td>عبد الله أفندي مخلص</td>
+<td>1878</td>
+<td>1947</td>
+<td>10</td>
+<td>5</td>
+<td>13494</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>خليل سعد</td>
+<td></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td>5932</td>
 </tr>
 </tbody>
 </table>
@@ -636,74 +692,163 @@
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of articles" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of articles</figcaption>
 </figure>
 <p>{&gt;&gt;al-Ḥaqāʾiq&lt;&lt;}</p>
-<table>
-<caption>authors in <em>al-Ḥaqāʾiq</em> sorted by number of bylines</caption>
+<table style="width:100%;">
+<caption>The fifteen most prolific authors in <em>al-Ḥaqāʾiq</em> by number of bylines</caption>
+<colgroup>
+<col style="width: 39%" />
+<col style="width: 22%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 6%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>rank</th>
 <th>author.id</th>
 <th>author.name</th>
 <th>author.birth</th>
-<th>articles</th>
+<th>author.death</th>
+<th>works.viaf.count</th>
+<th>article.count</th>
 <th>word.count</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td><a href="https://viaf.org/viaf/299025643/">viaf:299025643</a></td>
-<td>محمد عارف المنير الحسيني</td>
-<td>1847/48</td>
-<td>4</td>
-<td>3134</td>
+<td></td>
+<td>إبراهيم خليل مردم بك</td>
+<td></td>
+<td></td>
+<td></td>
+<td>6</td>
+<td>4702</td>
 </tr>
 <tr class="even">
+<td><a href="https://viaf.org/viaf/53094077">viaf:53094077</a></td>
+<td>محمد فريد أفندي وجدي</td>
+<td>1875</td>
+<td>1954</td>
+<td>54</td>
+<td>5</td>
+<td>8344</td>
+</tr>
+<tr class="odd">
+<td><a href="https://viaf.org/viaf/299025643">viaf:299025643</a></td>
+<td>محمد عارف المنير الحسيني</td>
+<td>1847/48</td>
+<td></td>
 <td>2</td>
+<td>5</td>
+<td>3151</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>عبد الرحمن القصار</td>
+<td></td>
+<td></td>
+<td></td>
+<td>5</td>
+<td>1429</td>
+</tr>
+<tr class="odd">
+<td><a href="https://viaf.org/viaf/58892856">viaf:58892856</a></td>
+<td>الشيخ صالح أفندي الشريف</td>
+<td>1869</td>
+<td>1920</td>
+<td>8</td>
+<td>4</td>
+<td>5000</td>
+</tr>
+<tr class="even">
+<td><a href="https://viaf.org/viaf/267054449">viaf:267054449</a></td>
+<td>مختار المؤيد</td>
+<td>1822</td>
+<td>1921</td>
+<td>2</td>
+<td>4</td>
+<td>949</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>أبو الضيا</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td>5097</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>أحمد الباشا</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td>4274</td>
+</tr>
+<tr class="odd">
 <td></td>
 <td>ع</td>
+<td></td>
+<td></td>
 <td></td>
 <td>3</td>
 <td>2833</td>
 </tr>
-<tr class="odd">
-<td>3</td>
-<td></td>
-<td>عبد الرحمن القصار</td>
-<td></td>
-<td>3</td>
-<td>628</td>
-</tr>
 <tr class="even">
-<td>4</td>
-<td><a href="https://viaf.org/viaf/267054449/">viaf:267054449</a></td>
-<td>مختار المؤيد</td>
-<td>1822</td>
+<td></td>
+<td>صلاح الدين الزعيم</td>
+<td></td>
+<td></td>
+<td></td>
 <td>3</td>
-<td>820</td>
+<td>2448</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td><a href="https://viaf.org/viaf/17087051/">viaf:17087051</a></td>
-<td>محمد أبو الخير الطباع</td>
-<td></td>
-<td>2</td>
-<td>2887</td>
-</tr>
-<tr class="even">
-<td>6</td>
 <td></td>
 <td>محمد القاسمي الحلاق</td>
+<td></td>
+<td></td>
 <td></td>
 <td>2</td>
 <td>3619</td>
 </tr>
-<tr class="odd">
-<td>7</td>
+<tr class="even">
+<td><a href="https://viaf.org/viaf/17087051">viaf:17087051</a></td>
+<td>محمد أبو الخير الطباع</td>
 <td></td>
-<td>محي الدين الخاني</td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>2881</td>
+</tr>
+<tr class="odd">
+<td><a href="https://viaf.org/viaf/63117968">viaf:63117968</a></td>
+<td>محمد راغب طباخ</td>
+<td>1877</td>
+<td>1951</td>
+<td>10</td>
+<td>2</td>
+<td>1445</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>عبد المجيد القصاب</td>
+<td></td>
+<td></td>
 <td></td>
 <td>2</td>
-<td>74</td>
+<td>1405</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>أحمد الجوبري</td>
+<td></td>
+<td></td>
+<td></td>
+<td>2</td>
+<td>1113</td>
 </tr>
 </tbody>
 </table>
@@ -785,7 +930,7 @@
 <td>7</td>
 </tr>
 <tr class="odd">
-<td>…</td>
+<td>...</td>
 <td></td>
 <td></td>
 <td></td>
@@ -801,11 +946,16 @@
 <figure>
 <img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-words.png" alt="Figure: Word cloud of authors published in al-Muqtabas; by number of words" /><figcaption>Figure: Word cloud of authors published in <em>al-Muqtabas</em>; by number of words</figcaption>
 </figure>
-<p><em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article. This also means that any analysis of bibliographic information is based on only a small sample of either periodical.</p>
-<p>What are the consequences of such a severe lack of information and are there means of filling the gap? The obvious approach to follow would be to submit the full text of every article to stylometric analysis, which is a statistical approach to compute stylistic similarities and dissimilarities between texts.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis. The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.</p>
-<p>Our initial submission of a corpus of all articles published by <em>al-Muqtabas</em> to stylometric analysis using a comparison of the 1000 most-frequent words (MFWS) and without any preprocessing of the Arabic—such as morphologising or lemmatizing—show mixed results. Whereas a comparison of articles known to have been authored by Jamāl al-Dīn al-Qasimī shows a high degree of similarity with other articles written by him and therefore seemingly confirms the correct working of the algorithms, this is not the case for either Maʿrūf al-Ruṣāfī or ʿĪsā Iskandar al-Maʿlūf. This is puzzling as the degree of likeliness for the top-most stylistically similar articles by al-Maʿlūf, expressed by the weight in the tables below, is in the same range as for those by al-Qāsimī.</p>
+<p><em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em>, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article.{&gt;&gt;add footnote with comment and reference to sources&lt;&lt;} This also means that any analysis of bibliographic information is based on only a small sample of either periodical.</p>
+<h1 id="stylometry">Stylometry</h1>
+<p>What are the consequences of such a severe lack of information and are there means of filling the gap? One obvious approach to follow would be to submit the entire corpus to stylometric analysis. Stylometry is one of the methods frequently referred to as <em>distant reading</em>.<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a> It can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby &quot;style&quot; commonly means a frequency count of vocabulary used in a given text.<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a> Stylometry is based on the empirical observation &quot;that authors tend to write in relatively consistent, recognizable and unique ways&quot;<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a> which is particularly true for an author's vocabulary. Stylometry then computes degrees of similarity between texts, called distance measure, through {--various methods of --}comparing multivariant frequency lists of textual features.</p>
+<p>{==This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.==}{&gt;&gt;It definitely is and this needs to be done here&lt;&lt;} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.</p>
+<h2 id="my-methodology">my methodology</h2>
+<p>All stylometric analysis in this paper was done using the &quot;stylo&quot; package for R.<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a></p>
+<h2 id="first-results">first results</h2>
+<p>Our initial submission of a corpus of all articles published by <em>al-Muqtabas</em> to stylometric analysis using a comparison of the 1000 most-frequent words (MFWS) and without any preprocessing of the Arabic---such as morphologising or lemmatizing---show mixed results. Whereas a comparison of articles known to have been authored by Jamāl al-Dīn al-Qasimī shows a high degree of similarity with other articles written by him and therefore seemingly confirms the correct working of the algorithms, this is not the case for either Maʿrūf al-Ruṣāfī or ʿĪsā Iskandar al-Maʿlūf. This is puzzling as the degree of likeliness for the top-most stylistically similar articles by al-Maʿlūf, expressed by the weight in the tables below, is in the same range as for those by al-Qāsimī.</p>
 <table>
-<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī</caption>
+<caption>Selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Jamāl al-Dīn al-Qāsimī</caption>
 <colgroup>
 <col style="width: 40%" />
 <col style="width: 40%" />
@@ -944,7 +1094,7 @@
 </tbody>
 </table>
 <table>
-<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī</caption>
+<caption>Selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by Maʿrūf al-Ruṣāfī</caption>
 <colgroup>
 <col style="width: 42%" />
 <col style="width: 38%" />
@@ -1083,7 +1233,7 @@
 </tbody>
 </table>
 <table>
-<caption>selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf</caption>
+<caption>Selection of results from the stylometric analysis of all articles published in <em>al-Muqtabas</em> based on 1000 MFWs where the source was authored by ʿĪsā Iskandar al-Maʿlūf</caption>
 <colgroup>
 <col style="width: 41%" />
 <col style="width: 40%" />
@@ -1203,30 +1353,68 @@
 </tr>
 </tbody>
 </table>
-<p>Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical’s editor. In the case of <em>al-Muqtabas</em>, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the <em>network</em> of authors, texts, and locations, this would be an utterly pointless endeavour.</p>
+<h1 id="geographic-distribution">Geographic distribution</h1>
+<p>Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical's editor. In the case of <em>al-Muqtabas</em>, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the <em>network</em> of authors, texts, and locations, this would be an utterly pointless endeavour.</p>
 <p>If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:</p>
 <figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_muqtabas-bylines-me.png" alt="Figure: Locations in bylines in al-Muqtabas" /><figcaption>Figure: Locations in bylines in <em>al-Muqtabas</em></figcaption>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_4770057679-bylines-middle-east.png" alt="Figure: Locations in bylines in al-Muqtabas (Cairo and Damascus)" /><figcaption>Figure: Locations in bylines in <em>al-Muqtabas</em> (Cairo and Damascus)</figcaption>
 </figure>
 <figure>
-<img src="https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/maps/map_haqaiq-bylines-all.png" alt="Figure: Locations in bylines in al-Ḥaqāʾiq" /><figcaption>Figure: Locations in bylines in <em>al-Ḥaqāʾiq</em></figcaption>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_644997575-bylines-middle-east.png" alt="Figure: Locations in bylines in al-Ḥaqāʾiq (Damascus)" /><figcaption>Figure: Locations in bylines in <em>al-Ḥaqāʾiq</em> (Damascus)</figcaption>
+</figure>
+<figure>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_792756327-bylines-middle-east.png" alt="Figure: Locations in bylines in al-Ḥasnāʾ (Beirut)" /><figcaption>Figure: Locations in bylines in <em>al-Ḥasnāʾ</em> (Beirut)</figcaption>
+</figure>
+<figure>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_472450345-bylines-middle-east.png" alt="Figure: Locations in bylines in Lughat al-ʿArab (Baghdad)" /><figcaption>Figure: Locations in bylines in <em>Lughat al-ʿArab</em> (Baghdad)</figcaption>
 </figure>
 <p>{&gt;&gt;missing comment on maps&lt;&lt;}</p>
+<h1 id="network-of-referenced-periodicals">Network of referenced periodicals</h1>
+<figure>
+<img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals.png" alt="Figure: Network of periodicals mentioned in al-Haqāʾiq, al-Muqtabas and Lughat al-ʿArab" /><figcaption>Figure: Network of periodicals mentioned in <em>al-Haqāʾiq</em>, <em>al-Muqtabas</em> and <em>Lughat al-ʿArab</em></figcaption>
+</figure>
+<p><img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-article_2019-08-16.png" /></p>
+<p><img src="/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-issue_2019-08-16.png" /></p>
 <p>{&gt;&gt;missing conclusion&lt;&lt;}</p>
 <section class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Such as <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, <a href="http://catalog.hathitrust.org/">Hathitrust</a>, the <a href="http://eap.bl.uk/">British Library’s “Endangered Archives Programme” (EAP)</a>, <a href="http://menadoc.bibliothek.uni-halle.de/">MenaDoc</a>, <a href="http://web.nli.org.il/sites/nlis/en/jrayed">“<em>Jarāyid</em>: Arabic newspaper archive of Ottoman and Mandatory Palestine”</a>, the <a href="https://lebanesestudies.omeka.chass.ncsu.edu/collections/browse">Moise A. Khayrallah Center for Lebanese Diaspora Studies</a> or the <a href="http://ima.bibalex.org/IMA/presentation/home/list.jsf">Institut du Monde Arabe</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>such as <a href="http://archive.sakhrit.co"><em>Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya</em></a> or <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shāmila</em></a>, <a href="http://almeshkat.net/"><em>Mishkāt</em></a>, <a href="http://saaid.net/"><em>Ṣayyid al-Fawāʾid</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a><a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>It must be noted that the US-based HathiTrust does not provide public or open access to its collections even to material deemed in the public domain under extremely strict US copyright laws when users try to connect to the collection from outside the USA. Citing the absence of editors able to read many of the languages written in non-Latin scripts, HathiTrust tends to be extra cautious with the material of interest to us and restricts access by default to US-IPs. These restrictions can be lifted on a case-by-case basis, which requires at least an English email conversation and prevents access to the collection for many of the communities who produced these cultural artefacts; see <a href="https://www.hathitrust.org/access_use" class="uri">https://www.hathitrust.org/access_use</a> for the access policies.<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>One major research project for HTR is <a href="https://transkribus.eu/Transkribus/">transkribus.eu</a>.<a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>C.f. <span class="citation" data-cites="Margner_2012">[@Margner_2012]</span>. {–For recent promising approaches using machine-learning and neural networks see <span class="citation" data-cites="Romanov_2016">[@Romanov_2016]</span>.–}For examples of the state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The <a href="http://gale.cengage.co.uk/arabic">“Early Arabic Printed Books” (EAPB) project</a>, currently under development by GALE in collaboration with the British Library, makes repeated claims of employing “newly developed optical character recognition software (OCR) for early Arabic printed script” (see this <a href="http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf">factsheet</a>). But since they share neither the text layer nor the software their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.<a href="#fnref5" class="footnote-back">↩</a></p></li>
-<li id="fn6"><p>The <a href="http://iti-corpus.github.io/">Open Islamicate Text Initiative (OpenITI)</a> project planned to publish its tool chain in 2018. For an overview of their work see <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf" class="uri">http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</a>.<a href="#fnref6" class="footnote-back">↩</a></p></li>
-<li id="fn7"><p>TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving.<a href="#fnref7" class="footnote-back">↩</a></p></li>
-<li id="fn8"><p>In other instances, such as the <a href="http://shamela.ws/index.php/book/1242">two volumes of Yūsuf Ilyān Sarkīs’ <em>Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba</em> (Miṣr: Maṭbaʿat Sarkīs, 1928)</a>, <em>shamela.ws</em> did provide page breaks that correspond to a printed edition.<a href="#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>We claim that text of <em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself is in the public domain even under the most restrictive definitions (i.e. in the USA). {&gt;&gt;Further note on licences: MIT and Creative Commons <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &lt;&lt;} the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile’s without copying or downloading them.<a href="#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>These word clouds were produced with R on macOS. Take note that most visualisations in R for macOS—unlike Windows or Linux—cannot correctly display Arabic script.<a href="#fnref10" class="footnote-back">↩</a></p></li>
-<li id="fn11"><p>For an introduction to stylometry and the stylo package for R see {&gt;&gt;add references&lt;&lt;}<a href="#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>For studies assessing these corpora and the methodological implications see {Nicholson 2013;Brake 2012;Horrocks 2014;Mussell 2012;Gooding 2016}.For studies and projects based on <em>Chronicling America</em> see, for example, {Cordell 2017;Lorang 2015;Torget 2011;Cordell 2015;Smith 2015;Smith 2013;Cordell 2013;Torget 2012;Torget 2012a}. For a study based on <em>Trove</em> see {Bode 2016}.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>There are only very limited systematic studies on Arabic periodicals, everyone of which is concerned with a single periodical only; c.f. {Glaß 2004b;Cioeta 1979a}. At the time of writing, only one study made use of digital texts: {Zemmin 2018}; for methodological comments see also {Zemmin 2016@232-233}.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>E.g. {Jundī 1925; Shaykhū 1926; Sarkīs 1929}, {Muruwwa 1961; AlRifāʿī 1969; AlRifāʿī 1969a; Dāghir 1950; Dāghir 1978; Ilyās 1982; Khūrīya 1976}<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>E.g. {ElHadi 1965; AhmedBioud 1969; Hopwood 1970; Murād 1977; Auchterlonie 1977; Aman 1979; DeJong 1979; Duman 1982a; Duman 1986}<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>{Cioeta 1979; Cioeta 1979a}.{-- Due to a fatal accident soon after completing his thesis, he published only one further article: {Cioeta 1982}.--}<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>{Ayalon 1995}; {Ayalon 1984; Ayalon 1985; Ayalon 1987a; Ayalon 1987; Ayalon 1992; Ayalon 2002; Ayalon 2008}.<a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>{Glaß 2004b} {&gt;&gt;Add comment on {Dierauff 2018}{Beška 2017}&lt;&lt;}<a href="#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>Such as <a href="http://gale.cengage.co.uk/arabic.aspx">Cengage Gale</a>, <a href="http://catalog.hathitrust.org/">Hathitrust</a>, the <a href="http://eap.bl.uk/">British Library's &quot;Endangered Archives Programme&quot; (EAP)</a>, <a href="http://menadoc.bibliothek.uni-halle.de/">MenaDoc</a>, <a href="http://web.nli.org.il/sites/nlis/en/jrayed">&quot;<em>Jarāyid</em>: Arabic newspaper archive of Ottoman and Mandatory Palestine&quot;</a>, the <a href="https://lebanesestudies.omeka.chass.ncsu.edu/collections/browse">Moise A. Khayrallah Center for Lebanese Diaspora Studies</a> or the <a href="http://ima.bibalex.org/IMA/presentation/home/list.jsf">Institut du Monde Arabe</a><a href="#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>such as <a href="http://archive.sakhrit.co"><em>Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya</em></a> or <a href="http://www.shamela.ws/"><em>al-Maktaba al-Shāmila</em></a>, <a href="http://almeshkat.net/"><em>Mishkāt</em></a>, <a href="http://saaid.net/"><em>Ṣayyid al-Fawāʾid</em></a> or <a href="http://www.alwaraq.net/"><em>al-Waraq</em></a><a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p>{website_eapb}<a href="#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p>It must be noted that the US-based HathiTrust does not provide public or open access to its collections even to material deemed in the public domain under extremely strict US copyright laws when users try to connect to the collection from outside the USA. Citing the absence of editors able to read many of the languages written in non-Latin scripts, HathiTrust tends to be extra cautious with the material of interest to us and restricts access by default to US-IPs. These restrictions can be lifted on a case-by-case basis, which requires at least an English email conversation and prevents access to the collection for many of the communities who produced these cultural artefacts; see <a href="https://www.hathitrust.org/access_use" class="uri">https://www.hathitrust.org/access_use</a> for the access policies.<a href="#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn12"><p>For good overviews on the issue of digital (scholarly) editions see {Driscoll 2016;Pierazzo 2015;Sahle 2013}.<a href="#fnref12" class="footnote-back">↩</a></p></li>
+<li id="fn13"><p>The Islamic <em>hijrī</em> calendar is a lunar calendar beginning the year with 1 <em>Muḥarram</em> and counting years since the prophet Muḥammad's flight (<em>hijra</em>) from Mecca to Medina in 622. Dates differ between locations as the beginning of the month is based on sightings of the new moon. They cannot, therefore, be reliably computed. A common workaround without recourse to empirical observations as provided in large tabular publications is to compute the astronomic lunar calendar instead. The reformed Julian calendar is a solar calendar beginning the year with 1 January. Every one hundred years the difference between the Gregorian and Julian calendar increases by one day due to different rules for adding an intercalated 366th day every four years. In the Ottoman context, the reformed Julian calendar is commonly referred to as <em>rūmī</em>. Arabic periodicals usually labelled this calendar as <em>sharqī</em> (Eastern). The Ottoman fiscal <em>mālī</em> calendar is a lunosolar calendar. It is based on the Old Julian calendar beginning the year with 1 March and was designed to synchronise the year count with the <em>hijrī</em> calendar. Introduced in 1676 it is also sometimes confusingly called <em>rūmī</em>. {--Every 33 lunar years, a <em>hijrī</em> year would complete within a single solar <em>mālī</em> year. In this case the counting of the <em>mālī</em> years skipped a year to catch up with the faster <em>hijrī</em> calendar.--} Due to a printing error in the coupon booklets for the Ottoman consolidated debt repayment program for 1872{-- (1288 M instead of 1289 M)--}, synchronisation of <em>mālī</em> and <em>hijrī</em> years was henceforth abolished. {&gt;&gt;some references needed&lt;&lt;} {Jajko 1993;Rose 1991;Deny 1921;Georgeon 2011}.<a href="#fnref13" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p><em>al-Haqāʾiq</em> 1(6), available online at <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_6.TEIP5.xml" class="uri">https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_6.TEIP5.xml</a>. Note that digital facsimiles are geo-fenced and only accessible to US IPs.<a href="#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn15"><p><em>al-Muqtabas</em>, for instance, was severely lagging behind its publication schedule by summer 1909. <a href="https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_42.TEIP5.xml">No. 4(7)</a> was scheduled for Rajab 1327 aH (July/August 1909) according to its masthead but only published in the first week of April the following year; see {muqtabas 76-eap@3}. <em>al-Ḥaqāʾiq</em> is more difficult to date through external source because unlike <em>al-Muqtabas</em> it was only rarely mentioned in other publications. However, a prolonged dispute with the newspaper <em>al-Muqtabas</em> in 1911 provides some clues. {haqaiq i:12@476} referenced {muqtabas 288-eap}. Therefore, it must have been published at least 10 days after the publication date provided by the masthead. {&gt;&gt;<em>al-Ḥaqāʾiq</em> 1(6) referenced an article in <em>al-Muqtabas</em> 1 December 1910 (#539)&lt;&lt;}<a href="#fnref15" class="footnote-back">↩</a></p></li>
+<li id="fn16"><p>Stefan Weber and Jens Hanssen, for instance, missed the fact that the birthday of Sultan ʿAbdülḥamīd II (1876--1909) was celebrated according to the Islamic <em>hijrī</em> calendar and thus rotated through the solar year. The annual celebrations of the anniversary of the ʿAbdülḥamīd II's accession to the throne were celebrated according to the empire's <em>mālī</em> calendar. Yet, leading scholars read these dates as pertaining to the <em>hijrī</em> calendar. Due to the mix-up in 1872 and the resulting growing difference between the two calendars, the ʿAbdülḥamīd II's silver jubilee on the throne is wrongly dated to 1901 instead of 1900. {Hanssen 2005@238, 243ff.; Weber 2009@418-420;Deringil 1998@29; Uluengin 2010@20}.<a href="#fnref16" class="footnote-back">↩</a></p></li>
+<li id="fn17"><p>Consider, for instance, the quasi standard for digital scholarly editions, TEI, which is expressed in XML. According to the XPath specifications, the <a href="https://www.w3.org/TR/xpath-functions-30/#func-format-date"><code>format-date()</code></a> function supports a number calendars beyond the Gregorian standard, including the Islamic <em>hijrī</em> calendar, since version 2.0. However, the actual support for calendars and languages is implementation-dependent and Saxon, the main XSLT, XPath and XQuery processor, has not implemented any of these alternative calendars; see <a href="https://www.saxonica.com/html/documentation/functions/fn/format-dateTime.html">documentation for <code>format-dateTime()</code></a>.<a href="#fnref17" class="footnote-back">↩</a></p></li>
+<li id="fn18"><p>The <a href="http://www.loc.gov/marc/">MAchine-Readable Cataloging (MARC)</a> is a data format maintained by the <a href="http://www.loc.gov/marc/ndmso.html">Network Development and MARC Standards Office of the Library of Congress (NDMSO)</a>. MARC can be serialised as XML but frequently isn't. The <a href="http://www.loc.gov/standards/mods/">Metadata Object Description Schema (MODS) standard</a>, in contrast, is expressed in XML and more human-readable. It is also maintained by the Network Development and MARC Standards Office with input from users.<a href="#fnref18" class="footnote-back">↩</a></p></li>
+<li id="fn19"><p>{&gt;&gt;Footnote on IIIF&lt;&lt;}<a href="#fnref19" class="footnote-back">↩</a></p></li>
+<li id="fn20"><p>One major research project for HTR is <a href="https://transkribus.eu/Transkribus/">Transkribus</a>. Sinai Rusinek and me have begun experimenting with submitting OpenArabicPE's editions as ground truth for training Transkribus. First results for single-column Arabic periodicals are promising and report a CER of less than 10 per cent, which would be sufficient for some distant reading applications.<a href="#fnref20" class="footnote-back">↩</a></p></li>
+<li id="fn21"><p>C.f. {Märgner 2012a}. For recent promising approaches using machine-learning and neural networks see {Romanov_2016}. For examples of the state of Arabic OCR even for well-funded corporations and projects, try searching inside Arabic works on Google Books or HathiTrust. The <a href="http://gale.cengage.co.uk/arabic">&quot;Early Arabic Printed Books&quot; (EAPB) project</a>, currently under development by GALE in collaboration with the British Library, makes repeated claims of employing &quot;newly developed optical character recognition software (OCR) for early Arabic printed script&quot; (see this <a href="http://gale.cengage.co.uk/images/EAPB-Factsheet_English_WEB.pdf">factsheet</a>). But since they share neither text layers nor error rates or software, their claims cannot be verified. As a substantial number of the digitised books in EAPB are written in languages other than Arabic that employ Arabic script (such as Farsī, Urdu or Ottoman Turkish) and as some works resemble complex manuscripts with multiple commentaries around a main text fully automated text-retrieval is highly unlikely.<a href="#fnref21" class="footnote-back">↩</a></p></li>
+<li id="fn22"><p>The <a href="http://iti-corpus.github.io/">Open Islamicate Text Initiative (OpenITI)</a> project planned to publish its tool chain in 2018. For an overview of their work see <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf" class="uri">http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</a>.<a href="#fnref22" class="footnote-back">↩</a></p></li>
+<li id="fn23"><p>The validity of this statement, of course, depends on the purpose of digitisation. If one was, for instance, interested in distant reading approaches to large corpora, such as the temporal distribution of certain keywords during a long print run, this would allow not just for aggregation on the issue level but probably even periods of full months and more. In consequence, error margins of almost one fourth in both Character Error Rate (CER) and Word Error Rate (WER) become seemingly acceptable; e.g. {Cristianini 2018@144}. Ryan Cordell argues for the importance of theorising the impact of OCR on scholarly findings. Cordell poses that OCR must be considered a new edition subject to &quot;elaborate systems of scholarship, preservation, bureaucracy, human labor, machine processes, and economics&quot;; {Cordell 2017@188}.<a href="#fnref23" class="footnote-back">↩</a></p></li>
+<li id="fn24"><p>TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. {DfgPraxisregelnDigitalisierung 2016}.<a href="#fnref24" class="footnote-back">↩</a></p></li>
+<li id="fn25"><p>Note that archive.sakhrit.co has since moved to <a href="http://archive.alsharekh.org/" class="uri">http://archive.alsharekh.org/</a><a href="#fnref25" class="footnote-back">↩</a></p></li>
+<li id="fn26"><p>In other instances, such as the journals <a href="https://github.com/OpenArabicPE/journal_lughat-al-arab"><em>Lughat al-ʿArab</em></a>, <a href="https://github.com/OpenArabicPE/journal_al-ustadh"><em>al-Ustādh</em></a> or the <a href="http://shamela.ws/index.php/book/1242">Yūsuf Ilyān Sarkīs' <em>Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba</em> (Miṣr: Maṭbaʿat Sarkīs, 1928)</a>, <em>shamela.ws</em> did provide page breaks that correspond to a printed edition.<a href="#fnref26" class="footnote-back">↩</a></p></li>
+<li id="fn27"><p>We claim that text of {<del><em>al-Muqtabas</em> and <em>al-Ḥaqāʾiq</em> itself~&gt;all periodicals in our corpus and originally published before 1920</del>} is in the public domain even under the most restrictive definitions (i.e. in the USA); the anonymous original transcribers at <em>shamela.ws</em> do not claim copyright; and we only link to publicly accessible facsimile's without copying or downloading them. All code is archived on the Open Science platform <a href="https://www.zenodo.org">Zenodo</a> that also provides stable identifiers (DOI) for every release.<a href="#fnref27" class="footnote-back">↩</a></p></li>
+<li id="fn28"><p>In addition, we make this data accessible through a constantly updated public <a href="https://www.zotero.org/groups/OpenArabicPE">Zotero group</a>.<a href="#fnref28" class="footnote-back">↩</a></p></li>
+<li id="fn29"><p>{Wittern 2013}<a href="#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn30"><p>{Seikaly 1981@128}<a href="#fnref30" class="footnote-back">↩</a></p></li>
+<li id="fn31"><p>For an autobiographic sketch see {KurdʿAlī 1928@411-425}. For intellectual biographies see {Seikaly 1981; Hermann 1990}.<a href="#fnref31" class="footnote-back">↩</a></p></li>
+<li id="fn32"><p>These word clouds were produced with R on macOS. Take note that most visualisations in R for macOS---unlike Windows or Linux---cannot correctly display Arabic script.<a href="#fnref32" class="footnote-back">↩</a></p></li>
+<li id="fn33"><p>For a good summary of genealogy of large-scale literary history under the label &quot;distant reading&quot; see {Underwood 2017}. The most often referenced founding works are {Moretti 2013} (collection of reprinted essays), {Jockers 2013} {&gt;&gt; Jockers, Underwood&lt;&lt;}.<a href="#fnref33" class="footnote-back">↩</a></p></li>
+<li id="fn34"><p>For an introduction to stylometry see {&gt;&gt;add references&lt;&lt;}<a href="#fnref34" class="footnote-back">↩</a></p></li>
+<li id="fn35"><p>{Laramée 2018}<a href="#fnref35" class="footnote-back">↩</a></p></li>
+<li id="fn36"><p>{Eder 2016b}<a href="#fnref36" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
 <footer>
