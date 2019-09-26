@@ -284,3 +284,7 @@ Born and died in Damascus.
 ### Muḥammad al-Qāsimī al-Ḥallāq (1843--1900)
 
 Damascene ʿālim. Father of Jamāl al-Dīn al-Qāsimī. knowledgeable about Damascene crafts
+
+### ʿAbd al-Qādir al-Iskandarānī (1875--1943)
+
+Son of Muḥammad Salīm al-Kaylānī. Born in ALexandria but lived and worked in Damascus. He was an ʿālim who studied at the Umayyad Mosque and authored a number of tractates (*rasāʾil*) according to VIAF.
