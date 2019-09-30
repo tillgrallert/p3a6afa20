@@ -53,6 +53,46 @@ tags:
         - *main issue*: false negatives
         - publication dates cannot be trusted
 
+### network of authors in four journals
+
+1. data set:
+    - *al-Muqtabas*: 96 issues
+    - *al-Ḥaqāʾiq*: 35 issues
+    - *Lughat al-ʿArab*: 34 issues before the gap in publication between 1912 and 1926
+    - *al-Ḥasnāʾ*: 12 issues
+2. results: 2019-09-27
+    - number of authors
+        + OAPE
+            * total: 319
+            * authors in
+                - 4 journals: 1
+                - 3 journals: 0
+                - 2 journals: 13
+                - 1 journal: 305
+        + *al-Muqtabas*
+            - total: 139
+            - with VIAF ID: 65
+            - average birth year: 1869
+        + *al-Ḥaqāʾiq*
+            - total: 103
+            - with VIAF ID: 15
+            - average birth year: 1837
+        + *Lughat al-ʿArab*
+            - total: 52
+            - with VIAF ID: 12
+            - average birth year: 1875
+        + *al-Ḥasnāʾ*
+            - total: 42
+            - with VIAF ID: 6
+            - average birth year: 1883
+
+|      journal      | number of authors | authors in VIAF | average year of birth |
+|-------------------|-------------------|-----------------|-----------------------|
+| *al-Muqtabas*     |               139 |              65 |                  1869 |
+| *al-Ḥaqāʾiq*      |               103 |              15 |                  1837 |
+| *Lughat al-ʿArab* |                52 |              12 |                  1875 |
+| *al-Ḥasnāʾ*       |                42 |               6 |                  1883 |
+
 
 ## network of texts referenced
 
@@ -170,17 +210,13 @@ There are family relations between the Qāsimīs in the two journals
 
 Jamāl al-Dīn al-Qāsimi (*al-Muqtabas*) and Muḥammad al-Qāsimī (al-Ḥallāq)
 
-## Muqtabas
+## Maʿrūf al-Ruṣāfī (1875--1945)
 
-The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s){-- and worked as journalists, teachers, and occasionally politicians. All of them--}, were highly mobile and well-travelled and had good command of local as well as foreign languages{>> to the extent that some of them published translations<<}.
+- Sources:
+    + [Ziriklī 7:268-269](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_7.TEIP5.xml#div_1301.d2e59460)
+    +  VIAF [14924300](https://viaf.org/viaf/14924300)
 
-Those four out of the five men for which we can retrieve matching records from VIAF, belonged to the same generation (born between the mid-1860s and mid-1870s) and were prolific authors (judged by the numbers of published works in VIAF). However, by the latter metric, many other authors were just as, if not more, important: Shakīb Arslān (rank: 12), Amīn Rīḥānī (30), Muḥibb al-Dīn al-Khaṭīb (20), Aḥmad Taymūr (6), Aḥmad Zakkī (6), Aḥmad Shawqī (52).
-
-A further look at the four biographies reveals a telling plurality of social and religious backgrounds:
-
-### Maʿrūf al-Ruṣāfī (1875--1945)
-
-Arabist, journalist, politician. Born in Baghdad, dropped out of the military *rüşdiye* school and continued his studies with Maḥmūd Shukrī al-Alūsī. Worked as a teacher in Baghdad before he moved to Istanbul after the Young Turk Revolution, where he worked as Arabic teacher at the "Royal College" and at the newspaper *Sabīl al-Rashad*---a move that is well reflected in *al-Muqtabas*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.
+Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the military *rüşdiye* school and continued his studies with Maḥmūd Shukrī al-Alūsī. Worked as a **teacher** in Baghdad before he moved to Istanbul after the Young Turk Revolution, where he worked as Arabic teacher at the "Royal College" and at the newspaper *Sabīl al-Rashad*---a move that is well reflected in *al-Muqtabas*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
 
 - works
     + *Dīwān Maʿrūf al-Ruṣāfī*
@@ -190,17 +226,130 @@ Arabist, journalist, politician. Born in Baghdad, dropped out of the military *r
         * **1910**, *Dīwān al-Ruṣāfī: wa-huwa majmūʿ mā naẓamahu al-shāʿir al-ijtimāʿī al-kabīr Maʿrūf Efendi al-Ruṣāfī al-Baghdādī*, edited by Muḥī al-Dīn al-Khayyāṭ and Muṣṭafā Ghalāyīnī, Bayrūt: al-Maktaba al-Ahliyya, 1910 (1328 aH).
             - [worldcat](https://www.worldcat.org/oclc/4770928968) claims 1903 as publication date,
             - but articles in the Beiruti press suggest 1910 as the correct publication date.
+        - the announcement in *al-Muqtabas* is bombastic. The paper claims that al-Ruṣāfī is known among some people as the "poet of *al-Muqtabas*" and wrongly adds that "more than three quarters [of the *qaṣāʾid* therein] had been published in this journal". *al-Muqtabas* 4(10), p.620
 - to do: check if the qaṣīdas printed in magazines were taken from the *Dīwān*
     + some of them can be found in the Hindawi edition of the *Dīwān* but were they part of the original majmūʿ
 
-### ʿĪsā Iskandar al-Maʿlūf (1869--)
 
-Born in the village of Kafr ʿAqqāb in Mt. Lebnon.  Educated across Lebanon and in the Greek Orthodox school in Damascus. Co-editor of the periodicals *Lubnān*, *al-ʿAṣr al-Jadīd* and *al-Nuʿma*. In 1911 he established the journal *al-Āthār* (published only 5 volumes){>> in Zaḥle<<}. Collector of books and manuscripts: AUB holds some 500 manuscripts from his private collection.
-After WWI he became member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.
+## Kaẓim al-Dujaylī (1884--1970)
 
-### Sātisnā (1866--1947)
+- Sources:
+    + [Ziriklī 5:215](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_5.TEIP5.xml#div_1205.d2e46580)
+    + VIAF: none
+
+- Iraqi **poet** from the village of Samīka west of Baghdad. Student of Maḥmūd Shukrī al-Alūsī and Anastās Mārī al-Karmalī
+- **journalist**: Co-publisher of *Lughat al-ʿArab*
+- Law school graduate after WWI
+- member of the **Arab Scientific Academy** in Damascus (from 1922 onwards)
+- professor / **teacher** of Arabic at the University of London (1924 onwards)
+
+## Ibrāhīm Ḥilmī al-ʿAmr (1890--1942)
+
+- Sources:
+    + [Ziriklī 1:37](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_1.TEIP5.xml#div_96.d2e4166)
+    + VIAF: none
+    + texts themselves: signed as student
+- Iraqi author, gained fame as author of letters to journals in Syria and Egypt before WWI
+- established the newspaper *al-Nahḍa* in Baghdad in 1913
+- he worked with the Ottomans during WWI and they brought him to Damascus in the final days of the war
+- Collaborated on the newspaper *Lisān al-ʿArab* in Damascus after WWI
+
+## ʿĪsā Iskandar al-Maʿlūf (1869--1956)
+
+- Sources
+    + [Ziriklī]
+    + VIAF [40250618](https://viaf.org/viaf/40250618)
+
+- **journalist**
+
+Born in the village of Kafr ʿAqqāb in Mt. Lebnon.  Educated across Lebanon and in the Greek Orthodox school in Damascus. Co-editor of the periodicals *Lubnān*, *al-ʿAṣr al-Jadīd* and *al-Niʿma*. In 1911 he established the journal *al-Āthār* (published only 5 volumes){>> in Zaḥle<<}. Collector of books and manuscripts: AUB holds some 500 manuscripts from his private collection.
+After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
+
+## Sātisnā (1866--1947)
+
+- Sources
+    + [Ziriklī ]
+    + VIAF
+
+Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father Anastās Mārī al-Karmalī and writing under  the pen name Sātisnā
 
 Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved to Baghdad, where he married. Buṭrus studied at religious schools, moved to Beirut in 1886 to study at the Jesuit college and continued his studies in Liege (Belgium) and Montpellier (France). Remained in France at least until the mid-1890s, where he was ordained a priest, before he returned to Baghdad. Prolific writer and contributor to periodicals under various pen names. He published his own philological journal, *Lughat al-ʿArab*, from 1911 onwards.
+
+## Muḥammad Riḍā al-Shabībī (1889--1965)
+
+- Sources:
+    + [Ziriklī 6:127](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_672.d2e32532)
+    + VIAF: [22006374](https://viaf.org/viaf/22006374)
+- Iraqi **poet**, statesman and educator
+- born in Najaf
+- member of the **Arab Scientific Academy** in Damascus
+    + as well as the academies in Cairo and Baghdad
+- >He was elected president of the Iraqi Academy in 1928–1929 and in the 1930s became a member of the Arabic Language Academy in Cairo (Wikipedia)
+
+## Muḥammad al-Hāshimī
+
+- Sources: none
+
+## Muṣṭafā Ṣādiq al-Rāfiʿī (1880--1937)
+
+- Sources
+    + [Ziriklī ]
+    + VIAF [236524859](https://viaf.org/viaf/236524859)
+- Famous deaf Egyptian **poet** from Tanta. One of the most famous Arabic poets of the early twentieth century
+- author of the Egyptian national anthem between 1923--1936.
+
+## Muḥammad Bāqir al-Shabībī (1889--1960)
+
+- Sources
+    + [Ziriklī 6:49](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_236.d2e11574)
+    + VIAF: **none**
+
+- Iraqi **poet** from Najaf
+- brother of Muḥammad Riḍā al-Shabībī
+- **journalist**: established the newspaper weekly *al-Furāt* in 1339 aH (only five issues published)
+- **politician**: MP for Liwā al-Muntafak 1930--54
+
+## Abū al-Ḍiyāʾ
+
+## Aḥmad Muḥarram (1877--1945)
+
+- Sources
+    + VIAF [60500457](https://viaf.org/viaf/60500457)
+- Egyptian **poet** from the Muḥafaẓa of al-Buḥayra
+
+## Muḥammad Rāghib Ṭabbākh (1877--1951)
+
+- Sources
+    + VIAF [63117968](https://viaf.org/viaf/63117968)
+
+- born and died in Aleppo
+- shaykh, ḥāfiẓ
+- educated in the Ottoman ibtidāʾiyya
+- **educator**: established numerous schools in Aleppo
+
+## Walī al-Dīn Yakan (1873--1921)
+
+- Sources
+    + [Ziriklī 8:118](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_8.TEIP5.xml#div_634.d2e23341)
+    + VIAF [36771043](https://viaf.org/viaf/36771043)
+
+- Egyptian **poet**
+    + published in *al-Muqattam*
+- born in **Istanbul** but his father was posted to Cairo soon thereafter
+    - Turkish father and Circassian mother
+- Ottoman bureaucrat until 1908
+- 1908: return to Egypt
+
+
+
+## Muqtabas
+
+The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s){-- and worked as journalists, teachers, and occasionally politicians. All of them--}, were highly mobile and well-travelled and had good command of local as well as foreign languages{>> to the extent that some of them published translations<<}.
+
+Those four out of the five men for which we can retrieve matching records from VIAF, belonged to the same generation (born between the mid-1860s and mid-1870s) and were prolific authors (judged by the numbers of published works in VIAF). However, by the latter metric, many other authors were just as, if not more, important: Shakīb Arslān (rank: 12), Amīn Rīḥānī (30), Muḥibb al-Dīn al-Khaṭīb (20), Aḥmad Taymūr (6), Aḥmad Zakkī (6), Aḥmad Shawqī (52).
+
+A further look at the four biographies reveals a telling plurality of social and religious backgrounds:
+
 
 ### Yūsuf Jirjis Zakham (1880--?)
 
