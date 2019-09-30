@@ -73,7 +73,7 @@ The better known and at the time widely popular journals---unlike their smaller 
 
 A quick look at *al-Muqtabas*{--, one of the journals in the corpus at the basis of this paper--} shall {--suffice to--} illustrate this point. A search in [WorldCat](https://www.worldcat.org) for the nine volumes of *al-Muqtabas* {--using a combination of Arabic and transcriptions into Latin script--} will return six different bibliographic entries, the first of which has 13 variants (called "editions" in the context of WorldCat), pointing to 34 libraries. If one follows each entry to the holding library's catalogue, one will find that the large majority of collections is incomplete and that collections commonly combine original volumes, reprints, microfilms, microfiches and even photo copies. {>>comment on the geographic distribution of collections<<}
 
-![Figure: geographic distribution of library holdings of *al-Muqtabas*](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_4770057679-holdings-vol_1-9.png)
+![Figure: geographic distribution of library holdings of *al-Muqtabas*](assets/plots/map-oclc_4770057679-holdings-vol_1-9.png)
 
 Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of magical one-click solutions to answer any question they might have in an instant.
 The public and many scholars expect to be able to put a computer to such diverse tasks as a keyword search: Show me all instances of the word *waṭan* (Arabic for "homeland", "nation") across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I. Or a social network analysis: Show me the discursive field of authors and their texts and its changes over time. These are important and---for a variety of reasons, some of which will be discussed in this article---still open questions. Unfortunately, the eager student of *digitised* Arabic periodicals will immediately find tools, data and skills lacking.
@@ -143,7 +143,7 @@ Since we do not have the resources to proof and correct these texts, we had the 
 
 [OpenArabicPE](https://openarabicpe.github.io) establishes a framework for open, collaborative, and fully-referencable scholarly digital editions of early Arabic periodicals. The guiding principles of OpenArabicPE can be summarised as *accessibility*, *sustainability*, *credibility*. Starting with the mostly Damascene periodicals *al-Muqtabas* and *al-Ḥaqāʾiq*, OpenArabicPE demonstrates that one can produce scholarly editions that offer solutions for most of the above-mentioned problems---including the absence of expensive infrastructure---through re-purposing well-established open software platforms and by combining the virtues of immensely popular, but non-academic (and, at least under US copyright laws, occasionally illegal) online libraries of volunteers on the one hand with academic scanning efforts as well as editorial expertise on the other.
 
-{--![Figure: Project scheme](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/OpenArabicPE-organigramme_horizontal.png)--}
+{--![Figure: Project scheme](assets/plots/OpenArabicPE-organigramme_horizontal.png)--}
 
 Within OpenArabicPE we devise workflows and tools to transform digital texts from [*shamela.ws*][shamela] into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines,[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [archive.sakhrit.co][sakhrit].[^36] The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were commonly ignored by *shamela.ws*'s anonymous transcribers. This point needs to be emphasised: each of the c.8500 pages breaks in *al-Muqtabas* and *al-Ḥaqāʾiq* needed to be manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers.[^6] So far Dimitar Dragnev, Talha Güzel, Dilan Hatun, Hans Magne Jaatun, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Tobias Sick, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
 
@@ -151,7 +151,7 @@ Within OpenArabicPE we devise workflows and tools to transform digital texts fro
 [^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. {DfgPraxisregelnDigitalisierung 2016}.
 [^36]: Note that archive.sakhrit.co has since moved to [http://archive.alsharekh.org/](http://archive.alsharekh.org/)
 
-{--![Figure: Web view of [al-Muqtabas 6/2](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml)](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/boilerplate_muqtabas.png)--}
+{--![Figure: Web view of [al-Muqtabas 6/2](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_61.TEIP5.xml)](assets/plots/boilerplate_muqtabas.png)--}
 
 All tools and the editions are hosted on the code-sharing platform [GitHub](https://www.github.com) under MIT and Creative Commons [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses for reading, contribution, and re-use.[^10] {>>mention collaboration with Leipzig and the integration of Muqtabas into CLARIN<<} As part of the editions we provide structured bibliographic metadata for every article  in machine-readable format that can easily be integrated into larger bibliographic information systems{-- or individual scholars' reference managing software--}.[^26]
 
@@ -179,7 +179,7 @@ The edition of *al-Muqtabas* gathers all 96 issues published between 1906 and 19
 [^33]: {Seikaly 1981@128}
 [^34]: For an autobiographic sketch see {KurdʿAlī 1928@411-425}. For intellectual biographies see {Seikaly 1981; Hermann 1990}.
 
-![Figure: Words per page and page counts for *al-Muqtabas*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_muqtabas-counts_words-pages-bars.png)
+![Figure: Words per page and page counts for *al-Muqtabas*](assets/plots/rplot_muqtabas-counts_words-pages-bars.png)
 
 {>>*al-Ḥaqāʾiq*<<}
 Much less is known about the second Damascene journal in our corpus and the people behind it. The *ʿālim* ʿAbd al-Qādir al-Iskandarānī (1875--1943) from the notable al-Kaylānī family, who were closely associated with the Qadriyya Sufi order, published three volumes with a total of 35 issues of *al-Ḥaqāʾiq* (The Facts) in Damascus between 1910 and 1913. {>>Add: periodical of the conservative establishment, already apparent from the layout, content. Main opponent is al-Muqtabas<<} {--Unlike *al-Muqtabas*--} *al-Ḥaqāʾiq* was a periodical of the conservative Muslim establishment, who called themselves *mutayyinūn* (the very pious). This becomes clear from the content of *al-Haqāʾiq* with its focus on Islamic topics, its constant critique of Salafism and "Westernised" journals, such as *al-Muqtabas*, and its makers' apparent lack of familiarity with the by then established layout conventions of Arabic journals.[^37] Unlike Kurd ʿAlī, al-Iskandarānī did not claim a single byline in "his" journal.
@@ -188,7 +188,7 @@ Pages contain much less text and issues are much shorter than *al-Muqtabas* with
 
 [^37]: For controversies between *al-Muqtabas* and *al-Haqāʾiq* see {Gelvin 2012; Commins 1990@118-122}.
 
-![Figure: Words per page and page counts for *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/rplot_haqaiq-counts_words-pages-bars.png)
+![Figure: Words per page and page counts for *al-Ḥaqāʾiq*](assets/plots/rplot_haqaiq-counts_words-pages-bars.png)
 
 {>>*Lughat al-ʿArab*<<}
 
@@ -240,9 +240,9 @@ The four men out of the five, for which we can find biographical records, are in
     2. data from the authority files shows that all but one were born between the mid-1860s and the mid-1870s
 <<}
 
-![Figure: Word cloud of authors published in *al-Muqtabas*; by number of articles](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-bylines.png)
+![Figure: Word cloud of authors published in *al-Muqtabas*; by number of articles](assets/plots/word-cloud_muqtabas-authors-bylines.png)
 
-### *al-Ḥaqāʾiq*
+#### *al-Ḥaqāʾiq*
 
 The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents, among them Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. Against this backdrop the initially surprising finding of practically no overlap between the two networks of authors published in journals from the same city, becomes less so.
 
@@ -266,9 +266,10 @@ The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict 
 
 Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines
 
-![Figure: Word cloud of authors published in *al-Ḥaqāʾiq*](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_haqaiq-authors-bylines.png)
+![Figure: Word cloud of authors published in *al-Ḥaqāʾiq*](assets/plots/word-cloud_haqaiq-authors-bylines.png)
 
-### *Lughat al-ʿArab*
+#### *Lughat al-ʿArab*
+
 
 ## going beyond bibliographic metadata
 
@@ -293,7 +294,7 @@ We can easily add another dimension to our analysis of the authors published in 
 
 Table: authors in *al-Muqtabas* sorted by number of words.
 
-![Figure: Word cloud of authors published in *al-Muqtabas*; by number of words](https://github.com/OpenArabicPE/slides/raw/gh-pages/assets/plots/word-cloud_muqtabas-authors-words.png)
+![Figure: Word cloud of authors published in *al-Muqtabas*; by number of words](assets/plots/word-cloud_muqtabas-authors-words.png)
 
 *al-Muqtabas* and *al-Ḥaqāʾiq*, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article.{>>add footnote with comment and reference to sources<<} This also means that any analysis of bibliographic information is based on only a small sample of either periodical.
 
@@ -336,24 +337,24 @@ Successful stylometric authorship attribution, will not fill the gap in geograph
 
 If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:
 
-![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_4770057679-bylines-middle-east.png)
+![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](assets/plots/map-oclc_4770057679-bylines-middle-east.png)
 
-![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_644997575-bylines-middle-east.png)
+![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](assets/plots/map-oclc_644997575-bylines-middle-east.png)
 
-![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_792756327-bylines-middle-east.png)
+![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png)
 
-![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/maps/map-oclc_472450345-bylines-middle-east.png)
+![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)
 
 
 {>>missing comment on maps<<}
 
 # Network of referenced periodicals
 
-![Figure: Network of periodicals mentioned in *al-Haqāʾiq*, *al-Muqtabas* and *Lughat al-ʿArab*](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals.png)
+![Figure: Network of periodicals mentioned in *al-Haqāʾiq*, *al-Muqtabas* and *Lughat al-ʿArab*](assets/plots/network_oape-referenced-periodicals.png)
 
-![](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-article_2019-08-16.png)
+![](assets/plots/network_oape-referenced-periodicals-per-article_2019-08-16.png)
 
-![](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/visualization/networks/network_oape-referenced-periodicals-per-issue_2019-08-16.png)
+![](assets/plots/network_oape-referenced-periodicals-per-issue_2019-08-16.png)
 
 {>>missing conclusion<<}
 
