@@ -422,10 +422,11 @@ The bootstrap consensus network of 100-1000 MWFs clearly shows clustering along 
 
 {>>modularity<<} 
 
-![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)
+# Geographic distribution
 
+Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical's editor. In the case of *al-Muqtabas*, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the *network* of authors, texts, and locations, this would be an utterly pointless endeavour.
 
-{>>missing comment on maps<<}
+If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:
 
 # Conclusion
 
