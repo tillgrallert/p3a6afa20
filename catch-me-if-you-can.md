@@ -405,24 +405,22 @@ These findings have severe implications for the application of stylometry to per
 [^41]: {>>footnote on my pre-processing pipeline<<}
 [^42]: footnote on Gephi
 
-## first results 
+## first results
+### stylometry confirms what we already know 
 
-Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travellogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.
+Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods' usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travellogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.
 
+### looking a sections of shorter articles
 
+Many journals published shorter articles based on other publications, announcing publications etc. in sections. These articles are far {==too short ==}{>>how short, exactely? On average?<<} for reliable stylometric authorship attribution. However, we can analyse these articles in the clusters they were originally published in to test the hypothesis that they were all authored by the journals editors. We aggregated all articles in sections on the issue level, submitted them to stylometric analysis and looked for clustering by periodical. This workaround is necessary since we neither know all actual editors working at a journal, nor do we have corpora of digital texts for all known editors. Otherwise these could be directly compared to the sections.
 
+{--![Figure: bootstrap consensus network of sections of articles in 123 periodical issues based on consensus of 100–1000 MWFs, coloured by periodical title](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/stylometry/OpenArabicPE/visualisations/consensus-tree/sections/sections_Consensus_100-1000_MFWs_Culled_0__wurzburg_C_0.5_journals.png)--}
 
-# Geographic distribution
+![Figure: bootstrap consensus network of sections of articles of min 1000 words in 123 periodical issues based on consensus of 100–1000 MWFs, coloured by modularity](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/stylometry/OpenArabicPE/visualisations/consensus-tree/sections/sections_Consensus_100-1000_MFWs_Culled_0__wurzburg_C_0.5_modularity.png)
 
-Successful stylometric authorship attribution, will not fill the gap in geographic information in all but the most obvious and likely case, namely that a large part of the unattributed articles were indeed written by a periodical's editor. In the case of *al-Muqtabas*, we know the whereabouts of Muḥammad Kurd ʿAlī during most of the time he published the journal and could thus easily assign locations to articles. However, given that we are interested in the *network* of authors, texts, and locations, this would be an utterly pointless endeavour.
+The bootstrap consensus network of 100-1000 MWFs clearly shows clustering along periodicals based on the weight of edges (i.e. similarity) connecting sections. In the plot below *al-Muqtabas* is on the left, *al-Ḥaqāʾiq* in the centre and *Lughat al-ʿArab* to the right. This at least shows that, as far as articles in sections were concerned, each periodical is stylistically distinguishable from the others.
 
-If we assume that information on the place of writing of any one article was not generally considered sensitive information to be protected in all but the most harmless cases and that most articles where authored by the publishers and at the place of publication, one can nevertheless arrive at a meaningful picture of the geographic distribution of authors and the origin of articles:
-
-![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](assets/plots/map-oclc_4770057679-bylines-middle-east.png)
-
-![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](assets/plots/map-oclc_644997575-bylines-middle-east.png)
-
-![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png)
+{>>modularity<<} 
 
 ![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)
 
