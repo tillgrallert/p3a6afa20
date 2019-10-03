@@ -236,19 +236,19 @@ Sketching a network of periodicals and the references between them is only one p
 
 ![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-authors_2019-09-26.png)
 
-It is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. For our analysis we are particularly concerned with the number of articles that carried bylines or otherwise easily identifiable authorship information. In this regard *al-Ḥaqāʾiq* leads the pack. About 42 per cent of all articles (163 of 389) carried authorship information. Second is *al-Ḥasnāʾ* with 36 per cent (63 of 173), followed by *Lughat al-ʿArab* with 16 per cent (152 of 939) and *al-Muqtabas* with not even 13 per cent (377 of 2964). The picture becomes more favourable for the latter if we look only at longer articles. About two fifths of authors outside news and review sections explicitly mentioned an author. However, in consequence and due to the heavy weight of *al-Muqtabas*, this means that we can only map 16,91 per cent of the entire network by looking at available bibliographic information alone. More than four fifths are hidden from our view. {>>add information on the number of words, which is more meaningful than the number of articles<<} 
+It is worth going back to the bibliographic metadata, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. For our analysis we are particularly concerned with the number of articles that carried bylines or otherwise easily identifiable authorship information. All journals in our corpus, like any other periodical at the time I have seen, seriously violated the relevant Ottoman press codes that required identifiable author information being published alongside each article.[^52] In this regard *al-Ḥaqāʾiq* is the least offending. About 42 per cent of all articles (163 of 389) carried authorship information. Second is *al-Ḥasnāʾ* with 36 per cent (63 of 173), followed by *Lughat al-ʿArab* with 16 per cent (152 of 939) and *al-Muqtabas* with not even 13 per cent (377 of 2964). The picture becomes more favourable for the latter if we look only at longer articles. About two fifths of authors outside news and review sections explicitly mentioned an author. However, in consequence and due to the heavy weight of *al-Muqtabas*, this means that we can only map 16,91 per cent of the entire network of articles by looking at available bibliographic information alone. {==More than four fifths are hidden from our view.==}{>>add information on the number of words, which is more meaningful than the number of articles<<} 
+
+[^52]: {==missing footnote==}{>>comment on Ottoman press codes and reference to sources<<}
+
 We can currently identify only a total of 319 named authors {--in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*--}: 139 for *al-Muqtabas*, 103 for *al-Haqāʾiq*, 52 for *Lughat al-ʿArab*, and 42 for *al-Ḥasnāʾ*{-- [See word clouds below].[^5]--}. Quite a significant number appear only with their initials, particularly in *al-Ḥaqāʾiq*, and---with the exception of *al-Ḥasnāʾ*---all of them were men. 
-
 The first observation, similar the network of periodicals, is that only a very small number of nodes (14 of 319) are of relative importance, as measured in degree (number of edges connecting to a node) and weight of the edges{-- connecting them to the journals--}. In the above network plot, edges were drawn between authors and journals. {>>comment that we are "abusing" network analysis software for plotting a bi-modal network of authors and journals without projection<<} The thickness of the edges and size of nodes are functions of the number of articles carrying the byline of a given author. Colours signify the out-degree or the number of journals an author is connected to. Authors who published only in a single journal form dense clusters around that periodical's node. These are: *al-Ḥaqāʾiq* to the left, *al-Muqtabas* top centre, *Lughat al-ʿArab* bottom centre, and *al-Ḥasnāʾ* to the right.
-
-{>>add statistics<<}
 
 If we look at the central nodes of the network more closely, we can observe that only one author published in all four journals: the famous poet Maʿrūf al-Ruṣāfī from Baghdad, who mostly authored *qaṣāʾid* on current political affairs. He moved to Istanbul after the Young Turk Revolution, where he worked as an Arabic teacher at the Royal College and at the newspaper *Sabīl al-Rashad*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became a member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.[^45] al-Ruṣāfī's close ties to *al-Muqtabas* and Kurd ʿAlī are further evident in the announcement in 1910 for the publication of a first collection of his poems, in which *al-Muqtabas* claimed that he is known among some people as "the poet of *al-Muqtabas*" and---wrongly---that "more than three quarters [of the *qaṣāʾid* therein] had been published in this journal".[^46]
 
-All other 13 central nodes had bylines in only two out of four journals. Only eight of the fourteen authors can be found in international authority files as aggregated in [VIAF (virtual international authority file)](http://viaf.org), which at least means that they have not authored works catalogued in any of the contributing libraries (which, unsurprisingly, have a bias towards the Global North).[^48] Those for whom we have biographic information (employing more traditional close reading of Arabic prospographic literature)[^49] were on average in there mid-thirties during the years under investigation.
+The other 13 central nodes had bylines in only two out of four journals. Only eight of the fourteen authors can be found in international authority files as aggregated in [VIAF (virtual international authority file)](http://viaf.org), which at least means that they have not authored works catalogued in any of the contributing libraries (which, unsurprisingly, have a bias towards the Global North).[^48] Those for whom we have biographic information (employing more traditional close reading of Arabic prospographic literature)[^49] were on average in there mid-thirties during the years under investigation.
 There is a {==surprising==}{>>why?<<} number of Iraqis and a notable absence of Syrians from this network of two Damascene journals and one periodical from Beirut and Baghdad each. Among the eleven identifiable authors, there are six Iraqis{-- from Baghdad and Najaf--}: al-Ruṣāfī, al-Dujaylī, al-ʿAmr, al-Karmalī (often writing under the pen name Sātisnā), the two al-Shabībī brothers; three Egyptians: al-Rāfiʿī, Muḥarram and Yakan; and only two Syrians al-Maʿlūf and Ṭabbākh. {==Less surprising is the religious composition: only two of the core nodes were Christians.==}{>>do I need this? Well there is an argument as to the dominance of Christian Arabs in the *nahḍa*<<}
 In terms of education and occupations the core nodes are examplary for the bourgeois middle-class intelligentsia of their time: many attended Ottoman state schools in addition to more traditional, religious venues of education; many knew foreign languages in addition to Arabic and Ottoman; some were trained or even taught  abroad in the colonial centres of Paris and London; some served in the Ottoman bureaucracy; some were educators. There is also a significant number of poets (7) among the central nodes[^50] and a small number of politicians (MPs).
-The more prolific of them were themselves journalists who at one time or another operated their own periodical(s): al-Ruṣāfī, {--ʿIsā Iskandar--} al-Maʿlūf, al-ʿAmr, Muḥammad Bāqir al-Shabībī, {--Kāẓim--} al-Dujaylī and {--Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father Anastās Mārī--} al-Karmalī{-- and writing under  the pen name Sātisnā--}, the publishers of *Lughat al-ʿArab*. Looking at the latter, the importance of *al-Muqtabas* in this small network (and beyond) cannot be overstated: al-Karmalī signed more articles in *al-Muqtabas* than his own journal *Lughat al-ʿArab*. The connection to Damascus and Muḥammad Kurd ʿAlī is further evident in four of the central nodes becoming members of the Arab Scientific Academy in Damascus after World War I, whose first president was Kurd ʿAlī himself.[^51]
+The more prolific of them were themselves journalists who at one time or another operated their own periodical(s): Maʿrūf al-Ruṣāfī, ʿIsā Iskandar al-Maʿlūf, al-ʿAmr, Muḥammad Bāqir al-Shabībī, Kāẓim al-Dujaylī and {--Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father--} Anastās Mārī al-Karmalī{-- and writing under  the pen name Sātisnā--}, the publishers of *Lughat al-ʿArab*. Looking at the latter, the importance of *al-Muqtabas* in this small network (and beyond) cannot be overstated: al-Karmalī signed more articles in *al-Muqtabas* than his own journal *Lughat al-ʿArab*. The connection to Damascus and Muḥammad Kurd ʿAlī is further evident in four of the central nodes becoming members of the Arab Scientific Academy in Damascus after World War I, whose first president was Kurd ʿAlī himself.[^51]
 
 Another striking observation is that despite two of the journals in our corpus, *al-Muqtabas* and *al-Ḥaqāʾiq*, were published in the same city, there is only very limited overlap. This contradicts the common assumption that due to the very small size of local journalistic circles---in 1912, five monthly journals were published in Damascus and none had a print run of more than a few hundred copies[^47]---there would be a substantial overlap in authorship.
 
@@ -261,29 +261,39 @@ Another striking observation is that despite two of the journals in our corpus, 
 [^50]: al-Ruṣāfī, al-Dujaylī, the two al-Shabībī brothers, al-Rāfiʿī, Muḥarram, Yakan
 [^51]: al-Ruṣāfī, al-Dujaylī, al-Maʿlūf, Muḥammad Riḍā al-Shabībī.
 
-| rank   | author.id.oape   | author.id.viaf                                 | author.name             | author.birth   | author.death   | word.count   | character.count   | article.count   | journal.count   | author.name.transliterated   |
-| ------ | ---------------- | ---------------------------------------------- | ----------------------- | -------------- | -------------- | ------------ | ----------------- | --------------- | --------------- | ---------------------------- |
-| 1      | 411              | [14924300](https://viaf.org/viaf/14924300)     | معروف  الرصافي          | 1875-01-01     | 1945-01-01     | 15038        | 64012             | 31              | 4               | m3rwf  alrSafy               |
-| 2      | 396              | NA                                             | كاظم   الدجيلي          | 1884           | 1970           | 38050        | 165405            | 28              | 2               | kaZm   aldjyly               |
-| 3      | 647              | NA                                             | إبراهيم  حلمي  العمر    | 1890           | 1942           | 40747        | 186244            | 22              | 2               | abrahym  7lmy  al3mr         |
-| 4      | 533              | [40250618](https://viaf.org/viaf/40250618)     | عيسى  اسكندر  المعلوف   | 1869-04-11     | 1956-07-02     | 23383        | 105770            | 22              | 2               | 3ysA  askndr  alm3lwf        |
-| 5      | 227              | [39370998](https://viaf.org/viaf/39370998)     | ساتسنا                  | 1866-08-05     | 1947-01-07     | 20106        | 88510             | 15              | 2               | satsna                       |
-| 6      | 429              | [22006374](https://viaf.org/viaf/22006374)     | محمد  رضا  الشبيبي      | 1889-01-01     | 1965-01-01     | 24156        | 107093            | 12              | 2               | m7md  rDa  alWbyby           |
-| 7      | 566              | NA                                             | محمد  الهاشمي           | NA             | NA             | 2717         | 11490             | 6               | 2               | m7md  alhaWmy                |
-| 8      | 410              | [236524859](https://viaf.org/viaf/236524859)   | مصطفى  صادق  الرافعي    | 1880-01-01     | 1937-05-14     | 3711         | 15854             | 6               | 2               | mSTfA  SadQ  alraf3y         |
-| 9      | 428              | NA                                             | محمد  باقر  الشبيبي     | 1889           | 1960           | 3331         | 15007             | 5               | 2               | m7md  baQr  alWbyby          |
-| 10     | 1                | NA                                             | أبو الضيا               | NA             | NA             | 5836         | 26695             | 4               | 2               | abw alDya                    |
-| 11     | 910              | [60500457](https://viaf.org/viaf/60500457)     | أحمد  محرم              | 1877           | 1945           | 1543         | 6917              | 4               | 2               | a7md  m7rm                   |
-| 12     | 3                | NA                                             | ا. ج                    | NA             | NA             | 639          | 2976              | 3               | 2               | a. j                         |
-| 13     | 786              | [63117968](https://viaf.org/viaf/63117968)     | محمد  راغب  طباخ        | 1877           | 1951           | 2633         | 11718             | 3               | 2               | m7md  raGb  TbaK             |
-| 14     | 2834             | [36771043](https://viaf.org/viaf/36771043)     | ولي الدين   يكن         | 1873           | 1921-03-06     | 795          | 3334              | 2               | 2               | wly aldyn   ykn              |
+| rank |                author.id.viaf                |      author.name      | author.name.transliterated | author.birth | author.death | journal.count | article.count | word.count |
+|------|----------------------------------------------|-----------------------|----------------------------|--------------|--------------|---------------|---------------|------------|
+|    1 | [14924300](https://viaf.org/viaf/14924300)   | معروف  الرصافي        | m3rwf  alrSafy             | 1875   | 1945   |             4 |            31 |      15038 |
+|    2 | NA                                           | كاظم   الدجيلي        | kaZm   aldjyly             | 1884         | 1970         |             2 |            28 |      38050 |
+|    3 | NA                                           | إبراهيم  حلمي  العمر  | abrahym  7lmy  al3mr       | 1890         | 1942         |             2 |            22 |      40747 |
+|    4 | [40250618](https://viaf.org/viaf/40250618)   | عيسى  اسكندر  المعلوف | 3ysA  askndr  alm3lwf      | 1869   | 1956   |             2 |            22 |      23383 |
+|    5 | [39370998](https://viaf.org/viaf/39370998)   | ساتسنا                | satsna                     | 1866   | 1947   |             2 |            15 |      20106 |
+|    6 | [22006374](https://viaf.org/viaf/22006374)   | محمد  رضا  الشبيبي    | m7md  rDa  alWbyby         | 1889   | 1965   |             2 |            12 |      24156 |
+|    7 | NA                                           | محمد  الهاشمي         | m7md  alhaWmy              | NA           | NA           |             2 |             6 |       2717 |
+|    8 | [236524859](https://viaf.org/viaf/236524859) | مصطفى  صادق  الرافعي  | mSTfA  SadQ  alraf3y       | 1880   | 1937   |             2 |             6 |       3711 |
+|    9 | NA                                           | محمد  باقر  الشبيبي   | m7md  baQr  alWbyby        | 1889         | 1960         |             2 |             5 |       3331 |
+|   10 | NA                                           | أبو الضيا             | abw alDya                  | NA           | NA           |             2 |             4 |       5836 |
+|   11 | [60500457](https://viaf.org/viaf/60500457)   | أحمد  محرم            | a7md  m7rm                 | 1877         | 1945         |             2 |             4 |       1543 |
+|   12 | NA                                           | ا. ج                  | a. j                       | NA           | NA           |             2 |             3 |        639 |
+|   13 | [63117968](https://viaf.org/viaf/63117968)   | محمد  راغب  طباخ      | m7md  raGb  TbaK           | 1877         | 1951         |             2 |             3 |       2633 |
+|   14 | [36771043](https://viaf.org/viaf/36771043)   | ولي الدين   يكن       | wly aldyn   ykn            | 1873         | 1921   |             2 |             2 |        795 |
 
 Table: authors that published in more than one journal in our corpus comprising *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*
 
 ### individual periodicals
+
+The work on compiling the biographies of all 319 contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations.
+
+|      journal      | number of authors | authors in VIAF | average year of birth |
+|-------------------|-------------------|-----------------|-----------------------|
+| *al-Ḥaqāʾiq*      |               103 |              15 |                  1837 |
+| *al-Ḥasnāʾ*       |                42 |               6 |                  1883 |
+| *Lughat al-ʿArab* |                52 |              12 |                  1875 |
+| *al-Muqtabas*     |               139 |              65 |                  1869 |
+
 #### *al-Muqtabas*
 
-Only 50 authors published more than one article in *al-Muqtabas*. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, using the pen name Sātisnā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: {~~Jamāl al-Dīn al-Qāsimī (8)~>Muḥammad Kurd ʿAlī himself (12)~~}. {>>add comments on genre of texts by these authors<<}
+Only 50 authors published more than one article in *al-Muqtabas*. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī (24 articles) and {~~Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād~>Anastās al-Karmalī~~}, using the pen name Sātisnā (14). ʿĪsā Iskandar al-Maʿlūf (20) wrote mostly from Zaḥle and Yūsuf Jirjis Zakham (13) from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: {~~Jamāl al-Dīn al-Qāsimī (8)~>Muḥammad Kurd ʿAlī himself (12)~~}. {>>add comments on genre of texts by these authors<<}
 
 <!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. -->
 
@@ -314,18 +324,17 @@ Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
 
 The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s) and worked as journalists, teachers, and occasionally politicians. All of them were highly mobile and well-travelled and had good command of local as well as foreign languages---to the extent that some of them published translations. The fifth man is not less exemplary, even though his story seems to be rather uncommon among journalists: Yūsuf Jirjis Zakham was one of the many emigrants from Greater Syria to America. He arrived in the USA in 1902 and was naturalised in 1904, settled in Lincoln, Nebraska, where he married Myra from Iowa and had at least five children. Both spouses were literate and Joseph George Zakem provided his profession as newspaper correspondent in the 1910 US Federal Census.[^43]
 
-[^43]: {UnitedStatesCensus 1910}{UnitedStatesCensus 1920;UnitedStatesCensus 1930;UnitedStatesCensus 1940}   
-
-{>>Further comments on this table:
-    1. all but two of the most frequently published authors have entries in authority files and wikipedia
-    2. data from the authority files shows that all but one were born between the mid-1860s and the mid-1870s
-<<}
+[^43]: {UnitedStatesCensus 1910}{UnitedStatesCensus 1920;UnitedStatesCensus 1930;UnitedStatesCensus 1940}
 
 ![Figure: Word cloud of authors published in *al-Muqtabas*; by number of articles](assets/plots/word-cloud_muqtabas-authors-bylines.png)
 
+The map of relative frequencies of locations mentioned in bylines conveys the same image as the network of referenced periodicals and the brief comments on the most prolific authors' biographies: *al-Muqtabas* was a publication of at least regional importance. It reached well beyond Greater Syria to Egypt, Iraq and even America, turning the famous proverb "Cairo writes, Beirut publishes and Baghdad reads" upside down with Baghdad well ahead of even Damascus.
+
+![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](assets/plots/map-oclc_4770057679-bylines-middle-east.png)
+
 #### *al-Ḥaqāʾiq*
 
-The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents, among them Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. Against this backdrop the initially surprising finding of practically no overlap between the two networks of authors published in journals from the same city, becomes less so.
+The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents (the average year of birth for *al-Ḥaqāʾiq* is 1837 and 1869 for *al-Muqtabas*). Among them are Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. Against this backdrop the initially surprising finding of very limited overlap between the two networks of authors published in journals from the same city, becomes less so. Looking at the top 14 contributors to both journals we can also note that whereas only two authors from *al-Muqtabas* are missing from VIAF and thus international library catalogues, the same is true for eight of *al-Ḥaqāʾiq*'s most frequent authors.
 
 | rank   | author.id.viaf                                    | author.name                                  | author.birth   | author.death   | article.count   |
 | ------ | ------------------------------------------------- | -------------------------------------------- | -------------- | -------------- | --------------- |
@@ -349,39 +358,42 @@ Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of byline
 
 ![Figure: Word cloud of authors published in *al-Ḥaqāʾiq*](assets/plots/word-cloud_haqaiq-authors-bylines.png)
 
+A map of the relative frequency of locations mentioned in bylines confirms the brief overview of the authors' biographies---*al-Ḥasnāʾ* was a parochial paper with a focus on local issues. Its geographic network was mainly restricted to Damascus itself and the cities of the Syrian hinterland.
+
+![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](assets/plots/map-oclc_644997575-bylines-middle-east.png)
+
 #### *Lughat al-ʿArab*
 
+| rank |                           author.id.viaf                           |        author.name         | author.name.transliterated | author.birth | author.death | word.count | article.count |
+|------|--------------------------------------------------------------------|----------------------------|----------------------------|--------------|--------------|------------|---------------|
+|    1 | NA                                                                 | NA                         | NA                         | NA           | NA           |     205355 |           787 |
+|    2 | NA                                                                 | كاظم   الدجيلي             | kaZm   aldjyly             | 1884         | 1970         |      37233 |            27 |
+|    3 | [97152636060620050511](https://viaf.org/viaf/97152636060620050511) | رزوق  عيسى                 | rzwQ  3ysA                 | 1885         | 1940         |      17303 |            16 |
+|    4 | [21058435](https://viaf.org/viaf/21058435)                         | سليمان  الدخيل             | slyman  aldKyl             | 1877         | 1945   |      20005 |            15 |
+|    5 | NA                                                                 | إبراهيم  حلمي  العمر       | abrahym  7lmy  al3mr       | 1890         | 1942         |      20550 |            13 |
+|    6 | NA                                                                 | إبراهيم  منيب  الباججي     | abrahym  mnyb  albajjy     | NA           | NA           |       1733 |            13 |
+|    7 | NA                                                                 | محمد  الهاشمي              | m7md  alhaWmy              | NA           | NA           |       1883 |             5 |
+|    8 | NA                                                                 | محمد  باقر  الشبيبي        | m7md  baQr  alWbyby        | 1889         | 1960         |       3108 |             4 |
+|    9 | [22006374](https://viaf.org/viaf/22006374)                         | محمد  رضا  الشبيبي         | m7md  rDa  alWbyby         | 1889   | 1965   |       4192 |             4 |
+|   10 | [76496271](https://viaf.org/viaf/76496271)                         | جرجي  زيدان                | jrjy  zydan                | 1861   | 1914   |       6863 |             3 |
+|   11 | NA                                                                 | عراقي                      | 3raQy                      | NA           | NA           |       3245 |             3 |
+|   12 | NA                                                                 | عمانوئيل فتح الله عمانوئيل | 3manw5yl ft7 allh 3manw5yl | NA           | NA           |       2916 |             3 |
+|   13 | NA                                                                 | البر كسبرخان               | albr ksbrKan               | NA           | NA           |       1703 |             2 |
+|   14 | NA                                                                 | شكري الفضلي                | Wkry alfDly                | NA           | NA           |       3940 |             2 |
 
-## going beyond bibliographic metadata
+Table: The fifteen most prolific authors in *Lughat al-ʿArab* by number of bylines
 
-We can easily add another dimension to our analysis of the authors published in *al-Muqtabas* and *al-Ḥaqāʾiq*. One could argue that, within genre boundaries, the number of texts is less significant for the relative importance of an author than the total length of all texts by a single author. With access to the full text with structural mark-up, we can easily calculate word counts. Muḥammad Kurd ʿAlī himself would immediately become the most important author (see table below) due to his lengthy reports from a journey across Europe, which he later published as a collection titled *Gharāʾib al-gharb*. He would be followed by Aḥmad Zakī (Pasha), an important Egyptian philologist and politician, and by Jamāl al-Dīn al-Qāsimī. Also included in this list of the ten most prolific authors published in *al-Muqtabas*, is Ibn al-Muqaffaʿ (d.759), the famous author of *Kalīla wa dhimna*, which points to an important function of *al-Muqtabas*: the publication of hitherto unpublished manuscripts and the re-print of classics. This is also attested to by the presence of Aḥmad (Bey) Taymūr in the above list of most important authors by number of articles. An avid collector of manuscripts, Aḥmad Taymūr provided many such manuscript to Muḥammad Kurd ʿAlī for publication and he frequently wrote the introductions.
+There is only limited significance in a map of relative frequency of locations mentioned in bylines for *Lughat al-ʿArab*. Only 26 of 939 articles in our corpus provided a location.
 
-<!-- Muqtabas: authors by word count -->
+{==![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)==}{>>remove this map<<}
 
-| rank |            name           | words | articles |
-|------|---------------------------|-------|----------|
-| 1    | Muḥammad Kurd ʿAlī        | 42489 |        7 |
-| 2    | Aḥmad Zakī                | 40311 |        7 |
-| 3    | Jamāl al-Dīn al-Qāsimī    | 38541 |        8 |
-| 4    | Jirjī Ḥaddād              | 24124 |        5 |
-| 5    | ʿĪsā Iskandar al-Maʿlūf   | 23297 |       20 |
-| 6    | Yūsuf Jirjis Zakham       | 21613 |       13 |
-| 7    | Sātsunā                   | 19849 |       14 |
-| 8    | Muḥammad Riḍā al-Shabībī  | 17894 |        7 |
-| 9    | Ibn al-Muqaffaʿ [sic!]    | 15520 |        4 |
-| 10   | ʿAbd al-Qādir al-Maghribī | 14074 |        7 |
-| ...  |                           |       |          |
-| 14   | Maʿrūf al-Ruṣāfī          | 12437 |       24 |
+### *al-Ḥasnāʾ*?
 
-Table: authors in *al-Muqtabas* sorted by number of words.
-
-![Figure: Word cloud of authors published in *al-Muqtabas*; by number of words](assets/plots/word-cloud_muqtabas-authors-words.png)
-
-*al-Muqtabas* and *al-Ḥaqāʾiq*, like any other periodical at the time, seriously violated the Ottoman press code that required identifiable author information being published alongside each article.{>>add footnote with comment and reference to sources<<} This also means that any analysis of bibliographic information is based on only a small sample of either periodical.
+![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png)
 
 # Stylometry
 
-What are the consequences of such a severe lack of information and are there means of filling the gap? One obvious approach to follow would be to submit the entire corpus to stylometric analysis. Stylometry is one of the methods frequently referred to as *distant reading*.[^13]  It can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of vocabulary used in a given text.[^11] Stylometry is based on the empirical observation "that authors tend to write in relatively consistent, recognizable and unique ways"[^14] which is particularly true for an author's vocabulary. Stylometry then computes degrees of similarity between texts, called distance measure, through {--various methods of --}comparing multivariant frequency lists of textual features. {--This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.--} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
+The final part of this paper is dedicated to the gap in authorship attribution. What are the potential means of casting some light on the more than four fifths of articles without authorship information? One approach to follow would be {--to submit the entire corpus to--} stylometric analysis. Stylometry is one of the methods frequently referred to as *distant reading*.[^13]  It can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of vocabulary used in a given text.[^11] Stylometry is based on the empirical observation "that authors tend to write in relatively consistent, recognizable and unique ways"[^14] which is particularly true for an author's vocabulary. Stylometry then computes degrees of similarity between texts, called distance measure, through {--various methods of --}comparing multivariant frequency lists of textual features. {--This is not the space to discuss the intricacies of stylometry for authorship attribution, the available tools and the necessary amount of pre-processing to be applied to Arabic texts before submitting them to stylometric analysis.--} The important catch here is that in order to establish similarities, one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
 
 [^14]: {Laramée 2018}
 
@@ -449,4 +461,3 @@ If we assume that information on the place of writing of any one article was not
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
 [wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1
-
