@@ -166,7 +166,20 @@ With major work on modelling on three journals from Baghdad, Cairo and Damascus-
 
 ## OpenArabicPE's corpus
 
-The corpus comprises {--TEI files for--} each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* until the end of World War I. {>>total of 165 issues<<} 
+The corpus comprises {--TEI files for--} the full text of each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* and a transcription of article titles and bylines for one volume of *al-Ḥasnāʾ* until the end of World War I. {>>total of 165 issues<<} 
+
+|      journal      | volumes | issues | articles | independent articles | articles with author |  words  | characters | words.per.article | characters.per.article | characters.per.word |
+|-------------------|---------|--------|----------|----------------------|----------------------|---------|------------|-------------------|------------------------|---------------------|
+| *al-Ḥaqāʾiq*      |       3 |     35 |      389 |                  257 |                  163 |  298090 |    1316142 |  832.660484848951 |       3681.46603402433 |    4.42336130476421 |
+| *al-Ḥasnāʾ*       |       1 |     11 |      173 |                  136 |                   63 |    1421 |       5988 |  8.29124776931973 |       35.3379624037901 |    4.29100836427165 |
+| *al-Muqtabas*     |       9 |     96 |     2964 |                  792 |                  377 | 1981081 |    8953867 |  873.341307920755 |       3938.47737955481 |    4.51753515150654 |
+| *Lughat al-ʿArab* |       3 |     34 |      939 |                  330 |                  152 |  373832 |    1638225 |  485.206043680748 |       2132.43872149233 |    4.39265321063476 |
+
+Table: summary of our corpus
+
+[^52]: Excluding the word count of *al-Ḥasnāʾ* for which we have no full text.
+
+### *al-Muqtabas*
 
 {>>*al-Muqtabas*<<}
 {--Muḥammad Kurd ʿAlī published 96 issues of his monthly journal *al-Muqtabas* (The Digest / Acquired Learning) between 1906 and 1917/18.--} 
