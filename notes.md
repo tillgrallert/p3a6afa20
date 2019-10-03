@@ -23,6 +23,18 @@ tags:
     + **done**: improve CSV of referenced periodicals
 
 # 1. Methodological notes
+## our corpus
+
+| publication.title | publication.id.oclc | volume.count | issue.count | article.count | article.count.is.independent | article.count.has.author | word.count | character.count | words.per.article | characters.per.article | characters.per.word |
+|-------------------|---------------------|--------------|-------------|---------------|------------------------------|--------------------------|------------|-----------------|-------------------|------------------------|---------------------|
+| al-Ḥaqāʾiq        |           644997575 |            3 |          35 |           389 |                          257 |                      163 |     298090 |         1316142 |  832.660484848951 |       3681.46603402433 |    4.42336130476421 |
+| al-Ḥasnāʾ         |           792756327 |            1 |          11 |           173 |                          136 |                       63 |       1421 |            5988 |  8.29124776931973 |       35.3379624037901 |    4.29100836427165 |
+| al-Manār          |             1588981 |           12 |         139 |          1114 |                         1114 |                        0 |    2187318 |         9908975 |  2076.95105879333 |       9403.27597863767 |    4.52681168661136 |
+| al-Muqtabas       |          4770057679 |            9 |          96 |          2964 |                          792 |                      377 |    1981081 |         8953867 |  873.341307920755 |       3938.47737955481 |    4.51753515150654 |
+| Lughat al-ʿArab   |           472450345 |            3 |          34 |           939 |                          330 |                      152 |     373832 |         1638225 |  485.206043680748 |       2132.43872149233 |    4.39265321063476 |
+
+
+
 ## network of authors
 
 + questions:
@@ -172,6 +184,10 @@ tags:
             * *al-Manār*
             * *al-Muqtaṭaf*
             * *al-Mufīd*
+3. number of referenced periodicals per journal
+    1. *al-Manār* (1588981): 206
+    2. *al-Muqtabas* (4770057679): 404 **BUT** this counts numerous periodicals twice due to *al-Muqtabas* being published in Cairo and Damascus.
+    3.
 
 # 2. Where is everything
 
