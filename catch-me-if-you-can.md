@@ -181,7 +181,6 @@ Table: summary of our corpus
 
 ### *al-Muqtabas*
 
-{>>*al-Muqtabas*<<}
 {--Muḥammad Kurd ʿAlī published 96 issues of his monthly journal *al-Muqtabas* (The Digest / Acquired Learning) between 1906 and 1917/18.--} 
 Muḥammad Kurd ʿAlī (1876–1953) was the best known and, after the Young Turk Revolution of 1908, the most influential journalist and intellectual in Damascus. Before establishing his own journal *al-Muqtabas* (The Digest) in Cairo in 1906 and the first daily newspaper to be published in Damascus in 1908 (also confusingly called *al-Muqtabas*), he had held minor government offices and worked at various public and private presses and periodicals in Damascus and Cairo. He was well-acquainted with leading figures of the Islamic reform movement in Egypt and Greater Syria.{--, like Ṭāhir al-Jazāʾirī, Rashīd Riḍā and Muḥammad ʿAbduh.--} He was a member in Ṭāhir al-Jazāʾirī's "senior circle" in the early 1890s in Damascus and later moved and worked in Rashīd Riḍā's and Muḥammad ʿAbduh's circles in Cairo. After the Young Turk Revolution, Kurd ʿAlī returned to his hometown and the publication of *al-Muqtabas* moved from Cairo to Damascus in the journal's third year. In Damascus, *al-Muqtabas* soon became "the boldest, most coherent, consistent and committed proponent of reform and modernity [...] prior to World War I".[^33] Due to conflicts with the authorities over the reprint of a poem, Kurd ʿAlī again fled Damascus for Cairo and Europe in 1912. Consequently, *al-Muqtabas* was published from Cairo for a couple of months before Kurd ʿAlī was allowed to return once again. During World War I and Cemal Pasha's infamous term as commander-in-chief of the 4th Army and governor general of Syria, Kurd ʿAlī was able to win his support. He thus escaped the fate of Shukrī al-ʿAsalī{>> his co-editor at *al-Muqtabas*<<}, ʿAbd al-Ghanī al-ʿUraysī and other journalists from Beirut and Damascus, who were publicly executed on charges of treason. Similarly to their editor, the journal and the newspaper *al-Muqtabas* survived and continued publication until the final days of the war---albeit in shorter and less frequent editions due to material shortages. After the end of the war and the disintegration of the Ottoman Empire, Kurd ʿAlī abandoned the monthly and left the editorship of the revived daily newspaper *al-Muqtabas* to his brother Aḥmad. He founded the Arab Scientific Academy whose president he became in 1919 and served twice as Minister of Education (1920–22, 1928–32) during the French Mandate over Syria.[^34]
 
@@ -431,13 +430,7 @@ If we assume that information on the place of writing of any one article was not
 
 {>>missing comment on maps<<}
 
-# Network of referenced periodicals
-
-![Figure: Network of periodicals mentioned in *al-Haqāʾiq*, *al-Muqtabas* and *Lughat al-ʿArab*](assets/plots/network_oape-referenced-periodicals.png)
-
-![](assets/plots/network_oape-referenced-periodicals-per-article_2019-08-16.png)
-
-![](assets/plots/network_oape-referenced-periodicals-per-issue_2019-08-16.png)
+# Conclusion
 
 {>>missing conclusion<<}
 
@@ -458,6 +451,4 @@ If we assume that information on the place of writing of any one article was not
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
 [wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1
-
-
 
