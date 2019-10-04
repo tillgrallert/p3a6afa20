@@ -422,6 +422,8 @@ These findings have severe implications for the application of stylometry to per
 
 Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods' usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travellogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.
 
+![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_oape-commented_2019-10-04_modularity.png)
+
 ### looking a sections of shorter articles
 
 Many journals published shorter articles based on other publications, announcing publications etc. in sections. These articles are far {==too short ==}{>>how short, exactely? On average?<<} for reliable stylometric authorship attribution. However, we can analyse these articles in the clusters they were originally published in to test the hypothesis that they were all authored by the journals editors. We aggregated all articles in sections on the issue level, submitted them to stylometric analysis and looked for clustering by periodical. This workaround is necessary since we neither know all actual editors working at a journal, nor do we have corpora of digital texts for all known editors. Otherwise these could be directly compared to the sections.
