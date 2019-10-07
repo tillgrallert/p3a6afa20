@@ -23,7 +23,7 @@ tags:
 <!-- pandoc -F pandoc-crossref -s -f markdown-smart -t html5 --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript catch-me-if-you-can.md -o index.html -->
 <!-- ## 2. DOCX -->
 <!-- pandoc-crossref -->
-<!-- pandoc -F pandoc-crossref -s -f markdown-smart -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
+<!-- pandoc -F pandoc-crossref -s -f markdown -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
 <!-- pancritic -->
 <!-- pancritic -s -f markdown -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
 
