@@ -177,13 +177,13 @@ With major work on modelling on three journals from Baghdad, Cairo and Damascus-
 
 The corpus comprises  the full text of each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* and a transcription of article titles and bylines for one volume of *al-Ḥasnāʾ* until the end of World War I. 
 
-|      journal      | volumes | issues | articles | independent articles | articles with author |   in %   |  words  | characters | words.per.article | characters.per.article | characters.per.word |
-|-------------------|---------|--------|----------|----------------------|----------------------|----------|---------|------------|-------------------|------------------------|---------------------|
-| *al-Ḥaqāʾiq*      |       3 |     35 |      389 |                  257 |                  163 | 41.90 |  298090 |    1316142 |  832.660484848951 |       3681.46603402433 |    4.42336130476421 |
-| *al-Ḥasnāʾ*       |       1 |     11 |      173 |                  136 |                   63 | 36.42 |         |            |                   |                        |    4.29100836427165 |
-| *al-Muqtabas*     |       9 |     96 |     2964 |                  792 |                  377 | 12.72 | 1981081 |    8953867 |  873.341307920755 |       3938.47737955481 |    4.51753515150654 |
-| *Lughat al-ʿArab* |       3 |     34 |      939 |                  330 |                  152 | 16.18 |  373832 |    1638225 |  485.206043680748 |       2132.43872149233 |    4.39265321063476 |
-| **total**         |      16 |    176 |     4465 |                 1515 |                  755 |          | 2653003 |            |                   |                        |                     |
+|      journal      | volumes | issues | articles | independent articles | articles with author |  in % |  words  | words.per.article | characters.per.word |
+|-------------------|---------|--------|----------|----------------------|----------------------|-------|---------|-------------------|---------------------|
+| *al-Ḥaqāʾiq*      |       3 |     35 |      389 |                  257 |                  163 | 41.90 |  298090 |  832.660484848951 |    4.42336130476421 |
+| *al-Ḥasnāʾ*       |       1 |     11 |      173 |                  136 |                   63 | 36.42 |         |                   |    4.29100836427165 |
+| *al-Muqtabas*     |       9 |     96 |     2964 |                  792 |                  377 | 12.72 | 1981081 |  873.341307920755 |    4.51753515150654 |
+| *Lughat al-ʿArab* |       3 |     34 |      939 |                  330 |                  152 | 16.18 |  373832 |  485.206043680748 |    4.39265321063476 |
+| **total**         |      16 |    176 |     4465 |                 1515 |                  755 |       | 2653003 |                   |                     |
 
 Table: summary of our corpus
 
