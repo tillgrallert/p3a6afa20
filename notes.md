@@ -281,11 +281,11 @@ Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the m
 Born in the village of Kafr ʿAqqāb in Mt. Lebnon.  Educated across Lebanon and in the Greek Orthodox school in Damascus. Co-editor of the periodicals *Lubnān*, *al-ʿAṣr al-Jadīd* and *al-Niʿma*. In 1911 he established the journal *al-Āthār* (published only 5 volumes){>> in Zaḥle<<}. Collector of books and manuscripts: AUB holds some 500 manuscripts from his private collection.
 After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
 
-## Sātisnā (1866--1947)
+## Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, Father Anastās Mārī al-Karmalī, Sātisnā (1866--1947)
 
 - Sources
     + [Ziriklī ]
-    + VIAF
+    + VIAF: [39370998](https://viaf.org/viaf/39370998)
 
 Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father Anastās Mārī al-Karmalī and writing under  the pen name Sātisnā
 
