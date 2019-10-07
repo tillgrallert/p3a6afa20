@@ -1,5 +1,5 @@
 ---
-title: "Catch me if you can! Attempts to track networks of authors and publication reviews in the wasteland of 'digitised' Arabic periodicals from the Ottoman Empire"
+title: "Catch me if you can! Attempts to track the late Ottoman ideosphere of authors and periodicals in the wasteland of the ‘digitised’ Arabic press"
 author: Till Grallert
 date: 2018-09-11
 ORCID: orcid.org/0000-0002-5739-8094
