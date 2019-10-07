@@ -415,6 +415,12 @@ Maciej Eder, inspired by phylogenetics, suggested to use *bootstrap consensus tr
 There has been some debate about the minimal required length for attribution. Eder ran a series of stylometric analyses on medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek using Burrow's Delta on 200 MFWs in order to experimentally establish a threshold length. He found that 5000 words is the minimal length for meaningful attribution below which the signal is "immensely affected by random noise".[^40] Yet, contrary to common assumptions that longer text will lead to ever improving attribution results, Eder also established that beyond a length of 15000 words accuracy of authorship attribution does not improve any further. 
 These findings have severe implications for the application of stylometry to periodicals---most texts are much shorter than 5000 words and even the longer ones are too short for random sampling. Nevertheless,  our first experiments with stylometric analysis yielded promising results and show at least three distinct signals: genre, author and translator/editor.
 
+| article length | number of articles |
+|----------------|--------------------|
+| > 5000         |                 50 |
+| 2001--5000     |                297 |
+| 1000--2000     |                449 |
+
 {>>*al-Muqtabas*, *al-Ḥaqāʾiq*, *Lughat al-ʿArab*: 50 articles above 5000 words, 297 between 2000 and 5000, 449 between 1000 and 2000<<}
 
 [^15]: {Eder 2016b}
