@@ -27,33 +27,12 @@ tags:
 <!-- pancritic -->
 <!-- pancritic -s -f markdown -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
 
-<div id="sec-badges" class="c_badges">
-<!-- ORCID -->
-[![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5739-8094)
-<!-- licence -->
-[![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/)
-<!-- release -->
-[![GitHub release](https://img.shields.io/github/release/tillgrallert/p3a6afa20.svg)](https://github.com/tillgrallert/p3a6afa20/releases)
-<!-- DOI -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1413610.svg)](https://doi.org/10.5281/zenodo.1413610)
-</div>
-
-# About
-
->This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21. September 2018. The final version is meant for submission to a special issue of "Geschichte und Gesellschaft".
-
->The current stable draft of this paper is version [v0.1](https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html). The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html).
-
->Note that network plots currently make use of a computational transcription of Arabic into Latin script. The intended general audience is assumed to not be able to read Arabic. Since the latest version of macOS Mojave and Gephi 0.9.2 finally render Arabic script in network scripts, I shall supply a secondary set of Arabic plots.
 
 # Introduction
 
 {>>research questions are still missing<<}
 
 This paper presents the dual race to catch up with methodological and epistemological developments outside the realm of Middle East studies and with the global networks of authors and readers enmeshed in late Ottoman periodicals.
-
-
-
 The periodical press of the late Ottoman Eastern Mediterranean has received scholarly attention since the early twentieth century. Yet, core questions concerning the intellectual history of the periodical press and the social history of periodical production are still unanswered. Early Arabic periodicals from the late nineteenth and early twentieth centuries, such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic (cultural) renaissance (*al-nahḍa*), Arab nationalism, and the Islamic reform movement. Scholarly approaches to these periodicals have been, for a long time, both encyclopaedic and anecdotal as well as biased by an almost exclusive focus on Cairo and Beirut. Often compiled by authors who themselves were journalists, these works adhere to a specific political view of Arab nationalism.[^28] After the publication of some union catalogues and indexes,[^29] focus shifted to the intellectual history of the *naḥda* and Arab nationalism from the 1970s onwards. The methodological focus of this work was---and to a large extent still is---on opinion pieces and editorials in a small sample of canonical journals while the historiography of the periodical press itself was relegated to the margins. Two noteworthy exceptions to this rule are Donald Cioeta's work on the history of *Thamarāt al-Funūn* and censorship in Ottoman Beirut[^30] and Ami Ayalon's extensive writings on the press in the Arab Middle East.[^31] Detailed studies on longer---if not entire---periods of individual publications are still lacking beyond Cioeta's unpublished thesis and Dagmar Glaß' study on *al-Muqtaṭaf*.[^32] In consequence, we still need to answer questions such as: What are the core nodes (authors, periodicals, other works) in the ideoscape of the late Ottoman Eastern Mediterranean? Is the geographic bias of Cairo and Beirut justified if we look at more than the "easily" accessible handful of monthly journals mentioned above? How would we need to re-write the intellectual history of the final decades of the Ottoman Empire if the myriad of papers and their contributors from places as far as Algiers, Basra or Aleppo were included? The answers to these questions depend on another set of questions: Who authored the majority of articles in any one periodical that did not carry a byline? Even if they were absent from the place of publication for prolonged periods of time, as we know they repeatedly were? Can we confirm the common---and untested---assumption that the proprietor or editor-in-chief mentioned in a journal's imprint or a newspaper's masthead just authored all the anonymous texts themselves? Is it true, as some suspect, that editors invented contributors to their journals from far-away places to impress their audiences?
 
 This paper presents a first foray into computational approaches to these questions by adopting methods broadly summarised as *distant reading*, namely social network analysis and stylometry. Computational methods depend on digital corpora. I start by contrasting the hyperbolic promises of digitisation with the bleak reality of extremely limited access to unsystematically digitised facsimile corpora of Arabic periodicals from the late Ottoman Eastern Mediterranean. This, I argue contributes to a new colonial divide between the abundance of digitised cultural artefacts of the Global North and the invisibility of almost anything beyond, which necessitate substantial corpus building efforts for many scholars working on texts in non-Western languages written in non-Latin scripts---English and Latin script being the hegemonic technical paradigm upon which our digital infrastructure rests.
