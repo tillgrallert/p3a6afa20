@@ -1,0 +1,466 @@
+"target.id.oclc","target.title","target.title.transliterated","target.location.name","target.location.coordinates","article.count","issue.count","journal.count"
+"4770057679","المقتبس","almQtbs","al-Qāhira","30.06263, 31.24967",100,64,3
+"1639361","الهلال","alhlal","al-Qāhira","30.06263, 31.24967",24,22,3
+"1588981","المنار","almnar","al-Qāhira","30.06263, 31.24967",19,17,3
+"931941685","المقتطف","almQtTf","Bayrūt","33.88894, 35.49442",20,15,3
+"1034555409","الضياء","alDyaq","al-Qāhira","30.06263, 31.24967",10,10,3
+"1034548778","المفيد","almfyd","Bayrūt","33.88894, 35.49442",13,9,3
+"472450345","لغة العرب","lG0 al3rb","Baghdād","33.34058, 44.40088",94,29,2
+"644997575","الحقائق","al7Qa5Q","Dimashq","33.5102, 36.29128",57,26,2
+"1681243","مجلة العالم الإسلامي","mjl0 al3alm alaslamy","Paris","48.85341, 2.3488",23,21,2
+"473817521","المشرق","almWrQ","Bayrūt","33.88894, 35.49442",17,16,2
+NA,"العلم","al3lm","Baghdād","33.34058, 44.40088",12,13,2
+"792755902","المؤيد","almoyd","al-Qāhira","30.06263, 31.24967",10,11,2
+"1034545644","الزهور","alzhwr","al-Qāhira","30.06263, 31.24967",11,10,2
+NA,"الحياة","al7ya0",NA,NA,12,9,2
+"263593774","الطان","alTan","Paris","48.85341, 2.3488",9,9,2
+"792756327","الحسناء","al7snaq","Bayrūt","33.88894, 35.49442",9,8,2
+NA,"العالمين","al3almyn",NA,NA,8,8,2
+"1022938052","العرفان","al3rfan","Ṣaida","33.55751, 35.37148",11,7,2
+"792754974","البيان","albyan","al-Qāhira","30.06263, 31.24967",7,7,2
+NA,"الشرق","alWrQ",NA,NA,7,7,2
+"992611467","التيمس","altyms","London","51.50853, -0.12574",6,6,2
+"1034547407","الجامعة","aljam30","Alexandria","31.20176, 29.91582",6,5,2
+"472961896","مجلة المجلات","mjl0 almjlat","Paris","48.85341, 2.3488",5,5,2
+NA,"مقتبس","mQtbs",NA,NA,5,4,2
+"1034550756","الحقيقة","al7QyQ0","Bayrūt","33.88894, 35.49442",3,3,2
+"1034551122","الآثار","alaUar","Zaḥla","33.84972, 35.90417",3,3,2
+"42900564","الاتحاد العثماني","alat7ad al3Umany","Bayrūt","33.88894, 35.49442",3,3,2
+NA,"الحقوق","al7QwQ","Jabal Lubnān","33.91667, 35.66667",3,3,2
+NA,"العصر الجديد","al3Sr aljdyd","Dimashq","33.5102, 36.29128",3,3,2
+NA,"الوطن","alwTn","Bayrūt","33.88894, 35.49442",3,3,2
+NA,"الكوثر","alkwUr",NA,NA,2,3,2
+NA,"بغداد","bGdad",NA,NA,8,2,2
+NA,"طبيب العائلة","Tbyb al3a5l0",NA,NA,3,2,2
+"173830042","الطبيب","alTbyb",NA,NA,2,2,2
+"987291181","الجنان","aljnan","Bayrūt","33.88894, 35.49442",2,2,2
+NA,"الإرشاد","alarWad",NA,NA,2,2,2
+NA,"الرأي العام","alray al3am","Bayrūt","33.88894, 35.49442",2,2,2
+NA,"الزوراء","alzwraq","Baghdād","33.34058, 44.40088",2,2,2
+NA,"العرب","al3rb",NA,NA,2,2,2
+NA,"الكلية","alkly0",NA,NA,2,2,2
+NA,"النصير","alnSyr",NA,NA,2,2,2
+NA,"تنوير الأفكار","tnwyr alafkar",NA,NA,2,2,2
+NA,"سبيل الرشاد","sbyl alrWad",NA,NA,2,2,2
+NA,"لسان العرب","lsan al3rb",NA,NA,2,2,2
+"472961924","المجلة","almjl0","Paris","48.85341, 2.3488",39,27,1
+NA,"الرياض","alryaD","Baghdād","33.34058, 44.40088",34,23,1
+NA,"الاقتصاديين","alaQtSadyyn",NA,NA,7,7,1
+NA,"الطبيعة","alTby30",NA,NA,7,7,1
+NA,"الهدى","alhdA",NA,NA,7,6,1
+NA,"الدستور","aldstwr",NA,NA,6,6,1
+"19000299","مجلة المجلات النيويوركية","mjl0 almjlat alnywywrky0","New York City","40.71427, -74.00597",5,5,1
+NA,"الديبا","aldyba",NA,NA,5,5,1
+NA,"النبراس","alnbras",NA,NA,5,5,1
+NA,"الأحكام","ala7kam",NA,NA,6,4,1
+"297351216","مجلة المجلات الإنكليزية","mjl0 almjlat alanklyzy0","London","51.50853, -0.12574",4,4,1
+NA,"الاقتصاد","alaQtSad",NA,NA,4,4,1
+NA,"الجوائب","aljwa5b",NA,NA,4,4,1
+NA,"الجورنال","aljwrnal",NA,NA,4,4,1
+NA,"جريدة المقتبس","jryd0 almQtbs",NA,NA,4,4,1
+NA,"طنين","Tnyn",NA,NA,4,4,1
+NA,"التربية","altrby0",NA,NA,6,3,1
+"19000299","مجلة المجلات الأميركية","mjl0 almjlat alamyrky0","New York City","40.71427, -74.00597",4,3,1
+NA,"الأهرام","alahram",NA,NA,4,3,1
+NA,"حديقة الأخبار","7dyQ0 alaKbar",NA,NA,4,3,1
+NA,"سبل الرشاد","sbl alrWad",NA,NA,4,3,1
+NA,"البلاغ","alblaG",NA,NA,3,3,1
+NA,"الزرقاء","alzrQaq",NA,NA,3,3,1
+NA,"الظاهر","alZahr",NA,NA,3,3,1
+NA,"القرن","alQrn",NA,NA,3,3,1
+NA,"القسطاس","alQsTas",NA,NA,3,3,1
+NA,"المجلة الآسياوية","almjl0 alasyawy0",NA,NA,3,3,1
+NA,"المنبر","almnbr",NA,NA,3,3,1
+NA,"شهبال","Whbal",NA,NA,3,3,1
+NA,"صباح","Sba7",NA,NA,3,3,1
+NA,"مجلة التربية","mjl0 altrby0",NA,NA,3,3,1
+NA,"مجلة العالمين","mjl0 al3almyn",NA,NA,3,3,1
+NA,"يكي غزته","yky Gzth",NA,NA,3,3,1
+NA,"بيروت","byrwt",NA,NA,6,2,1
+NA,"أدلة الترقي","adl0 altrQy",NA,NA,3,2,1
+NA,"إقدام","aQdam",NA,NA,3,2,1
+NA,"الحق يعلو","al7Q y3lw",NA,NA,3,2,1
+NA,"الرصافة","alrSaf0",NA,NA,3,2,1
+NA,"الزهور","alzhwr",NA,NA,3,2,1
+NA,"حمص","7mS",NA,NA,3,2,1
+NA,"الآنال","alanal",NA,NA,2,2,1
+NA,"الأفكار","alafkar",NA,NA,2,2,1
+NA,"الاجتماع","alajtma3",NA,NA,2,2,1
+NA,"الباريزية","albaryzy0",NA,NA,2,2,1
+NA,"البريس","albrys",NA,NA,2,2,1
+NA,"البيوت","albywt",NA,NA,2,2,1
+NA,"التعليم","alt3lym",NA,NA,2,2,1
+NA,"التواريخ","altwaryK",NA,NA,2,2,1
+NA,"الجريدة","aljryd0",NA,NA,2,2,1
+NA,"الحياة البيتية","al7ya0 albyty0",NA,NA,2,2,1
+NA,"الرئيس","alr5ys",NA,NA,2,2,1
+NA,"الراوي","alrawy",NA,NA,2,2,1
+NA,"الصحة","alS70",NA,NA,2,2,1
+NA,"العالم الجديد","al3alm aljdyd",NA,NA,2,2,1
+NA,"العثماني","al3Umany",NA,NA,2,2,1
+NA,"العصر","al3Sr",NA,NA,2,2,1
+NA,"القصر","alQSr",NA,NA,2,2,1
+NA,"الكائنات","alka5nat",NA,NA,2,2,1
+NA,"الكرمل","alkrml",NA,NA,2,2,1
+NA,"الكورسبوندان","alkwrsbwndan",NA,NA,2,2,1
+NA,"اللواء","allwaq",NA,NA,2,2,1
+NA,"المباحث","almba7U",NA,NA,2,2,1
+NA,"المجلة الإسبانية","almjl0 alasbany0",NA,NA,2,2,1
+NA,"المجلة التونسية","almjl0 altwnsy0",NA,NA,2,2,1
+NA,"المجلة الجديدة","almjl0 aljdyd0",NA,NA,2,2,1
+NA,"المحيط","alm7yT",NA,NA,2,2,1
+NA,"المدرسة","almdrs0",NA,NA,2,2,1
+NA,"المطالعات البيتية","almTal3at albyty0",NA,NA,2,2,1
+NA,"المنتقد","almntQd",NA,NA,2,2,1
+NA,"النعمة","aln3m0",NA,NA,2,2,1
+NA,"الورلد","alwrld",NA,NA,2,2,1
+NA,"تصوير أفكار","tSwyr afkar",NA,NA,2,2,1
+NA,"ثروت فنون","Urwt fnwn",NA,NA,2,2,1
+NA,"روضة المدارس","rwD0 almdars",NA,NA,2,2,1
+NA,"مجلة الجامعة المصرية","mjl0 aljam30 almSry0",NA,NA,2,2,1
+NA,"مجلة الطبيعة","mjl0 alTby30",NA,NA,2,2,1
+NA,"مجلة العلم الاجتماعي","mjl0 al3lm alajtma3y",NA,NA,2,2,1
+NA,"العراق","al3raQ",NA,NA,4,1,1
+NA,"الرياض","alryaD",NA,NA,3,1,1
+NA,"الإصلاح","alaSla7",NA,NA,2,1,1
+NA,"الجامعة المصرية","aljam30 almSry0",NA,NA,2,1,1
+NA,"الشام","alWam",NA,NA,2,1,1
+NA,"القدس","alQds",NA,NA,2,1,1
+NA,"النجف","alnjf",NA,NA,2,1,1
+NA,"فتى العرب","ftA al3rb",NA,NA,2,1,1
+NA,"مكارم الأخلاق","mkarm alaKlaQ",NA,NA,2,1,1
+"19000299","مجلة المجلات الأمريكية","mjl0 almjlat alamryky0","New York City","40.71427, -74.00597",1,1,1
+"297351216","مجلة المجلات","mjl0 almjlat","London","51.50853, -0.12574",1,1,1
+"472961896","مجلة المجلات الفرنسية","mjl0 almjlat alfrnsy0","Paris","48.85341, 2.3488",1,1,1
+NA,"(سالنامة) ولاية بيروت","(salnam0) wlay0 byrwt",NA,NA,1,1,1
+NA,"Le Traducteur","Le Traducteur",NA,NA,1,1,1
+NA,"Les Documents du Progrès","Les Documents du Progrès",NA,NA,1,1,1
+NA,"Revue Hispanique","Revue Hispanique",NA,NA,1,1,1
+NA,"Revue internationale d'éthnologie et de la linguistique","Revue internationale d'éthnologie et de la linguistique",NA,NA,1,1,1
+NA,"أخوت","aKwt",NA,NA,1,1,1
+NA,"أرناؤود","arnaowd",NA,NA,1,1,1
+NA,"أفكار عمومية","afkar 3mwmy0",NA,NA,1,1,1
+NA,"أقدام","aQdam",NA,NA,1,1,1
+NA,"أميركا الشمالية","amyrka alWmaly0",NA,NA,1,1,1
+NA,"أنيس الجليس","anys aljlys",NA,NA,1,1,1
+NA,"إيفنن نيوز","ayfnn nywz",NA,NA,1,1,1
+NA,"اشك","aWk",NA,NA,1,1,1
+NA,"الآسياوية","alasyawy0",NA,NA,1,1,1
+NA,"الآورلوك","alawrlwk",NA,NA,1,1,1
+NA,"الأثري","alaUry",NA,NA,1,1,1
+NA,"الأخبار","alaKbar",NA,NA,1,1,1
+NA,"الأرز","alarz",NA,NA,1,1,1
+NA,"الأرض","alarD",NA,NA,1,1,1
+NA,"الأسبوع الأدبي","alasbw3 aladby",NA,NA,1,1,1
+NA,"الأسرار","alasrar",NA,NA,1,1,1
+NA,"الأضواء","alaDwaq",NA,NA,1,1,1
+NA,"الأفكار الحديثة","alafkar al7dyU0",NA,NA,1,1,1
+NA,"الأقرباء","alaQrbaq",NA,NA,1,1,1
+NA,"الأقلام","alaQlam",NA,NA,1,1,1
+NA,"الأمم","alamm",NA,NA,1,1,1
+NA,"الأنتروبوس","alantrwbws",NA,NA,1,1,1
+NA,"الأنوار","alanwar",NA,NA,1,1,1
+NA,"الأوتلوك","alawtlwk",NA,NA,1,1,1
+NA,"الأوتو","alawtw",NA,NA,1,1,1
+NA,"الإخاء","alaKaq",NA,NA,1,1,1
+NA,"الإخراجات","alaKrajat",NA,NA,1,1,1
+NA,"الإقبال","alaQbal",NA,NA,1,1,1
+NA,"الإنسانية","alansany0",NA,NA,1,1,1
+NA,"الإيكو دي باري","alaykw dy bary",NA,NA,1,1,1
+NA,"الإيكودي باري","alaykwdy bary",NA,NA,1,1,1
+NA,"الاتحاد","alat7ad",NA,NA,1,1,1
+NA,"الاحوال","ala7wal",NA,NA,1,1,1
+NA,"الاحياء","ala7yaq",NA,NA,1,1,1
+NA,"الاستعمار","alast3mar",NA,NA,1,1,1
+NA,"الاكونومبست أوربيين","alakwnwmbst awrbyyn",NA,NA,1,1,1
+NA,"الالستراسيون","alalstrasywn",NA,NA,1,1,1
+NA,"الامة","alam0",NA,NA,1,1,1
+NA,"الانثربوس","alanUrbws",NA,NA,1,1,1
+NA,"الانقلاب","alanQlab",NA,NA,1,1,1
+NA,"الاونيفر","alawnyfr",NA,NA,1,1,1
+NA,"الايكو","alaykw",NA,NA,1,1,1
+NA,"الايكودي باري","alaykwdy bary",NA,NA,1,1,1
+NA,"البابيروس","albabyrws",NA,NA,1,1,1
+NA,"البال مال غازت","albal mal Gazt",NA,NA,1,1,1
+NA,"البتي","albty",NA,NA,1,1,1
+NA,"البتي باريزين","albty baryzyn",NA,NA,1,1,1
+NA,"البتي جرنال","albty jrnal",NA,NA,1,1,1
+NA,"البشير","albWyr",NA,NA,1,1,1
+NA,"البصائر","albSa5r",NA,NA,1,1,1
+NA,"البصرة","albSr0",NA,NA,1,1,1
+NA,"البلبل","alblbl",NA,NA,1,1,1
+NA,"التربيونا","altrbywna",NA,NA,1,1,1
+NA,"التعاون","alt3awn",NA,NA,1,1,1
+NA,"التفكر","altfkr",NA,NA,1,1,1
+NA,"التنخل","altnKl",NA,NA,1,1,1
+NA,"الثبات","alUbat",NA,NA,1,1,1
+NA,"الجسمانية","aljsmany0",NA,NA,1,1,1
+NA,"الجورنال دي كير","aljwrnal dy kyr",NA,NA,1,1,1
+NA,"الحارس","al7ars",NA,NA,1,1,1
+NA,"الحبل","al7bl",NA,NA,1,1,1
+NA,"الحجاز","al7jaz",NA,NA,1,1,1
+NA,"الحقوق","al7QwQ",NA,NA,1,1,1
+NA,"الحقيقة","al7QyQ0",NA,NA,1,1,1
+NA,"الحكمة","al7km0",NA,NA,1,1,1
+NA,"الحياة البيتة","al7ya0 albyt0",NA,NA,1,1,1
+NA,"الدروس","aldrws",NA,NA,1,1,1
+NA,"الدولة","aldwl0",NA,NA,1,1,1
+NA,"الديبيش كلونيال","aldybyW klwnyal",NA,NA,1,1,1
+NA,"الديلي","aldyly",NA,NA,1,1,1
+NA,"الديلي اكسبرس","aldyly aksbrs",NA,NA,1,1,1
+NA,"الديلي تلغراف","aldyly tlGraf",NA,NA,1,1,1
+NA,"الديلي كرونيكل","aldyly krwnykl",NA,NA,1,1,1
+NA,"الديلي ميرور","aldyly myrwr",NA,NA,1,1,1
+NA,"الديلي ميل","aldyly myl",NA,NA,1,1,1
+NA,"الديلي نيوز","aldyly nywz",NA,NA,1,1,1
+NA,"الرابطة","alrabT0",NA,NA,1,1,1
+NA,"الرشيد","alrWyd",NA,NA,1,1,1
+NA,"الرقيب","alrQyb",NA,NA,1,1,1
+NA,"الرياحين","alrya7yn",NA,NA,1,1,1
+NA,"الريحانة","alry7an0",NA,NA,1,1,1
+NA,"الزمان","alzman",NA,NA,1,1,1
+NA,"الزورآء","alzwraq",NA,NA,1,1,1
+NA,"السائح","alsa57",NA,NA,1,1,1
+NA,"الستاندارد","alstandard",NA,NA,1,1,1
+NA,"الستندارد","alstndard",NA,NA,1,1,1
+NA,"السجلات المراكشية","alsjlat almrakWy0",NA,NA,1,1,1
+NA,"السلام","alslam",NA,NA,1,1,1
+NA,"السنة","alsn0",NA,NA,1,1,1
+NA,"السورفي","alswrfy",NA,NA,1,1,1
+NA,"الشتاء","alWtaq",NA,NA,1,1,1
+NA,"الشرق والغرب","alWrQ walGrb",NA,NA,1,1,1
+NA,"الشعراء","alW3raq",NA,NA,1,1,1
+NA,"الصاعقة","alSa3Q0",NA,NA,1,1,1
+NA,"الطب","alTb",NA,NA,1,1,1
+NA,"الظرائف","alZra5f",NA,NA,1,1,1
+NA,"العالم","al3alm",NA,NA,1,1,1
+NA,"العالم الإسلامي","al3alm alaslamy",NA,NA,1,1,1
+NA,"العالم السلامي","al3alm alslamy",NA,NA,1,1,1
+NA,"العالم الشرقي","al3alm alWrQy",NA,NA,1,1,1
+NA,"العروة","al3rw0",NA,NA,1,1,1
+NA,"العروس","al3rws",NA,NA,1,1,1
+NA,"العريس","al3rys",NA,NA,1,1,1
+NA,"العلم","al3lm",NA,NA,1,1,1
+NA,"العلم العام","al3lm al3am",NA,NA,1,1,1
+NA,"العلم في القرن ال عشرين","al3lm fy alQrn al 3Wryn",NA,NA,1,1,1
+NA,"العلماء","al3lmaq",NA,NA,1,1,1
+NA,"العمران","al3mran",NA,NA,1,1,1
+NA,"العملة","al3ml0",NA,NA,1,1,1
+NA,"العهد","al3hd",NA,NA,1,1,1
+NA,"الفرائد","alfra5d",NA,NA,1,1,1
+NA,"الفرنسوية","alfrnswy0",NA,NA,1,1,1
+NA,"الفيغار","alfyGar",NA,NA,1,1,1
+NA,"الكرخ","alkrK",NA,NA,1,1,1
+NA,"الكمال","alkmal",NA,NA,1,1,1
+NA,"الكونستيتوسيونل","alkwnstytwsywnl",NA,NA,1,1,1
+NA,"اللاذقية","allaiQy0",NA,NA,1,1,1
+NA,"اللباب","allbab",NA,NA,1,1,1
+NA,"اللهم","allhm",NA,NA,1,1,1
+NA,"اللوقال إنجايكر","allwQal anjaykr",NA,NA,1,1,1
+NA,"اللويد","allwyd",NA,NA,1,1,1
+NA,"الماتين","almatyn",NA,NA,1,1,1
+NA,"الماتيني","almatyny",NA,NA,1,1,1
+NA,"المايتن","almaytn",NA,NA,1,1,1
+NA,"المبشر","almbWr",NA,NA,1,1,1
+NA,"المترجم","almtrjm",NA,NA,1,1,1
+NA,"المتقتبس","almtQtbs",NA,NA,1,1,1
+NA,"المجلة الآسيوية","almjl0 alasywy0",NA,NA,1,1,1
+NA,"المجلة الإفريقية","almjl0 alafryQy0",NA,NA,1,1,1
+NA,"المجلة الاستعمارية النيابية","almjl0 alast3mary0 alnyaby0",NA,NA,1,1,1
+NA,"المجلة الجرمانية الآسياوية","almjl0 aljrmany0 alasyawy0",NA,NA,1,1,1
+NA,"المجلة المدرسية","almjl0 almdrsy0",NA,NA,1,1,1
+NA,"المجلة المصرية","almjl0 almSry0",NA,NA,1,1,1
+NA,"المجلة الوردية","almjl0 alwrdy0",NA,NA,1,1,1
+NA,"المجمع الطبي البريطاني","almjm3 alTby albryTany",NA,NA,1,1,1
+NA,"المحروسة","alm7rws0",NA,NA,1,1,1
+NA,"المرأة","almra0",NA,NA,1,1,1
+NA,"المراقب","almraQb",NA,NA,1,1,1
+NA,"المرج","almrj",NA,NA,1,1,1
+NA,"المسائل الدولية الاستعمارية","almsa5l aldwly0 alast3mary0",NA,NA,1,1,1
+NA,"المستشرقين","almstWrQyn",NA,NA,1,1,1
+NA,"المستقبل","almstQbl",NA,NA,1,1,1
+NA,"المصباح","almSba7",NA,NA,1,1,1
+NA,"المصوَّر","almSwَّr",NA,NA,1,1,1
+NA,"المضحكات","almD7kat",NA,NA,1,1,1
+NA,"المعارف","alm3arf",NA,NA,1,1,1
+NA,"المعين الاجتماعي","alm3yn alajtma3y",NA,NA,1,1,1
+NA,"المفيدة","almfyd0",NA,NA,1,1,1
+NA,"المقتبس اليومي","almQtbs alywmy",NA,NA,1,1,1
+NA,"المقطم","almQTm",NA,NA,1,1,1
+NA,"المناظر","almnaZr",NA,NA,1,1,1
+NA,"المنتج","almntj",NA,NA,1,1,1
+NA,"المنتخبات","almntKbat",NA,NA,1,1,1
+NA,"المنتدى الأدبي","almntdA aladby",NA,NA,1,1,1
+NA,"المنهل الصافي","almnhl alSafy",NA,NA,1,1,1
+NA,"المورد الصافي","almwrd alSafy",NA,NA,1,1,1
+NA,"المورنن بوست","almwrnn bwst",NA,NA,1,1,1
+NA,"المورنن ليدر","almwrnn lydr",NA,NA,1,1,1
+NA,"الموصل","almwSl",NA,NA,1,1,1
+NA,"الن","aln",NA,NA,1,1,1
+NA,"النجاح","alnja7",NA,NA,1,1,1
+NA,"النخل","alnKl",NA,NA,1,1,1
+NA,"النديم","alndym",NA,NA,1,1,1
+NA,"النشرة","alnWr0",NA,NA,1,1,1
+NA,"النوادر","alnwadr",NA,NA,1,1,1
+NA,"النيو النيوز اوف دي ورلد","alnyw alnywz awf dy wrld",NA,NA,1,1,1
+NA,"الهدايا","alhdaya",NA,NA,1,1,1
+NA,"الهداية","alhday0",NA,NA,1,1,1
+NA,"الهلال","alhlal",NA,NA,1,1,1
+NA,"الهلال العثماني","alhlal al3Umany",NA,NA,1,1,1
+NA,"الوجدان","alwjdan",NA,NA,1,1,1
+NA,"الوردية","alwrdy0",NA,NA,1,1,1
+NA,"الورقاء","alwrQaq",NA,NA,1,1,1
+NA,"الوطن","alwTn",NA,NA,1,1,1
+NA,"الوقائع","alwQa53",NA,NA,1,1,1
+NA,"الوقائع المصرية","alwQa53 almSry0",NA,NA,1,1,1
+NA,"اليمن","alymn",NA,NA,1,1,1
+NA,"بالك","balk",NA,NA,1,1,1
+NA,"بان","ban",NA,NA,1,1,1
+NA,"بنسلفانيا باكت","bnslfanya bakt",NA,NA,1,1,1
+NA,"پول مراقلينار ينه رهبر","pwl mraQlynar ynh rhbr",NA,NA,1,1,1
+NA,"تاريخ الأديان","taryK aladyan",NA,NA,1,1,1
+NA,"تدريسات ابتدائية مجموعة سي","tdrysat abtda5y0 mjmw30 sy",NA,NA,1,1,1
+NA,"ترجمان","trjman",NA,NA,1,1,1
+NA,"ترجمان حقيقت","trjman 7QyQt",NA,NA,1,1,1
+NA,"ترقي","trQy",NA,NA,1,1,1
+NA,"تصوف","tSwf",NA,NA,1,1,1
+NA,"تضمينات","tDmynat",NA,NA,1,1,1
+NA,"تعاون","t3awn",NA,NA,1,1,1
+NA,"تفكر","tfkr",NA,NA,1,1,1
+NA,"تقويم وقائع","tQwym wQa53",NA,NA,1,1,1
+NA,"تنظيمات","tnZymat",NA,NA,1,1,1
+NA,"جادالوز","jadalwz",NA,NA,1,1,1
+NA,"جانطة","janT0",NA,NA,1,1,1
+NA,"جبل عامل","jbl 3aml",NA,NA,1,1,1
+NA,"جبل لبنان","jbl lbnan",NA,NA,1,1,1
+NA,"جريدة الحارس","jryd0 al7ars",NA,NA,1,1,1
+NA,"جريدة السلام","jryd0 alslam",NA,NA,1,1,1
+NA,"جريدة بيروت","jryd0 byrwt",NA,NA,1,1,1
+NA,"جريدة حوادث","jryd0 7wadU",NA,NA,1,1,1
+NA,"جريدة عدلية","jryd0 3dly0",NA,NA,1,1,1
+NA,"جريدة عسكرية","jryd0 3skry0",NA,NA,1,1,1
+NA,"جم","jm",NA,NA,1,1,1
+NA,"جهينة","jhyn0",NA,NA,1,1,1
+NA,"جورنال بيروت","jwrnal byrwt",NA,NA,1,1,1
+NA,"جيلاق","jylaQ",NA,NA,1,1,1
+NA,"حديقة الاخبار","7dyQ0 alaKbar",NA,NA,1,1,1
+NA,"حكمت","7kmt",NA,NA,1,1,1
+NA,"حلب","7lb",NA,NA,1,1,1
+NA,"حوادث الجمهور","7wadU aljmhwr",NA,NA,1,1,1
+NA,"خان جغان","Kan jGan",NA,NA,1,1,1
+NA,"خان لذهب","Kan lihb",NA,NA,1,1,1
+NA,"خردلة العلوم","Krdl0 al3lwm",NA,NA,1,1,1
+NA,"دار الفنون","dar alfnwn",NA,NA,1,1,1
+NA,"دليل غواة الطوابع","dlyl Gwa0 alTwab3",NA,NA,1,1,1
+NA,"دونيلا","dwnyla",NA,NA,1,1,1
+NA,"دير القمر","dyr alQmr",NA,NA,1,1,1
+NA,"رسالة موقوتة حربية","rsal0 mwQwt0 7rby0",NA,NA,1,1,1
+NA,"رسملي كتاب","rsmly ktab",NA,NA,1,1,1
+NA,"رعد","r3d",NA,NA,1,1,1
+NA,"روضة المعارف","rwD0 alm3arf",NA,NA,1,1,1
+NA,"روضه","rwDh",NA,NA,1,1,1
+NA,"زهيرة بغداد","zhyr0 bGdad",NA,NA,1,1,1
+NA,"سمير الصبا","smyr alSba",NA,NA,1,1,1
+NA,"سنين","snyn",NA,NA,1,1,1
+NA,"سورية","swry0",NA,NA,1,1,1
+NA,"سيف الحق","syf al7Q",NA,NA,1,1,1
+NA,"شمس المعارف","Wms alm3arf",NA,NA,1,1,1
+NA,"شهراء","Whraq",NA,NA,1,1,1
+NA,"شورا","Wwra",NA,NA,1,1,1
+NA,"شوراي أمت","Wwray amt",NA,NA,1,1,1
+NA,"صائب","Sa5b",NA,NA,1,1,1
+NA,"صحيفة نادي دار العلوم","S7yf0 nady dar al3lwm",NA,NA,1,1,1
+NA,"صدى الشهباء","SdA alWhbaq",NA,NA,1,1,1
+NA,"صدى بابل","SdA babl",NA,NA,1,1,1
+NA,"صدى باريس الفرنسوية","SdA barys alfrnswy0",NA,NA,1,1,1
+NA,"صراط مستقيم","SraT mstQym",NA,NA,1,1,1
+NA,"ضياء","Dyaq",NA,NA,1,1,1
+NA,"طبابت حاضرة","Tbabt 7aDr0",NA,NA,1,1,1
+NA,"طرابلس الغرب","Trabls alGrb",NA,NA,1,1,1
+NA,"عثمانلي رساملر جمعيتي غزته سي","3Umanly rsamlr jm3yty Gzth sy",NA,NA,1,1,1
+NA,"عصا موسى","3Sa mwsA",NA,NA,1,1,1
+NA,"عفريت","3fryt",NA,NA,1,1,1
+NA,"علم النفس","3lm alnfs",NA,NA,1,1,1
+NA,"علوم اقتصادية واجتماعية مجموعة","3lwm aQtSady0 wajtma3y0 mjmw30",NA,NA,1,1,1
+NA,"غيديق","GydyQ",NA,NA,1,1,1
+NA,"فتاة الشرق","fta0 alWrQ",NA,NA,1,1,1
+NA,"فتاة لبنان","fta0 lbnan",NA,NA,1,1,1
+NA,"فرنكفورت","frnkfwrt",NA,NA,1,1,1
+NA,"قادين","Qadyn",NA,NA,1,1,1
+NA,"قازان مخبري","Qazan mKbry",NA,NA,1,1,1
+NA,"قرة كوز","Qr0 kwz",NA,NA,1,1,1
+NA,"قره سنان","Qrh snan",NA,NA,1,1,1
+NA,"قلم","Qlm",NA,NA,1,1,1
+NA,"قلنج","Qlnj",NA,NA,1,1,1
+NA,"كرمه ونرمه","krmh wnrmh",NA,NA,1,1,1
+NA,"كمال","kmal",NA,NA,1,1,1
+NA,"كوميديا","kwmydya",NA,NA,1,1,1
+NA,"لابريس","labrys",NA,NA,1,1,1
+NA,"لادي هوم جورنال","lady hwm jwrnal",NA,NA,1,1,1
+NA,"لاغير","laGyr",NA,NA,1,1,1
+NA,"لاقتصاد الاجتماعي","laQtSad alajtma3y",NA,NA,1,1,1
+NA,"لاومانيته","lawmanyth",NA,NA,1,1,1
+NA,"لبنان","lbnan",NA,NA,1,1,1
+NA,"لديلي ميل","ldyly myl",NA,NA,1,1,1
+NA,"لسان","lsan",NA,NA,1,1,1
+NA,"لسان الحال","lsan al7al",NA,NA,1,1,1
+NA,"لسان الشرق","lsan alWrQ",NA,NA,1,1,1
+NA,"لسان الصدق","lsan alSdQ",NA,NA,1,1,1
+NA,"لطيف","lTyf",NA,NA,1,1,1
+NA,"لغة","lG0",NA,NA,1,1,1
+NA,"لمقتبس","lmQtbs",NA,NA,1,1,1
+NA,"لمورنن ليدر","lmwrnn lydr",NA,NA,1,1,1
+NA,"لومانيتي","lwmanyty",NA,NA,1,1,1
+NA,"مجلة الأحكام الشرعية","mjl0 ala7kam alWr3y0",NA,NA,1,1,1
+NA,"مجلة الأنتروبوس الإنسان","mjl0 alantrwbws alansan",NA,NA,1,1,1
+NA,"مجلة الإصلاح الاجتماعي","mjl0 alaSla7 alajtma3y",NA,NA,1,1,1
+NA,"مجلة الاجتماع الدولية","mjl0 alajtma3 aldwly0",NA,NA,1,1,1
+NA,"مجلة الاقتصاد الدولية","mjl0 alaQtSad aldwly0",NA,NA,1,1,1
+NA,"مجلة الاقتصاديين","mjl0 alaQtSadyyn",NA,NA,1,1,1
+NA,"مجلة التعليم الدولية","mjl0 alt3lym aldwly0",NA,NA,1,1,1
+NA,"مجلة الحقائق والتلفيق","mjl0 al7Qa5Q waltlfyQ",NA,NA,1,1,1
+NA,"مجلة الشتاء","mjl0 alWtaq",NA,NA,1,1,1
+NA,"مجلة الشرق","mjl0 alWrQ",NA,NA,1,1,1
+NA,"مجلة الطبيعة الفرنسية","mjl0 alTby30 alfrnsy0",NA,NA,1,1,1
+NA,"مجلة العلم","mjl0 al3lm",NA,NA,1,1,1
+NA,"مجلة العوام","mjl0 al3wam",NA,NA,1,1,1
+NA,"مجلة القرن التاسع عشر","mjl0 alQrn altas3 3Wr",NA,NA,1,1,1
+NA,"مجلة اللجنة الأميركية الشرقية","mjl0 alljn0 alamyrky0 alWrQy0",NA,NA,1,1,1
+NA,"مجلة المباحث","mjl0 almba7U",NA,NA,1,1,1
+NA,"مجلة الملكية","mjl0 almlky0",NA,NA,1,1,1
+NA,"مجلة المنتدى الأدبي","mjl0 almntdA aladby",NA,NA,1,1,1
+NA,"مجلة المورد الصافي","mjl0 almwrd alSafy",NA,NA,1,1,1
+NA,"مجلة الن س العصرية","mjl0 aln s al3Sry0",NA,NA,1,1,1
+NA,"مجلة انتربية","mjl0 antrby0",NA,NA,1,1,1
+NA,"مجلة جمعية الملاجئ العباسية ومكارم الأخلاق الإسلامية","mjl0 jm3y0 almlaj5 al3basy0 wmkarm alaKlaQ alaslamy0",NA,NA,1,1,1
+NA,"مجلة عرفات","mjl0 3rfat",NA,NA,1,1,1
+NA,"مجلة علم الاجتماع الدولية","mjl0 3lm alajtma3 aldwly0",NA,NA,1,1,1
+NA,"مجلة مستندات الترقي","mjl0 mstndat altrQy",NA,NA,1,1,1
+NA,"مجلة مصر والشرق الفرنسية","mjl0 mSr walWrQ alfrnsy0",NA,NA,1,1,1
+NA,"مجلة مطالعاتنا في البيوت","mjl0 mTal3atna fy albywt",NA,NA,1,1,1
+NA,"مجموعة أبو الضيا","mjmw30 abw alDya",NA,NA,1,1,1
+NA,"مخزن علوم","mKzn 3lwm",NA,NA,1,1,1
+NA,"مسامرات الشعب","msamrat alW3b",NA,NA,1,1,1
+NA,"مستندات الترقي","mstndat altrQy",NA,NA,1,1,1
+NA,"مشرق","mWrQ",NA,NA,1,1,1
+NA,"مصبح الشرق","mSb7 alWrQ",NA,NA,1,1,1
+NA,"مطالعات البيوت","mTal3at albywt",NA,NA,1,1,1
+NA,"مطالعاتنا في البيوت","mTal3atna fy albywt",NA,NA,1,1,1
+NA,"مطالعاتنا في بيوتنا","mTal3atna fy bywtna",NA,NA,1,1,1
+NA,"مقتطف","mQtTf",NA,NA,1,1,1
+NA,"ملكية","mlky0",NA,NA,1,1,1
+NA,"مودا ملكه سي","mwda mlkh sy",NA,NA,1,1,1
+NA,"نجف","njf",NA,NA,1,1,1
+NA,"نفكر","nfkr",NA,NA,1,1,1
+NA,"نيويورك هرالد","nywywrk hrald",NA,NA,1,1,1
+NA,"وادي النيل","wady alnyl",NA,NA,1,1,1
+NA,"وجدان","wjdan",NA,NA,1,1,1
+NA,"وقت","wQt",NA,NA,1,1,1
+NA,"يكي إقدام","yky aQdam",NA,NA,1,1,1
+NA,"يكي تصوير أفكار","yky tSwyr afkar",NA,NA,1,1,1
+NA,"يكي كوه زه","yky kwh zh",NA,NA,1,1,1
+NA,"يكي محيط المعارف غزته صي غزته سي","yky m7yT alm3arf Gzth Sy Gzth sy",NA,NA,1,1,1
+NA,"يكي موده","yky mwdh",NA,NA,1,1,1
+NA,"يلديرم بين النهرين","yldyrm byn alnhryn",NA,NA,1,1,1
+NA,"القبس","alQbs",NA,NA,0,1,1
+NA,"تنوير","tnwyr",NA,NA,0,1,1
