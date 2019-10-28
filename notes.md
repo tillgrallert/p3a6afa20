@@ -16,11 +16,45 @@ tags:
 - check meaning of weight in stylo() output
     + kind of **done**
 - process stylo() edges table, to include further columns
+    + **done**
     + number of works in worldcat
 - make TEI bibliography of the most referenced periodicals (minimum 2 journals in my corpus): currently 36 titles
     + **done**
     + **done**: write XSLT to enrich bibliography and link `<title>`s to bibliography
     + **done**: improve CSV of referenced periodicals
+- comments on corpus
+    + period needs to be mentioned
+
+## missing bits
+
+1. conclusion
+2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
+3. expand on the results of stylometric analysis
+
+## anonymous authorship
+
+- is it really illegal?
+    + I cannot, for the sake of it, find a reference for my claim
+- the signing editor is responsible as if he was the author
+- Publishers issued repeated calls on authors to come forward and provide their identities; e.g. {thamarat 181; lisan 442; lisan 1301; thamarat 573; thamarat 729}.
+
+## editors as authors
+
+- [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
+- the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
+
+## format of publication
+
+- library copies
+    + [*al-Zuḥūr* 2(1):13](journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#p_2.d2e476) announces that the first volume is available in bound library copies at the office in Cairo
+
+## necessity of studies of the ideosphere
+
+- Zachs 2018: Debates on Women’s Suffrage in the Arab Press, 1890-1914
+    + methodology!!!!!
+        - how can one illustrate a "debate" in earnest using two periodical articles 12 years apart without any comment on this distance?
+        - a "debate" cannot be (re-)constructed by picking random articles with "woman" in the title from four random periodicals over the course of 40 years
+        - one would need to talk about differences between British Egypt and Ottoman Syria
 
 # 1. Methodological notes
 ## our corpus
@@ -160,12 +194,16 @@ tags:
 
 1. data set
     - referenced periodicals from four titles (al-Muqtabas, Lughat al-ʿArab, al-Ḥasnāʾ, and al-Ḥaqāʾiq)
-    - 423 different periodical titles
+        - 423 different periodical titles?
+2. settings in Gephi
+    - nodes:
+        + size: weighted in-degree, 20-120
+        + colour: in-degree
 2. general observations
     1. all journals are self-referencial, they are the main source of references to themselves
     2. the vast majority of periodicals (90,33 % or 387 titles) are referred to by only a single journal. 313 periodicals are only mentioned in a single issue and 311 in a single article.
-1. network of referenced periodicals *per article*
-    - in-degree (per journal):
+1. network of referenced periodicals *per article*: 465 periodicals
+    - in-degree (per journal): **need updating**
         + 1: 90,33 % or 387 periodicals
         + 2: 7,55 % or 31 periodicals
         + 3: 1,18 % or 5 periodicals
@@ -174,16 +212,30 @@ tags:
             * *al-Manār*
             * *al-Muqtaṭaf*
             * *al-Mufīd*
-2. network of referenced periodicals *per issue*
+2. network of referenced periodicals *per issue*: 465 periodicals
     - in-degree (per journal):
-        + 1: 90,33 % or 387 periodicals
-        + 2: 7,55 % or 31 periodicals
-        + 3: 1,18 % or 5 periodicals
+        + 1: 90,54 % or 421 periodicals
+        + 2: 8,17 % or 38 periodicals
+        + 3: 1,29 % or 6 periodicals
             1. *al-Muqtabas*
             * *al-Hilāl*
             * *al-Manār*
             * *al-Muqtaṭaf*
+            * *al-Ḍiyā*
             * *al-Mufīd*
+    - after cleaning (Gephi)
+        + 1: 90,54 % or 421 periodicals
+        + 2: 8,17 % or 35 periodicals
+        + 3: 2,13 % or 9 periodicals
+            1. *al-Muqtabas*
+            * *al-Hilāl*
+            * *al-Manār*
+            * *al-Muqtaṭaf*
+            * *al-Ḍiyā*
+            * *al-Mufīd*
+            * *al-Watan*
+            * *al-Haqīqa*
+            * *al-Ḥuqūq*
 3. number of referenced periodicals per journal
     1. *al-Manār* (1588981): 206
     2. *al-Muqtabas* (4770057679): 404 **BUT** this counts numerous periodicals twice due to *al-Muqtabas* being published in Cairo and Damascus.
