@@ -28,6 +28,9 @@ tags:
 ## missing bits
 
 1. conclusion
+    - importance of Iraq
+    - limited overlap
+    - impossibility of confirming editors as authors at this point
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
 3. expand on the results of stylometric analysis
 
@@ -40,8 +43,33 @@ tags:
 
 ## editors as authors
 
+- instead of claiming that the common assumption is that editors wrote all anonymous articles themselves, state that this is the obvious first idea.
+    + check Czygan on this issue
+
 - [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
 - the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
+- Muḥammad Kurd ʿAlī is repeatedly absent from Damascus
+    + during times of exile, he writes long letters, which are then used to fill the pages of the journal once he returned to Damascus.
+    + 1909, 15 October - 1910
+        * the newspaper *al-Muqtabas* is suspended between 20 September 1909 and 9 March 1910
+        * Kurd ʿAlī escapes his arrest
+        * writing *gharāʾib al-gharb*
+            - according to my count 35 letters, first published in the newspaper?
+            - published in the journal *al-Muqtabas* [no. 4(8)](digital-muqtabas/xml/oclc_4770057679-i_43.TEIP5.xml#div_3.d1e692), [4(9)](digital-muqtabas/xml/oclc_4770057679-i_44.TEIP5.xml#div_3.d1e690), [4(10)](digital-muqtabas/xml/oclc_4770057679-i_45.TEIP5.xml#div_7.d1e1693), [4(11)](digital-muqtabas/xml/oclc_4770057679-i_46.TEIP5.xml#div_8.d1e1619), [4(12)](digital-muqtabas/xml/oclc_4770057679-i_47.TEIP5.xml#div_7.d1e3096) and [5(1)](digital-muqtabas/xml/oclc_4770057679-i_48.TEIP5.xml#div_8.d1e3262)
+    + 1912, 27 April -
+        * the newspaper *al-Muqtabas* is suspended between 18 April and 8 August 1912
+        * this is NOT when he wrote *gharāʾib al-gharb*. Instead his reports were published in the journal, starting with no 8(1) as *fī diyār al-gharb*
+            - published in the journal *al-Muqtabas*, claiming that about 40 letters had been published in the newspapers *al-Qabas* and *al-Muqtabas*, No.s [8(1)](digital-muqtabas/xml/oclc_4770057679-i_84.TEIP5.xml#div_7.d1e1996), [8(2)](), [8(3)](digital-muqtabas/xml/oclc_4770057679-i_86.TEIP5.xml#div_4.d2e2317), [8(4)](digital-muqtabas/xml/oclc_4770057679-i_87.TEIP5.xml#div_7.d1e1729), [8(5)](digital-muqtabas/xml/oclc_4770057679-i_88.TEIP5.xml#div_6.d1e1213), [8(6)](digital-muqtabas/xml/oclc_4770057679-i_89.TEIP5.xml#div_9.d1e1969), [8(7)](digital-muqtabas/xml/oclc_4770057679-i_90.TEIP5.xml#div_7.d1e1254)
+        + >Only one month later, *al-Muqtabas* was banned from publication and an attempt was made to arrest Muḥammad Kurd ʿAlī over the re-print of a *qaṣīda* by Shaykh Ibrāhīm al-Uskūbī that had been previously published in the two Beiruti papers of *al-Waṭan* and *al-Balagh* without any repercussion from the censors. However, Muḥammad Kurd ʿAlī was seemingly warned by the arrest party itself and managed to escape to Egypt; his brother Aḥmad was arrested in his stead. While at large, Muḥammad Kurd ʿAlī was accused of having formed a secret society with the purpose of overthrowing the Caliphate and charged with high treason, while the authorities in Beirut suspended *al-Balagh* from publication.[^1]
+
+        + >Muḥammad Kurd ʿAlī published the first account of these events in the journal *al-Muqtabas* directly after his flight to Cairo; [{KurdʿAlī 1912}](). According to this account the attempted arrest took place on 17 April 1912.
+        + As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7(6)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).[^2]
+        + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months. With this volume publication moved back to Damascus.
+        + **TO DO**: change place of publication for 7(6--12) to Cairo
+
+[^2]: [*al-Muqtabas* 7(6):496](digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462)
+
+[^1]: {Devey 1912e; Devey 1912f}{KurdʿAlī 1928@417}{Devey 1912g}
 
 ## format of publication
 
@@ -505,3 +533,9 @@ Damascene ʿālim. Father of Jamāl al-Dīn al-Qāsimī. knowledgeable about Dam
 ### ʿAbd al-Qādir al-Iskandarānī (1875--1943)
 
 Son of Muḥammad Salīm al-Kaylānī. Born in ALexandria but lived and worked in Damascus. He was an ʿālim who studied at the Umayyad Mosque and authored a number of tractates (*rasāʾil*) according to VIAF.
+
+### Abū al-Ḍiyā Tawfīq Bey (1849--1913)
+
+An Ottoman **journalist**, who was born and died in Istanbul.
+
+in our corpus, a certain "Abū al-Ḍiyāʾ" signes articles from Damascus. This would be somebody else!
