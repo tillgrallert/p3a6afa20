@@ -42,7 +42,7 @@ tags:
 
 >This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21. September 2018. The final version is meant for submission to a special issue of "Geschichte und Gesellschaft".
 
->The current stable draft of this paper is version [v0.1](https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://rawgit.com/tillgrallert/p3a6afa20/v0.1/index.html). The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html).
+>The current stable draft of this paper is version [v0.2](https://tillgrallert.github.io/p3a6afa20/v0.2/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://tillgrallert.github.io/p3a6afa20/v0.2/index.html). <!-- The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html). -->
 
 >Note that network plots currently make use of a computational transcription of Arabic into Latin script. The intended general audience is assumed to not be able to read Arabic. Since the latest version of macOS Mojave and Gephi 0.9.2 finally render Arabic script in network scripts, I shall supply a secondary set of Arabic plots.
 
@@ -453,7 +453,7 @@ Many journals published shorter articles based on other publications, announcing
 
 <!-- ![Figure: bootstrap consensus network of sections of articles in 123 periodical issues based on consensus of 100–1000 MWFs, coloured by periodical title](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/stylometry/OpenArabicPE/visualisations/consensus-tree/sections/sections_Consensus_100-1000_MFWs_Culled_0__wurzburg_C_0.5_journals.png) -->
 
-![Figure: bootstrap consensus network of sections of articles of min 1000 words in 123 periodical issues based on consensus of 100–1000 MWFs, coloured by modularity](/BachUni/BachBibliothek/GitHub/OpenArabicPE/OpenArabicPE_analysis/stylometry/OpenArabicPE/visualisations/consensus-tree/sections/sections_Consensus_100-1000_MFWs_Culled_0__wurzburg_C_0.5_modularity.png)
+![Figure: bootstrap consensus network of sections of articles of min 1000 words in 123 periodical issues based on consensus of 100–1000 MWFs, coloured by modularity](assets/plots/stylo_sections_Consensus_100-1000_MFWs_Culled_0__wurzburg_C_0.5_modularity.png)
 
 The bootstrap consensus network of 100-1000 MWFs clearly shows clustering along periodicals based on the weight of edges (i.e. similarity) connecting sections. In the plot below *al-Muqtabas* is on the left, *al-Ḥaqāʾiq* in the centre and *Lughat al-ʿArab* to the right. This, at least shows that, as far as articles in sections were concerned, each periodical is stylistically distinguishable from the others.
 
