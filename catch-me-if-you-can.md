@@ -1,7 +1,7 @@
 ---
 title: "Catch me if you can! Attempts to track the late Ottoman ideosphere of authors and periodicals in the wasteland of the ‘digitised’ Arabic press"
 author: Till Grallert
-date: 2018-09-11
+date: 2019-11-01
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
@@ -40,9 +40,9 @@ tags:
 
 # About
 
->This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21. September 2018. The final version is meant for submission to a special issue of "Geschichte und Gesellschaft".
+>This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21 September 2018. The computational analysis was first presented at the international workshop "Creating Spaces, Connecting Worlds: Dimensions of the Press in the Middle East and Eurasia" in Zurich, 31 October -- 2 November 2019. The final version is meant for submission to a special issue of "Geschichte und Gesellschaft".
 
->The current stable draft of this paper is version [v0.2](https://tillgrallert.github.io/p3a6afa20/v0-2/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://tillgrallert.github.io/p3a6afa20/v0-2/index.html). <!-- The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html). -->
+>The current stable draft of this paper is version [v0.2](https://tillgrallert.github.io/p3a6afa20/v0-2/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://tillgrallert.github.io/p3a6afa20/v0-2/index.html). <!-- The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html). -->
 
 >Note that network plots currently make use of a computational transcription of Arabic into Latin script. The intended general audience is assumed to not be able to read Arabic. Since the latest version of macOS Mojave and Gephi 0.9.2 finally render Arabic script in network scripts, I shall supply a secondary set of Arabic plots.
 
