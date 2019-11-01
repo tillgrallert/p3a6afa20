@@ -16,13 +16,121 @@ tags:
 - check meaning of weight in stylo() output
     + kind of **done**
 - process stylo() edges table, to include further columns
+    + **done**
     + number of works in worldcat
 - make TEI bibliography of the most referenced periodicals (minimum 2 journals in my corpus): currently 36 titles
     + **done**
     + **done**: write XSLT to enrich bibliography and link `<title>`s to bibliography
     + **done**: improve CSV of referenced periodicals
+- comments on corpus
+    + period needs to be mentioned
+
+## missing bits
+
+1. conclusion
+    - importance of Iraq
+    - limited overlap
+    - impossibility of confirming editors as authors at this point
+2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
+3. expand on the results of stylometric analysis
+
+## anonymous authorship
+
+- is it really illegal?
+    + I cannot, for the sake of it, find a reference for my claim
+- the signing editor is responsible as if he was the author
+- Publishers issued repeated calls on authors to come forward and provide their identities; e.g. {thamarat 181; lisan 442; lisan 1301; thamarat 573; thamarat 729}.
+
+## editors as authors
+
+- instead of claiming that the common assumption is that editors wrote all anonymous articles themselves, state that this is the obvious first idea.
+    + check Czygan 2012 on this issue
+        * makes the implicit assumption by stating that it isn't entirely clear if Ḍiyā Bey authored the final 36 issues all by himself (p.120)
+        * main question: establish authorship for the majority of unsigned articles in *Ḥürriyet* in order to understand different Young Ottoman positions regarding the *Ordnung des Staates*
+        * aim: establish a ground truth for Ḍiyā Bey and Nāmiq Kemāl
+            - at least this is the *de facto* aim / result.
+            - she does provide only a very limited discussion of anything beyond her corpus of 18 articles, whose authors are known (authorship being one of the main criteria for inclusion in thois corpus)
+                + ch. 5.3 (pp.225-252): discusses four(!) articles
+        * methodology:
+            - data base (pp.94--98): for ideas, events, persons
+            - full-text transcriptions of articles: computational frequency counts (really?)
+            - authorship detection (Ch.4, pp.105--135)
+            - style as parameter of authorship (Ch.5.1, pp.135--149)
+            - read the entire paper three times (p.97) in order to establish authorship
+            - *stylistics* vs *stylometry*
+                + style (diagram on p. 133, i.e brief summary of Ch. 4)
+                    * quantitative criteria
+                        - orthography
+                        - lexemes
+                        - grammar
+                        - text structure (?)
+                        - text form (Textgestaltung)
+                    * qualitative criteria
+                        - article beginning
+                        - article end
+                        - article structure
+        * corpus:
+            - ground truth: transcription of 18 articles of known authors
+                + problems:
+                    * very small
+                    * instead of aggregating all articles by a single author and then compute frequency tables, she looks for congruence between articles. But articles were most likely too short for significant results (c.f. Eder's 5000 word limit below which authorship detection is more of a gamble)
+        * *Ḥürriyet*:
+            + published in London
+            + 100 issues between 1868, 29 June, and 1870, 23 June
+            + how was it printed
+                * Czygan refers to type setters throughout her work but Ḥürriyet could have easily been lithographed. The cover page of the journal is provided in facsimile  (p.78)
+
+- [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
+- the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
+- Muḥammad Kurd ʿAlī is repeatedly absent from Damascus
+    + during times of exile, he writes long letters, which are then used to fill the pages of the journal once he returned to Damascus.
+    + 1909, 15 October - 1910
+        * the newspaper *al-Muqtabas* is suspended between 20 September 1909 and 9 March 1910
+        * Kurd ʿAlī escapes his arrest
+        * writing *gharāʾib al-gharb*
+            - according to my count 35 letters, first published in the newspaper?
+            - published in the journal *al-Muqtabas* [no. 4(8)](digital-muqtabas/xml/oclc_4770057679-i_43.TEIP5.xml#div_3.d1e692), [4(9)](digital-muqtabas/xml/oclc_4770057679-i_44.TEIP5.xml#div_3.d1e690), [4(10)](digital-muqtabas/xml/oclc_4770057679-i_45.TEIP5.xml#div_7.d1e1693), [4(11)](digital-muqtabas/xml/oclc_4770057679-i_46.TEIP5.xml#div_8.d1e1619), [4(12)](digital-muqtabas/xml/oclc_4770057679-i_47.TEIP5.xml#div_7.d1e3096) and [5(1)](digital-muqtabas/xml/oclc_4770057679-i_48.TEIP5.xml#div_8.d1e3262)
+    + 1912, 27 April -
+        * the newspaper *al-Muqtabas* is suspended between 18 April and 8 August 1912
+        * this is NOT when he wrote *gharāʾib al-gharb*. Instead his reports were published in the journal, starting with no 8(1) as *fī diyār al-gharb*
+            - published in the journal *al-Muqtabas*, claiming that about 40 letters had been published in the newspapers *al-Qabas* and *al-Muqtabas*, No.s [8(1)](digital-muqtabas/xml/oclc_4770057679-i_84.TEIP5.xml#div_7.d1e1996), [8(2)](), [8(3)](digital-muqtabas/xml/oclc_4770057679-i_86.TEIP5.xml#div_4.d2e2317), [8(4)](digital-muqtabas/xml/oclc_4770057679-i_87.TEIP5.xml#div_7.d1e1729), [8(5)](digital-muqtabas/xml/oclc_4770057679-i_88.TEIP5.xml#div_6.d1e1213), [8(6)](digital-muqtabas/xml/oclc_4770057679-i_89.TEIP5.xml#div_9.d1e1969), [8(7)](digital-muqtabas/xml/oclc_4770057679-i_90.TEIP5.xml#div_7.d1e1254)
+        + >Only one month later, *al-Muqtabas* was banned from publication and an attempt was made to arrest Muḥammad Kurd ʿAlī over the re-print of a *qaṣīda* by Shaykh Ibrāhīm al-Uskūbī that had been previously published in the two Beiruti papers of *al-Waṭan* and *al-Balagh* without any repercussion from the censors. However, Muḥammad Kurd ʿAlī was seemingly warned by the arrest party itself and managed to escape to Egypt; his brother Aḥmad was arrested in his stead. While at large, Muḥammad Kurd ʿAlī was accused of having formed a secret society with the purpose of overthrowing the Caliphate and charged with high treason, while the authorities in Beirut suspended *al-Balagh* from publication.[^1]
+
+        + >Muḥammad Kurd ʿAlī published the first account of these events in the journal *al-Muqtabas* directly after his flight to Cairo; [{KurdʿAlī 1912}](). According to this account the attempted arrest took place on 17 April 1912.
+        + As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7(6)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).[^2]
+        + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months (of the year). With this volume publication moved back to Damascus.
+        + **TO DO**: change place of publication for 7(6--12) to Cairo
+
+[^2]: [*al-Muqtabas* 7(6):496](digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462)
+
+[^1]: {Devey 1912e; Devey 1912f}{KurdʿAlī 1928@417}{Devey 1912g}
+
+## format of publication
+
+- library copies
+    + [*al-Zuḥūr* 2(1):13](journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#p_2.d2e476) announces that the first volume is available in bound library copies at the office in Cairo
+
+## necessity of studies of the ideosphere
+
+- Zachs 2018: Debates on Women’s Suffrage in the Arab Press, 1890-1914
+    + methodology!!!!!
+        - how can one illustrate a "debate" in earnest using two periodical articles 12 years apart without any comment on this distance?
+        - a "debate" cannot be (re-)constructed by picking random articles with "woman" in the title from four random periodicals over the course of 40 years
+        - one would need to talk about differences between British Egypt and Ottoman Syria
 
 # 1. Methodological notes
+## our corpus
+
+| publication.title | publication.id.oclc | volume.count | issue.count | article.count | article.count.is.independent | article.count.has.author | word.count | character.count | words.per.article | characters.per.article | characters.per.word |
+|-------------------|---------------------|--------------|-------------|---------------|------------------------------|--------------------------|------------|-----------------|-------------------|------------------------|---------------------|
+| al-Ḥaqāʾiq        |           644997575 |            3 |          35 |           389 |                          257 |                      163 |     298090 |         1316142 |  832.660484848951 |       3681.46603402433 |    4.42336130476421 |
+| al-Ḥasnāʾ         |           792756327 |            1 |          11 |           173 |                          136 |                       63 |       1421 |            5988 |  8.29124776931973 |       35.3379624037901 |    4.29100836427165 |
+| al-Manār          |             1588981 |           12 |         139 |          1114 |                         1114 |                        0 |    2187318 |         9908975 |  2076.95105879333 |       9403.27597863767 |    4.52681168661136 |
+| al-Muqtabas       |          4770057679 |            9 |          96 |          2964 |                          792 |                      377 |    1981081 |         8953867 |  873.341307920755 |       3938.47737955481 |    4.51753515150654 |
+| Lughat al-ʿArab   |           472450345 |            3 |          34 |           939 |                          330 |                      152 |     373832 |         1638225 |  485.206043680748 |       2132.43872149233 |    4.39265321063476 |
+
+
+
 ## network of authors
 
 + questions:
@@ -52,6 +160,46 @@ tags:
         - unknown origin and quality of bibliographic metadata
         - *main issue*: false negatives
         - publication dates cannot be trusted
+
+### network of authors in four journals
+
+1. data set:
+    - *al-Muqtabas*: 96 issues
+    - *al-Ḥaqāʾiq*: 35 issues
+    - *Lughat al-ʿArab*: 34 issues before the gap in publication between 1912 and 1926
+    - *al-Ḥasnāʾ*: 12 issues
+2. results: 2019-09-27
+    - number of authors
+        + OAPE
+            * total: 319
+            * authors in
+                - 4 journals: 1
+                - 3 journals: 0
+                - 2 journals: 13
+                - 1 journal: 305
+        + *al-Muqtabas*
+            - total: 139
+            - with VIAF ID: 65
+            - average birth year: 1869
+        + *al-Ḥaqāʾiq*
+            - total: 103
+            - with VIAF ID: 15
+            - average birth year: 1837
+        + *Lughat al-ʿArab*
+            - total: 52
+            - with VIAF ID: 12
+            - average birth year: 1875
+        + *al-Ḥasnāʾ*
+            - total: 42
+            - with VIAF ID: 6
+            - average birth year: 1883
+
+|      journal      | number of authors | authors in VIAF | average year of birth |
+|-------------------|-------------------|-----------------|-----------------------|
+| *al-Muqtabas*     |               139 |              65 |                  1869 |
+| *al-Ḥaqāʾiq*      |               103 |              15 |                  1837 |
+| *Lughat al-ʿArab* |                52 |              12 |                  1875 |
+| *al-Ḥasnāʾ*       |                42 |               6 |                  1883 |
 
 
 ## network of texts referenced
@@ -108,12 +256,16 @@ tags:
 
 1. data set
     - referenced periodicals from four titles (al-Muqtabas, Lughat al-ʿArab, al-Ḥasnāʾ, and al-Ḥaqāʾiq)
-    - 423 different periodical titles
+        - 423 different periodical titles?
+2. settings in Gephi
+    - nodes:
+        + size: weighted in-degree, 20-120
+        + colour: in-degree
 2. general observations
     1. all journals are self-referencial, they are the main source of references to themselves
     2. the vast majority of periodicals (90,33 % or 387 titles) are referred to by only a single journal. 313 periodicals are only mentioned in a single issue and 311 in a single article.
-1. network of referenced periodicals *per article*
-    - in-degree (per journal):
+1. network of referenced periodicals *per article*: 465 periodicals
+    - in-degree (per journal): **need updating**
         + 1: 90,33 % or 387 periodicals
         + 2: 7,55 % or 31 periodicals
         + 3: 1,18 % or 5 periodicals
@@ -122,16 +274,40 @@ tags:
             * *al-Manār*
             * *al-Muqtaṭaf*
             * *al-Mufīd*
-2. network of referenced periodicals *per issue*
+2. network of referenced periodicals *per issue*: 465 periodicals
     - in-degree (per journal):
-        + 1: 90,33 % or 387 periodicals
-        + 2: 7,55 % or 31 periodicals
-        + 3: 1,18 % or 5 periodicals
+        + 1: 90,54 % or 421 periodicals
+        + 2: 8,17 % or 38 periodicals
+        + 3: 1,29 % or 6 periodicals
             1. *al-Muqtabas*
             * *al-Hilāl*
             * *al-Manār*
             * *al-Muqtaṭaf*
+            * *al-Ḍiyā*
             * *al-Mufīd*
+    - after cleaning (Gephi)
+        + 1: 90,54 % or 421 periodicals
+        + 2: 8,17 % or 35 periodicals
+        + 3: 2,13 % or 9 periodicals
+            1. *al-Muqtabas*
+            * *al-Hilāl*
+            * *al-Manār*
+            * *al-Muqtaṭaf*
+            * *al-Ḍiyā*
+            * *al-Mufīd*
+            * *al-Watan*
+            * *al-Haqīqa*
+            * *al-Ḥuqūq*
+    - *al-Ḍiyāʾ*
+        + in 1913, *al-Ḥaqāʾiq* mentions two specific articles on the Arabic language
+        + in *al-Muqtabas* it is mostly in the form of "the publisher of *al-Ḍiyāʾ"
+            * some references to articles in *al-Diyāʾ* long after its publication
+            * one in 1906 as a readers' digest
+        + in *lughat al-ʿArab*: one historical reference
+3. number of referenced periodicals per journal
+    1. *al-Manār* (1588981): 206
+    2. *al-Muqtabas* (4770057679): 404 **BUT** this counts numerous periodicals twice due to *al-Muqtabas* being published in Cairo and Damascus.
+    3.
 
 # 2. Where is everything
 
@@ -170,17 +346,13 @@ There are family relations between the Qāsimīs in the two journals
 
 Jamāl al-Dīn al-Qāsimi (*al-Muqtabas*) and Muḥammad al-Qāsimī (al-Ḥallāq)
 
-## Muqtabas
+## Maʿrūf al-Ruṣāfī (1875--1945)
 
-The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s){-- and worked as journalists, teachers, and occasionally politicians. All of them--}, were highly mobile and well-travelled and had good command of local as well as foreign languages{>> to the extent that some of them published translations<<}.
+- Sources:
+    + [Ziriklī 7:268-269](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_7.TEIP5.xml#div_1301.d2e59460)
+    +  VIAF [14924300](https://viaf.org/viaf/14924300)
 
-Those four out of the five men for which we can retrieve matching records from VIAF, belonged to the same generation (born between the mid-1860s and mid-1870s) and were prolific authors (judged by the numbers of published works in VIAF). However, by the latter metric, many other authors were just as, if not more, important: Shakīb Arslān (rank: 12), Amīn Rīḥānī (30), Muḥibb al-Dīn al-Khaṭīb (20), Aḥmad Taymūr (6), Aḥmad Zakkī (6), Aḥmad Shawqī (52).
-
-A further look at the four biographies reveals a telling plurality of social and religious backgrounds:
-
-### Maʿrūf al-Ruṣāfī (1875--1945)
-
-Arabist, journalist, politician. Born in Baghdad, dropped out of the military *rüşdiye* school and continued his studies with Maḥmūd Shukrī al-Alūsī. Worked as a teacher in Baghdad before he moved to Istanbul after the Young Turk Revolution, where he worked as Arabic teacher at the "Royal College" and at the newspaper *Sabīl al-Rashad*---a move that is well reflected in *al-Muqtabas*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.
+Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the military *rüşdiye* school and continued his studies with Maḥmūd Shukrī al-Alūsī. Worked as a **teacher** in Baghdad before he moved to Istanbul after the Young Turk Revolution, where he worked as Arabic teacher at the "Royal College" and at the newspaper *Sabīl al-Rashad*---a move that is well reflected in *al-Muqtabas*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
 
 - works
     + *Dīwān Maʿrūf al-Ruṣāfī*
@@ -190,17 +362,130 @@ Arabist, journalist, politician. Born in Baghdad, dropped out of the military *r
         * **1910**, *Dīwān al-Ruṣāfī: wa-huwa majmūʿ mā naẓamahu al-shāʿir al-ijtimāʿī al-kabīr Maʿrūf Efendi al-Ruṣāfī al-Baghdādī*, edited by Muḥī al-Dīn al-Khayyāṭ and Muṣṭafā Ghalāyīnī, Bayrūt: al-Maktaba al-Ahliyya, 1910 (1328 aH).
             - [worldcat](https://www.worldcat.org/oclc/4770928968) claims 1903 as publication date,
             - but articles in the Beiruti press suggest 1910 as the correct publication date.
+        - the announcement in *al-Muqtabas* is bombastic. The paper claims that al-Ruṣāfī is known among some people as the "poet of *al-Muqtabas*" and wrongly adds that "more than three quarters [of the *qaṣāʾid* therein] had been published in this journal". *al-Muqtabas* 4(10), p.620
 - to do: check if the qaṣīdas printed in magazines were taken from the *Dīwān*
     + some of them can be found in the Hindawi edition of the *Dīwān* but were they part of the original majmūʿ
 
-### ʿĪsā Iskandar al-Maʿlūf (1869--)
 
-Born in the village of Kafr ʿAqqāb in Mt. Lebnon.  Educated across Lebanon and in the Greek Orthodox school in Damascus. Co-editor of the periodicals *Lubnān*, *al-ʿAṣr al-Jadīd* and *al-Nuʿma*. In 1911 he established the journal *al-Āthār* (published only 5 volumes){>> in Zaḥle<<}. Collector of books and manuscripts: AUB holds some 500 manuscripts from his private collection.
-After WWI he became member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.
+## Kaẓim al-Dujaylī (1884--1970)
 
-### Sātisnā (1866--1947)
+- Sources:
+    + [Ziriklī 5:215](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_5.TEIP5.xml#div_1205.d2e46580)
+    + VIAF: none
+
+- Iraqi **poet** from the village of Samīka west of Baghdad. Student of Maḥmūd Shukrī al-Alūsī and Anastās Mārī al-Karmalī
+- **journalist**: Co-publisher of *Lughat al-ʿArab*
+- Law school graduate after WWI
+- member of the **Arab Scientific Academy** in Damascus (from 1922 onwards)
+- professor / **teacher** of Arabic at the University of London (1924 onwards)
+
+## Ibrāhīm Ḥilmī al-ʿAmr (1890--1942)
+
+- Sources:
+    + [Ziriklī 1:37](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_1.TEIP5.xml#div_96.d2e4166)
+    + VIAF: none
+    + texts themselves: signed as student
+- Iraqi author, gained fame as author of letters to journals in Syria and Egypt before WWI
+- established the newspaper *al-Nahḍa* in Baghdad in 1913
+- he worked with the Ottomans during WWI and they brought him to Damascus in the final days of the war
+- Collaborated on the newspaper *Lisān al-ʿArab* in Damascus after WWI
+
+## ʿĪsā Iskandar al-Maʿlūf (1869--1956)
+
+- Sources
+    + [Ziriklī]
+    + VIAF [40250618](https://viaf.org/viaf/40250618)
+
+- **journalist**
+
+Born in the village of Kafr ʿAqqāb in Mt. Lebnon.  Educated across Lebanon and in the Greek Orthodox school in Damascus. Co-editor of the periodicals *Lubnān*, *al-ʿAṣr al-Jadīd* and *al-Niʿma*. In 1911 he established the journal *al-Āthār* (published only 5 volumes){>> in Zaḥle<<}. Collector of books and manuscripts: AUB holds some 500 manuscripts from his private collection.
+After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
+
+## Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, Father Anastās Mārī al-Karmalī, Sātisnā (1866--1947)
+
+- Sources
+    + [Ziriklī ]
+    + VIAF: [39370998](https://viaf.org/viaf/39370998)
+
+Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father Anastās Mārī al-Karmalī and writing under  the pen name Sātisnā
 
 Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved to Baghdad, where he married. Buṭrus studied at religious schools, moved to Beirut in 1886 to study at the Jesuit college and continued his studies in Liege (Belgium) and Montpellier (France). Remained in France at least until the mid-1890s, where he was ordained a priest, before he returned to Baghdad. Prolific writer and contributor to periodicals under various pen names. He published his own philological journal, *Lughat al-ʿArab*, from 1911 onwards.
+
+## Muḥammad Riḍā al-Shabībī (1889--1965)
+
+- Sources:
+    + [Ziriklī 6:127](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_672.d2e32532)
+    + VIAF: [22006374](https://viaf.org/viaf/22006374)
+- Iraqi **poet**, statesman and educator
+- born in Najaf
+- member of the **Arab Scientific Academy** in Damascus
+    + as well as the academies in Cairo and Baghdad
+- >He was elected president of the Iraqi Academy in 1928–1929 and in the 1930s became a member of the Arabic Language Academy in Cairo (Wikipedia)
+
+## Muḥammad al-Hāshimī
+
+- Sources: none
+
+## Muṣṭafā Ṣādiq al-Rāfiʿī (1880--1937)
+
+- Sources
+    + [Ziriklī ]
+    + VIAF [236524859](https://viaf.org/viaf/236524859)
+- Famous deaf Egyptian **poet** from Tanta. One of the most famous Arabic poets of the early twentieth century
+- author of the Egyptian national anthem between 1923--1936.
+
+## Muḥammad Bāqir al-Shabībī (1889--1960)
+
+- Sources
+    + [Ziriklī 6:49](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_236.d2e11574)
+    + VIAF: **none**
+
+- Iraqi **poet** from Najaf
+- brother of Muḥammad Riḍā al-Shabībī
+- **journalist**: established the newspaper weekly *al-Furāt* in 1339 aH (only five issues published)
+- **politician**: MP for Liwā al-Muntafak 1930--54
+
+## Abū al-Ḍiyāʾ
+
+## Aḥmad Muḥarram (1877--1945)
+
+- Sources
+    + VIAF [60500457](https://viaf.org/viaf/60500457)
+- Egyptian **poet** from the Muḥafaẓa of al-Buḥayra
+
+## Muḥammad Rāghib Ṭabbākh (1877--1951)
+
+- Sources
+    + VIAF [63117968](https://viaf.org/viaf/63117968)
+
+- born and died in Aleppo
+- shaykh, ḥāfiẓ
+- educated in the Ottoman ibtidāʾiyya
+- **educator**: established numerous schools in Aleppo
+
+## Walī al-Dīn Yakan (1873--1921)
+
+- Sources
+    + [Ziriklī 8:118](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_8.TEIP5.xml#div_634.d2e23341)
+    + VIAF [36771043](https://viaf.org/viaf/36771043)
+
+- Egyptian **poet**
+    + published in *al-Muqattam*
+- born in **Istanbul** but his father was posted to Cairo soon thereafter
+    - Turkish father and Circassian mother
+- Ottoman bureaucrat until 1908
+- 1908: return to Egypt
+
+
+
+## Muqtabas
+
+The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s){-- and worked as journalists, teachers, and occasionally politicians. All of them--}, were highly mobile and well-travelled and had good command of local as well as foreign languages{>> to the extent that some of them published translations<<}.
+
+Those four out of the five men for which we can retrieve matching records from VIAF, belonged to the same generation (born between the mid-1860s and mid-1870s) and were prolific authors (judged by the numbers of published works in VIAF). However, by the latter metric, many other authors were just as, if not more, important: Shakīb Arslān (rank: 12), Amīn Rīḥānī (30), Muḥibb al-Dīn al-Khaṭīb (20), Aḥmad Taymūr (6), Aḥmad Zakkī (6), Aḥmad Shawqī (52).
+
+A further look at the four biographies reveals a telling plurality of social and religious backgrounds:
+
 
 ### Yūsuf Jirjis Zakham (1880--?)
 
@@ -284,3 +569,13 @@ Born and died in Damascus.
 ### Muḥammad al-Qāsimī al-Ḥallāq (1843--1900)
 
 Damascene ʿālim. Father of Jamāl al-Dīn al-Qāsimī. knowledgeable about Damascene crafts
+
+### ʿAbd al-Qādir al-Iskandarānī (1875--1943)
+
+Son of Muḥammad Salīm al-Kaylānī. Born in ALexandria but lived and worked in Damascus. He was an ʿālim who studied at the Umayyad Mosque and authored a number of tractates (*rasāʾil*) according to VIAF.
+
+### Abū al-Ḍiyā Tawfīq Bey (1849--1913)
+
+An Ottoman **journalist**, who was born and died in Istanbul.
+
+in our corpus, a certain "Abū al-Ḍiyāʾ" signes articles from Damascus. This would be somebody else!
