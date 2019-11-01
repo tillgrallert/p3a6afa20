@@ -44,7 +44,41 @@ tags:
 ## editors as authors
 
 - instead of claiming that the common assumption is that editors wrote all anonymous articles themselves, state that this is the obvious first idea.
-    + check Czygan on this issue
+    + check Czygan 2012 on this issue
+        * makes the implicit assumption by stating that it isn't entirely clear if Ḍiyā Bey authored the final 36 issues all by himself (p.120)
+        * main question: establish authorship for the majority of unsigned articles in *Ḥürriyet* in order to understand different Young Ottoman positions regarding the *Ordnung des Staates*
+        * aim: establish a ground truth for Ḍiyā Bey and Nāmiq Kemāl
+            - at least this is the *de facto* aim / result.
+            - she does provide only a very limited discussion of anything beyond her corpus of 18 articles, whose authors are known (authorship being one of the main criteria for inclusion in thois corpus)
+                + ch. 5.3 (pp.225-252): discusses four(!) articles
+        * methodology:
+            - data base (pp.94--98): for ideas, events, persons
+            - full-text transcriptions of articles: computational frequency counts (really?)
+            - authorship detection (Ch.4, pp.105--135)
+            - style as parameter of authorship (Ch.5.1, pp.135--149)
+            - read the entire paper three times (p.97) in order to establish authorship
+            - *stylistics* vs *stylometry*
+                + style (diagram on p. 133, i.e brief summary of Ch. 4)
+                    * quantitative criteria
+                        - orthography
+                        - lexemes
+                        - grammar
+                        - text structure (?)
+                        - text form (Textgestaltung)
+                    * qualitative criteria
+                        - article beginning
+                        - article end
+                        - article structure
+        * corpus:
+            - ground truth: transcription of 18 articles of known authors
+                + problems:
+                    * very small
+                    * instead of aggregating all articles by a single author and then compute frequency tables, she looks for congruence between articles. But articles were most likely too short for significant results (c.f. Eder's 5000 word limit below which authorship detection is more of a gamble)
+        * *Ḥürriyet*:
+            + published in London
+            + 100 issues between 1868, 29 June, and 1870, 23 June
+            + how was it printed
+                * Czygan refers to type setters throughout her work but Ḥürriyet could have easily been lithographed. The cover page of the journal is provided in facsimile  (p.78)
 
 - [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
 - the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
@@ -64,7 +98,7 @@ tags:
 
         + >Muḥammad Kurd ʿAlī published the first account of these events in the journal *al-Muqtabas* directly after his flight to Cairo; [{KurdʿAlī 1912}](). According to this account the attempted arrest took place on 17 April 1912.
         + As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7(6)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).[^2]
-        + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months. With this volume publication moved back to Damascus.
+        + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months (of the year). With this volume publication moved back to Damascus.
         + **TO DO**: change place of publication for 7(6--12) to Cairo
 
 [^2]: [*al-Muqtabas* 7(6):496](digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462)
@@ -264,6 +298,12 @@ tags:
             * *al-Watan*
             * *al-Haqīqa*
             * *al-Ḥuqūq*
+    - *al-Ḍiyāʾ*
+        + in 1913, *al-Ḥaqāʾiq* mentions two specific articles on the Arabic language
+        + in *al-Muqtabas* it is mostly in the form of "the publisher of *al-Ḍiyāʾ"
+            * some references to articles in *al-Diyāʾ* long after its publication
+            * one in 1906 as a readers' digest
+        + in *lughat al-ʿArab*: one historical reference
 3. number of referenced periodicals per journal
     1. *al-Manār* (1588981): 206
     2. *al-Muqtabas* (4770057679): 404 **BUT** this counts numerous periodicals twice due to *al-Muqtabas* being published in Cairo and Damascus.
