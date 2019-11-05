@@ -36,52 +36,36 @@ tags:
 
 ## anonymous authorship
 
+- the majority of articles were published anonymously
+    + is this mentioned in the literature?
+        * Ayalon 1995
+            - "anonymous": used twice, not with regard to authorship
+            - "unkown": six pages
+            - "authorship": not mentioned
+            - seems to favour "writer" over "author"
 - is it really illegal?
     + I cannot, for the sake of it, find a reference for my claim
 - the signing editor is responsible as if he was the author
 - Publishers issued repeated calls on authors to come forward and provide their identities; e.g. {thamarat 181; lisan 442; lisan 1301; thamarat 573; thamarat 729}.
+
 
 ## editors as authors
 
 - instead of claiming that the common assumption is that editors wrote all anonymous articles themselves, state that this is the obvious first idea.
     + check Czygan 2012 on this issue
         * makes the implicit assumption by stating that it isn't entirely clear if Ḍiyā Bey authored the final 36 issues all by himself (p.120)
-        * main question: establish authorship for the majority of unsigned articles in *Ḥürriyet* in order to understand different Young Ottoman positions regarding the *Ordnung des Staates*
-        * aim: establish a ground truth for Ḍiyā Bey and Nāmiq Kemāl
-            - at least this is the *de facto* aim / result.
-            - she does provide only a very limited discussion of anything beyond her corpus of 18 articles, whose authors are known (authorship being one of the main criteria for inclusion in thois corpus)
-                + ch. 5.3 (pp.225-252): discusses four(!) articles
-        * methodology:
-            - data base (pp.94--98): for ideas, events, persons
-            - full-text transcriptions of articles: computational frequency counts (really?)
-            - authorship detection (Ch.4, pp.105--135)
-            - style as parameter of authorship (Ch.5.1, pp.135--149)
-            - read the entire paper three times (p.97) in order to establish authorship
-            - *stylistics* vs *stylometry*
-                + style (diagram on p. 133, i.e brief summary of Ch. 4)
-                    * quantitative criteria
-                        - orthography
-                        - lexemes
-                        - grammar
-                        - text structure (?)
-                        - text form (Textgestaltung)
-                    * qualitative criteria
-                        - article beginning
-                        - article end
-                        - article structure
-        * corpus:
-            - ground truth: transcription of 18 articles of known authors
-                + problems:
-                    * very small
-                    * instead of aggregating all articles by a single author and then compute frequency tables, she looks for congruence between articles. But articles were most likely too short for significant results (c.f. Eder's 5000 word limit below which authorship detection is more of a gamble)
-        * *Ḥürriyet*:
-            + published in London
-            + 100 issues between 1868, 29 June, and 1870, 23 June
-            + how was it printed
-                * Czygan refers to type setters throughout her work but Ḥürriyet could have easily been lithographed. The cover page of the journal is provided in facsimile  (p.78)
+    + check Ayalon 1995
+        * Salīm Sarkīs authored his journal *al-Mushīr* all by himself, warned readers that during an illness he would not be able to respond to letters ({Ayalon 1995@224})
+- the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
+- Ayalon claims that "the team normally consist[ed] of the owner (*sahib al-imtiyaz*, or licensee) and one or two assistants." ({Ayalon 1995@224-225})
+
+### editors / publishers being absent from place of publication
+
+- Ayalon provides examples of journals informing their readers that due to absences of their publishers, they will have to publish double issues ({Ayalon 1995@224})
+    + *al-Hilāl*, 15 May 1900, p.508
+    + *al-Muqtabas*, 6(4) (May 1911), back cover (all three copies I had access to were missing back covers)
 
 - [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
-- the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
 - Muḥammad Kurd ʿAlī is repeatedly absent from Damascus
     + during times of exile, he writes long letters, which are then used to fill the pages of the journal once he returned to Damascus.
     + 1909, 15 October - 1910
@@ -117,6 +101,11 @@ tags:
         - how can one illustrate a "debate" in earnest using two periodical articles 12 years apart without any comment on this distance?
         - a "debate" cannot be (re-)constructed by picking random articles with "woman" in the title from four random periodicals over the course of 40 years
         - one would need to talk about differences between British Egypt and Ottoman Syria
+
+## editors' knowledge of their own periodicals
+
+- Muḥammad Kurd ʿAlī makes false references to his journal *al-Muqtabas* in *Khiṭaṭ al-Shām*.
+    + on pp.83--85 he claims to quote verbatim from volume 6. But some parts of this text could only be located in [no. 5(5)](oclc_4770057679-i_52.TEIP5.xml#div_12.d1e2991)
 
 # 1. Methodological notes
 ## our corpus
@@ -200,6 +189,25 @@ tags:
 | *al-Ḥaqāʾiq*      |               103 |              15 |                  1837 |
 | *Lughat al-ʿArab* |                52 |              12 |                  1875 |
 | *al-Ḥasnāʾ*       |                42 |               6 |                  1883 |
+
+| rank |                author.id.viaf                |      author.name      | author.name.transliterated | author.birth | author.death | journal.count | article.count | word.count | Ayalon 1995 |
+|------|----------------------------------------------|-----------------------|----------------------------|--------------|--------------|---------------|---------------|------------|-------------|
+|    1 | [14924300](https://viaf.org/viaf/14924300)   | معروف  الرصافي        | m3rwf  alrSafy             | 1875         | 1945         |             4 |            31 |      15038 | n           |
+|    2 | NA                                           | كاظم   الدجيلي        | kaZm   aldjyly             | 1884         | 1970         |             2 |            28 |      38050 | n           |
+|    3 | NA                                           | إبراهيم  حلمي  العمر  | abrahym  7lmy  al3mr       | 1890         | 1942         |             2 |            22 |      40747 | n           |
+|    4 | [40250618](https://viaf.org/viaf/40250618)   | عيسى  اسكندر  المعلوف | 3ysA  askndr  alm3lwf      | 1869         | 1956         |             2 |            22 |      23383 | passing     |
+|    5 | [39370998](https://viaf.org/viaf/39370998)   | ساتسنا                | satsna                     | 1866         | 1947         |             2 |            15 |      20106 | n           |
+|    6 | [22006374](https://viaf.org/viaf/22006374)   | محمد  رضا  الشبيبي    | m7md  rDa  alWbyby         | 1889         | 1965         |             2 |            12 |      24156 | n           |
+|    7 | NA                                           | محمد  الهاشمي         | m7md  alhaWmy              | NA           | NA           |             2 |             6 |       2717 | n           |
+|    8 | [236524859](https://viaf.org/viaf/236524859) | مصطفى  صادق  الرافعي  | mSTfA  SadQ  alraf3y       | 1880         | 1937         |             2 |             6 |       3711 | passing     |
+|    9 | NA                                           | محمد  باقر  الشبيبي   | m7md  baQr  alWbyby        | 1889         | 1960         |             2 |             5 |       3331 | n           |
+|   10 | NA                                           | أبو الضيا             | abw alDya                  | NA           | NA           |             2 |             4 |       5836 | n           |
+|   11 | [60500457](https://viaf.org/viaf/60500457)   | أحمد  محرم            | a7md  m7rm                 | 1877         | 1945         |             2 |             4 |       1543 | n           |
+|   12 | NA                                           | ا. ج                  | a. j                       | NA           | NA           |             2 |             3 |        639 | n           |
+|   13 | [63117968](https://viaf.org/viaf/63117968)   | محمد  راغب  طباخ      | m7md  raGb  TbaK           | 1877         | 1951         |             2 |             3 |       2633 | n           |
+|   14 | [36771043](https://viaf.org/viaf/36771043)   | ولي الدين   يكن       | wly aldyn   ykn            | 1873         | 1921         |             2 |             2 |        795 | n           |
+
+Table: authors that published in more than one journal in our corpus comprising *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*
 
 
 ## network of texts referenced
