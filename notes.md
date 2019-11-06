@@ -29,10 +29,11 @@ tags:
 
 1. conclusion
     - importance of Iraq
-    - limited overlap
+    - limited overlap (what does that mean)
     - impossibility of confirming editors as authors at this point
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
 3. expand on the results of stylometric analysis
+4. literature on *Lughat al-ʿArab*
 
 ## anonymous authorship
 
@@ -357,7 +358,7 @@ Jamāl al-Dīn al-Qāsimi (*al-Muqtabas*) and Muḥammad al-Qāsimī (al-Ḥall�
 ## Maʿrūf al-Ruṣāfī (1875--1945)
 
 - Sources:
-    + [Ziriklī 7:268-269](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_7.TEIP5.xml#div_1301.d2e59460)
+    + [{Ziriklī 1979f@268-269}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_7.TEIP5.xml#div_1301.d2e59460)
     +  VIAF [14924300](https://viaf.org/viaf/14924300)
 
 Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the military *rüşdiye* school and continued his studies with Maḥmūd Shukrī al-Alūsī. Worked as a **teacher** in Baghdad before he moved to Istanbul after the Young Turk Revolution, where he worked as Arabic teacher at the "Royal College" and at the newspaper *Sabīl al-Rashad*---a move that is well reflected in *al-Muqtabas*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became member of the **Arab Scientific Academy**, established by Muḥammad Kurd ʿAlī in Damascus.
@@ -378,7 +379,7 @@ Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the m
 ## Kaẓim al-Dujaylī (1884--1970)
 
 - Sources:
-    + [Ziriklī 5:215](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_5.TEIP5.xml#div_1205.d2e46580)
+    + [{Ziriklī 1979@215}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_5.TEIP5.xml#div_1205.d2e46580)
     + VIAF: none
 
 - Iraqi **poet** from the village of Samīka west of Baghdad. Student of Maḥmūd Shukrī al-Alūsī and Anastās Mārī al-Karmalī
@@ -390,7 +391,7 @@ Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the m
 ## Ibrāhīm Ḥilmī al-ʿAmr (1890--1942)
 
 - Sources:
-    + [Ziriklī 1:37](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_1.TEIP5.xml#div_96.d2e4166)
+    + [{Ziriklī 1979a@37}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_1.TEIP5.xml#div_96.d2e4166)
     + VIAF: none
     + texts themselves: signed as student
 - Iraqi author, gained fame as author of letters to journals in Syria and Egypt before WWI
@@ -401,7 +402,7 @@ Arabist, **poet**, journalist, politician. Born in Baghdad, dropped out of the m
 ## ʿĪsā Iskandar al-Maʿlūf (1869--1956)
 
 - Sources
-    + [Ziriklī]
+    + [{Ziriklī 1979@101}]
     + VIAF [40250618](https://viaf.org/viaf/40250618)
 
 - **journalist**
@@ -412,7 +413,7 @@ After WWI he became member of the **Arab Scientific Academy**, established by Mu
 ## Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, Father Anastās Mārī al-Karmalī, Sātisnā (1866--1947)
 
 - Sources
-    + [Ziriklī ]
+    + [{Ziriklī 1979b@25-26}]
     + VIAF: [39370998](https://viaf.org/viaf/39370998)
 
 Buṭrus bin Jibrāʾīl Yūsuf ʿAwwād, commonly known as Father Anastās Mārī al-Karmalī and writing under  the pen name Sātisnā
@@ -422,7 +423,7 @@ Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved 
 ## Muḥammad Riḍā al-Shabībī (1889--1965)
 
 - Sources:
-    + [Ziriklī 6:127](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_672.d2e32532)
+    + [{Ziriklī 1979e@127}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_672.d2e32532)
     + VIAF: [22006374](https://viaf.org/viaf/22006374)
 - Iraqi **poet**, statesman and educator
 - born in Najaf
@@ -437,7 +438,7 @@ Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved 
 ## Muṣṭafā Ṣādiq al-Rāfiʿī (1880--1937)
 
 - Sources
-    + [Ziriklī ]
+    + [{Ziriklī 1979f@235}]
     + VIAF [236524859](https://viaf.org/viaf/236524859)
 - Famous deaf Egyptian **poet** from Tanta. One of the most famous Arabic poets of the early twentieth century
 - author of the Egyptian national anthem between 1923--1936.
@@ -445,7 +446,7 @@ Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved 
 ## Muḥammad Bāqir al-Shabībī (1889--1960)
 
 - Sources
-    + [Ziriklī 6:49](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_236.d2e11574)
+    + [{Ziriklī 1979e@49}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_6.TEIP5.xml#div_236.d2e11574)
     + VIAF: **none**
 
 - Iraqi **poet** from Najaf
@@ -458,12 +459,14 @@ Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved 
 ## Aḥmad Muḥarram (1877--1945)
 
 - Sources
+    + [{Ziriklī 1979a@202}]
     + VIAF [60500457](https://viaf.org/viaf/60500457)
 - Egyptian **poet** from the Muḥafaẓa of al-Buḥayra
 
 ## Muḥammad Rāghib Ṭabbākh (1877--1951)
 
 - Sources
+    + {Ziriklī 1979e@123-124}
     + VIAF [63117968](https://viaf.org/viaf/63117968)
 
 - born and died in Aleppo
@@ -474,7 +477,7 @@ Carmelite priest and Arabic linguist. His father was from Mt. Lebanon and moved 
 ## Walī al-Dīn Yakan (1873--1921)
 
 - Sources
-    + [Ziriklī 8:118](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_8.TEIP5.xml#div_634.d2e23341)
+    + [{Ziriklī 1979g@118}](file:///BachUni/BachBibliothek/GitHub/TEI/oclc_165855925/tei/oclc_165855925-v_8.TEIP5.xml#div_634.d2e23341)
     + VIAF [36771043](https://viaf.org/viaf/36771043)
 
 - Egyptian **poet**
@@ -562,7 +565,9 @@ The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict 
 
 Ibrāhīm Mardam Bek, Muḥammad Farīd Wajdī (1875--1954), Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (1847--), ʿAbd al-Rahmān al-Qaṣṣār (1863--1931), Muḥammad al-Qāsimī (al-Ḥallāq, 1843--1900), Ṣāliḥ al-Sharīf (1869--1920), Mukhtār al-Muʾayyad (1822--1921)
 
-### Muḥammad Farīd Wajdī (1875--1954) (Ziriklī 6:329)
+### Muḥammad Farīd Wajdī (1875--1954)
+
+- ({Ziriklī 1979e@329})
 
 Born in Alexandria, moved to Damietta and Suez, died in Cairo. Published the journal *al-Ḥayyāt* in Suez. Wrote at least some of his books in French. Moved to Cairo, where he published the daily newspaper *al-Dustur* for some period before he established the weekly *al-Wajdiyāt*. Became one of the editors of *al-Azhar*
 
