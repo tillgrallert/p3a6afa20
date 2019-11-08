@@ -211,9 +211,10 @@ Pages contain much less text and issues are much shorter than *al-Muqtabas* with
 
 <!-- ### *Lughat al-ʿArab* -->
 
-{>>Basic description of *Lughat al-ʿArab*<<}
-The Carmelite Father Anastās Mārī al-Karmalī (born Buṭrus ʿAwwād, 1866--1947) from Mt. Lebanon established the monthly journal *lughat al-ʿArab* (The Language of the Arabs) in Baghdad in 1911. The journal published 34 issues until its final number in June 1914<!--  (it was re-established in  -->. It is not clear to which extent al-Karmalī was involved as editor. Only a (small) handful of articles in *lughat al-ʿArab* carried his byline. Kāẓim al-Dujaylī (1884--1970), a self-taught journalist and poet and student of the Baghdadi Salafist Shukrī al-Alūsī and al-Karmalī, joined *Lughat al-ʿArab* as editor(-in-chief?). 
-Similar to *al-Ḥaqā'iq*, issues comprised mostly 40 pages with an average of almost 240 words per page and a total of 11274 words.
+The Carmelite Father Anastās Mārī al-Karmalī (born Buṭrus ʿAwwād, 1866--1947) from Mt. Lebanon established the monthly journal *lughat al-ʿArab* (The Language of the Arabs) in Baghdad in 1911. The journal published 34 issues until its final number in June 1914<!--  (it was re-established in  -->. al-Karmalī was exiled to Kayseri in Anatolia upon the beginning of WWI and returned in summer 1916. *Lughat al-ʿArab* recommenced publication only in 1926.[^44] It is not clear to which extent al-Karmalī was involved as editor. Only a (small) handful of articles in *lughat al-ʿArab* carried his byline. Kāẓim al-Dujaylī (1884--1970), a self-taught journalist and poet and student of the Baghdadi Salafist Shukrī al-Alūsī and al-Karmalī, joined *Lughat al-ʿArab* as editor(-in-chief?) soon after. 
+Similar to *al-Ḥaqā'iq*, issues comprised mostly 40 pages with an average of almost 240 words per page and a total of 11274 words. {>>Basic information from {RizkKhoury 2010@335}<<}
+
+[^44]: *Lughat al-ʿArab* 4(1):1, {JournalOfTheAmerican 1920}.
 
 <!-- state of the data -->
 
