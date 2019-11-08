@@ -24,16 +24,27 @@ tags:
     + **done**: improve CSV of referenced periodicals
 - comments on corpus
     + period needs to be mentioned
+- terminology
+    + *ṣāḥib*: owner, concessionary, publisher
+    + *mudīr masʾūl*: responsible editor, director responsible, director-in-charge
+        * there seems to be no clear equivalent outside the former Ottoman realms
+        * it is still used in Arabic and Turkish
+    + *raʾis al-taḥrīr*: editor-in-chief (wikipedia), Rédacteur en chef (wikipedia)
+    + *mudīr al-taḥrīr*: managing editor
+    + *muḥarrir*: editor
 
 ## missing bits
 
 1. conclusion
     - importance of Iraq
+    - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
     - limited overlap (what does that mean)
     - impossibility of confirming editors as authors at this point
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
 3. expand on the results of stylometric analysis
 4. literature on *Lughat al-ʿArab*
+    + there isn't much
+        * Hilary Kilpatrick presented a paper on Anastās al-Karmalī at Firas' workshop in June 2019
 
 ## anonymous authorship
 
@@ -57,8 +68,10 @@ tags:
         * makes the implicit assumption by stating that it isn't entirely clear if Ḍiyā Bey authored the final 36 issues all by himself (p.120)
     + check Ayalon 1995
         * Salīm Sarkīs authored his journal *al-Mushīr* all by himself, warned readers that during an illness he would not be able to respond to letters ({Ayalon 1995@224})
+    + implicit assumption:
+        * Seikaly reads all articles in *al-Muqtabas* as Kurd ʿAlī's work
 - the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
-- Ayalon claims that "the team normally consist[ed] of the owner (*sahib al-imtiyaz*, or licensee) and one or two assistants." ({Ayalon 1995@224-225})
+
 
 ### editors / publishers being absent from place of publication
 
@@ -66,11 +79,14 @@ tags:
     + *al-Hilāl*, 15 May 1900, p.508
     + *al-Muqtabas*, 6(4) (May 1911), back cover (all three copies I had access to were missing back covers)
 
-- [*al-Zuhūr*](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) mentions that publication of an issue was delayed because the editor/ director was travelling outside Egypt/Cairo
+- [*al-Zuhūr* 1(7):368](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) apologises to its readers for the delay in publishing this issue because the editor was travelling outside Egypt/Cairo
 - Muḥammad Kurd ʿAlī is repeatedly absent from Damascus
     + during times of exile, he writes long letters, which are then used to fill the pages of the journal once he returned to Damascus.
     + 1909, 15 October - 1910
-        * the newspaper *al-Muqtabas* is suspended between 20 September 1909 and 9 March 1910
+        * the newspaper *al-Muqtabas*: suspended between 20 September 1909 and 9 March 1910
+        * the journal *al-Muqtabas*:
+            - an article in [no. 4(2)](https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_4770057679-i_38.TEIP5.xml#div_25.d1e4565) scheduled for February/March 1909 was referenced in the newspaper [*al-Quds* #60 of 11 June 1909, p.4 ({al-quds-1-60@4})](http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60).
+            - no. 4(7) is only published in the first week of April 1910
         * Kurd ʿAlī escapes his arrest
         * writing *gharāʾib al-gharb*
             - according to my count 35 letters, first published in the newspaper?
@@ -85,6 +101,7 @@ tags:
         + As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7(6)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).[^2]
         + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months (of the year). With this volume publication moved back to Damascus.
         + **TO DO**: change place of publication for 7(6--12) to Cairo
+    - In March 1914, Muḥammad Kurd ʿAlī signs articles "From Constantinople"; {muqtabas 626-eap}
 
 [^2]: [*al-Muqtabas* 7(6):496](digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462)
 
@@ -94,6 +111,15 @@ tags:
 
 - library copies
     + [*al-Zuḥūr* 2(1):13](journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#p_2.d2e476) announces that the first volume is available in bound library copies at the office in Cairo
+
+## mode of production
+
+- Ayalon claims that "the team normally consist[ed] of the owner (*sahib al-imtiyaz*, or licensee) and one or two assistants." ({Ayalon 1995@224-225})
+- *Thamarāt al-Funūn* asked readers to address letters to one (!) of its editors, Aḥmad Ḥasan Ṭabbāra, 1908. The newspaper doesn't list anyone else in its masthead ({tf-oib 1655@1}).
+- *al-Iqbāl* recorded ʿAbd al-Bāsiṭ al-Unsī as owner and editor-in-chief and Muḥiyī al-Dīn al-Khayyāt as "one of its editors" in 1908; ({iqbal 35-260@1})
+- *al-Bashīr* did not mention a person in its masthead in 1908, but recorded "The Catholic Press" and Yūsuf Kīrīn at the bottom of the last page; ({bashir 39-1872@4})
+- *al-Ittiḥād al-ʿUthmānī* recorded only Aḥmad Ḥasan Ṭabbāra as the owner (*ṣāḥib*); {ittihad-1-33@1}
+- the newspaper *al-Muqtabas* began listing a *mudīr masʾūl* (Aḥmad Kurd ʿAlī) on 26 April 1910; {muqtabas 86-eap@1 }
 
 ## necessity of studies of the ideosphere
 
