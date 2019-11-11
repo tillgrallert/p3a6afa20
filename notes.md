@@ -38,7 +38,7 @@ tags:
 1. conclusion
     - importance of Iraq
     - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
-    - limited overlap (what does that mean)
+    - limited overlap between journals from the same city
     - impossibility of confirming editors as authors at this point
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
 3. expand on the results of stylometric analysis
