@@ -504,6 +504,13 @@ The bootstrap consensus network of 100-1000 MWFs clearly shows clustering along 
 
 # Conclusion
 
+- Summary
+- Findings
+    - importance of Iraq
+    - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
+    - limited overlap between journals from the same city
+    - impossibility of confirming editors as authors at this point
+
 {>>missing conclusion<<}
 
 [almeshkat]: http://almeshkat.net/
