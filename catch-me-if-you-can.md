@@ -19,13 +19,11 @@ tags:
 
 
 <!-- # processing instructions -->
+<!-- pre-process with pancritic and use crossref -->
 <!-- ## 1. HTML -->
-<!-- pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript catch-me-if-you-can.md -o index.html -->
+<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode markup | pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript -o index.html -->
 <!-- ## 2. DOCX -->
-<!-- pandoc-crossref -->
-<!-- pandoc -F pandoc-crossref -s -f markdown-smart -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
-<!-- pancritic -->
-<!-- pancritic -s -f markdown -t docx-smart catch-me-if-you-can.md -o catch-me-if-you-can.docx -->
+<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t docx-smart -o catch-me-if-you-can.docx -->
 
 <div id="sec-badges" class="c_badges">
 <!-- ORCID -->
