@@ -21,7 +21,7 @@ tags:
 <!-- # processing instructions -->
 <!-- pre-process with pancritic and use crossref -->
 <!-- ## 1. HTML -->
-<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode markup | pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript -o index.html -->
+<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript -o index.html -->
 <!-- ## 2. DOCX -->
 <!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t docx-smart -o catch-me-if-you-can.docx -->
 
@@ -40,7 +40,7 @@ tags:
 
 >This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21 September 2018. The computational analysis was first presented at the international workshop "Creating Spaces, Connecting Worlds: Dimensions of the Press in the Middle East and Eurasia" in Zurich, 31 October -- 2 November 2019. The final version is meant for submission to a special issue of "Geschichte und Gesellschaft".
 
->The current stable draft of this paper is version [v0.2](https://tillgrallert.github.io/p3a6afa20/v0-2/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://tillgrallert.github.io/p3a6afa20/v0-2/index.html). <!-- The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html). -->
+>The current stable draft of this paper is version [v0.2](https://tillgrallert.github.io/p3a6afa20/v0-2/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://tillgrallert.github.io/p3a6afa20/v0-2/index.html). The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html).
 
 >Note that network plots currently make use of a computational transcription of Arabic into Latin script. The intended general audience is assumed to not be able to read Arabic. Since the latest version of macOS Mojave and Gephi 0.9.2 finally render Arabic script in network scripts, I shall supply a secondary set of Arabic plots.
 
@@ -65,7 +65,7 @@ This paper explores the late Ottoman ideosphere of the Eastern Mediterranean thr
 
 [^16]: For studies assessing these corpora and the methodological implications see {Nicholson 2013;Brake 2012;Horrocks 2014;Mussell 2012;Gooding 2016}.For studies and projects based on *Chronicling America* see, for example, {Cordell 2017;Lorang 2015;Torget 2011;Cordell 2015;Smith 2015;Smith 2013;Cordell 2013;Torget 2012;Torget 2012a}. For a study based on *Trove* see {Bode 2016}.
 
-[^17]: There are only very limited systematic studies on Arabic periodicals, everyone of which is concerned with a single periodical only; c.f. {Glaß 2004b;Cioeta 1979a}. At the time of writing, only one study made use of digital texts: {Zemmin 2018}; for methodological comments see also {Zemmin 2016@232-233}.
+{--[^17]: There are only very limited systematic studies on Arabic periodicals, everyone of which is concerned with a single periodical only; c.f. {Glaß 2004b;Cioeta 1979a}. At the time of writing, only one study made use of digital texts: {Zemmin 2018}; for methodological comments see also {Zemmin 2016@232-233}.--}
 
 [^28]: E.g. {Jundī 1925; Shaykhū 1926; Sarkīs 1929}, {Muruwwa 1961; AlRifāʿī 1969; AlRifāʿī 1969a; Dāghir 1950; Dāghir 1978; Ilyās 1982; Khūrīya 1976}
 
@@ -503,7 +503,14 @@ The bootstrap consensus network of 100-1000 MWFs clearly shows clustering along 
 # Conclusion
 
 - Summary
+    + In this paper I outlined the technical and infrastructural challenges to "digital history" or computational approaches to the material artefacts of societies outside the Global North. I showed, how a digital episteme deeply rooted in 20th-century, english-speaking, American neoliberal capitalism requires mitigation strategies on every level of the digital workflow, which involve significant investments in the making of corpora, resources and tools if we want to reap the promised fruits of the digital humanities. I also posed that one of the consequences of the hyperbolic/teleologic promises of ubiquitous digitised knowledge is a neo-orientalist silencing of the material heritage of societies outside the Global North. 
+    + I introduced my own corpus building efforts
+    + I provided a first computational exploration of the late Ottoman Arabic ideosphere by looking at networks of periodicals and authors as well as their geographic distribution.
+    + Noting that modelling a network of periodical authors that, due to the peculiarity of the medium, covers less than one fifth of the
 - Findings
+    + There are number of core findings.
+    + Modelling the network of references to periodical titles, I could confirm established knowledge about the importance of certain journals over others. The Cairene journals of *al-Manār*, *al-Muqtaṭaf* and *al-Hilāl* are central to the late Ottoman Arabic ideosphere, even though they were published outside the Ottoman Empire {>>Egypt is de facto independent of the Ottoman Empire<<}. A future systematic exploration of periodicals will have to digitise these and compare them to *al-Muqtabas*, which shows many traits of a periodical of transregional importance very different from the other journals in our corpus.
+    + The exploration of the network of authors published in our corpus, on the other hand, provided a number of surprising results that will need to be addressed in future scholarship: The noted importance of Iraqi writers over Syrians contradicts the core narrative about the Arabic renaissance (*nahḍa*).
     - importance of Iraq
     - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
     - limited overlap between journals from the same city
