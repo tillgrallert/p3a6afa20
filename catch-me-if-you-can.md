@@ -481,8 +481,14 @@ Table: Length of articles in our corpus
 [^41]: {==missing footnote==}{>>footnote on my pre-processing pipeline<<}
 [^42]: {Bastian 2009}
 
-<!-- ## first results -->
-### stylometry confirms what we already know 
+## Results
+<!-- ### stylometry confirms what we already know  -->
+
+An initial analysis of all articles of 5000 words and more using bootstrap consensus trees for 100--1000 MFWs confirms the general applicability of stylometry to our corpus. Articles form clusters based on edge weight and modularity {>>number of edges among members higher than to other clusters<<} around authors, editors and translators. Thus, we find clusters of articles authored by Jamāl al-Dīn al-Qāsimī, Aḥmad Zakī, Charles Seignobos and Muḥammad Kurd ʿAlī. The latter was the translator of Seignobos works from French, which is clearly visible on the right of the plot. The plot shows only limited stylistic overlap between authors and we can assume with a high degree of confidence that cluster of anonymous articles in purple on the top right was authored by Kurd ʿAlī. Since the sample contains almost exclusively articles from *al-Muqtabas*, this would tentatively confirm the authorship hypothesis of editors. However, this plot also shows a green cluster of non-attributed articles stylistically distinct from Kurd ʿAlī's texts, which contradicts the hypothesis. 
+
+Furthermore, the plot also shows a strong signal of genre: the purple cluster of texts most likely written by Kurd ʿAlī are all geographic works.
+
+![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-lable_authors-ar.png)
 
 Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods' usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travelogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.
 
