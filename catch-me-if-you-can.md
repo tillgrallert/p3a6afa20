@@ -509,23 +509,28 @@ The bootstrap consensus network of sections (100-1000 MWFs) clearly shows cluste
 {>>modularity<<} 
 
 # Conclusion
+<!-- ## Summary -->
 
-- Summary
-    + In this paper I outlined the technical and infrastructural challenges to "digital history" or computational approaches to the material artefacts of societies outside the Global North. I showed, how a digital episteme deeply rooted in 20th-century, english-speaking, American neoliberal capitalism requires mitigation strategies on every level of the digital workflow, which involve significant investments in the making of corpora, resources and tools if we want to reap the promised fruits of the digital humanities. I also posed that one of the consequences of the hyperbolic/teleologic promises of ubiquitous digitised knowledge is a neo-orientalist silencing of the material heritage of societies outside the Global North. 
-    + I introduced my own corpus building efforts
-    + I provided a first computational exploration of the late Ottoman Arabic ideosphere by looking at networks of periodicals and authors as well as their geographic distribution.
-    + Noting that modelling a network of periodical authors that, due to the peculiarity of the medium, covers less than one fifth of the
-- There are number of core findings.
-    + Modelling the network of references to periodical titles, I could confirm established knowledge about the importance of certain journals over others. The Cairene journals of *al-Manār*, *al-Muqtaṭaf* and *al-Hilāl* are central to the late Ottoman Arabic ideosphere, even though they were published outside the Ottoman Empire {>>Egypt is de facto independent of the Ottoman Empire<<}. A future systematic exploration of periodicals will have to digitise these and compare them to *al-Muqtabas*, which shows many traits of a periodical of transregional importance very different from the other journals in our corpus. 
-    + The exploration of the network of authors published in our corpus, on the other hand, provided a number of surprising results that will need to be addressed in future scholarship: The noted importance of Iraqi writers over Syrians among the core nodes of the network contradicts the core narrative about the Arabic renaissance (*nahḍa*). A similar importance of Baghdad over the more commonly assumed centres of Arab intellectual production is found in the geographic distribution of toponyms in bylines for *al-Muqtabas*. One would need to test other transregional periodicals to see whether they provide a similar Iraqi connection or if *al-Muqtabas* is an outlier in this regard.
-    + The network analysis of authors also demonstrated lacunae in the historiography of the Arabic press and the intellectual history of the late Ottoman Arab ideosphere, namely the absence of the core nodes in our network from major works of scholarship.
+In this paper, I questioned hyperbolic promises of ubiquitous digitised knowledge from the marginal position of Middle Eastern intellectual history and by outlining the techno-infrastructural challenges faced by a {=="digital history"==}{>> or computational approaches to the material artefacts<<} of societies outside the Global North. I showed, how a digital episteme deeply rooted in 20th-century, english-speaking, American neoliberal capitalism requires mitigation strategies on every level of the digital workflow. These are placed on the individual scholar and involve significant investments in the making of corpora, resources and tools if we want to reap the promised fruits of the digital humanities. I also posed that one of the consequences of this episteme is a neo-orientalist silencing of the material heritage of the societies in the Eastern Mediterranean.
 
-    - importance of Iraq
-    - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
-    - limited overlap between journals from the same city
-    - impossibility of confirming editors as authors at this point
+Nevertheless, digital corpora and computational approaches are indispensable for scrutinising the periodical press as an ideosphere. I argued that one has to transcend the individual periodical and engage in a systematic study of the periodical press at scale in order to better understand both the intellectual history of the Eastern Mediterranean and periodical production itself. The case study of a corpus of four late Ottoman Arabic-speaking periodicals from the Eastern Mediterranean and comprising *al-Muqtabas*, *al-Ḥaqaʾiq*, *Lughat al-ʿArab* and *al-Ḥasnāʾ* introduced and evaluated some of the mitigation strategies.  After introducing my own efforts of building an open and scholarly digital corpus, I engaged in computational exploration through network analysis, mapping, and stylometry along the guiding question of what were the core nodes (authors and periodicals) in the ideoscape of the late Ottoman Eastern Mediterranean?
 
-{>>missing conclusion<<}
+
+{>>The paper also presents the first application of methods of *distant reading* to the study of late Ottoman Arabic periodicals.<<}
+
+<!-- ## Results -->
+
+Modelling the network of references to periodical titles, I could confirm established knowledge about the importance of certain journals over others. The Cairene journals of *al-Manār*, *al-Muqtaṭaf* and *al-Hilāl* are central to the late Ottoman Arabic ideosphere, even though they were published outside the Ottoman Empire {>>Egypt is de facto independent of the Ottoman Empire<<}. A future systematic exploration of periodicals will have to digitise these and compare them to *al-Muqtabas*, which shows many traits of a periodical of transregional importance very different from the other journals in our corpus. 
+
+The exploration of the network of article authors{-- published in our corpus--}, on the other hand, provided a number of surprising results that will need to be addressed in future scholarship: The noted importance of Iraqi writers over Syrians among the core nodes of the network contradicts the common narrative about the Arabic renaissance (*nahḍa*). A similar importance of Baghdad over the more commonly assumed centres of Arab intellectual production is found in the geographic distribution of toponyms in bylines for *al-Muqtabas*. One would, again, need to test other transregional periodicals to see whether they provide a similar Iraqi connection or if *al-Muqtabas* is an outlier in this regard. The network analysis of authors also demonstrated lacunae in the historiography of the Arabic press and the intellectual history of the late Ottoman Arab ideosphere, namely the absence of the core nodes in our network from major works of scholarship.
+
+Noting that any analysis of authorship and socio-intellectual networks is limited by the fact that less than one fifths of all articles carry identifiable authorship information, I finally submitted our corpus to stylometric analysis. This provided  significant hints towards authors of the small number of anonymous articles longer than 5000 words. Testing the hypothesis that a journal's editors were the actual authors of anonymous texts, the results are inconclusive. We found one cluster of texts by an anonymous author very different from those that can indeed by attributed to the editor by looking at the articles of more than 5000 words in *al-Muqtabas*.
+
+
+{--- limited overlap between journals from the same city--}
+{>>- impossibility of confirming editors as authors at this point
+- This is the first application of stylometry to Arabic <<}
+
 
 [almeshkat]: http://almeshkat.net/
 [alwaraq]: http://www.alwaraq.net/
