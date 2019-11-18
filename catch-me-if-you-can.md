@@ -255,7 +255,7 @@ A third observation of the larger network is that *al-Muqtabas* accounts for the
 
 ## analysis of metadata: network of authors
 
-Sketching a network of periodicals and the references between them is only one part in the endeavour to layout the ideosphere of the late Ottoman Eastern Mediterranean. Another is the network of authors who published in these periodicals and the geographic distribution of places mentioned in bylines. {>>Other layers of this ideosphere not covered in this short overview but worth exploring are the network of works reviewed and mentioned in our corpus. What was read and written about in Damascus and Baghdad?<<} Knowing the importance of certain authors for an individual periodical is the basis for mapping the {>>social<<} network of authors across the late Ottoman ideosphere.{>>these findings would need to be contextualised by traditional intellectual history<<} The aim would be to map such a network for the hundreds of journals and newspapers published between Alexandria and Aleppo, Jaffa and Basra. Nevertheless, this method already provides valuable insights using our small corpus of bibliographic metadata:
+Sketching a network of periodicals and the references between them is only one part in the endeavour to layout the ideosphere of the late Ottoman Eastern Mediterranean. Another is the network of authors who published in these periodicals and the geographic distribution of places mentioned in bylines. {>>Other layers of this ideosphere not covered in this short overview but worth exploring are the network of works reviewed and mentioned in our corpus. What was read and written about in Damascus and Baghdad?<<} Knowing the importance of certain authors for an individual periodical is the basis for mapping the {>>social<<} network of authors across the late Ottoman ideosphere.{>>these findings would need to be contextualised by traditional intellectual history<<} The aim would be to map such a network for the hundreds of journals and newspapers published between Alexandria and Aleppo, Jaffa and Basra. Nevertheless, this method already provides valuable insights using our small corpus of bibliographic metadata.
 
 ![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal_ar.png)
 
@@ -310,7 +310,7 @@ Table: authors that published in more than one journal in our corpus comprising 
 
 ### Individual periodicals
 
-The work on compiling the biographies of all 319 contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations and their geographic distributions.
+The work on compiling the biographies of all 319 contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations and their geographic distributions. For the purpose of this paper, I will contrast only the two Damascene periodicals in our corpus.
 
 <!--
 |      journal      | number of authors | authors in VIAF | average year of birth |
@@ -388,36 +388,11 @@ A map of the relative frequency of locations mentioned in bylines confirms the b
 
 ![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](assets/plots/map-oclc_644997575-bylines-middle-east.png)
 
-#### *Lughat al-ʿArab*
+Similarly distinctly regional distributions of authorship can be established for one of the two remain periodicals in our corpus: *al-Ḥasnāʾ*. *Lughat al-ʿArab*, on the other hand, only very rarely provided locations in bylines (26 of 939 articles).
 
-{==missing paragraph==}{>>comment on the most prolific authors in *Lughat al-ʿArab*<<}
-
-| rank |                           author.id.viaf                           |        author.name         | author.name.transliterated | author.birth | author.death | word.count | article.count |
-|------|--------------------------------------------------------------------|----------------------------|----------------------------|--------------|--------------|------------|---------------|
-|    1 | NA                                                                 | NA                         | NA                         | NA           | NA           |     205355 |           787 |
-|    2 | NA                                                                 | كاظم   الدجيلي             | kaZm   aldjyly             | 1884         | 1970         |      37233 |            27 |
-|    3 | [97152636060620050511](https://viaf.org/viaf/97152636060620050511) | رزوق  عيسى                 | rzwQ  3ysA                 | 1885         | 1940         |      17303 |            16 |
-|    4 | [21058435](https://viaf.org/viaf/21058435)                         | سليمان  الدخيل             | slyman  aldKyl             | 1877         | 1945   |      20005 |            15 |
-|    5 | NA                                                                 | إبراهيم  حلمي  العمر       | abrahym  7lmy  al3mr       | 1890         | 1942         |      20550 |            13 |
-|    6 | NA                                                                 | إبراهيم  منيب  الباججي     | abrahym  mnyb  albajjy     | NA           | NA           |       1733 |            13 |
-|    7 | NA                                                                 | محمد  الهاشمي              | m7md  alhaWmy              | NA           | NA           |       1883 |             5 |
-|    8 | NA                                                                 | محمد  باقر  الشبيبي        | m7md  baQr  alWbyby        | 1889         | 1960         |       3108 |             4 |
-|    9 | [22006374](https://viaf.org/viaf/22006374)                         | محمد  رضا  الشبيبي         | m7md  rDa  alWbyby         | 1889   | 1965   |       4192 |             4 |
-|   10 | [76496271](https://viaf.org/viaf/76496271)                         | جرجي  زيدان                | jrjy  zydan                | 1861   | 1914   |       6863 |             3 |
-|   11 | NA                                                                 | عراقي                      | 3raQy                      | NA           | NA           |       3245 |             3 |
-|   12 | NA                                                                 | عمانوئيل فتح الله عمانوئيل | 3manw5yl ft7 allh 3manw5yl | NA           | NA           |       2916 |             3 |
-|   13 | NA                                                                 | البر كسبرخان               | albr ksbrKan               | NA           | NA           |       1703 |             2 |
-|   14 | NA                                                                 | شكري الفضلي                | Wkry alfDly                | NA           | NA           |       3940 |             2 |
-
-Table: The fifteen most prolific authors in *Lughat al-ʿArab* by number of bylines
-
-There is only limited significance in a map of relative frequency of locations mentioned in bylines for *Lughat al-ʿArab*. Only 26 of 939 articles in our corpus provided a location.
+![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png)
 
 {==![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)==}{>>remove this map<<}
-
-<!-- ### *al-Ḥasnāʾ*? -->
-
-<!-- ![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png) -->
 
 # Authorship attribution
 
