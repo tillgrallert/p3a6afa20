@@ -35,13 +35,20 @@ tags:
 
 ## missing bits
 
-1. conclusion
-    - importance of Iraq
-    - The core authors of our network do not figure prominently in the scholarly literature on the Arabic press
-    - limited overlap between journals from the same city
-    - impossibility of confirming editors as authors at this point
+1. conclusion: **done**
+2. introduction:
+    -
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
-3. expand on the results of stylometric analysis
+3. citation networks!
+    - Maxim Romanov:
+        - gazetteer: **done**
+        - prosopography
+    - Will Hanley: **done**
+    - Torsten Wollina
+    - Kathryn Schwartz
+    - Adam Mestyan: **done**
+    - add references to works that critiqued shamela.ws
+3. expand on the results of stylometric analysis: **done**
 4. literature on *Lughat al-ʿArab*
     + there isn't much
         * Hilary Kilpatrick presented a paper on Anastās al-Karmalī at Firas' workshop in June 2019
