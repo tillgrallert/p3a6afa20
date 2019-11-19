@@ -182,13 +182,13 @@ The corpus comprises the full text of each issue of *Lughat al-ʿArab*, *al-Muqt
 
 [^16]: For studies assessing these corpora and the methodological implications see {Nicholson 2013;Brake 2012;Horrocks 2014;Mussell 2012;Gooding 2016}.For studies and projects based on *Chronicling America* see, for example, {Cordell 2017;Lorang 2015;Torget 2011;Cordell 2015;Smith 2015;Smith 2013;Cordell 2013;Torget 2012;Torget 2012a}. For a study based on *Trove* see {Bode 2016}.
 
-| journal             | volumes   | issues   | articles   | independent articles   | articles with author   | in %     | words      | words.per.article   | characters.per.word   |
-| ------------------- | --------- | -------- | ---------- | ---------------------- | ---------------------- | -------: | --------: | ------------------- | --------------------- |
-| *al-Ḥaqāʾiq*        | 3         | 35       | 389        | 257                    | 163                    | 41.90    | 298090     | 832.660484848951    | 4.42336130476421      |
-| *al-Ḥasnāʾ*         | 1         | 11       | 173        | 136                    | 63                     | 36.42    |            |                     | 4.29100836427165      |
-| *al-Muqtabas*       | 9         | 96       | 2964       | 792                    | 377                    | 12.72    | 1981081    | 873.341307920755    | 4.51753515150654      |
-| *Lughat al-ʿArab*   | 3         | 34       | 939        | 330                    | 152                    | 16.18    | 373832     | 485.206043680748    | 4.39265321063476      |
-| **total**           | 16        | 176      | 4465       | 1515                   | 755                    |          | 2653003    |                     |                       |
+| journal             | volumes   | issues   | articles   | independent articles   | articles with author   | in %     | words     |
+| ------------------- | --------- | -------- | ---------- | ---------------------- | ---------------------- | -------: | --------: |
+| *al-Ḥaqāʾiq*        | 3         | 35       | 389        | 257                    | 163                    | 41.90    | 298090    |
+| *al-Ḥasnāʾ*         | 1         | 11       | 173        | 136                    | 63                     | 36.42    |           |
+| *al-Muqtabas*       | 9         | 96       | 2964       | 792                    | 377                    | 12.72    | 1981081   |
+| *Lughat al-ʿArab*   | 3         | 34       | 939        | 330                    | 152                    | 16.18    | 373832    |
+| **total**           | 16        | 176      | 4465       | 1515                   | 755                    |          | 2653003   |
 
 Table: summary of our corpus
 
