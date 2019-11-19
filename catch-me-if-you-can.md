@@ -231,13 +231,11 @@ The quality and significance of the analysis of bibliographic data is directly d
 
 Knowing that we work with a corpus whose composition is the result of external and unknown decisions by the contributors to *al-Maktaba al-Shamela* as to which periodical to transcribe, we can evaluate the performance of this corpus in representing the larger ideosphere of the periodical press in the late Ottoman Eastern Mediterranean by looking at the network of referenced periodicals. Explicit references to periodicals indicated by "*jarīda* XYZ" or "*majalla* ABC" were automatically marked-up using XSLT and regular expressions and linked to local and external authority files for disambiguation and additional bibliographic information. We then counted the references to each mentioned periodical and plotted the result as a network graph. We plotted networks of references by issue to account for the varying length of articles in each journal.{>>sequencing into even-sized chunks might be a good idea for statistical validity<<} In the network plots below each node signifies a periodical (newspapers and journals are not distinguished at the moment). Edges are drawn between periodical titles when one references the other. The thickness of the edges and the size of the nodes indicate the number of issues that reference a periodical (weight). Colours signify the {==in-degree==}{>>i.e. the number of edges that connect to a node;<<} or the number of journals in our corpus that mention this periodical (3 = orange, 2 = green, 1 = purple).
 
-<!-- ![Figure: Network of periodicals mentioned in *al-Haqāʾiq*, *al-Muqtabas* and *Lughat al-ʿArab*](assets/plots/network_oape-referenced-periodicals.png) -->
-
-<!-- ![Figure: Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue.png) -->
+![Figure: Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue.png)
 
 ![Figure: Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue_ar.png)
 
-<!-- ![Figure: Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core.png) -->
+![Figure: Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core.png)
 
 ![Figure: Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core_ar.png)
 
@@ -257,6 +255,8 @@ A third observation of the larger network is that *al-Muqtabas* accounts for the
 
 Sketching a network of periodicals and the references between them is only one part in the endeavour to layout the ideosphere of the late Ottoman Eastern Mediterranean. Another is the network of authors who published in these periodicals and the geographic distribution of places mentioned in bylines. {>>Other layers of this ideosphere not covered in this short overview but worth exploring are the network of works reviewed and mentioned in our corpus. What was read and written about in Damascus and Baghdad?<<} Knowing the importance of certain authors for an individual periodical is the basis for mapping the {>>social<<} network of authors across the late Ottoman ideosphere.{>>these findings would need to be contextualised by traditional intellectual history<<} The aim would be to map such a network for the hundreds of journals and newspapers published between Alexandria and Aleppo, Jaffa and Basra. Nevertheless, this method already provides valuable insights using our small corpus of bibliographic metadata.
 
+![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal.png)
+
 ![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal_ar.png)
 
 It is worth going back to the bibliographic {>>meta<<}data, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. We are particularly concerned with the number of articles that carried bylines or otherwise easily identifiable authorship information.[^55] All journals in our corpus, like any other periodical at the time I have seen, published only limited authorship information. In this regard *al-Ḥaqāʾiq* is the least offending. About 42 per cent of all articles (163 of 389) carried authorship information. Second is *al-Ḥasnāʾ* with 36 per cent (63 of 173), followed by *Lughat al-ʿArab* with 16 per cent (152 of 939) and *al-Muqtabas* with not even 13 per cent (377 of 2964). The picture becomes more favourable for the latter if we look only at longer articles. About two fifths of articles outside news and review sections explicitly mentioned an author. However, in consequence and due to the heavy weight of *al-Muqtabas*, this means that we can only map 16,91 per cent of the entire network of articles by looking at available bibliographic information alone. {==More than four fifths are hidden from our view.==} We can currently identify only a total of 319 named authors within this sample: 139 for *al-Muqtabas*, 103 for *al-Haqāʾiq*, 52 for *Lughat al-ʿArab*, and 42 for *al-Ḥasnāʾ*. Quite a significant number appear only with their initials, particularly in *al-Ḥaqāʾiq*, and---with the exception of *al-Ḥasnāʾ*---all of them were men. 
@@ -264,6 +264,8 @@ It is worth going back to the bibliographic {>>meta<<}data, its shortcomings and
 [^55]: In addition to intrinsic bibliographic information, such as bylines and footnotes, I also explicitly encoded extrinsic information on authorship. Muḥammad Kurd ʿAlī, for instance, is well known to be the author of a series of letters titled *Gharāʾib al-Gharb* (Oddities of the West). The gathering and encoding of extrinsic information cannot considered systematic or comprehensive at this point.
 
 The first observation, similar the network of periodicals, is that only a very small number of nodes (14 of 319) are of relative importance as measured in degree (number of edges connecting to a node) and weight of the edges. In the above network plot, edges were drawn between authors when they published in the same periodical. The thickness of the edges and size of nodes are functions of the number of articles carrying the byline of a given author. Colours signify the out-degree or the number of journals an author is connected to. Authors who published only in a single journal form dense clusters{-- around that periodical's node--}. These are: *al-Ḥaqāʾiq* to the left, *al-Muqtabas* top centre, *Lughat al-ʿArab* bottom centre, and *al-Ḥasnāʾ* to the right.
+
+![Figure: Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal.png)
 
 ![Figure: Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal_ar.png)
 
@@ -327,7 +329,6 @@ Only 50 authors published more than one article in *al-Muqtabas*. Two of the fou
 
 [^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike.
 
-<!-- The majority of the remaining authors contributed from the cities of Greater Syria and Egypt, but some wrote from cities in France. -->
 
 | rank |                author.id.viaf                |     author.name     | author.birth | author.death | article.count |
 |------|----------------------------------------------|---------------------|--------------|--------------|---------------|
@@ -353,8 +354,6 @@ Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
 The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s) and worked as journalists, teachers, and occasionally politicians. All of them were highly mobile and well-travelled and had good command of local as well as foreign languages---to the extent that some of them published translations. The fifth man is not less exemplary, even though his story seems to be rather uncommon among journalists: Yūsuf Jirjis Zakham was one of the many emigrants from Greater Syria to America. He arrived in the USA in 1902 and was naturalised in 1904, settled in Lincoln, Nebraska, where he married Myra from Iowa and had at least five children. Both spouses were literate and Joseph George Zakem provided his profession as newspaper correspondent in the 1910 US Federal Census.[^43]
 
 [^43]: {UnitedStatesCensus 1910;UnitedStatesCensus 1920;UnitedStatesCensus 1930;UnitedStatesCensus 1940}
-
-<!-- ![Figure: Word cloud of authors published in *al-Muqtabas*; by number of articles](assets/plots/word-cloud_muqtabas-authors-bylines.png) -->
 
 The map of relative frequencies of locations mentioned in bylines conveys the same image as the network of referenced periodicals and the brief comments on the most prolific authors' biographies: *al-Muqtabas* was a publication of at least regional importance. It reached well beyond Greater Syria to Egypt, Iraq and even America, turning the famous proverb "Cairo writes, Beirut publishes and Baghdad reads" upside down with Baghdad well ahead of even Damascus.
 
@@ -465,7 +464,11 @@ An initial analysis of all articles of 5000 words and more using bootstrap conse
 
 Furthermore, the plot also shows a strong signal of genre: the {==light green==} cluster of texts most likely written by Kurd ʿAlī are all geographic works.
 
-![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png)
+<!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
+
+<!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
+
+![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
 
 {--Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods' usefulness by establishing clusters of: a) texts from the same authors or translators; b) serialised texts with or without explicit authorship information; c) texts within the same genre, such as travelogues or *qaṣāʾid*; d) manuscripts by different authors but with the same editor.--}
 
