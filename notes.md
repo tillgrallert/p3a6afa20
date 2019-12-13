@@ -135,6 +135,7 @@ tags:
         - how can one illustrate a "debate" in earnest using two periodical articles 12 years apart without any comment on this distance?
         - a "debate" cannot be (re-)constructed by picking random articles with "woman" in the title from four random periodicals over the course of 40 years
         - one would need to talk about differences between British Egypt and Ottoman Syria
+- {AbouHodeib 2017@122}: Jirjī Niqūlā Bāz is a central node in the intellectual network of the Eastern Mediterranean
 
 ## editors' knowledge of their own periodicals
 
