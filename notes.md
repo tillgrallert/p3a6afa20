@@ -12,32 +12,17 @@ tags:
 
 # to do
 
-- **done** make a map of the holding institutions
 - check meaning of weight in stylo() output
     + kind of **done**
 - process stylo() edges table, to include further columns
     + **done**
     + number of works in worldcat
-- make TEI bibliography of the most referenced periodicals (minimum 2 journals in my corpus): currently 36 titles
-    + **done**
-    + **done**: write XSLT to enrich bibliography and link `<title>`s to bibliography
-    + **done**: improve CSV of referenced periodicals
 - comments on corpus
     + period needs to be mentioned
-- terminology
-    + *ṣāḥib*: owner, concessionary, publisher
-    + *mudīr masʾūl*: responsible editor, director responsible, director-in-charge
-        * there seems to be no clear equivalent outside the former Ottoman realms
-        * it is still used in Arabic and Turkish
-    + *raʾis al-taḥrīr*: editor-in-chief (wikipedia), Rédacteur en chef (wikipedia)
-    + *mudīr al-taḥrīr*: managing editor
-    + *muḥarrir*: editor
 
 ## missing bits
 
-1. conclusion: **done**
-2. introduction:
-    -
+
 2. one paragraph on the most prolific authors in *Lughat al-ʿArab*
 3. citation networks!
     - Maxim Romanov:
@@ -48,85 +33,10 @@ tags:
     - Kathryn Schwartz
     - Adam Mestyan: **done**
     - add references to works that critiqued shamela.ws
-3. expand on the results of stylometric analysis: **done**
 4. literature on *Lughat al-ʿArab*
     + there isn't much
         * Hilary Kilpatrick presented a paper on Anastās al-Karmalī at Firas' workshop in June 2019
 
-## anonymous authorship
-
-- the majority of articles were published anonymously
-    + is this mentioned in the literature?
-        * Ayalon 1995
-            - "anonymous": used twice, not with regard to authorship
-            - "unkown": six pages
-            - "authorship": not mentioned
-            - seems to favour "writer" over "author"
-- is it really illegal?
-    + I cannot, for the sake of it, find a reference for my claim
-- the signing editor is responsible as if he was the author
-- Publishers issued repeated calls on authors to come forward and provide their identities; e.g. {thamarat 181; lisan 442; lisan 1301; thamarat 573; thamarat 729}.
-
-
-## editors as authors
-
-- instead of claiming that the common assumption is that editors wrote all anonymous articles themselves, state that this is the obvious first idea.
-    + check Czygan 2012 on this issue
-        * makes the implicit assumption by stating that it isn't entirely clear if Ḍiyā Bey authored the final 36 issues all by himself (p.120)
-    + check Ayalon 1995
-        * Salīm Sarkīs authored his journal *al-Mushīr* all by himself, warned readers that during an illness he would not be able to respond to letters ({Ayalon 1995@224})
-    + implicit assumption:
-        * Seikaly reads all articles in *al-Muqtabas* as Kurd ʿAlī's work
-- the newspaper *al-Muqtabas* rejected allegations that articles published by pseudonymous authors were indeed authored by the editors. Instead, the claim, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out.{jarmuq 51@3}
-
-
-### editors / publishers being absent from place of publication
-
-- Ayalon provides examples of journals informing their readers that due to absences of their publishers, they will have to publish double issues ({Ayalon 1995@224})
-    + *al-Hilāl*, 15 May 1900, p.508
-    + *al-Muqtabas*, 6(4) (May 1911), back cover (all three copies I had access to were missing back covers)
-
-- [*al-Zuhūr* 1(7):368](journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) apologises to its readers for the delay in publishing this issue because the editor was travelling outside Egypt/Cairo
-- Muḥammad Kurd ʿAlī is repeatedly absent from Damascus
-    + during times of exile, he writes long letters, which are then used to fill the pages of the journal once he returned to Damascus.
-    + 1909, 15 October - 1910
-        * the newspaper *al-Muqtabas*: suspended between 20 September 1909 and 9 March 1910
-        * the journal *al-Muqtabas*:
-            - an article in [no. 4(2)](https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_4770057679-i_38.TEIP5.xml#div_25.d1e4565) scheduled for February/March 1909 was referenced in the newspaper [*al-Quds* #60 of 11 June 1909, p.4 ({al-quds-1-60@4})](http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60).
-            - no. 4(7) is only published in the first week of April 1910
-        * Kurd ʿAlī escapes his arrest
-        * writing *gharāʾib al-gharb*
-            - according to my count 35 letters, first published in the newspaper?
-            - published in the journal *al-Muqtabas* [no. 4(8)](digital-muqtabas/xml/oclc_4770057679-i_43.TEIP5.xml#div_3.d1e692), [4(9)](digital-muqtabas/xml/oclc_4770057679-i_44.TEIP5.xml#div_3.d1e690), [4(10)](digital-muqtabas/xml/oclc_4770057679-i_45.TEIP5.xml#div_7.d1e1693), [4(11)](digital-muqtabas/xml/oclc_4770057679-i_46.TEIP5.xml#div_8.d1e1619), [4(12)](digital-muqtabas/xml/oclc_4770057679-i_47.TEIP5.xml#div_7.d1e3096) and [5(1)](digital-muqtabas/xml/oclc_4770057679-i_48.TEIP5.xml#div_8.d1e3262)
-    + 1912, 27 April -
-        * the newspaper *al-Muqtabas* is suspended between 18 April and 8 August 1912
-        * this is NOT when he wrote *gharāʾib al-gharb*. Instead his reports were published in the journal, starting with no 8(1) as *fī diyār al-gharb*
-            - published in the journal *al-Muqtabas*, claiming that about 40 letters had been published in the newspapers *al-Qabas* and *al-Muqtabas*, No.s [8(1)](digital-muqtabas/xml/oclc_4770057679-i_84.TEIP5.xml#div_7.d1e1996), [8(2)](), [8(3)](digital-muqtabas/xml/oclc_4770057679-i_86.TEIP5.xml#div_4.d2e2317), [8(4)](digital-muqtabas/xml/oclc_4770057679-i_87.TEIP5.xml#div_7.d1e1729), [8(5)](digital-muqtabas/xml/oclc_4770057679-i_88.TEIP5.xml#div_6.d1e1213), [8(6)](digital-muqtabas/xml/oclc_4770057679-i_89.TEIP5.xml#div_9.d1e1969), [8(7)](digital-muqtabas/xml/oclc_4770057679-i_90.TEIP5.xml#div_7.d1e1254)
-        + >Only one month later, *al-Muqtabas* was banned from publication and an attempt was made to arrest Muḥammad Kurd ʿAlī over the re-print of a *qaṣīda* by Shaykh Ibrāhīm al-Uskūbī that had been previously published in the two Beiruti papers of *al-Waṭan* and *al-Balagh* without any repercussion from the censors. However, Muḥammad Kurd ʿAlī was seemingly warned by the arrest party itself and managed to escape to Egypt; his brother Aḥmad was arrested in his stead. While at large, Muḥammad Kurd ʿAlī was accused of having formed a secret society with the purpose of overthrowing the Caliphate and charged with high treason, while the authorities in Beirut suspended *al-Balagh* from publication.[^1]
-
-        + >Muḥammad Kurd ʿAlī published the first account of these events in the journal *al-Muqtabas* directly after his flight to Cairo; [{KurdʿAlī 1912}](). According to this account the attempted arrest took place on 17 April 1912.
-        + As a consequence, the publication of the journal *al-Muqtabas* moved to Cairo with [No. 7(6)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml).[^2]
-        + *al-Muqtabas* 8(1):2 notes that the publication of this volume was delayed by Muḥammad Kurd ʿAlī being in Europe for the first three months (of the year). With this volume publication moved back to Damascus.
-        + **TO DO**: change place of publication for 7(6--12) to Cairo
-    - In March 1914, Muḥammad Kurd ʿAlī signs articles "From Constantinople"; {muqtabas 626-eap}
-
-[^2]: [*al-Muqtabas* 7(6):496](digital-muqtabas/xml/oclc_4770057679-i_77.TEIP5.xml#div_14.d1e4462)
-
-[^1]: {Devey 1912e; Devey 1912f}{KurdʿAlī 1928@417}{Devey 1912g}
-
-## format of publication
-
-- library copies
-    + [*al-Zuḥūr* 2(1):13](journal_al-zuhur/tei/oclc_1034545644-i_12.TEIP5.xml#p_2.d2e476) announces that the first volume is available in bound library copies at the office in Cairo
-
-## mode of production
-
-- Ayalon claims that "the team normally consist[ed] of the owner (*sahib al-imtiyaz*, or licensee) and one or two assistants." ({Ayalon 1995@224-225})
-- *Thamarāt al-Funūn* asked readers to address letters to one (!) of its editors, Aḥmad Ḥasan Ṭabbāra, 1908. The newspaper doesn't list anyone else in its masthead ({tf-oib 1655@1}).
-- *al-Iqbāl* recorded ʿAbd al-Bāsiṭ al-Unsī as owner and editor-in-chief and Muḥiyī al-Dīn al-Khayyāt as "one of its editors" in 1908; ({iqbal 35-260@1})
-- *al-Bashīr* did not mention a person in its masthead in 1908, but recorded "The Catholic Press" and Yūsuf Kīrīn at the bottom of the last page; ({bashir 39-1872@4})
-- *al-Ittiḥād al-ʿUthmānī* recorded only Aḥmad Ḥasan Ṭabbāra as the owner (*ṣāḥib*); {ittihad-1-33@1}
-- the newspaper *al-Muqtabas* began listing a *mudīr masʾūl* (Aḥmad Kurd ʿAlī) on 26 April 1910; {muqtabas 86-eap@1 }
 
 ## necessity of studies of the ideosphere
 
