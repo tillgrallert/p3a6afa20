@@ -293,7 +293,7 @@ Another striking observation is that despite two of the journals in our corpus, 
 [^50]: al-Ruṣāfī, al-Dujaylī, the two al-Shabībī brothers, al-Rāfiʿī, Muḥarram, Yakan
 [^51]: al-Ruṣāfī, al-Dujaylī, al-Maʿlūf, Muḥammad Riḍā al-Shabībī.
 
-| rank |                author.id.viaf                |      author.name      | author.name.transliterated | author.birth | author.death | journal.count | article.count | word.count |
+| Rank |                VIAF ID                |      Name      | Name (transliterated) | Birth | Death | Journals | Articles | Words |
 |------|----------------------------------------------|-----------------------|----------------------------|--------------|--------------|---------------|---------------|------------|
 |    1 | [14924300](https://viaf.org/viaf/14924300)   | معروف  الرصافي        | m3rwf  alrSafy             | 1875         | 1945         |             4 |            31 |      15038 |
 |    2 | NA                                           | كاظم   الدجيلي        | kaZm   aldjyly             | 1884         | 1970         |             2 |            28 |      38050 |
@@ -332,23 +332,23 @@ Only 50 authors published more than one article in *al-Muqtabas*. Two of the fou
 [^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike.
 
 
-| rank |                author.id.viaf                |     author.name     | author.birth | author.death | article.count |
-|------|----------------------------------------------|---------------------|--------------|--------------|---------------|
-|    1 | NA                                           | NA                  | NA           | NA           |          2630 |
-|    2 | [14924300](https://viaf.org/viaf/14924300)   | معروف الرصافي       | 1875         | 1945         |            27 |
-|    3 | [40250618](https://viaf.org/viaf/40250618)   | عيسى اسكندر المعلوف | 1869         | 1956         |            20 |
-|    4 | [39370998](https://viaf.org/viaf/39370998)   | ساتسنا              | 1866         | 1947         |            14 |
-|    5 | NA                                           | يوسف جرجس زخم       | 1880         | NA           |            13 |
-|    6 | [32272677](https://viaf.org/viaf/32272677)   | محمد كرد علي        | 1876         | 1953         |            12 |
-|    7 | [19737865](https://viaf.org/viaf/19737865)   | أحمد تيمور          | 1871         | 1930         |             9 |
-|    8 | NA                                           | إبراهيم حلمي العمر  | 1890         | 1942         |             9 |
-|    9 | [93607460](https://viaf.org/viaf/93607460)   | جمال الدين القاسمي  | 1866         | 1914         |             8 |
-|   10 | [49218655](https://viaf.org/viaf/49218655)   | أحمد زكي            | 1866         | 1934         |             7 |
-|   11 | [32410755](https://viaf.org/viaf/32410755)   | حافظ إبراهيم        | 1871         | 1932         |             7 |
-|   12 | [28125663](https://viaf.org/viaf/28125663)   | رفيق العظم          | 1865         | 1925         |             7 |
-|   13 | [118432135](https://viaf.org/viaf/118432135) | عبد القادر المغربي  | 1867         | 1956         |             7 |
-|   14 | [22006374](https://viaf.org/viaf/22006374)   | محمد رضا الشبيبي    | 1889         | 1965         |             7 |
-|   15 | [305214884](https://viaf.org/viaf/305214884) | جرجي حداد           | NA           | 1916         |             5 |
+| Rank |                   VIAF ID                    |         Name        | Birth | Death | Articles |
+|------|----------------------------------------------|---------------------|-------|-------|----------|
+|    1 | NA                                           | NA                  | NA    | NA    |     2630 |
+|    2 | [14924300](https://viaf.org/viaf/14924300)   | معروف الرصافي       | 1875  | 1945  |       27 |
+|    3 | [40250618](https://viaf.org/viaf/40250618)   | عيسى اسكندر المعلوف | 1869  | 1956  |       20 |
+|    4 | [39370998](https://viaf.org/viaf/39370998)   | ساتسنا              | 1866  | 1947  |       14 |
+|    5 | NA                                           | يوسف جرجس زخم       | 1880  | NA    |       13 |
+|    6 | [32272677](https://viaf.org/viaf/32272677)   | محمد كرد علي        | 1876  | 1953  |       12 |
+|    7 | [19737865](https://viaf.org/viaf/19737865)   | أحمد تيمور          | 1871  | 1930  |        9 |
+|    8 | NA                                           | إبراهيم حلمي العمر  | 1890  | 1942  |        9 |
+|    9 | [93607460](https://viaf.org/viaf/93607460)   | جمال الدين القاسمي  | 1866  | 1914  |        8 |
+|   10 | [49218655](https://viaf.org/viaf/49218655)   | أحمد زكي            | 1866  | 1934  |        7 |
+|   11 | [32410755](https://viaf.org/viaf/32410755)   | حافظ إبراهيم        | 1871  | 1932  |        7 |
+|   12 | [28125663](https://viaf.org/viaf/28125663)   | رفيق العظم          | 1865  | 1925  |        7 |
+|   13 | [118432135](https://viaf.org/viaf/118432135) | عبد القادر المغربي  | 1867  | 1956  |        7 |
+|   14 | [22006374](https://viaf.org/viaf/22006374)   | محمد رضا الشبيبي    | 1889  | 1965  |        7 |
+|   15 | [305214884](https://viaf.org/viaf/305214884) | جرجي حداد           | NA    | 1916  |        5 |
 
 
 Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
@@ -365,35 +365,27 @@ The map of relative frequencies of locations mentioned in bylines conveys the sa
 
 The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents (the average year of birth for *al-Ḥaqāʾiq* is 1837 and 1869 for *al-Muqtabas*). Among them are Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. The initially surprising finding of very limited overlap between the two networks of authors published in journals from the same city, becomes less so against this backdrop. Looking at the top 14 contributors to both journals, we can also note that whereas only two authors from *al-Muqtabas* are missing from VIAF and thus international library catalogues, the same is true for eight of *al-Ḥaqāʾiq*'s most frequent authors.{>>This further affirms the difference between a journal with transregional impact and a more parochial periodical<<}
 
-| rank |                author.id.viaf                |     author.name      | author.birth | author.death | article.count |
-|------|----------------------------------------------|----------------------|--------------|--------------|---------------|
-|    1 | NA                                           | NA                   | NA           | NA           |           286 |
-|    2 | NA                                           | عبد الرحمن القصار    | 1863         | c.1931       |             8 |
-|    3 | NA                                           | إبراهيم خليل مردم بك | NA           | NA           |             7 |
-|    4 | [299025643](https://viaf.org/viaf/299025643) | محمد عارف المنير     | 1847/48      | 1923/24      |             5 |
-|    5 | [53094077](https://viaf.org/viaf/53094077)   | محمد فريد وجدي       | 1875         | 1954         |             5 |
-|    6 | [58892856](https://viaf.org/viaf/58892856)   | صالح الشريف          | 1869         | 1920         |             4 |
-|    7 | NA                                           | ع                    | NA           | NA           |             4 |
-|    8 | [51567828](https://viaf.org/viaf/51567828)   | محمد  القاسمي الحلاق | 1843         | 1900         |             4 |
-|    9 | NA                                           | محمد سليم الحنفي     | NA           | NA           |             4 |
-|   10 | [267054449](https://viaf.org/viaf/267054449) | مختار المؤيد         | 1822         | 1921         |             4 |
-|   11 | NA                                           | أبو الضيا            | NA           | NA           |             3 |
-|   12 | NA                                           | أحمد الجوبري         | NA           | NA           |             3 |
-|   13 | NA                                           | احمد الباشا          | NA           | NA           |             3 |
-|   14 | NA                                           | صلاح الدين الزعيم    | NA           | NA           |             3 |
-|   15 | [60500457](https://viaf.org/viaf/60500457)   | أحمد محرم            | 1877         | 1945         |             2 |
+| Rank |                   VIAF ID                    |         Name         |  Birth  |  Death  | Articles |
+|------|----------------------------------------------|----------------------|---------|---------|----------|
+|    1 | NA                                           | NA                   | NA      | NA      |      286 |
+|    2 | NA                                           | عبد الرحمن القصار    | 1863    | c.1931  |        8 |
+|    3 | NA                                           | إبراهيم خليل مردم بك | NA      | NA      |        7 |
+|    4 | [299025643](https://viaf.org/viaf/299025643) | محمد عارف المنير     | 1847/48 | 1923/24 |        5 |
+|    5 | [53094077](https://viaf.org/viaf/53094077)   | محمد فريد وجدي       | 1875    | 1954    |        5 |
+|    6 | [58892856](https://viaf.org/viaf/58892856)   | صالح الشريف          | 1869    | 1920    |        4 |
+|    7 | NA                                           | ع                    | NA      | NA      |        4 |
+|    8 | [51567828](https://viaf.org/viaf/51567828)   | محمد  القاسمي الحلاق | 1843    | 1900    |        4 |
+|    9 | NA                                           | محمد سليم الحنفي     | NA      | NA      |        4 |
+|   10 | [267054449](https://viaf.org/viaf/267054449) | مختار المؤيد         | 1822    | 1921    |        4 |
+|   11 | NA                                           | أبو الضيا            | NA      | NA      |        3 |
+|   12 | NA                                           | أحمد الجوبري         | NA      | NA      |        3 |
+|   13 | NA                                           | احمد الباشا          | NA      | NA      |        3 |
+|   14 | NA                                           | صلاح الدين الزعيم    | NA      | NA      |        3 |
+|   15 | [60500457](https://viaf.org/viaf/60500457)   | أحمد محرم            | 1877    | 1945    |        2 |
 
 Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines
 
-A map of the relative frequency of locations mentioned in bylines confirms the brief overview of the authors' biographies---*al-Ḥasnāʾ* was a parochial paper with a focus on local issues. Its geographic network was mainly restricted to Damascus itself and the cities of the Syrian hinterland.
-
-![Figure: Locations in bylines in *al-Ḥaqāʾiq* (Damascus)](assets/plots/map-oclc_644997575-bylines-middle-east.png)
-
-Similarly distinctly regional distributions of authorship can be established for one of the two remain periodicals in our corpus: *al-Ḥasnāʾ*. *Lughat al-ʿArab*, on the other hand, only very rarely provided locations in bylines (26 of 939 articles).
-
-![Figure: Locations in bylines in *al-Ḥasnāʾ* (Beirut)](assets/plots/map-oclc_792756327-bylines-middle-east.png)
-
-{==![Figure: Locations in bylines in *Lughat al-ʿArab* (Baghdad)](assets/plots/map-oclc_472450345-bylines-middle-east.png)==}{>>remove this map<<}
+A map of the relative frequency of locations mentioned in bylines confirms the brief overview of the authors' biographies---*al-Ḥasnāʾ* was a parochial paper with a focus on local issues. Its geographic network was mainly restricted to Damascus itself and the cities of the Syrian hinterland. Similarly distinctly regional distributions of authorship can be established for one of the two remain periodicals in our corpus: *al-Ḥasnāʾ*. *Lughat al-ʿArab*, on the other hand, only very rarely provided locations in bylines (26 of 939 articles).{>>add links to the maps, which were reomved in reply to a review<<}
 
 # Authorship attribution
 
