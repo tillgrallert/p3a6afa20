@@ -430,7 +430,7 @@ As far as I know there has only been one attempt at stylometric authorship attri
 
 [^5]: {Czygan 2012}. This work falls short on many counts beyond introducing a promising approach. Basic statistic measures about her corpus and computational approaches remain unknown and most importantly, she tested only one (sic!) anonymous article with a set of parameters she took 80 pages to develop.
 
-There is some debate as to which style-markers and distance measure should be considered for authorship attribution, but <!-- throughout the following sections of this paper --> I settled on lists of Most Frequent Words (MFWs) and Burrow's Delta{--, which can be visualised as dendrograms--}.[^38] Unlike other forms of computational linguistics, texts should not be pre-processed by, for instance, morphologising or lemmatizing. All stylometric analysis  was done using the "stylo" package for R[^15] on plain-text exports from the TEI files.[^41] Results were then visualised using [Gephi](https://gephi.org).[^42]
+There is some debate as to which style-markers and distance measure should be considered for authorship attribution, but <!-- throughout the following sections of this paper --> I settled on lists of Most Frequent Words (MFWs) and Burrow's Delta{--, which can be visualised as dendrograms--}.[^38] Unlike other forms of computational linguistics, texts should not be pre-processed by, for instance, morphologising or lemmatizing. All stylometric analysis  was done using the "stylo" package for [R](https://www.r-project.org/)[^15] on plain-text versions of our corpus.[^41] Results were then visualised using [Gephi](https://gephi.org).[^42]
 
 Maciej Eder{--, inspired by phylogenetics,--} suggested to use *bootstrap consensus trees* and *consensus networks* in order to separate signal and noise and in order to overcome selection bias when picking from a range of dendrograms. In the latter method, one computes the nearest neighbour as well as the first two runners-up for a sequence of MFWs, let's say from 100 to 1000 MFWs in increments of 100, and then combine the results in a single output, which serves as a form of self-validation for the more robust signals. The results can then be visualised using network analysis.[^39]
 <!-- minimum length of texts -->
@@ -445,7 +445,7 @@ These findings have severe implications for the application of stylometry to per
 
 Table: Length of articles in our corpus
 
-[^15]: {Eder 2016b}
+[^15]: {Eder 2016b}. R is a widely used free software environment for statistical computing and graphics.
 [^38]: {==missing footnote==}{>>footnote on Burrow's Delta<<}
 [^39]: {Eder 2017}
 [^40]: {Eder 2015@170}
