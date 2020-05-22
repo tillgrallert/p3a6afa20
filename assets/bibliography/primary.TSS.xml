@@ -1173,6 +1173,45 @@
 <tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1872%20Du%CC%88stur%20kavanin%20ve%20nizamat%20ve%20muahedat%20ile%20umuma%20ait%20mukavelat%20ve%20iradat-i%20seniyeyi%20muhtevidir%20%236.pdf</URL></tss:attachmentReference>
 </tss:attachments>
 </tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Kurd ʿAlī</tss:surname><tss:forenames>Muḥammad</tss:forenames><tss:initials></tss:initials></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1969"/>
+<tss:date type="Entry" day="22" month="8" year="2008"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">khiṭaṭ al-shām</tss:characteristic>
+<tss:characteristic name="abstractText">6 volumes in 3, new pagination</tss:characteristic>
+<tss:characteristic name="language">arabic</tss:characteristic>
+<tss:characteristic name="publicationCountry">Beirut</tss:characteristic>
+<tss:characteristic name="publisher">dār al-ʿilm</tss:characteristic>
+<tss:characteristic name="status">Started</tss:characteristic>
+<tss:characteristic name="UUID">5B465B93-8742-48E0-83BC-32B28D38CA15</tss:characteristic>
+<tss:characteristic name="volume">4</tss:characteristic>
+<tss:characteristic name="call-num">P956.91 /451245</tss:characteristic>
+<tss:characteristic name="Primary contributor role">Author</tss:characteristic>
+<tss:characteristic name="Standort">SOAS, Till</tss:characteristic>
+<tss:characteristic name="Citation identifier">KurdʿAlī 1969a</tss:characteristic>
+<tss:characteristic name="Edition">2</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Hard copy</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>requirements for being a journalist</title><comment>Quoted in Ayalon 1995</comment><quotation></quotation><pages>86</pages></tss:note>
+<tss:note><title># al-ṣiḥāfa al-ʿarabiyya</title><comment></comment><quotation></quotation><pages>80-86</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference type="PDF-Dokument"><name>content 3-4</name><source>Manual Link</source><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1969%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%204%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad.pdf</URL></tss:attachmentReference>
+<tss:attachmentReference type="PDF-Dokument"><name>al-ṣināʿāt al-šāmiyya</name><source>Manual Link</source><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1969%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%204%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
 </tss:references>
 </tss:library>
 </tss:senteContainer>
