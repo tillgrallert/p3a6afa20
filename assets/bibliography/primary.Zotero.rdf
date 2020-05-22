@@ -12,96 +12,55 @@
          xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
          xmlns:link="http://purl.org/rss/1.0/modules/link/"
          xmlns:oape="https://openarabicpe.github.io/ns">
-   <bib:Manuscript rdf:about="#8D143174-D395-4636-AA10-E1699C780EC9">
-      <z:itemType>manuscript</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Book>
-            <dc:title>United States Census</dc:title>
-         </bib:Book>
-      </dcterms:isPartOf>
-      <dc:title>Sixteenth Census of the United States</dc:title>
-      <z:shortTitle>US Federal Census</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Washington, DC</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#8D143174-D395-4636-AA10-E1699C780EC9-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Census</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Online</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>USA</dc:subject>
-      <dc:date>1940-04-02</dc:date>
-      <z:archive>NARA</z:archive>
-      <dc:coverage>T625</dc:coverage>
-      <dc:description>Citation Key: UnitedStatesCensus+1940
-place: Washington, DC
-uuid: 8D143174-D395-4636-AA10-E1699C780EC9
-</dc:description>
-      <z:language>en</z:language>
-      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zaken can be found in the [1940 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:K997-KT2) as living in Ward 9, Omaha City, Douglas, Nebraska&lt;br&gt;    * data was recorded on 1940-04-02&lt;br&gt;    + aged 61, born in Syria </dcterms:abstract>
-   </bib:Manuscript>
-   <bib:Memo rdf:about="#8D143174-D395-4636-AA10-E1699C780EC9-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zaken can be found in the [1940 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:K997-KT2) as living in Ward 9, Omaha City, Douglas, Nebraska&lt;br&gt;    * data was recorded on 1940-04-02&lt;br&gt;    + aged 61, born in Syria </rdf:value>
-   </bib:Memo>
-   <bib:Manuscript rdf:about="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7">
-      <z:itemType>manuscript</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Book>
-            <dc:title>United States Census</dc:title>
-         </bib:Book>
-      </dcterms:isPartOf>
-      <dc:title>Fifteenth Census of the United States</dc:title>
-      <z:shortTitle>US Federal Census</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Washington, DC</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Census</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Online</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>USA</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <dc:date>1930-04-09</dc:date>
-      <z:archive>NARA</z:archive>
-      <dc:coverage>T625</dc:coverage>
-      <dc:description>Citation Key: UnitedStatesCensus+1930
-place: Washington, DC
-uuid: 5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7
-</dc:description>
-      <z:language>en</z:language>
-      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zackem can be found in the [1930 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4) as living in Ward 5, Lincoln, Lancaster, Nebraska. He was born in 1882 and aged 27 at first marriage.&lt;br&gt;    * data was recorded on 1930-04-09 amd 1930-04-10&lt;br&gt;    * aged 48, born in Syria&lt;br&gt;    * immigrated to the US in 1904, no info on naturalisation&lt;br&gt;    * occupation: Rug dealer, Oriental Goods&lt;br&gt;    * owns his home, which is valued at 10.000 USD&lt;br&gt;    * married to Myrah, ageed 40, born in Iowa&lt;br&gt;    * children&lt;br&gt;        - Rosalla, 18, working as a sales ladie in a Department Store&lt;br&gt;        - George J, 16&lt;br&gt;        - Ruth J, 15&lt;br&gt;        - Michael R., 13&lt;br&gt;        - Josef G, Jr, 9 </dcterms:abstract>
-   </bib:Manuscript>
-   <bib:Memo rdf:about="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zackem can be found in the [1930 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4) as living in Ward 5, Lincoln, Lancaster, Nebraska. He was born in 1882 and aged 27 at first marriage.&lt;br&gt;    * data was recorded on 1930-04-09 amd 1930-04-10&lt;br&gt;    * aged 48, born in Syria&lt;br&gt;    * immigrated to the US in 1904, no info on naturalisation&lt;br&gt;    * occupation: Rug dealer, Oriental Goods&lt;br&gt;    * owns his home, which is valued at 10.000 USD&lt;br&gt;    * married to Myrah, ageed 40, born in Iowa&lt;br&gt;    * children&lt;br&gt;        - Rosalla, 18, working as a sales ladie in a Department Store&lt;br&gt;        - George J, 16&lt;br&gt;        - Ruth J, 15&lt;br&gt;        - Michael R., 13&lt;br&gt;        - Josef G, Jr, 9 </rdf:value>
-   </bib:Memo>
-   <bib:Book rdf:about="#DFDD1059-9A61-4523-B057-AB6D2AB5225F">
+   <bib:Book rdf:about="#801DB913-B0EF-415F-B610-68192123AEBA">
       <z:itemType>book</z:itemType>
-      <dc:title>khiṭaṭ al-shām</dc:title>
+      <dc:title>Iṣlāḥ al-fāsid min lughat al-jarāʾid : yaḥtawī ʿalā naqd kitāb Lughat al-jarāʾid li-l-Shaykh Ibrāhīm al-Yāzijī, wa-al-radd ʿalā Qusṭākī Afandī al-Ḥimṣī / bi-qalam Muḥammad Salīm al-Jundī</dc:title>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Jundī</foaf:surname>
+                  <foaf:givenName>Muḥammad Salīm</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>[Dimashq]</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿat al-Taraqqī</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Arabic language</dc:subject>
+      <dc:subject>Arabic newspapers</dc:subject>
+      <dc:subject>History of press</dc:subject>
+      <dc:subject>II. Terminology</dc:subject>
+      <dc:subject>Press</dc:subject>
+      <dc:subject>Reply</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>Terminology</dc:subject>
+      <dc:date>1925</dc:date>
+      <z:libraryCatalog>Princeton Arabic Microfilming Project</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>cn. 9403119.03</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dcterms:dateSubmitted>2012-06-13</dcterms:dateSubmitted>
+      <dc:description>Citation Key: Jundī+1925
+place: [Dimashq]
+uuid: 801DB913-B0EF-415F-B610-68192123AEBA
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Book>
+   <bib:Book rdf:about="#5B465B93-8742-48E0-83BC-32B28D38CA15">
+      <z:itemType>book</z:itemType>
+      <dc:title>Khiṭaṭ al-Shām</dc:title>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -116,53 +75,41 @@ uuid: 5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7
          <foaf:Organization>
             <vcard:adr>
                <vcard:Address>
-                  <vcard:locality>Dimashq</vcard:locality>
+                  <vcard:locality>Beirut</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Maṭbaʿat al-Mufīd</foaf:name>
+            <foaf:name>dār al-ʿilm</foaf:name>
          </foaf:Organization>
       </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#DFDD1059-9A61-4523-B057-AB6D2AB5225F-abstract"/>
+      <dcterms:isReferencedBy rdf:resource="#5B465B93-8742-48E0-83BC-32B28D38CA15-abstract"/>
       <dc:subject>2019 GG</dc:subject>
-      <dc:subject>19th century</dc:subject>
-      <dc:subject>20th century</dc:subject>
-      <dc:subject>Autobiography</dc:subject>
-      <dc:subject>Censorship</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Memoirs</dc:subject>
-      <dc:subject>Press</dc:subject>
+      <dc:subject>Hard copy</dc:subject>
       <dc:subject>Source</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://www.archive.org/details/kutat_cham_06</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <prism:volume>6</prism:volume>
-      <dc:date>1928</dc:date>
+      <prism:edition>2</prism:edition>
+      <prism:volume>4</prism:volume>
+      <dc:date>1969</dc:date>
       <z:libraryCatalog>SOAS, Till</z:libraryCatalog>
       <dc:subject>
          <dcterms:LCC>
             <rdf:value>P956.91 /451245</rdf:value>
          </dcterms:LCC>
       </dc:subject>
-      <dc:description>Citation Key: KurdʿAlī+1928
-date_hijri: 1347
-place: Dimashq
-uuid: DFDD1059-9A61-4523-B057-AB6D2AB5225F
-volume: 6
+      <dc:description>Citation Key: KurdʿAlī+1969a
+place: Beirut
+uuid: 5B465B93-8742-48E0-83BC-32B28D38CA15
+volume: 4
 </dc:description>
-      <z:language>arabic</z:language>
-      <dcterms:abstract>The volume contains two particularly interesting chapters: al-akhlāq wa al-ʿādāt (morals and customs, 274ff) and a biographical sketch of Muḥammad Kurd ʿAlī.  &lt;br&gt;- al-akhlāq wa al-ʿādāt (274-81): detailing the regular festivities and religious holidays celebrated by the Damascenes, [but commencing with the Midḥat Pasha and the reform movement of the nahḍa, who established, coffeehouses, theatres (dār al-tamthīl), schools, later cinemas (qaʿa al-ṣuwar al-mutaḥarrika).]. &lt;br&gt;- Muslim holidays (274), customs of the people on these occasions (275) &lt;br&gt;- autobiographical sketch (tarjamatuhu bi-nafsihi, 333-47)</dcterms:abstract>
+      <z:language>ar</z:language>
+      <dcterms:abstract>6 volumes in 3, new pagination</dcterms:abstract>
    </bib:Book>
-   <bib:Memo rdf:about="#DFDD1059-9A61-4523-B057-AB6D2AB5225F-abstract">
+   <bib:Memo rdf:about="#5B465B93-8742-48E0-83BC-32B28D38CA15-abstract">
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
-                    The volume contains two particularly interesting chapters: al-akhlāq wa al-ʿādāt (morals and customs, 274ff) and a biographical sketch of Muḥammad Kurd ʿAlī.  &lt;br&gt;- al-akhlāq wa al-ʿādāt (274-81): detailing the regular festivities and religious holidays celebrated by the Damascenes, [but commencing with the Midḥat Pasha and the reform movement of the nahḍa, who established, coffeehouses, theatres (dār al-tamthīl), schools, later cinemas (qaʿa al-ṣuwar al-mutaḥarrika).]. &lt;br&gt;- Muslim holidays (274), customs of the people on these occasions (275) &lt;br&gt;- autobiographical sketch (tarjamatuhu bi-nafsihi, 333-47)</rdf:value>
+                    6 volumes in 3, new pagination</rdf:value>
    </bib:Memo>
    <bib:Book rdf:about="#2A212304-16BE-4983-8549-19DBB12BA0C5">
       <z:itemType>book</z:itemType>
-      <dc:title>Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-Hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</dc:title>
+      <dc:title>Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</dc:title>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -214,6 +161,7 @@ volume: 6
             <rdf:value>OLS Ac VOR arab 60-1</rdf:value>
          </dcterms:LCC>
       </dc:subject>
+      <dcterms:dateSubmitted>2018-12-14</dcterms:dateSubmitted>
       <dc:description>Citation Key: Sarkīs+1928a
 oclc: 6776656
 translated-title: Union Catalogue of Arabic Publications and Translations
@@ -223,6 +171,7 @@ volume: 1
 </dc:description>
       <z:language>ar</z:language>
       <dcterms:abstract># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;</dcterms:abstract>
+      <z:numberOfVolumes>2</z:numberOfVolumes>
    </bib:Book>
    <bib:Memo rdf:about="#2A212304-16BE-4983-8549-19DBB12BA0C5-abstract">
       <rdf:value>
@@ -292,15 +241,86 @@ volume: 2
 </dc:description>
       <z:language>ar</z:language>
       <dcterms:abstract># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;&lt;br&gt;# content&lt;br&gt;II, 745-46: biographical sketch of Khalīl al-Khūrī and Ḥadīqat al-Akhbār </dcterms:abstract>
+      <z:numberOfVolumes>2</z:numberOfVolumes>
    </bib:Book>
    <bib:Memo rdf:about="#FAED103C-0885-4C0F-8DAB-5CFC3794C76B-abstract">
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     # digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;&lt;br&gt;# content&lt;br&gt;II, 745-46: biographical sketch of Khalīl al-Khūrī and Ḥadīqat al-Akhbār </rdf:value>
    </bib:Memo>
+   <bib:Book rdf:about="#1A09077F-F382-45F3-8A55-9C3169FD12FB">
+      <z:itemType>book</z:itemType>
+      <dc:title>Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</dc:title>
+      <z:shortTitle>Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Sarkīs</foaf:surname>
+                  <foaf:givenName>Yūsuf Ilyān</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Miṣr</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿat Sarkīs</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#1A09077F-F382-45F3-8A55-9C3169FD12FB-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Project: OpenArabicPE</dc:subject>
+      <dc:subject>19th century</dc:subject>
+      <dc:subject>20th century</dc:subject>
+      <dc:subject>Arabic literature</dc:subject>
+      <dc:subject>Arabic periodicals</dc:subject>
+      <dc:subject>Article: Reading</dc:subject>
+      <dc:subject>Catalogue</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>EPub</dc:subject>
+      <dc:subject>History of press</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>PDF</dc:subject>
+      <dc:subject>Press</dc:subject>
+      <dc:subject>secondary education</dc:subject>
+      <dc:subject>Secondary source</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://shamela.ws/index.php/book/1242</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1928</dc:date>
+      <z:libraryCatalog>StaBi</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>OLS Ac VOR arab 60</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dcterms:dateSubmitted>2018-12-14</dcterms:dateSubmitted>
+      <dc:description>Citation Key: Sarkīs+1928
+oclc: 6776656
+translated-title: Union Catalogue of Arabic Publications and Translations
+place: Miṣr
+uuid: 1A09077F-F382-45F3-8A55-9C3169FD12FB
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;</dcterms:abstract>
+      <z:numberOfVolumes>2</z:numberOfVolumes>
+   </bib:Book>
+   <bib:Memo rdf:about="#1A09077F-F382-45F3-8A55-9C3169FD12FB-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    # digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;</rdf:value>
+   </bib:Memo>
    <bib:Book rdf:about="#6C374885-E50D-4D4D-A142-B6805D0FF88F">
       <z:itemType>book</z:itemType>
-      <dc:title>tārīkh al-ādāb al-ʿarabiyya fī al-rubʿ al-awwal min al-qarn al-ʿishrīn</dc:title>
+      <dc:title>Tārīkh al-ādāb al-ʿArabiyya fī al-rubʿ al-awwal min al-qarn al-ʿishrīn</dc:title>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -346,7 +366,7 @@ translated-title: History of Arabic Literature during the first Quarter of the T
 place: Bayrūt
 uuid: 6C374885-E50D-4D4D-A142-B6805D0FF88F
 </dc:description>
-      <z:language>Arabic</z:language>
+      <z:language>ar</z:language>
       <dcterms:abstract>28-29: biographical sketch of Khalīl al-Khūrī</dcterms:abstract>
    </bib:Book>
    <bib:Memo rdf:about="#6C374885-E50D-4D4D-A142-B6805D0FF88F-abstract">
@@ -354,15 +374,23 @@ uuid: 6C374885-E50D-4D4D-A142-B6805D0FF88F
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     28-29: biographical sketch of Khalīl al-Khūrī</rdf:value>
    </bib:Memo>
-   <bib:Book rdf:about="#801DB913-B0EF-415F-B610-68192123AEBA">
-      <z:itemType>book</z:itemType>
-      <dc:title>Iṣlāḥ al-fāsid min lughat al-jarāʾid : yaḥtawī ʿalā naqd kitāb Lughat al-jarāʾid li-l-Shaykh Ibrāhīm al-Yāzijī, wa-al-radd ʿalā Qusṭākī Afandī al-Ḥimṣī / bi-qalam Muḥammad Salīm al-Jundī</dc:title>
+   <bib:Article rdf:about="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA">
+      <z:itemType>journalArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>35</prism:volume>
+            <prism:number>4</prism:number>
+            <dc:title>Zeitschrift des Deutschen Palästina-Vereins (1878-1945)</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>Verzeichnis der arabischen Zeitungen und Zeitschriften Palästinas</dc:title>
+      <z:shortTitle>Verzeichnis der arabischen Zeitungen</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
                <foaf:Person>
-                  <foaf:surname>Jundī</foaf:surname>
-                  <foaf:givenName>Muḥammad Salīm</foaf:givenName>
+                  <foaf:surname>Thomsen</foaf:surname>
+                  <foaf:givenName>P.</foaf:givenName>
                </foaf:Person>
             </rdf:li>
          </rdf:Seq>
@@ -371,84 +399,165 @@ uuid: 6C374885-E50D-4D4D-A142-B6805D0FF88F
          <foaf:Organization>
             <vcard:adr>
                <vcard:Address>
-                  <vcard:locality>[Dimashq]</vcard:locality>
+                  <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Maṭbaʿat al-Taraqqī</foaf:name>
+            <foaf:name>Deutscher Verein zur Erforschung Palästinas</foaf:name>
          </foaf:Organization>
       </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA-abstract"/>
       <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Arabic language</dc:subject>
-      <dc:subject>Arabic newspapers</dc:subject>
+      <dc:subject>Beirut</dc:subject>
+      <dc:subject>Catalogue</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Haifa</dc:subject>
+      <dc:subject>Hama</dc:subject>
       <dc:subject>History of press</dc:subject>
-      <dc:subject>II. Terminology</dc:subject>
+      <dc:subject>Homs</dc:subject>
+      <dc:subject>Jaffa</dc:subject>
+      <dc:subject>Jerusalem</dc:subject>
+      <dc:subject>Lebanon</dc:subject>
+      <dc:subject>Palestine</dc:subject>
       <dc:subject>Press</dc:subject>
-      <dc:subject>Reply</dc:subject>
+      <dc:subject>Saida</dc:subject>
+      <dc:subject>Secondary source</dc:subject>
       <dc:subject>Source</dc:subject>
-      <dc:subject>Terminology</dc:subject>
+      <dc:subject>Syria</dc:subject>
+      <dc:subject>Tripoli</dc:subject>
+      <dc:subject>Zahle</dc:subject>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>http://gso.gbv.de/DB=2.8/CHARSET=UTF-8/IMPLAND=Y/LNG=DU/SRT=YOP/TTL=1/COOKIE=U8000,K8000,I0,B1999++++++,SY,NVZG,D2.8,E8ef6ad39-12c4,A,H,R129.13.130.211,FY/SET=1/SHW?FRST=1</rdf:value>
+            <rdf:value>http://www.jstor.org/stable/27929096</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <dc:date>1925</dc:date>
-      <z:libraryCatalog>Princeton Arabic Microfilming Project</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>cn. 9403119.03</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: Jundī+1925
-place: [Dimashq]
-uuid: 801DB913-B0EF-415F-B610-68192123AEBA
+      <bib:pages>211-215</bib:pages>
+      <dc:date>1912</dc:date>
+      <dc:description>Citation Key: Thomsen+1912
+doi: 10.2307/27929096
+issue: 4
+uuid: 52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA
+volume: 35
 </dc:description>
-      <z:language>Arabic</z:language>
-   </bib:Book>
-   <bib:Manuscript rdf:about="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B">
-      <z:itemType>manuscript</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Book>
-            <dc:title>United States Census</dc:title>
-         </bib:Book>
-      </dcterms:isPartOf>
-      <dc:title>Fourteenth Census of the United States</dc:title>
-      <z:shortTitle>US Federal Census</z:shortTitle>
+      <z:language>en</z:language>
+      <dcterms:abstract>The list of 88 newspapers / periodicals is at least partially incomplete as the author himself freely admitted or it might be that he only recorded the papers still published: &lt;br&gt;- missing papers:&lt;br&gt;    + &amp;lt;title level="j"&amp;gt;Lisān al-Sharq&amp;lt;/title&amp;gt;, published in Ḥamāh in 1910 is absent from the list (214) [because it had ceased publication by that time]</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    The list of 88 newspapers / periodicals is at least partially incomplete as the author himself freely admitted or it might be that he only recorded the papers still published: &lt;br&gt;- missing papers:&lt;br&gt;    + &amp;lt;title level="j"&amp;gt;Lisān al-Sharq&amp;lt;/title&amp;gt;, published in Ḥamāh in 1910 is absent from the list (214) [because it had ceased publication by that time]</rdf:value>
+   </bib:Memo>
+   <bib:Book rdf:about="#DFDD1059-9A61-4523-B057-AB6D2AB5225F">
+      <z:itemType>book</z:itemType>
+      <dc:title>Khiṭaṭ al-Shām</dc:title>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Kurd ʿAlī</foaf:surname>
+                  <foaf:givenName>Muḥammad</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
       <dc:publisher>
          <foaf:Organization>
             <vcard:adr>
                <vcard:Address>
-                  <vcard:locality>Washington, DC</vcard:locality>
+                  <vcard:locality>Dimashq</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>Maṭbaʿat al-Mufīd</foaf:name>
          </foaf:Organization>
       </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B-abstract"/>
+      <dcterms:isReferencedBy rdf:resource="#DFDD1059-9A61-4523-B057-AB6D2AB5225F-abstract"/>
       <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Census</dc:subject>
+      <dc:subject>19th century</dc:subject>
+      <dc:subject>20th century</dc:subject>
+      <dc:subject>Autobiography</dc:subject>
+      <dc:subject>Censorship</dc:subject>
+      <dc:subject>Damascus</dc:subject>
       <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Online</dc:subject>
+      <dc:subject>Memoirs</dc:subject>
+      <dc:subject>Press</dc:subject>
       <dc:subject>Source</dc:subject>
-      <dc:subject>USA</dc:subject>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW</rdf:value>
+            <rdf:value>http://www.archive.org/details/kutat_cham_06</rdf:value>
          </dcterms:URI>
       </dc:identifier>
-      <dc:date>1920-01-06</dc:date>
-      <z:archive>NARA</z:archive>
-      <dc:coverage>T625</dc:coverage>
-      <dc:description>Citation Key: UnitedStatesCensus+1920
-place: Washington, DC
-uuid: E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B
+      <prism:volume>6</prism:volume>
+      <dc:date>1928</dc:date>
+      <z:libraryCatalog>SOAS, Till</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>P956.91 /451245</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dcterms:dateSubmitted>2012-05-24</dcterms:dateSubmitted>
+      <dc:description>Citation Key: KurdʿAlī+1928
+date_hijri: 1347
+place: Dimashq
+uuid: DFDD1059-9A61-4523-B057-AB6D2AB5225F
+volume: 6
 </dc:description>
-      <z:language>en</z:language>
-      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- Joseph G Jakem [sic] can be found in the [1920 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW) as living in Ward 7, Lincoln, Lancaster, Nebraska&lt;br&gt;    - The data was recorded on 1920-01-06&lt;br&gt;    - born in 1880 (aged 39), married to Myra M Jakem [sic], aged 29, born in Iowa, who can read and writre&lt;br&gt;        - her father was from Michigan&lt;br&gt;    - 1902: immigration to the US&lt;br&gt;    - 1904: naturalisation&lt;br&gt;    - children&lt;br&gt;        - Rose Ellen, 8&lt;br&gt;        - George G., 6&lt;br&gt;        - Ruth, 4 10/12&lt;br&gt;        - Mitchell E., 2 11/12 </dcterms:abstract>
-   </bib:Manuscript>
-   <bib:Memo rdf:about="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B-abstract">
+      <z:language>ar</z:language>
+      <dcterms:abstract>The volume contains two particularly interesting chapters: al-akhlāq wa al-ʿādāt (morals and customs, 274ff) and a biographical sketch of Muḥammad Kurd ʿAlī.  &lt;br&gt;- al-akhlāq wa al-ʿādāt (274-81): detailing the regular festivities and religious holidays celebrated by the Damascenes, [but commencing with the Midḥat Pasha and the reform movement of the nahḍa, who established, coffeehouses, theatres (dār al-tamthīl), schools, later cinemas (qaʿa al-ṣuwar al-mutaḥarrika).]. &lt;br&gt;- Muslim holidays (274), customs of the people on these occasions (275) &lt;br&gt;- autobiographical sketch (tarjamatuhu bi-nafsihi, 333-47)</dcterms:abstract>
+   </bib:Book>
+   <bib:Memo rdf:about="#DFDD1059-9A61-4523-B057-AB6D2AB5225F-abstract">
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
-                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- Joseph G Jakem [sic] can be found in the [1920 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW) as living in Ward 7, Lincoln, Lancaster, Nebraska&lt;br&gt;    - The data was recorded on 1920-01-06&lt;br&gt;    - born in 1880 (aged 39), married to Myra M Jakem [sic], aged 29, born in Iowa, who can read and writre&lt;br&gt;        - her father was from Michigan&lt;br&gt;    - 1902: immigration to the US&lt;br&gt;    - 1904: naturalisation&lt;br&gt;    - children&lt;br&gt;        - Rose Ellen, 8&lt;br&gt;        - George G., 6&lt;br&gt;        - Ruth, 4 10/12&lt;br&gt;        - Mitchell E., 2 11/12 </rdf:value>
+                    The volume contains two particularly interesting chapters: al-akhlāq wa al-ʿādāt (morals and customs, 274ff) and a biographical sketch of Muḥammad Kurd ʿAlī.  &lt;br&gt;- al-akhlāq wa al-ʿādāt (274-81): detailing the regular festivities and religious holidays celebrated by the Damascenes, [but commencing with the Midḥat Pasha and the reform movement of the nahḍa, who established, coffeehouses, theatres (dār al-tamthīl), schools, later cinemas (qaʿa al-ṣuwar al-mutaḥarrika).]. &lt;br&gt;- Muslim holidays (274), customs of the people on these occasions (275) &lt;br&gt;- autobiographical sketch (tarjamatuhu bi-nafsihi, 333-47)</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#1186E689-BAB1-4FFF-BB01-3B1636B096F6">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dc:title>al-ʿAṣr al-Jadīd: Jarīda siyāsiyya tujāriyya ʿilmiyya ṣināʿiyya adabiyya zirāʿiyya</dc:title>
+      <z:shortTitle>al-ʿAṣr</z:shortTitle>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Abū Zayd</foaf:surname>
+                  <foaf:givenName>Nāṣīf</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>al-Shām</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿa al-ʿilmiyya</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#1186E689-BAB1-4FFF-BB01-3B1636B096F6-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>daily</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Poetry</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <prism:volume>2</prism:volume>
+      <prism:number>203</prism:number>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1910-04-07</dc:date>
+      <dcterms:dateSubmitted>2019-03-02</dcterms:dateSubmitted>
+      <dc:description>Citation Key: asr-2-203
+date_mali: 1326-01-25
+date_hijri: 1328-03-26
+issue: 203
+place: al-Shām
+uuid: 1186E689-BAB1-4FFF-BB01-3B1636B096F6
+volume: 2
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# dākhiliyya:&lt;br&gt;## dākhiliyya: The Cretan question&lt;br&gt;  &amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# Qaṣīda&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf Efendi al-Ruṣāfī&amp;lt;/persName&amp;gt;&lt;br&gt;- according to the *Dīwān al-Ruṣāfī*, published by Hindawi, the title of this qaṣīda is "to the Arab nation" (*ilā al-umma al-ʿarabiyya*)&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#1186E689-BAB1-4FFF-BB01-3B1636B096F6-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="1"/&amp;gt; &lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# dākhiliyya:&lt;br&gt;## dākhiliyya: The Cretan question&lt;br&gt;  &amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# Qaṣīda&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf Efendi al-Ruṣāfī&amp;lt;/persName&amp;gt;&lt;br&gt;- according to the *Dīwān al-Ruṣāfī*, published by Hindawi, the title of this qaṣīda is "to the Arab nation" (*ilā al-umma al-ʿarabiyya*)&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </rdf:value>
    </bib:Memo>
    <bib:Legislation rdf:about="#96DBE129-17E5-4A79-B533-53E3C8C07E19">
       <z:itemType>bill</z:itemType>
@@ -515,872 +624,13 @@ place: Der-i Saʿādet
 uuid: 96DBE129-17E5-4A79-B533-53E3C8C07E19
 volume: 1
 </dc:description>
-      <z:language>Ottoman Turkish</z:language>
+      <z:language>ota</z:language>
       <dcterms:abstract>published in Taḳvīm-i Vaḳāyiʿ of 13 Raj 1327&lt;br&gt;&lt;br&gt;Law on printed material / press law&lt;br&gt;as decided by the parliament and signed by the Sultan, reprint from the official gazette. printed in düstur &lt;a href="sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909"&gt;sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909&lt;/a&gt;; A French translation was published in 1912 &lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 1-7]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6094 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6094"&gt;sente:/BachBibliographie/lisan+6094&lt;/a&gt;&lt;br&gt;&lt;br&gt;Part I: modes of publication&lt;br&gt;more or less exact translation. &lt;br&gt;&lt;br&gt;The articles are called al-band, paragraphs&lt;br&gt;- Art 1: every periodical publication needs a responsible director (*müdir-i mesʾūl*) of publication&lt;br&gt;- Art 2: directors most be older than 21 and free of criminal records, must be literate in the language they are publishing in &lt;br&gt;- Art 3: everybody willing to publish a periodical has to apply to the ministry of the interior in writing, stating the name of the publication and its director(s). In addition the provincial and mutassariflik authorities must be supplied with the following information: title, place of publication, topics covered, kind of publication (daily, etc.), name, age, address of the applicant, name and address of the director, languages of publication&lt;br&gt;- Art 4: the owner of every publication published before providing a written statement as laid down in the preceding paragraph is liable to a penal payment of £T 5-25, in case of repeated offences the punishment will be multiplied to £T10-100 or imprisonment between 1 day and 1 month …&lt;br&gt;- Art 5: in case of the concessionaires death possession of the permit falls into the hands of the heirs in accordance with the inheritance laws and its publication continues under the responsibility of the responsible director&lt;br&gt;- Art 6: it is not allowed to use the title and name of a newspaper or periodical publication for any other publications until 15 years after the end of publication&lt;br&gt;- Art 7: if the responsible director leaves his job, dies or is prosecuted under the laws of the city (al-madīna) [municipality] a new application must be supplied in accordance with Art 3 within 5 days. failure to do so will result in the punishments prescribed by Art 4&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 8-16]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6096 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6096"&gt;sente:/BachBibliographie/lisan+6096&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 8: two copies of every number of a newspaper etc. must be supplied to the highest-ranking official in the local government (ḥukūma maḥalliyya), belonging to the MoI, and to the public prosecutor on the day of printing and on the expense of the responsible director. the latter is liable to a payment of £T ½ for every number not supplied to the aforementioned authorities &lt;br&gt;- Art 9: every newspaper etc. is liable to the payment of £T 1 if the name of the responsible director is not printed in the header of every number.  such penalty does not save the director from any other personal liabilities for not complying with the laws.&lt;br&gt;- Art 10: selling newspapers, or any printed material in the sūqs and public places (maḥallāt ʿumūmiyya / yāḫūd ʿumūmī maḥallarda) by announcing anything with a loud voice but the name of the newspaper, the name of the author … [very bad copy] &amp;lt;pb&amp;gt;&lt;br&gt;&lt;br&gt;"Loi Sur la Presse." Promulgated on 11 Raj 1327 aH [29 Jul. 1909]. In Législation Ottomane Depuis le Rétablissement de la Constitution 24 Djemazi-ulahir 1326 - 10 Juillet 1324/1908 1 Translated by Adrien Biliotti and Ahmed Sedad Bey. Paris: Jouve, 1912: 241-251.&lt;br&gt;&lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 11: the following persons are liable to legal prosecution: 1) the responsible director, 2) the author of an article and those who signed it, 3) the printer, 4) those selling and distributing copies.&lt;br&gt;&amp;lt;/add&amp;gt; &lt;br&gt;- Art 12: if bay person (shakhṣ) deems himself morally or materially hurt / damaged by a newspaper etc., he has the right to level legal charges against the person (shakhṣ) who is specified by Art 11 as bearing the responsibility for its publication. this is independent of any actions of the public prosecutor. the court will then establish the moral or material damages and necessary reparations or hand down a prison sentence. the sentence must then be published in the next or second-to-next number of the offending paper. failure to do so will be punished with a payment of £T 50&lt;br&gt;- Art 13: all newspapers etc. have the right to publish the minutes of any trial or the meetings of official councils (majālis rasmiyya), unless they were declared secret in accordance with the relevant laws. … penalty of £T 5-20.&lt;br&gt;- Art 14: courts can prohibit the publication of reports on its proceedings if they could harm public morals (adāb ʿumūmiyya).&lt;br&gt;- Art 15: it is forbidden to publish (broadcast = idhāʿa) any laws or regulations (qawānīn wa niẓāmāt) before they are officially promulgated. offenders will be punished by an official [sic] penalty of £T 2-10 and the confiscation of the offending publications&lt;br&gt;- Art 16: if writings containing the works (ashghāl) … of one of the officially recognised sects / religions (diyānāt) or one of the peoples (ʿanāṣir) of the Sultanate are published, the person responsible according to Art 11 will be punished with imprisonment of one month to one year and the payment of £T20-100 or by either one of those penalties. this is not considered as relating to the doctrines and creeds …. philosophy [bad copy]&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Bashīr 1925 Bayrūt: Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn, 1909: 3-4&lt;br&gt;&lt;a href="sente:/BachBibliographie/bashir+1925a"&gt;sente:/BachBibliographie/bashir+1925a&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-28]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6097 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6097"&gt;sente:/BachBibliographie/lisan+6097&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 17: if incitements to crimes specified in the second part of the penal code are published, the responsible person (art 11) is to be punished as if he had committed these crimes himself. but … [bad copy]&lt;br&gt;- Art 18: those persons (ashkhāṣ) who whose the newspapers etc. to blackmail others are liable to 3 months to 2 years imprisonment and a fee of £T 10-100&lt;br&gt;- Art 19: those publishing false or fabricated news and when the publication disturbed public tranquility (rāḥat ʿumūmiyya / āsāyış ʿāmma) … will be punished by ½-1 year of imprisonment and/or payment of £T 5-100&lt;br&gt;- Art 20: if they publish articles (fuṣūl) or drawings (rusūm) endangering / damaging public morals (adāb ʿumūmiyya), the responsible person (art 11) is liable to the payment of £T 2-10&lt;br&gt;- Art 21: if newspapers publish an article etc. agains a person (shakhṣ), he has the right to reply in the next number and on the same amount of space. they are also obliged to publish official denials (takhshīb) of the government for false stories, and announcements of a ban of publication. penalty of non-compliance is £T 5-50&lt;br&gt;- Art 22: if the violations of he preceding article are repeated they are to be subjected to stronger punishment (tashdīd al-ʿuqūba)&lt;br&gt;- Art 23: if newspapers etc. contain incitements to crimes specified as specified in Art 17, the authorities are allowed to take further measures against the publication after the courts had ruled a verdict in order to protect public tranquility (muḥāfiẓ-i āsāyış için). if they decide to discharge (tabarraʾa) the responsible director, he has the right to demand compensation (taʿwīḍ) for damages caused by this step.&lt;br&gt;- Art 24: every conviction / judgement as specified above by this law for journalistic violations  covers also charges against daily newspapers, periodicals, and articles, printed or handwritten leaflets (awrāq) sold or distributed in public places (maḥallāt ʿumūmiyya /  ʿumūmī maḥall), places of congregation (amākin al-ijtimāʿ / ve ijtimāʿlarda), as well as schedules and announcement on public display (taʿruḍ ʿalā inẓār al-ʿumūm / inẓār ʿāmmaya vadaʿ onlunmuş) / visible to the public.&lt;br&gt;&lt;br&gt;Part II: on vituperation (qadḥ) and &lt;br&gt;Art 25: concerning the vituperation of anything that is attributed to a person (shakhṣ) or a group (hīʾat) that is part of the aforementioned incident (ḥādatha) and damages his honour or reputation … [bad copy]&lt;br&gt;Art 26: the person responsible (art 11) for publishing articles insulting the Sultan will be punished with imprisonment of 3 months to 3 years.&lt;br&gt;Art 27: anybody insulting or vituperating the kings and governments of foreign countries will be imprisoned for 1 month - 1 year&lt;br&gt;Art 28: for publishing vituperations (qadḥ) of the imperial family, the senate (majlis al-aʿyān) or the lower house (nawāb), official administrations, official groups, the Ottoman army and navy, political envoys, foreign consuls, the responsible person (art11) will be punished with imprisonment of 15 days to 6 months or the payment of £T 5-50&lt;br&gt;insults will be punished by imprisonment of a week to 3 months and/ or payment of £T 1-25&lt;br&gt;if the insult or vituperation was prosecuted by courts and the public prosecutor, the resulting penalty will be added &lt;br&gt;&lt;br&gt;["Niẓām Al-Maṭbūʿāt [Art 29-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6098 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6098"&gt;sente:/BachBibliographie/lisan+6098&lt;/a&gt;]&lt;br&gt;&lt;br&gt;Art 29: if the vituperation is levelled against a common person (shakhṣ min ahālī), punishment is 1 week to 3 months and / or payment of £T 2-25. insult: imprisonment of 1 week - 2 months, and / or payment of £T 1-15&lt;br&gt;Art 30: personal vituperation or insult of ministers, senators / MPs (aʿyān), or officials of the state ….&lt;br&gt;&lt;br&gt;Part IV: various articles&lt;br&gt;Art 31: if the journalistic violations … very long article further concerning vituperations and insults and the penal code, again listing the various possible victims&lt;br&gt;Art 32: if violations are not prosecuted within 3 months from their publication they are barred [and cannot be further prosecuted]&lt;br&gt;Art 33: during military campaigns etc. newspapers can be prohibited from publishing any news on movements of troops on land or seaborn or any preparations of the country’s defence. penal fee of £T 50-200 and/or imprisonment of ½ -2 years&lt;br&gt;Art 34: journals or periodicals published with a permit for literary or scientific research are not allowed to publish any political news&lt;br&gt;Art 35: foreign newspapers etc. can be banned from publication and distribution in the empire by a private decision of the cabinet. the MoI can ban a single number/ issue. transgression will be punished with a payment of  £T 2-15&lt;br&gt;Art 36: this law abrogates the press code (qānūn al-Maṭbūʿāt) promulgated on 2 Shaʿ 1281&lt;br&gt;Art 37: the MoI and the MoJ are responsible for the implementation of this law&lt;br&gt;&lt;br&gt;Supplementary / final clause&lt;br&gt;present publishers and owners of newspapers etc. have to comply with this law within one month from the date of its promulgation. non-compliance will be punished according to Art 4.</dcterms:abstract>
    </bib:Legislation>
    <bib:Memo rdf:about="#96DBE129-17E5-4A79-B533-53E3C8C07E19-abstract">
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     published in Taḳvīm-i Vaḳāyiʿ of 13 Raj 1327&lt;br&gt;&lt;br&gt;Law on printed material / press law&lt;br&gt;as decided by the parliament and signed by the Sultan, reprint from the official gazette. printed in düstur &lt;a href="sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909"&gt;sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909&lt;/a&gt;; A French translation was published in 1912 &lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 1-7]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6094 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6094"&gt;sente:/BachBibliographie/lisan+6094&lt;/a&gt;&lt;br&gt;&lt;br&gt;Part I: modes of publication&lt;br&gt;more or less exact translation. &lt;br&gt;&lt;br&gt;The articles are called al-band, paragraphs&lt;br&gt;- Art 1: every periodical publication needs a responsible director (*müdir-i mesʾūl*) of publication&lt;br&gt;- Art 2: directors most be older than 21 and free of criminal records, must be literate in the language they are publishing in &lt;br&gt;- Art 3: everybody willing to publish a periodical has to apply to the ministry of the interior in writing, stating the name of the publication and its director(s). In addition the provincial and mutassariflik authorities must be supplied with the following information: title, place of publication, topics covered, kind of publication (daily, etc.), name, age, address of the applicant, name and address of the director, languages of publication&lt;br&gt;- Art 4: the owner of every publication published before providing a written statement as laid down in the preceding paragraph is liable to a penal payment of £T 5-25, in case of repeated offences the punishment will be multiplied to £T10-100 or imprisonment between 1 day and 1 month …&lt;br&gt;- Art 5: in case of the concessionaires death possession of the permit falls into the hands of the heirs in accordance with the inheritance laws and its publication continues under the responsibility of the responsible director&lt;br&gt;- Art 6: it is not allowed to use the title and name of a newspaper or periodical publication for any other publications until 15 years after the end of publication&lt;br&gt;- Art 7: if the responsible director leaves his job, dies or is prosecuted under the laws of the city (al-madīna) [municipality] a new application must be supplied in accordance with Art 3 within 5 days. failure to do so will result in the punishments prescribed by Art 4&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 8-16]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6096 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6096"&gt;sente:/BachBibliographie/lisan+6096&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 8: two copies of every number of a newspaper etc. must be supplied to the highest-ranking official in the local government (ḥukūma maḥalliyya), belonging to the MoI, and to the public prosecutor on the day of printing and on the expense of the responsible director. the latter is liable to a payment of £T ½ for every number not supplied to the aforementioned authorities &lt;br&gt;- Art 9: every newspaper etc. is liable to the payment of £T 1 if the name of the responsible director is not printed in the header of every number.  such penalty does not save the director from any other personal liabilities for not complying with the laws.&lt;br&gt;- Art 10: selling newspapers, or any printed material in the sūqs and public places (maḥallāt ʿumūmiyya / yāḫūd ʿumūmī maḥallarda) by announcing anything with a loud voice but the name of the newspaper, the name of the author … [very bad copy] &amp;lt;pb&amp;gt;&lt;br&gt;&lt;br&gt;"Loi Sur la Presse." Promulgated on 11 Raj 1327 aH [29 Jul. 1909]. In Législation Ottomane Depuis le Rétablissement de la Constitution 24 Djemazi-ulahir 1326 - 10 Juillet 1324/1908 1 Translated by Adrien Biliotti and Ahmed Sedad Bey. Paris: Jouve, 1912: 241-251.&lt;br&gt;&lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 11: the following persons are liable to legal prosecution: 1) the responsible director, 2) the author of an article and those who signed it, 3) the printer, 4) those selling and distributing copies.&lt;br&gt;&amp;lt;/add&amp;gt; &lt;br&gt;- Art 12: if bay person (shakhṣ) deems himself morally or materially hurt / damaged by a newspaper etc., he has the right to level legal charges against the person (shakhṣ) who is specified by Art 11 as bearing the responsibility for its publication. this is independent of any actions of the public prosecutor. the court will then establish the moral or material damages and necessary reparations or hand down a prison sentence. the sentence must then be published in the next or second-to-next number of the offending paper. failure to do so will be punished with a payment of £T 50&lt;br&gt;- Art 13: all newspapers etc. have the right to publish the minutes of any trial or the meetings of official councils (majālis rasmiyya), unless they were declared secret in accordance with the relevant laws. … penalty of £T 5-20.&lt;br&gt;- Art 14: courts can prohibit the publication of reports on its proceedings if they could harm public morals (adāb ʿumūmiyya).&lt;br&gt;- Art 15: it is forbidden to publish (broadcast = idhāʿa) any laws or regulations (qawānīn wa niẓāmāt) before they are officially promulgated. offenders will be punished by an official [sic] penalty of £T 2-10 and the confiscation of the offending publications&lt;br&gt;- Art 16: if writings containing the works (ashghāl) … of one of the officially recognised sects / religions (diyānāt) or one of the peoples (ʿanāṣir) of the Sultanate are published, the person responsible according to Art 11 will be punished with imprisonment of one month to one year and the payment of £T20-100 or by either one of those penalties. this is not considered as relating to the doctrines and creeds …. philosophy [bad copy]&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Bashīr 1925 Bayrūt: Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn, 1909: 3-4&lt;br&gt;&lt;a href="sente:/BachBibliographie/bashir+1925a"&gt;sente:/BachBibliographie/bashir+1925a&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-28]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6097 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6097"&gt;sente:/BachBibliographie/lisan+6097&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 17: if incitements to crimes specified in the second part of the penal code are published, the responsible person (art 11) is to be punished as if he had committed these crimes himself. but … [bad copy]&lt;br&gt;- Art 18: those persons (ashkhāṣ) who whose the newspapers etc. to blackmail others are liable to 3 months to 2 years imprisonment and a fee of £T 10-100&lt;br&gt;- Art 19: those publishing false or fabricated news and when the publication disturbed public tranquility (rāḥat ʿumūmiyya / āsāyış ʿāmma) … will be punished by ½-1 year of imprisonment and/or payment of £T 5-100&lt;br&gt;- Art 20: if they publish articles (fuṣūl) or drawings (rusūm) endangering / damaging public morals (adāb ʿumūmiyya), the responsible person (art 11) is liable to the payment of £T 2-10&lt;br&gt;- Art 21: if newspapers publish an article etc. agains a person (shakhṣ), he has the right to reply in the next number and on the same amount of space. they are also obliged to publish official denials (takhshīb) of the government for false stories, and announcements of a ban of publication. penalty of non-compliance is £T 5-50&lt;br&gt;- Art 22: if the violations of he preceding article are repeated they are to be subjected to stronger punishment (tashdīd al-ʿuqūba)&lt;br&gt;- Art 23: if newspapers etc. contain incitements to crimes specified as specified in Art 17, the authorities are allowed to take further measures against the publication after the courts had ruled a verdict in order to protect public tranquility (muḥāfiẓ-i āsāyış için). if they decide to discharge (tabarraʾa) the responsible director, he has the right to demand compensation (taʿwīḍ) for damages caused by this step.&lt;br&gt;- Art 24: every conviction / judgement as specified above by this law for journalistic violations  covers also charges against daily newspapers, periodicals, and articles, printed or handwritten leaflets (awrāq) sold or distributed in public places (maḥallāt ʿumūmiyya /  ʿumūmī maḥall), places of congregation (amākin al-ijtimāʿ / ve ijtimāʿlarda), as well as schedules and announcement on public display (taʿruḍ ʿalā inẓār al-ʿumūm / inẓār ʿāmmaya vadaʿ onlunmuş) / visible to the public.&lt;br&gt;&lt;br&gt;Part II: on vituperation (qadḥ) and &lt;br&gt;Art 25: concerning the vituperation of anything that is attributed to a person (shakhṣ) or a group (hīʾat) that is part of the aforementioned incident (ḥādatha) and damages his honour or reputation … [bad copy]&lt;br&gt;Art 26: the person responsible (art 11) for publishing articles insulting the Sultan will be punished with imprisonment of 3 months to 3 years.&lt;br&gt;Art 27: anybody insulting or vituperating the kings and governments of foreign countries will be imprisoned for 1 month - 1 year&lt;br&gt;Art 28: for publishing vituperations (qadḥ) of the imperial family, the senate (majlis al-aʿyān) or the lower house (nawāb), official administrations, official groups, the Ottoman army and navy, political envoys, foreign consuls, the responsible person (art11) will be punished with imprisonment of 15 days to 6 months or the payment of £T 5-50&lt;br&gt;insults will be punished by imprisonment of a week to 3 months and/ or payment of £T 1-25&lt;br&gt;if the insult or vituperation was prosecuted by courts and the public prosecutor, the resulting penalty will be added &lt;br&gt;&lt;br&gt;["Niẓām Al-Maṭbūʿāt [Art 29-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6098 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6098"&gt;sente:/BachBibliographie/lisan+6098&lt;/a&gt;]&lt;br&gt;&lt;br&gt;Art 29: if the vituperation is levelled against a common person (shakhṣ min ahālī), punishment is 1 week to 3 months and / or payment of £T 2-25. insult: imprisonment of 1 week - 2 months, and / or payment of £T 1-15&lt;br&gt;Art 30: personal vituperation or insult of ministers, senators / MPs (aʿyān), or officials of the state ….&lt;br&gt;&lt;br&gt;Part IV: various articles&lt;br&gt;Art 31: if the journalistic violations … very long article further concerning vituperations and insults and the penal code, again listing the various possible victims&lt;br&gt;Art 32: if violations are not prosecuted within 3 months from their publication they are barred [and cannot be further prosecuted]&lt;br&gt;Art 33: during military campaigns etc. newspapers can be prohibited from publishing any news on movements of troops on land or seaborn or any preparations of the country’s defence. penal fee of £T 50-200 and/or imprisonment of ½ -2 years&lt;br&gt;Art 34: journals or periodicals published with a permit for literary or scientific research are not allowed to publish any political news&lt;br&gt;Art 35: foreign newspapers etc. can be banned from publication and distribution in the empire by a private decision of the cabinet. the MoI can ban a single number/ issue. transgression will be punished with a payment of  £T 2-15&lt;br&gt;Art 36: this law abrogates the press code (qānūn al-Maṭbūʿāt) promulgated on 2 Shaʿ 1281&lt;br&gt;Art 37: the MoI and the MoJ are responsible for the implementation of this law&lt;br&gt;&lt;br&gt;Supplementary / final clause&lt;br&gt;present publishers and owners of newspapers etc. have to comply with this law within one month from the date of its promulgation. non-compliance will be punished according to Art 4.</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA">
-      <z:itemType>journalArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>35</prism:volume>
-            <prism:number>4</prism:number>
-            <dc:title>Zeitschrift des Deutschen Palästina-Vereins (1878-1945)</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>Verzeichnis der arabischen Zeitungen und Zeitschriften Palästinas</dc:title>
-      <z:shortTitle>Verzeichnis der arabischen Zeitungen</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>Thomsen</foaf:surname>
-                  <foaf:givenName>P.</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:authors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality/>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Deutscher Verein zur Erforschung Palästinas</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Beirut</dc:subject>
-      <dc:subject>Catalogue</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Haifa</dc:subject>
-      <dc:subject>Hama</dc:subject>
-      <dc:subject>History of press</dc:subject>
-      <dc:subject>Homs</dc:subject>
-      <dc:subject>Jaffa</dc:subject>
-      <dc:subject>Jerusalem</dc:subject>
-      <dc:subject>Lebanon</dc:subject>
-      <dc:subject>Palestine</dc:subject>
-      <dc:subject>Press</dc:subject>
-      <dc:subject>Saida</dc:subject>
-      <dc:subject>Secondary source</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>Syria</dc:subject>
-      <dc:subject>Tripoli</dc:subject>
-      <dc:subject>Zahle</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://www.jstor.org/stable/27929096</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages>211-215</bib:pages>
-      <dc:date>1912</dc:date>
-      <dc:description>Citation Key: Thomsen+1912
-doi: 10.2307/27929096
-issue: 4
-uuid: 52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA
-volume: 35
-</dc:description>
-      <z:language>English</z:language>
-      <dcterms:abstract>The list of 88 newspapers / periodicals is at least partially incomplete as the author himself freely admitted or it might be that he only recorded the papers still published: &lt;br&gt;- missing papers:&lt;br&gt;    + &amp;lt;title level="j"&amp;gt;Lisān al-Sharq&amp;lt;/title&amp;gt;, published in Ḥamāh in 1910 is absent from the list (214) [because it had ceased publication by that time]</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    The list of 88 newspapers / periodicals is at least partially incomplete as the author himself freely admitted or it might be that he only recorded the papers still published: &lt;br&gt;- missing papers:&lt;br&gt;    + &amp;lt;title level="j"&amp;gt;Lisān al-Sharq&amp;lt;/title&amp;gt;, published in Ḥamāh in 1910 is absent from the list (214) [because it had ceased publication by that time]</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#3621987B-3D19-47CE-B638-79C5E1427E43">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>722</prism:volume>
-            <prism:number>3</prism:number>
-            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>7043</dc:title>
-      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Dimashq</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#3621987B-3D19-47CE-B638-79C5E1427E43-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>2019 Weltweit vor Ort</dc:subject>
-      <dc:subject>Commodity prices</dc:subject>
-      <dc:subject>critique, authorities</dc:subject>
-      <dc:subject>daily</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>expanding government control</dc:subject>
-      <dc:subject>gender</dc:subject>
-      <dc:subject>Municipal government</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>permit</dc:subject>
-      <dc:subject>Poetry</dc:subject>
-      <dc:subject>Press</dc:subject>
-      <dc:subject>Price regulation</dc:subject>
-      <dc:subject>Propriety</dc:subject>
-      <dc:subject>Prostitution</dc:subject>
-      <dc:subject>Road works</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>To be acquired</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=7043;r=20237</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <dc:date>1911-07-06</dc:date>
-      <z:archive>EAP</z:archive>
-      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>EAP119/1/19/288</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: muqtabas+288-eap
-issue: 3
-place: Dimashq
-uuid: 3621987B-3D19-47CE-B638-79C5E1427E43
-volume: 722
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>allegedly (Gelvin 2012) calling for the regulation of prostitution. The article is not to be found on pages 1, 3-4. page 2 is too blurred to be read&lt;br&gt;&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;# "Who is Dr. Riḍā Tawfīq?" &lt;br&gt;by &amp;lt;persName&amp;gt;Shukrī al-ʿAsalī&amp;lt;/persName&amp;gt;&lt;br&gt;- replying to an article by &amp;lt;persName&amp;gt;Riḍā Tawfīq&amp;lt;/persName&amp;gt;, whose Arabic translation was published in the last issue of &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt;&lt;br&gt;- basically concerned with the current politics of the unionists&lt;br&gt;# "Azmat al-Wukalāʾ fī Faransā"&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;might be the reply to &amp;lt;title level="j"&amp;gt;al-Ḥaqāʾiq&amp;lt;/title&amp;gt;'s accusation of fostering prostitution and moral corruption (fasād al-ādāb) … &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the baladiyya published new tariffs for coach drivers etc. but as with earlier reforms this will remain on paper only. one of the reason being that the roads are in such a bad condition that the drivers cannot lower their fares. if the municipality does repair the streets, we will accept the new tariffs, what does it say to that?&lt;br&gt;## ḥawādith dākhiliyya: al-ṣadaq&lt;br&gt;- &amp;lt;title level="j"&amp;gt;al-Ṣadaq&amp;lt;/title&amp;gt; is a new weekly paper published every Wed in Aleppo by the concessionary &amp;lt;persName&amp;gt;Muṣṭafā Rushdī Efendi al-Ḥumṣī&amp;lt;/persName&amp;gt;. &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="newspaper" unit="year" quantity="1"&amp;gt;annual subscription&amp;lt;/measure&amp;gt; at &amp;lt;measure commodity="currency" unit="mec" quantity="1"&amp;gt;1 mecidiye&amp;lt;/measure&amp;gt; in &amp;lt;persName&amp;gt;Aleppo&amp;lt;/persName&amp;gt;&amp;lt;/measureGrp&amp;gt;, and &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="currency" unit="mec" quantity="1.25"&amp;gt;1,25 mecidiye&amp;lt;/measure&amp;gt; at other places&amp;lt;measure commodity="newspaper" unit="year" quantity="1"/&amp;gt;&amp;lt;/measureGrp&amp;gt;&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;# iʿlān: al-tamsīd al-nāfiʿ (beneficial massage), by &amp;lt;persName&amp;gt;Wartha bint al-Ṭurāb&amp;lt;/persName&amp;gt;&lt;br&gt;it is generally known that for decades massages (*mihnat al-tamsīd "al-Masāj"*) had been located in our place in Bāb al-Sarījā. in the view of the death of our mother, we divided the establishment with one part remaining at the old location, the second in Zuqāq Rāmī opposite the Post Office in the house of the Muftī of Baalbek. at the latter location we specialise in the massage of the poor on Sat and Wed. this is announced to the public (al-ʿumūm).    </dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#3621987B-3D19-47CE-B638-79C5E1427E43-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    allegedly (Gelvin 2012) calling for the regulation of prostitution. The article is not to be found on pages 1, 3-4. page 2 is too blurred to be read&lt;br&gt;&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;# "Who is Dr. Riḍā Tawfīq?" &lt;br&gt;by &amp;lt;persName&amp;gt;Shukrī al-ʿAsalī&amp;lt;/persName&amp;gt;&lt;br&gt;- replying to an article by &amp;lt;persName&amp;gt;Riḍā Tawfīq&amp;lt;/persName&amp;gt;, whose Arabic translation was published in the last issue of &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt;&lt;br&gt;- basically concerned with the current politics of the unionists&lt;br&gt;# "Azmat al-Wukalāʾ fī Faransā"&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;might be the reply to &amp;lt;title level="j"&amp;gt;al-Ḥaqāʾiq&amp;lt;/title&amp;gt;'s accusation of fostering prostitution and moral corruption (fasād al-ādāb) … &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the baladiyya published new tariffs for coach drivers etc. but as with earlier reforms this will remain on paper only. one of the reason being that the roads are in such a bad condition that the drivers cannot lower their fares. if the municipality does repair the streets, we will accept the new tariffs, what does it say to that?&lt;br&gt;## ḥawādith dākhiliyya: al-ṣadaq&lt;br&gt;- &amp;lt;title level="j"&amp;gt;al-Ṣadaq&amp;lt;/title&amp;gt; is a new weekly paper published every Wed in Aleppo by the concessionary &amp;lt;persName&amp;gt;Muṣṭafā Rushdī Efendi al-Ḥumṣī&amp;lt;/persName&amp;gt;. &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="newspaper" unit="year" quantity="1"&amp;gt;annual subscription&amp;lt;/measure&amp;gt; at &amp;lt;measure commodity="currency" unit="mec" quantity="1"&amp;gt;1 mecidiye&amp;lt;/measure&amp;gt; in &amp;lt;persName&amp;gt;Aleppo&amp;lt;/persName&amp;gt;&amp;lt;/measureGrp&amp;gt;, and &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="currency" unit="mec" quantity="1.25"&amp;gt;1,25 mecidiye&amp;lt;/measure&amp;gt; at other places&amp;lt;measure commodity="newspaper" unit="year" quantity="1"/&amp;gt;&amp;lt;/measureGrp&amp;gt;&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;# iʿlān: al-tamsīd al-nāfiʿ (beneficial massage), by &amp;lt;persName&amp;gt;Wartha bint al-Ṭurāb&amp;lt;/persName&amp;gt;&lt;br&gt;it is generally known that for decades massages (*mihnat al-tamsīd "al-Masāj"*) had been located in our place in Bāb al-Sarījā. in the view of the death of our mother, we divided the establishment with one part remaining at the old location, the second in Zuqāq Rāmī opposite the Post Office in the house of the Muftī of Baalbek. at the latter location we specialise in the massage of the poor on Sat and Wed. this is announced to the public (al-ʿumūm).    </rdf:value>
-   </bib:Memo>
-   <bib:Manuscript rdf:about="#BC2FC361-6369-4E16-87C8-2B255DA5B95C">
-      <z:itemType>manuscript</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Book>
-            <dc:title>United States Census</dc:title>
-         </bib:Book>
-      </dcterms:isPartOf>
-      <dc:title>Thirteenth Census of the United States</dc:title>
-      <z:shortTitle>US Federal Census</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Washington, DC</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#BC2FC361-6369-4E16-87C8-2B255DA5B95C-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Census</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>Online</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>USA</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <dc:date>1910-04-19</dc:date>
-      <z:archive>NARA</z:archive>
-      <dc:coverage>T625</dc:coverage>
-      <dc:description>Citation Key: UnitedStatesCensus+1910
-place: Washington, DC
-uuid: BC2FC361-6369-4E16-87C8-2B255DA5B95C
-</dc:description>
-      <z:language>en</z:language>
-      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- J. E. Zakem can be found in the [1910 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q) as living in Ward 1, Lincoln, Lancaster, Nebraska&lt;br&gt;    + transcription from sheet is wrong: J.G. Zakem&lt;br&gt;    + data recorded on 1910-04-19&lt;br&gt;    + aged 29, born in Turkey, Assyrian&lt;br&gt;    + both parents from Turkey, Assyrian&lt;br&gt;    + immigrated to US in 1902, no information naturalisation&lt;br&gt;    + speaks English&lt;br&gt;    + trade/profession: correspondant&lt;br&gt;    + industry: newspaper&lt;br&gt;    + all members of his household know how to read and write&lt;br&gt;    + married to Myra Zakem, from Iowa, aged 21&lt;br&gt;    + they had three lodgers from Turkey&lt;br&gt;        * Addad Zakem, aged 32,&lt;br&gt;            + 1895: immigrated to US&lt;br&gt;            + keeper of a café&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;            - waitress at café </dcterms:abstract>
-   </bib:Manuscript>
-   <bib:Memo rdf:about="#BC2FC361-6369-4E16-87C8-2B255DA5B95C-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- J. E. Zakem can be found in the [1910 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q) as living in Ward 1, Lincoln, Lancaster, Nebraska&lt;br&gt;    + transcription from sheet is wrong: J.G. Zakem&lt;br&gt;    + data recorded on 1910-04-19&lt;br&gt;    + aged 29, born in Turkey, Assyrian&lt;br&gt;    + both parents from Turkey, Assyrian&lt;br&gt;    + immigrated to US in 1902, no information naturalisation&lt;br&gt;    + speaks English&lt;br&gt;    + trade/profession: correspondant&lt;br&gt;    + industry: newspaper&lt;br&gt;    + all members of his household know how to read and write&lt;br&gt;    + married to Myra Zakem, from Iowa, aged 21&lt;br&gt;    + they had three lodgers from Turkey&lt;br&gt;        * Addad Zakem, aged 32,&lt;br&gt;            + 1895: immigrated to US&lt;br&gt;            + keeper of a café&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;            - waitress at café </rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>338</prism:volume>
-            <prism:number>2</prism:number>
-            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>6831</dc:title>
-      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Dimashq</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>daily</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <bib:pages>1-4</bib:pages>
-      <dc:date>1910-04-07</dc:date>
-      <z:archive>EAP</z:archive>
-      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>EAP119/1/19/76</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: muqtabas+76-eap
-date_hijri: 1328-03-27
-issue: 2
-place: Dimashq
-uuid: 612A0D98-4A8C-4DF9-8E76-ED85FAD47C21
-volume: 338
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# Arabs and Turks&lt;br&gt;by Jaʿfar al-Baramkī&lt;br&gt;&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;new tax of £T 0.5 to 1.5 to finance the Ḥijāz railway. &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;- Vol. 4, no. 8 of &amp;lt;title level="j"&amp;gt;Majallat al-Muqtabas&amp;lt;/title&amp;gt; has been published. It    comprises five long articles.&lt;br&gt;- Vol. 4, no. 7 was published last week. naming the authors&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;some police officers have been arrested in Damascus for minting counterfeit coins: pound sterling, Egyptian mecidiyes etc.&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the people of Sūq al-Arwām called for the plastering of their shops at the beginning of the street .... and to pave the entire street on their expense (*bi-nafawatihim*). The municipality replied to their demand and the Vali listened to them and works will begin shortly&lt;br&gt;- if this means that the majority of the streets will be done in this way within only a short period of time, the baladiyya will soon be tiled with pavement.&lt;br&gt;## &lt;br&gt;by a Mīdānī&lt;br&gt;- telling the story how he was walking in the streets&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    &amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# Arabs and Turks&lt;br&gt;by Jaʿfar al-Baramkī&lt;br&gt;&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;new tax of £T 0.5 to 1.5 to finance the Ḥijāz railway. &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;- Vol. 4, no. 8 of &amp;lt;title level="j"&amp;gt;Majallat al-Muqtabas&amp;lt;/title&amp;gt; has been published. It    comprises five long articles.&lt;br&gt;- Vol. 4, no. 7 was published last week. naming the authors&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;some police officers have been arrested in Damascus for minting counterfeit coins: pound sterling, Egyptian mecidiyes etc.&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the people of Sūq al-Arwām called for the plastering of their shops at the beginning of the street .... and to pave the entire street on their expense (*bi-nafawatihim*). The municipality replied to their demand and the Vali listened to them and works will begin shortly&lt;br&gt;- if this means that the majority of the streets will be done in this way within only a short period of time, the baladiyya will soon be tiled with pavement.&lt;br&gt;## &lt;br&gt;by a Mīdānī&lt;br&gt;- telling the story how he was walking in the streets&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#1186E689-BAB1-4FFF-BB01-3B1636B096F6">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dc:title>al-ʿAṣr al-Jadīd: Jarīda siyāsiyya tujāriyya ʿilmiyya ṣināʿiyya adabiyya zirāʿiyya</dc:title>
-      <z:shortTitle>al-ʿAṣr</z:shortTitle>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>Abū Zayd</foaf:surname>
-                  <foaf:givenName>Nāṣīf</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>al-Shām</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Maṭbaʿa al-ʿilmiyya</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#1186E689-BAB1-4FFF-BB01-3B1636B096F6-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>daily</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Poetry</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <prism:volume>203</prism:volume>
-      <prism:number>2</prism:number>
-      <bib:pages>1-4</bib:pages>
-      <dc:date>1910-04-07</dc:date>
-      <dc:description>Citation Key: asr-2-203
-date_mali: 1326-01-25
-date_hijri: 1328-03-26
-issue: 2
-place: al-Shām
-uuid: 1186E689-BAB1-4FFF-BB01-3B1636B096F6
-volume: 203
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# dākhiliyya:&lt;br&gt;## dākhiliyya: The Cretan question&lt;br&gt;  &amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# Qaṣīda&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf Efendi al-Ruṣāfī&amp;lt;/persName&amp;gt;&lt;br&gt;- according to the *Dīwān al-Ruṣāfī*, published by Hindawi, the title of this qaṣīda is "to the Arab nation" (*ilā al-umma al-ʿarabiyya*)&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#1186E689-BAB1-4FFF-BB01-3B1636B096F6-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    &amp;lt;pb n="1"/&amp;gt; &lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# dākhiliyya:&lt;br&gt;## dākhiliyya: The Cretan question&lt;br&gt;  &amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# Qaṣīda&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf Efendi al-Ruṣāfī&amp;lt;/persName&amp;gt;&lt;br&gt;- according to the *Dīwān al-Ruṣāfī*, published by Hindawi, the title of this qaṣīda is "to the Arab nation" (*ilā al-umma al-ʿarabiyya*)&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#195E9ADC-E01C-48F2-96CF-BC9E52656033">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>66</prism:volume>
-            <prism:number>1</prism:number>
-            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>ḥawādith dākhiliyya</dc:title>
-      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Dimashq</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#195E9ADC-E01C-48F2-96CF-BC9E52656033-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>Burglary</dc:subject>
-      <dc:subject>critique</dc:subject>
-      <dc:subject>daily</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>expanding government control</dc:subject>
-      <dc:subject>Hijaz Railway</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=6782;r=26134</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
-      <dc:date>1909-03-07</dc:date>
-      <z:archive>EAP</z:archive>
-      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>EAP119/1/19/27</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: muqtabas+27-eap
-issue: 1
-place: Dimashq
-uuid: 195E9ADC-E01C-48F2-96CF-BC9E52656033
-volume: 66
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# baʿd al-dustūr&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf al-Ruṣāfī&amp;lt;/persName&amp;gt; from Istanbul, Qaṣīda &lt;br&gt;# al-ʿArab maʿ al-turk [Arabs and Turks]&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# al-tawqīf&lt;br&gt;by &amp;lt;persName&amp;gt;Aḥmad Ṣābūnī&amp;lt;/persName&amp;gt; from Hama&lt;br&gt;# ḥawādith dākhiliyya:  ## ḥawādith dākhiliyya: &lt;br&gt;the refugees commission in the province received £T 5.000 from the agricultural bank in istanbul&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;on differences/ problems of the Ḥijāz railway company: the last prove needed is the way they fail to deal with the estimated 6.600 Caucasian pilgrims who will arrive shortly in Damascus to take the train to Medina&lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;yest, arrival of the Vali, Nāẓim Pasha, from Jerusalem were he went because of the civil strife (fitna) between the Bedouins (ʿarab) and the Greek Orthodox.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;police announced that the arrested a burglar who had broken into the house of &amp;lt;persName&amp;gt;Malik bin Ḥasan Mirzā Khān&amp;lt;/persName&amp;gt;, the Iranian consul&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;the province had ordered all administrative divisions to observe that their officials are present at the offices between 5 and 11 o'clock.&lt;br&gt;a</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#195E9ADC-E01C-48F2-96CF-BC9E52656033-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    &amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# baʿd al-dustūr&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf al-Ruṣāfī&amp;lt;/persName&amp;gt; from Istanbul, Qaṣīda &lt;br&gt;# al-ʿArab maʿ al-turk [Arabs and Turks]&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# al-tawqīf&lt;br&gt;by &amp;lt;persName&amp;gt;Aḥmad Ṣābūnī&amp;lt;/persName&amp;gt; from Hama&lt;br&gt;# ḥawādith dākhiliyya:  ## ḥawādith dākhiliyya: &lt;br&gt;the refugees commission in the province received £T 5.000 from the agricultural bank in istanbul&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;on differences/ problems of the Ḥijāz railway company: the last prove needed is the way they fail to deal with the estimated 6.600 Caucasian pilgrims who will arrive shortly in Damascus to take the train to Medina&lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;yest, arrival of the Vali, Nāẓim Pasha, from Jerusalem were he went because of the civil strife (fitna) between the Bedouins (ʿarab) and the Greek Orthodox.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;police announced that the arrested a burglar who had broken into the house of &amp;lt;persName&amp;gt;Malik bin Ḥasan Mirzā Khān&amp;lt;/persName&amp;gt;, the Iranian consul&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;the province had ordered all administrative divisions to observe that their officials are present at the offices between 5 and 11 o'clock.&lt;br&gt;a</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>51</prism:volume>
-            <dc:title>al-Muqtabas: Jarīda yawmiyya siyāsiyya iqtiṣādiyya</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>ḥawādith dākhiliyya</dc:title>
-      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Dimashq</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Maṭbaʿat al-Muqtabas</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>periodical production</dc:subject>
-      <dc:subject>administrative change</dc:subject>
-      <dc:subject>critique, authorities</dc:subject>
-      <dc:subject>daily</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Elections</dc:subject>
-      <dc:subject>Hajj</dc:subject>
-      <dc:subject>Municipal government</dc:subject>
-      <dc:subject>neighbourhood</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Opinion piece</dc:subject>
-      <dc:subject>Press</dc:subject>
-      <dc:subject>Reply</dc:subject>
-      <dc:subject>rigged elections</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <bib:pages>3</bib:pages>
-      <dc:date>1909-02-17</dc:date>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:142-1</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:142-1</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: jarmuq+51
-place: Dimashq
-uuid: 81A979A0-FE34-46A2-A66F-5FB3CCC0566D
-volume: 51
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya: &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;  &amp;lt;persName&amp;gt;Ṣādiq al-Muʾayyad Pasha al-ʿAẓm&amp;lt;/persName&amp;gt; replaces Kyāẓim Pasha as Nazir of the Hijaz railway, the latter being appointed Vali of the Hijaz&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt; municipal elections go on in the prescribed manner. the electorate has to appear in person and write or have written his vote on the ballot which he then has to put into the box. muqtabas: this is easy rigging, as now no privacy is provided and the people come together to the baladiyya to vote (e.g. the Mīdānis who selected only their own flock), now can approach the election committee and raise his voice to elect one man in place of another etc.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;replying to allegations that all the anonymous articles printed under the names (Mīdāni, husan, za'id al-khayr, arraf al-yamani, rabi'a, ana, najid tahami), are indeed the work of the editors of muqtabas: the people should be aware of the many fine ʿulamāʾ and literati in support of progress, who cannot dare to speak out under their clear name.&lt;br&gt;- addressing Mīdāni, author of three articles, whose fourth is about his wife and not printed</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    &amp;lt;pb n="3"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya: &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;  &amp;lt;persName&amp;gt;Ṣādiq al-Muʾayyad Pasha al-ʿAẓm&amp;lt;/persName&amp;gt; replaces Kyāẓim Pasha as Nazir of the Hijaz railway, the latter being appointed Vali of the Hijaz&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt; municipal elections go on in the prescribed manner. the electorate has to appear in person and write or have written his vote on the ballot which he then has to put into the box. muqtabas: this is easy rigging, as now no privacy is provided and the people come together to the baladiyya to vote (e.g. the Mīdānis who selected only their own flock), now can approach the election committee and raise his voice to elect one man in place of another etc.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;replying to allegations that all the anonymous articles printed under the names (Mīdāni, husan, za'id al-khayr, arraf al-yamani, rabi'a, ana, najid tahami), are indeed the work of the editors of muqtabas: the people should be aware of the many fine ʿulamāʾ and literati in support of progress, who cannot dare to speak out under their clear name.&lt;br&gt;- addressing Mīdāni, author of three articles, whose fourth is about his wife and not printed</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1301</prism:volume>
-            <dc:title>Lisān al-Ḥāl</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>akhbār maḥalliyya</dc:title>
-      <z:shortTitle>Lisān</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>periodical production</dc:subject>
-      <dc:subject>biweekly</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <bib:pages>1</bib:pages>
-      <dc:date>1891-01-15</dc:date>
-      <z:libraryCatalog>AUB</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:111-9</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: lisan+1301
-place: Bayrūt
-uuid: 3D75F728-E4D2-443D-875B-CC5FD2A02A0A
-volume: 1301
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>received a weird letter from Damascus with the title "&amp;lt;title level="a"&amp;gt;waqt aḍīq min ṣadr al-mahjūr&amp;lt;/title&amp;gt;", which was not printed for the following reasons:&lt;br&gt;a) written on both sides of the sheet&lt;br&gt;b) unknown / anonymous author&lt;br&gt;c) far too long (only 800 lines allowed of 10 words)&lt;br&gt;d) hardly decipherable&lt;br&gt;- thus, the 4 rules to be obeyed by correspondents are explicated</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    received a weird letter from Damascus with the title "&amp;lt;title level="a"&amp;gt;waqt aḍīq min ṣadr al-mahjūr&amp;lt;/title&amp;gt;", which was not printed for the following reasons:&lt;br&gt;a) written on both sides of the sheet&lt;br&gt;b) unknown / anonymous author&lt;br&gt;c) far too long (only 800 lines allowed of 10 words)&lt;br&gt;d) hardly decipherable&lt;br&gt;- thus, the 4 rules to be obeyed by correspondents are explicated</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#B26B219A-F436-46D1-A9EE-AB18BF6A5688">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1301</prism:volume>
-            <dc:title>Lisān al-Ḥāl</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>al-marāt fī baytihā </dc:title>
-      <z:shortTitle>Lisān</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#B26B219A-F436-46D1-A9EE-AB18BF6A5688-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>biweekly</dc:subject>
-      <dc:subject>gender roles</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <bib:pages>3</bib:pages>
-      <dc:date>1891-01-15</dc:date>
-      <z:libraryCatalog>AUB</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:111-9</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: lisan+1301a
-place: Bayrūt
-uuid: B26B219A-F436-46D1-A9EE-AB18BF6A5688
-volume: 1301
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>the article is continued in numbers 1302, 1303, 1304, and 1305</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#B26B219A-F436-46D1-A9EE-AB18BF6A5688-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    the article is continued in numbers 1302, 1303, 1304, and 1305</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>1301</prism:volume>
-            <dc:title>Lisān al-Ḥāl</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>murāsilāt al-jihāt: al-shām fī 25 kanūn al-awwal</dc:title>
-      <z:shortTitle>Lisān</z:shortTitle>
-      <bib:authors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>Sbāʿī</foaf:surname>
-                  <foaf:givenName>Muṣṭafā</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:authors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>biweekly</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Economic report</dc:subject>
-      <dc:subject>Industries</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <bib:pages>3-4</bib:pages>
-      <dc:date>1891-01-15</dc:date>
-      <z:libraryCatalog>AUB</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:111-9</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: lisan+1301b
-place: Bayrūt
-uuid: 05FDB4A5-7A3A-4700-9CE6-CABBD47C8479
-volume: 1301
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>on the crafts in Damascus&lt;br&gt;- correcting an earlier report [which?]</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    on the crafts in Damascus&lt;br&gt;- correcting an earlier report [which?]</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#73BF7D0E-5165-4BB3-81A7-0650804DF790">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>729</prism:volume>
-            <prism:number>15</prism:number>
-            <dc:title>Thamarāt al-Funūn</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>729</dc:title>
-      <z:shortTitle>Thamarāt</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>weekly</dc:subject>
-      <bib:pages>1-4</bib:pages>
-      <dc:date>1889-04-15</dc:date>
-      <z:archive>OIB</z:archive>
-      <dc:description>Citation Key: tf-oib+729
-date_rumi: 1889-04-03
-date_hijri: 1306-08-14
-issue: 15
-place: Bayrūt
-uuid: 73BF7D0E-5165-4BB3-81A7-0650804DF790
-volume: 729
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#7A368DB2-E14A-42F2-9054-6CFAE291501D">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>573</prism:volume>
-            <dc:title>Thamarāt al-Funūn</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>[ḥawādith maḥalliyya]</dc:title>
-      <z:shortTitle>Thamarāt</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#7A368DB2-E14A-42F2-9054-6CFAE291501D-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>administrative council</dc:subject>
-      <dc:subject>Aleppo</dc:subject>
-      <dc:subject>Beirut</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Funeral/burial</dc:subject>
-      <dc:subject>Military</dc:subject>
-      <dc:subject>Public works</dc:subject>
-      <dc:subject>Elections</dc:subject>
-      <dc:subject>I.A The Newspapers</dc:subject>
-      <dc:subject>State schools</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>weekly</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <bib:pages>1</bib:pages>
-      <dc:date>1886-03-22</dc:date>
-      <z:libraryCatalog>AUB, FU Islamwissenschaft</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-NA:000026, Inv 9583 Mic-A 297</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: thamarat+573
-place: Bayrūt
-uuid: 7A368DB2-E14A-42F2-9054-6CFAE291501D
-volume: 573
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>- Wed mornig: Nāshid Pasha arrived in Damascus&lt;br&gt;- election for the admin council of the sancak Beirut; giving names&lt;br&gt;- order from the Porte: Ps 65.000 to be spend on the mausoleum of Aḥmad Ḥamdī Pasha in Beirut&lt;br&gt;- on a letter from Damascus and whether it should be published under the real names of its author&lt;br&gt;- on the military rüşdiye in Aleppo</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#7A368DB2-E14A-42F2-9054-6CFAE291501D-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    - Wed mornig: Nāshid Pasha arrived in Damascus&lt;br&gt;- election for the admin council of the sancak Beirut; giving names&lt;br&gt;- order from the Porte: Ps 65.000 to be spend on the mausoleum of Aḥmad Ḥamdī Pasha in Beirut&lt;br&gt;- on a letter from Damascus and whether it should be published under the real names of its author&lt;br&gt;- on the military rüşdiye in Aleppo</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#53F830E3-98D9-485D-B3F0-3F8E44ADE161">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>573</prism:volume>
-            <prism:number>12</prism:number>
-            <dc:title>Thamarāt al-Funūn</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>573</dc:title>
-      <z:shortTitle>Thamarāt</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>weekly</dc:subject>
-      <bib:pages>1-4</bib:pages>
-      <dc:date>1886-03-22</dc:date>
-      <z:archive>OIB</z:archive>
-      <dc:description>Citation Key: tf-oib+573
-issue: 12
-place: Bayrūt
-uuid: 53F830E3-98D9-485D-B3F0-3F8E44ADE161
-volume: 573
-</dc:description>
-      <z:language>ar</z:language>
-   </bib:Article>
-   <bib:Article rdf:about="#0B779CAB-9E29-46CF-9623-7342BFFBA35E">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>442</prism:volume>
-            <dc:title>Lisān al-Ḥāl</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>ḥawādith baladiyya</dc:title>
-      <z:shortTitle>Lisān</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name/>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#0B779CAB-9E29-46CF-9623-7342BFFBA35E-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>cold</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Economic aspects</dc:subject>
-      <dc:subject>snow</dc:subject>
-      <dc:subject>biweekly</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <dc:date>1882-02-13</dc:date>
-      <z:libraryCatalog>AUB</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-Na:000111-4</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: lisan+442
-place: Bayrūt
-uuid: 0B779CAB-9E29-46CF-9623-7342BFFBA35E
-volume: 442
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>- received an anonymous letter from Ṣāliḥiyya about Aḥmad Agha, head of the Karakul of Ṣāliḥiyya, which will be printed as soon as the name of its author is revealed to the publishers&lt;br&gt;- the severe cold, strong winds, and snow prevented the opening of shops on Damascus for some days</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#0B779CAB-9E29-46CF-9623-7342BFFBA35E-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    - received an anonymous letter from Ṣāliḥiyya about Aḥmad Agha, head of the Karakul of Ṣāliḥiyya, which will be printed as soon as the name of its author is revealed to the publishers&lt;br&gt;- the severe cold, strong winds, and snow prevented the opening of shops on Damascus for some days</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#C38758DB-AF23-46F2-842D-E2368B68825B">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dcterms:isPartOf>
-         <bib:Periodical>
-            <prism:volume>181</prism:volume>
-            <dc:title>Thamarāt al-Funūn</dc:title>
-         </bib:Periodical>
-      </dcterms:isPartOf>
-      <dc:title>al-shām fī 7 ramaḍān</dc:title>
-      <z:shortTitle>Thamarāt</z:shortTitle>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#C38758DB-AF23-46F2-842D-E2368B68825B-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>critique, authorities</dc:subject>
-      <dc:subject>Damascus</dc:subject>
-      <dc:subject>Elections</dc:subject>
-      <dc:subject>Market inspector</dc:subject>
-      <dc:subject>Municipal government</dc:subject>
-      <dc:subject>Official gazette</dc:subject>
-      <dc:subject>Press review</dc:subject>
-      <dc:subject>Reply</dc:subject>
-      <dc:subject>Street cleaning</dc:subject>
-      <dc:subject>Street lighting</dc:subject>
-      <dc:subject>biweekly</dc:subject>
-      <dc:subject>Digital copy</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <dc:subject>referenced: PhD thesis</dc:subject>
-      <bib:pages>4</bib:pages>
-      <dc:date>1878-09-09</dc:date>
-      <z:libraryCatalog>AUB, FU Islamwissenschaft</z:libraryCatalog>
-      <dc:subject>
-         <dcterms:LCC>
-            <rdf:value>Mic-NA:000026, Inv 9583 Mic-A 297</rdf:value>
-         </dcterms:LCC>
-      </dc:subject>
-      <dc:description>Citation Key: thamarat+181
-place: Bayrūt
-uuid: C38758DB-AF23-46F2-842D-E2368B68825B
-volume: 181
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>municipal elections took place: the elections are legitimised (tafwīḍ) for the people by the chastity (al-ʿaffa) and righteousness of the candidates and we hope for the progress of our town (baladatunā). unfortunately, we are not informed about the reasons for the resignation of some of the members and the old president Muḥammad Āğā al-Bārūdī, reported by some newspapers.&lt;br&gt;- Suriye: the new municipality embarked on the cleaning of the Suqs and the prohibition of stalls for presenting goods etc. in the streets (ṭaraqāt). Further they appointed some officials for overseeing the market: that no rotten fruits are sold. then they turned their attention to the bread sold and the gas used to light the streets and alleyways of the town . expressing gratitude of thousands of people (ulūf min al-ahlīn)&lt;br&gt;- but the problem is that these lights do not emit any light, that the pedestrians cannot walk the streets (ṭaraqāt) full of trash and dirt. yet, we cannot blame the new baladiyya&lt;br&gt;&lt;br&gt;- another letter from Damascus, replying to reports in some Arabic newspapers. they received quite a few and will publish them as soon as the authorship etc is established</dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#C38758DB-AF23-46F2-842D-E2368B68825B-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    municipal elections took place: the elections are legitimised (tafwīḍ) for the people by the chastity (al-ʿaffa) and righteousness of the candidates and we hope for the progress of our town (baladatunā). unfortunately, we are not informed about the reasons for the resignation of some of the members and the old president Muḥammad Āğā al-Bārūdī, reported by some newspapers.&lt;br&gt;- Suriye: the new municipality embarked on the cleaning of the Suqs and the prohibition of stalls for presenting goods etc. in the streets (ṭaraqāt). Further they appointed some officials for overseeing the market: that no rotten fruits are sold. then they turned their attention to the bread sold and the gas used to light the streets and alleyways of the town . expressing gratitude of thousands of people (ulūf min al-ahlīn)&lt;br&gt;- but the problem is that these lights do not emit any light, that the pedestrians cannot walk the streets (ṭaraqāt) full of trash and dirt. yet, we cannot blame the new baladiyya&lt;br&gt;&lt;br&gt;- another letter from Damascus, replying to reports in some Arabic newspapers. they received quite a few and will publish them as soon as the authorship etc is established</rdf:value>
-   </bib:Memo>
-   <bib:Article rdf:about="#0D767389-7EE1-4952-9C92-D086DAAFBE92">
-      <z:itemType>newspaperArticle</z:itemType>
-      <dc:title>Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</dc:title>
-      <z:shortTitle>Thamarāt</z:shortTitle>
-      <bib:editors>
-         <rdf:Seq>
-            <rdf:li>
-               <foaf:Person>
-                  <foaf:surname>Qabbānī</foaf:surname>
-                  <foaf:givenName>ʿAbd al-Qādir</foaf:givenName>
-               </foaf:Person>
-            </rdf:li>
-         </rdf:Seq>
-      </bib:editors>
-      <dc:publisher>
-         <foaf:Organization>
-            <vcard:adr>
-               <vcard:Address>
-                  <vcard:locality>Bayrūt</vcard:locality>
-               </vcard:Address>
-            </vcard:adr>
-            <foaf:name>Maṭbaʿa Jamʿiyyat al-Funūn</foaf:name>
-         </foaf:Organization>
-      </dc:publisher>
-      <dcterms:isReferencedBy rdf:resource="#0D767389-7EE1-4952-9C92-D086DAAFBE92-abstract"/>
-      <dc:subject>2019 GG</dc:subject>
-      <dc:subject>newspaper/periodical</dc:subject>
-      <dc:subject>Source</dc:subject>
-      <prism:volume>181</prism:volume>
-      <prism:number>4</prism:number>
-      <bib:pages>1-4</bib:pages>
-      <dc:date>1878-09-09</dc:date>
-      <dc:description>Citation Key: thamarat-oib-4-181
-date_rumi: 1878-08-28
-date_hijri: 1295-09-12
-issue: 4
-place: Bayrūt
-uuid: 0D767389-7EE1-4952-9C92-D086DAAFBE92
-volume: 181
-</dc:description>
-      <z:language>ar</z:language>
-      <dcterms:abstract>&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;# murāsalāt: &lt;br&gt;## murāsalāt: Damascus, 7 Ram 1295&lt;br&gt;by someone other than our correspondent&lt;br&gt;## murāsalāt: Tripoli, from one of the dignitaries&lt;br&gt;- on the election of the baladiyya in Tripoli&lt;br&gt;## murāsalāt: Shūf, 8 Ram, 1295     </dcterms:abstract>
-   </bib:Article>
-   <bib:Memo rdf:about="#0D767389-7EE1-4952-9C92-D086DAAFBE92-abstract">
-      <rdf:value>
-                    &lt;h1&gt;# abstract&lt;/h1&gt;
-                    &amp;lt;pb n="4"/&amp;gt;&lt;br&gt;# murāsalāt: &lt;br&gt;## murāsalāt: Damascus, 7 Ram 1295&lt;br&gt;by someone other than our correspondent&lt;br&gt;## murāsalāt: Tripoli, from one of the dignitaries&lt;br&gt;- on the election of the baladiyya in Tripoli&lt;br&gt;## murāsalāt: Shūf, 8 Ram, 1295     </rdf:value>
    </bib:Memo>
    <bib:Legislation rdf:about="#5BC2C944-EBB6-4572-AFA2-3C17259300AE">
       <z:itemType>bill</z:itemType>
@@ -1445,12 +695,949 @@ place: Der-i Saʿādet
 uuid: 5BC2C944-EBB6-4572-AFA2-3C17259300AE
 volume: 2
 </dc:description>
-      <z:language>Ottoman Turkish</z:language>
+      <z:language>ota</z:language>
       <dcterms:abstract>A French translation is printed in Règlement de la Censure de la Presse." Promulgated on 2 Shaʿ 1281 aH [1 Feb. 1865]. In Corps de Droit Ottoman II Edited by George Young. Translated by Aristarchi. Oxford: Clarendon Press, 1905: 321-326&lt;br&gt;&lt;a href="sente:/BachBibliographie/Young+1905e"&gt;sente:/BachBibliographie/Young+1905e&lt;/a&gt; </dcterms:abstract>
    </bib:Legislation>
    <bib:Memo rdf:about="#5BC2C944-EBB6-4572-AFA2-3C17259300AE-abstract">
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     A French translation is printed in Règlement de la Censure de la Presse." Promulgated on 2 Shaʿ 1281 aH [1 Feb. 1865]. In Corps de Droit Ottoman II Edited by George Young. Translated by Aristarchi. Oxford: Clarendon Press, 1905: 321-326&lt;br&gt;&lt;a href="sente:/BachBibliographie/Young+1905e"&gt;sente:/BachBibliographie/Young+1905e&lt;/a&gt; </rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>51</prism:number>
+            <dc:title>al-Muqtabas: Jarīda yawmiyya siyāsiyya iqtiṣādiyya</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ḥawādith dākhiliyya</dc:title>
+      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Dimashq</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿat al-Muqtabas</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>periodical production</dc:subject>
+      <dc:subject>administrative change</dc:subject>
+      <dc:subject>critique, authorities</dc:subject>
+      <dc:subject>daily</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Elections</dc:subject>
+      <dc:subject>Hajj</dc:subject>
+      <dc:subject>Municipal government</dc:subject>
+      <dc:subject>neighbourhood</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Opinion piece</dc:subject>
+      <dc:subject>Press</dc:subject>
+      <dc:subject>Reply</dc:subject>
+      <dc:subject>rigged elections</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <bib:pages>3</bib:pages>
+      <dc:date>1909-02-17</dc:date>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:142-1</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:142-1</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: jarmuq+51
+issue: 51
+place: Dimashq
+uuid: 81A979A0-FE34-46A2-A66F-5FB3CCC0566D
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya: &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;  &amp;lt;persName&amp;gt;Ṣādiq al-Muʾayyad Pasha al-ʿAẓm&amp;lt;/persName&amp;gt; replaces Kyāẓim Pasha as Nazir of the Hijaz railway, the latter being appointed Vali of the Hijaz&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt; municipal elections go on in the prescribed manner. the electorate has to appear in person and write or have written his vote on the ballot which he then has to put into the box. muqtabas: this is easy rigging, as now no privacy is provided and the people come together to the baladiyya to vote (e.g. the Mīdānis who selected only their own flock), now can approach the election committee and raise his voice to elect one man in place of another etc.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;replying to allegations that all the anonymous articles printed under the names (Mīdāni, husan, za'id al-khayr, arraf al-yamani, rabi'a, ana, najid tahami), are indeed the work of the editors of muqtabas: the people should be aware of the many fine ʿulamāʾ and literati in support of progress, who cannot dare to speak out under their clear name.&lt;br&gt;- addressing Mīdāni, author of three articles, whose fourth is about his wife and not printed</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#81A979A0-FE34-46A2-A66F-5FB3CCC0566D-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="3"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya: &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;  &amp;lt;persName&amp;gt;Ṣādiq al-Muʾayyad Pasha al-ʿAẓm&amp;lt;/persName&amp;gt; replaces Kyāẓim Pasha as Nazir of the Hijaz railway, the latter being appointed Vali of the Hijaz&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt; municipal elections go on in the prescribed manner. the electorate has to appear in person and write or have written his vote on the ballot which he then has to put into the box. muqtabas: this is easy rigging, as now no privacy is provided and the people come together to the baladiyya to vote (e.g. the Mīdānis who selected only their own flock), now can approach the election committee and raise his voice to elect one man in place of another etc.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;replying to allegations that all the anonymous articles printed under the names (Mīdāni, husan, za'id al-khayr, arraf al-yamani, rabi'a, ana, najid tahami), are indeed the work of the editors of muqtabas: the people should be aware of the many fine ʿulamāʾ and literati in support of progress, who cannot dare to speak out under their clear name.&lt;br&gt;- addressing Mīdāni, author of three articles, whose fourth is about his wife and not printed</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#195E9ADC-E01C-48F2-96CF-BC9E52656033">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>1</prism:volume>
+            <prism:number>66</prism:number>
+            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ḥawādith dākhiliyya</dc:title>
+      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Dimashq</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#195E9ADC-E01C-48F2-96CF-BC9E52656033-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Burglary</dc:subject>
+      <dc:subject>critique</dc:subject>
+      <dc:subject>daily</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>expanding government control</dc:subject>
+      <dc:subject>Hijaz Railway</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=6782;r=26134</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1909-03-07</dc:date>
+      <z:archive>EAP</z:archive>
+      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>EAP119/1/19/27</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: muqtabas+27-eap
+issue: 66
+place: Dimashq
+uuid: 195E9ADC-E01C-48F2-96CF-BC9E52656033
+volume: 1
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# baʿd al-dustūr&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf al-Ruṣāfī&amp;lt;/persName&amp;gt; from Istanbul, Qaṣīda &lt;br&gt;# al-ʿArab maʿ al-turk [Arabs and Turks]&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# al-tawqīf&lt;br&gt;by &amp;lt;persName&amp;gt;Aḥmad Ṣābūnī&amp;lt;/persName&amp;gt; from Hama&lt;br&gt;# ḥawādith dākhiliyya:  ## ḥawādith dākhiliyya: &lt;br&gt;the refugees commission in the province received £T 5.000 from the agricultural bank in istanbul&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;on differences/ problems of the Ḥijāz railway company: the last prove needed is the way they fail to deal with the estimated 6.600 Caucasian pilgrims who will arrive shortly in Damascus to take the train to Medina&lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;yest, arrival of the Vali, Nāẓim Pasha, from Jerusalem were he went because of the civil strife (fitna) between the Bedouins (ʿarab) and the Greek Orthodox.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;police announced that the arrested a burglar who had broken into the house of &amp;lt;persName&amp;gt;Malik bin Ḥasan Mirzā Khān&amp;lt;/persName&amp;gt;, the Iranian consul&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;the province had ordered all administrative divisions to observe that their officials are present at the offices between 5 and 11 o'clock.&lt;br&gt;a</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#195E9ADC-E01C-48F2-96CF-BC9E52656033-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# baʿd al-dustūr&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf al-Ruṣāfī&amp;lt;/persName&amp;gt; from Istanbul, Qaṣīda &lt;br&gt;# al-ʿArab maʿ al-turk [Arabs and Turks]&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# al-tawqīf&lt;br&gt;by &amp;lt;persName&amp;gt;Aḥmad Ṣābūnī&amp;lt;/persName&amp;gt; from Hama&lt;br&gt;# ḥawādith dākhiliyya:  ## ḥawādith dākhiliyya: &lt;br&gt;the refugees commission in the province received £T 5.000 from the agricultural bank in istanbul&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;on differences/ problems of the Ḥijāz railway company: the last prove needed is the way they fail to deal with the estimated 6.600 Caucasian pilgrims who will arrive shortly in Damascus to take the train to Medina&lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;yest, arrival of the Vali, Nāẓim Pasha, from Jerusalem were he went because of the civil strife (fitna) between the Bedouins (ʿarab) and the Greek Orthodox.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;police announced that the arrested a burglar who had broken into the house of &amp;lt;persName&amp;gt;Malik bin Ḥasan Mirzā Khān&amp;lt;/persName&amp;gt;, the Iranian consul&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;the province had ordered all administrative divisions to observe that their officials are present at the offices between 5 and 11 o'clock.&lt;br&gt;a</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>2</prism:volume>
+            <prism:number>338</prism:number>
+            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>6831</dc:title>
+      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Dimashq</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>daily</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1910-04-07</dc:date>
+      <z:archive>EAP</z:archive>
+      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>EAP119/1/19/76</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: muqtabas+76-eap
+date_hijri: 1328-03-27
+issue: 338
+place: Dimashq
+uuid: 612A0D98-4A8C-4DF9-8E76-ED85FAD47C21
+volume: 2
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# Arabs and Turks&lt;br&gt;by Jaʿfar al-Baramkī&lt;br&gt;&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;new tax of £T 0.5 to 1.5 to finance the Ḥijāz railway. &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;- Vol. 4, no. 8 of &amp;lt;title level="j"&amp;gt;Majallat al-Muqtabas&amp;lt;/title&amp;gt; has been published. It    comprises five long articles.&lt;br&gt;- Vol. 4, no. 7 was published last week. naming the authors&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;some police officers have been arrested in Damascus for minting counterfeit coins: pound sterling, Egyptian mecidiyes etc.&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the people of Sūq al-Arwām called for the plastering of their shops at the beginning of the street .... and to pave the entire street on their expense (*bi-nafawatihim*). The municipality replied to their demand and the Vali listened to them and works will begin shortly&lt;br&gt;- if this means that the majority of the streets will be done in this way within only a short period of time, the baladiyya will soon be tiled with pavement.&lt;br&gt;## &lt;br&gt;by a Mīdānī&lt;br&gt;- telling the story how he was walking in the streets&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#612A0D98-4A8C-4DF9-8E76-ED85FAD47C21-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# Arabs and Turks&lt;br&gt;by Jaʿfar al-Baramkī&lt;br&gt;&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;new tax of £T 0.5 to 1.5 to finance the Ḥijāz railway. &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;- Vol. 4, no. 8 of &amp;lt;title level="j"&amp;gt;Majallat al-Muqtabas&amp;lt;/title&amp;gt; has been published. It    comprises five long articles.&lt;br&gt;- Vol. 4, no. 7 was published last week. naming the authors&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;some police officers have been arrested in Damascus for minting counterfeit coins: pound sterling, Egyptian mecidiyes etc.&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the people of Sūq al-Arwām called for the plastering of their shops at the beginning of the street .... and to pave the entire street on their expense (*bi-nafawatihim*). The municipality replied to their demand and the Vali listened to them and works will begin shortly&lt;br&gt;- if this means that the majority of the streets will be done in this way within only a short period of time, the baladiyya will soon be tiled with pavement.&lt;br&gt;## &lt;br&gt;by a Mīdānī&lt;br&gt;- telling the story how he was walking in the streets&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#3621987B-3D19-47CE-B638-79C5E1427E43">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>3</prism:volume>
+            <prism:number>722</prism:number>
+            <dc:title>al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>7043</dc:title>
+      <z:shortTitle>Jarīdat al-Muqtabas</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Dimashq</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#3621987B-3D19-47CE-B638-79C5E1427E43-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>2019 Weltweit vor Ort</dc:subject>
+      <dc:subject>Commodity prices</dc:subject>
+      <dc:subject>critique, authorities</dc:subject>
+      <dc:subject>daily</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>expanding government control</dc:subject>
+      <dc:subject>gender</dc:subject>
+      <dc:subject>Municipal government</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>permit</dc:subject>
+      <dc:subject>Poetry</dc:subject>
+      <dc:subject>Press</dc:subject>
+      <dc:subject>Price regulation</dc:subject>
+      <dc:subject>Propriety</dc:subject>
+      <dc:subject>Prostitution</dc:subject>
+      <dc:subject>Road works</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>To be acquired</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://eap.bl.uk/database/overview_item.a4d?catId=7043;r=20237</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1911-07-06</dc:date>
+      <z:archive>EAP</z:archive>
+      <z:libraryCatalog>Masjid al-Aqṣā</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>EAP119/1/19/288</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: muqtabas+288-eap
+issue: 722
+place: Dimashq
+uuid: 3621987B-3D19-47CE-B638-79C5E1427E43
+volume: 3
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>allegedly (Gelvin 2012) calling for the regulation of prostitution. The article is not to be found on pages 1, 3-4. page 2 is too blurred to be read&lt;br&gt;&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;# "Who is Dr. Riḍā Tawfīq?" &lt;br&gt;by &amp;lt;persName&amp;gt;Shukrī al-ʿAsalī&amp;lt;/persName&amp;gt;&lt;br&gt;- replying to an article by &amp;lt;persName&amp;gt;Riḍā Tawfīq&amp;lt;/persName&amp;gt;, whose Arabic translation was published in the last issue of &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt;&lt;br&gt;- basically concerned with the current politics of the unionists&lt;br&gt;# "Azmat al-Wukalāʾ fī Faransā"&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;might be the reply to &amp;lt;title level="j"&amp;gt;al-Ḥaqāʾiq&amp;lt;/title&amp;gt;'s accusation of fostering prostitution and moral corruption (fasād al-ādāb) … &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the baladiyya published new tariffs for coach drivers etc. but as with earlier reforms this will remain on paper only. one of the reason being that the roads are in such a bad condition that the drivers cannot lower their fares. if the municipality does repair the streets, we will accept the new tariffs, what does it say to that?&lt;br&gt;## ḥawādith dākhiliyya: al-ṣadaq&lt;br&gt;- &amp;lt;title level="j"&amp;gt;al-Ṣadaq&amp;lt;/title&amp;gt; is a new weekly paper published every Wed in Aleppo by the concessionary &amp;lt;persName&amp;gt;Muṣṭafā Rushdī Efendi al-Ḥumṣī&amp;lt;/persName&amp;gt;. &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="newspaper" unit="year" quantity="1"&amp;gt;annual subscription&amp;lt;/measure&amp;gt; at &amp;lt;measure commodity="currency" unit="mec" quantity="1"&amp;gt;1 mecidiye&amp;lt;/measure&amp;gt; in &amp;lt;persName&amp;gt;Aleppo&amp;lt;/persName&amp;gt;&amp;lt;/measureGrp&amp;gt;, and &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="currency" unit="mec" quantity="1.25"&amp;gt;1,25 mecidiye&amp;lt;/measure&amp;gt; at other places&amp;lt;measure commodity="newspaper" unit="year" quantity="1"/&amp;gt;&amp;lt;/measureGrp&amp;gt;&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;# iʿlān: al-tamsīd al-nāfiʿ (beneficial massage), by &amp;lt;persName&amp;gt;Wartha bint al-Ṭurāb&amp;lt;/persName&amp;gt;&lt;br&gt;it is generally known that for decades massages (*mihnat al-tamsīd "al-Masāj"*) had been located in our place in Bāb al-Sarījā. in the view of the death of our mother, we divided the establishment with one part remaining at the old location, the second in Zuqāq Rāmī opposite the Post Office in the house of the Muftī of Baalbek. at the latter location we specialise in the massage of the poor on Sat and Wed. this is announced to the public (al-ʿumūm).    </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#3621987B-3D19-47CE-B638-79C5E1427E43-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    allegedly (Gelvin 2012) calling for the regulation of prostitution. The article is not to be found on pages 1, 3-4. page 2 is too blurred to be read&lt;br&gt;&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;# "Who is Dr. Riḍā Tawfīq?" &lt;br&gt;by &amp;lt;persName&amp;gt;Shukrī al-ʿAsalī&amp;lt;/persName&amp;gt;&lt;br&gt;- replying to an article by &amp;lt;persName&amp;gt;Riḍā Tawfīq&amp;lt;/persName&amp;gt;, whose Arabic translation was published in the last issue of &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt;&lt;br&gt;- basically concerned with the current politics of the unionists&lt;br&gt;# "Azmat al-Wukalāʾ fī Faransā"&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;might be the reply to &amp;lt;title level="j"&amp;gt;al-Ḥaqāʾiq&amp;lt;/title&amp;gt;'s accusation of fostering prostitution and moral corruption (fasād al-ādāb) … &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the baladiyya published new tariffs for coach drivers etc. but as with earlier reforms this will remain on paper only. one of the reason being that the roads are in such a bad condition that the drivers cannot lower their fares. if the municipality does repair the streets, we will accept the new tariffs, what does it say to that?&lt;br&gt;## ḥawādith dākhiliyya: al-ṣadaq&lt;br&gt;- &amp;lt;title level="j"&amp;gt;al-Ṣadaq&amp;lt;/title&amp;gt; is a new weekly paper published every Wed in Aleppo by the concessionary &amp;lt;persName&amp;gt;Muṣṭafā Rushdī Efendi al-Ḥumṣī&amp;lt;/persName&amp;gt;. &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="newspaper" unit="year" quantity="1"&amp;gt;annual subscription&amp;lt;/measure&amp;gt; at &amp;lt;measure commodity="currency" unit="mec" quantity="1"&amp;gt;1 mecidiye&amp;lt;/measure&amp;gt; in &amp;lt;persName&amp;gt;Aleppo&amp;lt;/persName&amp;gt;&amp;lt;/measureGrp&amp;gt;, and &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="currency" unit="mec" quantity="1.25"&amp;gt;1,25 mecidiye&amp;lt;/measure&amp;gt; at other places&amp;lt;measure commodity="newspaper" unit="year" quantity="1"/&amp;gt;&amp;lt;/measureGrp&amp;gt;&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;# iʿlān: al-tamsīd al-nāfiʿ (beneficial massage), by &amp;lt;persName&amp;gt;Wartha bint al-Ṭurāb&amp;lt;/persName&amp;gt;&lt;br&gt;it is generally known that for decades massages (*mihnat al-tamsīd "al-Masāj"*) had been located in our place in Bāb al-Sarījā. in the view of the death of our mother, we divided the establishment with one part remaining at the old location, the second in Zuqāq Rāmī opposite the Post Office in the house of the Muftī of Baalbek. at the latter location we specialise in the massage of the poor on Sat and Wed. this is announced to the public (al-ʿumūm).    </rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#0B779CAB-9E29-46CF-9623-7342BFFBA35E">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>442</prism:number>
+            <dc:title>Lisān al-Ḥāl</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>ḥawādith baladiyya</dc:title>
+      <z:shortTitle>Lisān</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#0B779CAB-9E29-46CF-9623-7342BFFBA35E-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>cold</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Economic aspects</dc:subject>
+      <dc:subject>snow</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <dc:date>1882-02-13</dc:date>
+      <z:libraryCatalog>AUB</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:000111-4</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: lisan+442
+issue: 442
+place: Bayrūt
+uuid: 0B779CAB-9E29-46CF-9623-7342BFFBA35E
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>- received an anonymous letter from Ṣāliḥiyya about Aḥmad Agha, head of the Karakul of Ṣāliḥiyya, which will be printed as soon as the name of its author is revealed to the publishers&lt;br&gt;- the severe cold, strong winds, and snow prevented the opening of shops on Damascus for some days</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#0B779CAB-9E29-46CF-9623-7342BFFBA35E-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    - received an anonymous letter from Ṣāliḥiyya about Aḥmad Agha, head of the Karakul of Ṣāliḥiyya, which will be printed as soon as the name of its author is revealed to the publishers&lt;br&gt;- the severe cold, strong winds, and snow prevented the opening of shops on Damascus for some days</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>1301</prism:number>
+            <dc:title>Lisān al-Ḥāl</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>akhbār maḥalliyya</dc:title>
+      <z:shortTitle>Lisān</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>periodical production</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <bib:pages>1</bib:pages>
+      <dc:date>1891-01-15</dc:date>
+      <z:libraryCatalog>AUB</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:111-9</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: lisan+1301
+issue: 1301
+place: Bayrūt
+uuid: 3D75F728-E4D2-443D-875B-CC5FD2A02A0A
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>received a weird letter from Damascus with the title "&amp;lt;title level="a"&amp;gt;waqt aḍīq min ṣadr al-mahjūr&amp;lt;/title&amp;gt;", which was not printed for the following reasons:&lt;br&gt;a) written on both sides of the sheet&lt;br&gt;b) unknown / anonymous author&lt;br&gt;c) far too long (only 800 lines allowed of 10 words)&lt;br&gt;d) hardly decipherable&lt;br&gt;- thus, the 4 rules to be obeyed by correspondents are explicated</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#3D75F728-E4D2-443D-875B-CC5FD2A02A0A-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    received a weird letter from Damascus with the title "&amp;lt;title level="a"&amp;gt;waqt aḍīq min ṣadr al-mahjūr&amp;lt;/title&amp;gt;", which was not printed for the following reasons:&lt;br&gt;a) written on both sides of the sheet&lt;br&gt;b) unknown / anonymous author&lt;br&gt;c) far too long (only 800 lines allowed of 10 words)&lt;br&gt;d) hardly decipherable&lt;br&gt;- thus, the 4 rules to be obeyed by correspondents are explicated</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#B26B219A-F436-46D1-A9EE-AB18BF6A5688">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>1301</prism:number>
+            <dc:title>Lisān al-Ḥāl</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>al-marāt fī baytihā </dc:title>
+      <z:shortTitle>Lisān</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#B26B219A-F436-46D1-A9EE-AB18BF6A5688-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>gender roles</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <bib:pages>3</bib:pages>
+      <dc:date>1891-01-15</dc:date>
+      <z:libraryCatalog>AUB</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:111-9</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: lisan+1301a
+issue: 1301
+place: Bayrūt
+uuid: B26B219A-F436-46D1-A9EE-AB18BF6A5688
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>the article is continued in numbers 1302, 1303, 1304, and 1305</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#B26B219A-F436-46D1-A9EE-AB18BF6A5688-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    the article is continued in numbers 1302, 1303, 1304, and 1305</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>1301</prism:number>
+            <dc:title>Lisān al-Ḥāl</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>murāsilāt al-jihāt: al-shām fī 25 kanūn al-awwal</dc:title>
+      <z:shortTitle>Lisān</z:shortTitle>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Sbāʿī</foaf:surname>
+                  <foaf:givenName>Muṣṭafā</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Economic report</dc:subject>
+      <dc:subject>Industries</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <bib:pages>3-4</bib:pages>
+      <dc:date>1891-01-15</dc:date>
+      <z:libraryCatalog>AUB</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-Na:111-9</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: lisan+1301b
+issue: 1301
+place: Bayrūt
+uuid: 05FDB4A5-7A3A-4700-9CE6-CABBD47C8479
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>on the crafts in Damascus&lt;br&gt;- correcting an earlier report [which?]</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#05FDB4A5-7A3A-4700-9CE6-CABBD47C8479-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    on the crafts in Damascus&lt;br&gt;- correcting an earlier report [which?]</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#BA12870D-C5EC-4F97-833B-E6BFC2A350EF">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dc:title>al-Quds: Jarīda ʿilmiyya adabiyya akhbāriyya</dc:title>
+      <z:shortTitle>Quds</z:shortTitle>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Ḥabīb Ḥanāniyā</foaf:surname>
+                  <foaf:givenName>Jirjī</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>al-Quds</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿa Jirji Ḥabīb Ḥanāniyā</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#BA12870D-C5EC-4F97-833B-E6BFC2A350EF-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>Censorship</dc:subject>
+      <dc:subject>freedom of speech</dc:subject>
+      <dc:subject>Gendarmerie</dc:subject>
+      <dc:subject>Jerusalem</dc:subject>
+      <dc:subject>Legal text</dc:subject>
+      <dc:subject>Military Service</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>Ottoman Empire</dc:subject>
+      <dc:subject>Press</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <prism:volume>1</prism:volume>
+      <prism:number>60</prism:number>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1909-06-11</dc:date>
+      <dcterms:dateSubmitted>2017-05-17</dcterms:dateSubmitted>
+      <dc:description>Citation Key: al-quds-1-60
+date_rumi: 1909-05-29
+date_hijri: 1327-05-22
+issue: 60
+place: al-Quds
+uuid: BA12870D-C5EC-4F97-833B-E6BFC2A350EF
+volume: 1
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# the Ottoman gendarmerie&lt;br&gt;- presenting the rules for those who want to enter the service&lt;br&gt;# tajnīb jamīʿ al-ʿuthmāniyīn / general mobilization of all Ottomans&lt;br&gt;&amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# a strange dream&lt;br&gt;- some papers reporting on a strange dream of ʿAbdülḥamīd II some five years ago&lt;br&gt;# muqtabasāt&lt;br&gt;## muqtabasāt&lt;br&gt;the secretary of printed material at the Sublime Porte published the following announcement in the papers of Constantinople: &lt;br&gt;- it is not allowed to publish reports on military installations / locations, or on executions, or anything related to the Ministry of War. The commander of the third ... announced that the publication of images, drawings, and anything related to this is prohibited&lt;br&gt;## muqtabasāt&lt;br&gt;the ministry of the private treasury called on the ministry of finance to pay the &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="month" quantity="1"&amp;gt;monthly salary&amp;lt;/measure&amp;gt; of the Sultan, which amounts to &amp;lt;measure commodity="currency" unit="ops" quantity="2000000"&amp;gt;Ps 2 Million&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;, in four &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="week" quantity="1"&amp;gt;weekly installments&amp;lt;/measure&amp;gt; of &amp;lt;measure commodity="currency" unit="ops" quantity="500000"&amp;gt;Ps 500.000&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;.&lt;br&gt;## muqtabasāt&lt;br&gt;- Imperial irade announcing the minting of new coinage in the name of the new Sultan Mehmed V&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;- initially they will mint £T 200000&lt;br&gt;# invention (*ikhtirāʿ*)&lt;br&gt;by a Syrian in Buenos Aires&lt;br&gt;# important invention &lt;br&gt;reported in the journal &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt; [4(2):133]&lt;br&gt;- two psychologists, one German the other American, developed an electric Psychometer&lt;br&gt;# iʿlān: plea&lt;br&gt;calling on all subscribers who have not yet paid their annual subscription for the first year [sic!] to finally do so&lt;br&gt;# iʿlān:&lt;br&gt;*nuʿlinu li-l-jumhūr*  </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#BA12870D-C5EC-4F97-833B-E6BFC2A350EF-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# the Ottoman gendarmerie&lt;br&gt;- presenting the rules for those who want to enter the service&lt;br&gt;# tajnīb jamīʿ al-ʿuthmāniyīn / general mobilization of all Ottomans&lt;br&gt;&amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# a strange dream&lt;br&gt;- some papers reporting on a strange dream of ʿAbdülḥamīd II some five years ago&lt;br&gt;# muqtabasāt&lt;br&gt;## muqtabasāt&lt;br&gt;the secretary of printed material at the Sublime Porte published the following announcement in the papers of Constantinople: &lt;br&gt;- it is not allowed to publish reports on military installations / locations, or on executions, or anything related to the Ministry of War. The commander of the third ... announced that the publication of images, drawings, and anything related to this is prohibited&lt;br&gt;## muqtabasāt&lt;br&gt;the ministry of the private treasury called on the ministry of finance to pay the &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="month" quantity="1"&amp;gt;monthly salary&amp;lt;/measure&amp;gt; of the Sultan, which amounts to &amp;lt;measure commodity="currency" unit="ops" quantity="2000000"&amp;gt;Ps 2 Million&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;, in four &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="week" quantity="1"&amp;gt;weekly installments&amp;lt;/measure&amp;gt; of &amp;lt;measure commodity="currency" unit="ops" quantity="500000"&amp;gt;Ps 500.000&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;.&lt;br&gt;## muqtabasāt&lt;br&gt;- Imperial irade announcing the minting of new coinage in the name of the new Sultan Mehmed V&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;- initially they will mint £T 200000&lt;br&gt;# invention (*ikhtirāʿ*)&lt;br&gt;by a Syrian in Buenos Aires&lt;br&gt;# important invention &lt;br&gt;reported in the journal &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt; [4(2):133]&lt;br&gt;- two psychologists, one German the other American, developed an electric Psychometer&lt;br&gt;# iʿlān: plea&lt;br&gt;calling on all subscribers who have not yet paid their annual subscription for the first year [sic!] to finally do so&lt;br&gt;# iʿlān:&lt;br&gt;*nuʿlinu li-l-jumhūr*  </rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#C38758DB-AF23-46F2-842D-E2368B68825B">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>181</prism:number>
+            <dc:title>Thamarāt al-Funūn</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>al-Shām fī 7 ramaḍān</dc:title>
+      <z:shortTitle>Thamarāt</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#C38758DB-AF23-46F2-842D-E2368B68825B-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>critique, authorities</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Elections</dc:subject>
+      <dc:subject>Market inspector</dc:subject>
+      <dc:subject>Municipal government</dc:subject>
+      <dc:subject>Official gazette</dc:subject>
+      <dc:subject>Press review</dc:subject>
+      <dc:subject>Reply</dc:subject>
+      <dc:subject>Street cleaning</dc:subject>
+      <dc:subject>Street lighting</dc:subject>
+      <dc:subject>biweekly</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <bib:pages>4</bib:pages>
+      <dc:date>1878-09-09</dc:date>
+      <z:libraryCatalog>AUB, FU Islamwissenschaft</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-NA:000026, Inv 9583 Mic-A 297</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: thamarat+181
+issue: 181
+place: Bayrūt
+uuid: C38758DB-AF23-46F2-842D-E2368B68825B
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>municipal elections took place: the elections are legitimised (*tafwīḍ*) for the people by the chastity (*al-ʿaffa*) and righteousness of the candidates and we hope for the progress of our town (*baladatunā*). unfortunately, we are not informed about the reasons for the resignation of some of the members and the old president Muḥammad Āğā al-Bārūdī, reported by some newspapers.&lt;br&gt;- Suriye: the new municipality embarked on the cleaning of the Suqs and the prohibition of stalls for presenting goods etc. in the streets (*ṭaraqāt*). Further they appointed some officials for overseeing the market: that no rotten fruits are sold. then they turned their attention to the bread sold and the gas used to light the streets and alleyways of the town . expressing gratitude of thousands of people (*ulūf min al-ahlīn*)&lt;br&gt;- but the problem is that these lights do not emit any light, that the pedestrians cannot walk the streets (*ṭaraqāt*) full of trash and dirt. yet, we cannot blame the new baladiyya&lt;br&gt;&lt;br&gt;- another letter from Damascus, replying to reports in some Arabic newspapers. they received quite a few and will publish them as soon as the authorship etc is established</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#C38758DB-AF23-46F2-842D-E2368B68825B-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    municipal elections took place: the elections are legitimised (*tafwīḍ*) for the people by the chastity (*al-ʿaffa*) and righteousness of the candidates and we hope for the progress of our town (*baladatunā*). unfortunately, we are not informed about the reasons for the resignation of some of the members and the old president Muḥammad Āğā al-Bārūdī, reported by some newspapers.&lt;br&gt;- Suriye: the new municipality embarked on the cleaning of the Suqs and the prohibition of stalls for presenting goods etc. in the streets (*ṭaraqāt*). Further they appointed some officials for overseeing the market: that no rotten fruits are sold. then they turned their attention to the bread sold and the gas used to light the streets and alleyways of the town . expressing gratitude of thousands of people (*ulūf min al-ahlīn*)&lt;br&gt;- but the problem is that these lights do not emit any light, that the pedestrians cannot walk the streets (*ṭaraqāt*) full of trash and dirt. yet, we cannot blame the new baladiyya&lt;br&gt;&lt;br&gt;- another letter from Damascus, replying to reports in some Arabic newspapers. they received quite a few and will publish them as soon as the authorship etc is established</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#7A368DB2-E14A-42F2-9054-6CFAE291501D">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:number>573</prism:number>
+            <dc:title>Thamarāt al-Funūn</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>[ḥawādith maḥalliyya]</dc:title>
+      <z:shortTitle>Thamarāt</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#7A368DB2-E14A-42F2-9054-6CFAE291501D-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>administrative council</dc:subject>
+      <dc:subject>Aleppo</dc:subject>
+      <dc:subject>Beirut</dc:subject>
+      <dc:subject>Damascus</dc:subject>
+      <dc:subject>Funeral/burial</dc:subject>
+      <dc:subject>Military</dc:subject>
+      <dc:subject>Public works</dc:subject>
+      <dc:subject>Elections</dc:subject>
+      <dc:subject>I.A The Newspapers</dc:subject>
+      <dc:subject>State schools</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>weekly</dc:subject>
+      <dc:subject>referenced: PhD thesis</dc:subject>
+      <bib:pages>1</bib:pages>
+      <dc:date>1886-03-22</dc:date>
+      <z:libraryCatalog>AUB, FU Islamwissenschaft</z:libraryCatalog>
+      <dc:subject>
+         <dcterms:LCC>
+            <rdf:value>Mic-NA:000026, Inv 9583 Mic-A 297</rdf:value>
+         </dcterms:LCC>
+      </dc:subject>
+      <dc:description>Citation Key: thamarat+573
+issue: 573
+place: Bayrūt
+uuid: 7A368DB2-E14A-42F2-9054-6CFAE291501D
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>- Wed mornig: Nāshid Pasha arrived in Damascus&lt;br&gt;- election for the admin council of the sancak Beirut; giving names&lt;br&gt;- order from the Porte: Ps 65.000 to be spend on the mausoleum of Aḥmad Ḥamdī Pasha in Beirut&lt;br&gt;- on a letter from Damascus and whether it should be published under the real names of its author&lt;br&gt;- on the military rüşdiye in Aleppo</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#7A368DB2-E14A-42F2-9054-6CFAE291501D-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    - Wed mornig: Nāshid Pasha arrived in Damascus&lt;br&gt;- election for the admin council of the sancak Beirut; giving names&lt;br&gt;- order from the Porte: Ps 65.000 to be spend on the mausoleum of Aḥmad Ḥamdī Pasha in Beirut&lt;br&gt;- on a letter from Damascus and whether it should be published under the real names of its author&lt;br&gt;- on the military rüşdiye in Aleppo</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#53F830E3-98D9-485D-B3F0-3F8E44ADE161">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>12</prism:volume>
+            <prism:number>573</prism:number>
+            <dc:title>Thamarāt al-Funūn</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>573</dc:title>
+      <z:shortTitle>Thamarāt</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>weekly</dc:subject>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1886-03-22</dc:date>
+      <z:archive>OIB</z:archive>
+      <dcterms:dateSubmitted>2013-07-11</dcterms:dateSubmitted>
+      <dc:description>Citation Key: tf-oib+573
+issue: 573
+place: Bayrūt
+uuid: 53F830E3-98D9-485D-B3F0-3F8E44ADE161
+volume: 12
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#73BF7D0E-5165-4BB3-81A7-0650804DF790">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>15</prism:volume>
+            <prism:number>729</prism:number>
+            <dc:title>Thamarāt al-Funūn</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>729</dc:title>
+      <z:shortTitle>Thamarāt</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Jamʿiyyat al-Funūn</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>weekly</dc:subject>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1889-04-15</dc:date>
+      <z:archive>OIB</z:archive>
+      <dcterms:dateSubmitted>2013-07-11</dcterms:dateSubmitted>
+      <dc:description>Citation Key: tf-oib+729
+date_rumi: 1889-04-03
+date_hijri: 1306-08-14
+issue: 729
+place: Bayrūt
+uuid: 73BF7D0E-5165-4BB3-81A7-0650804DF790
+volume: 15
+</dc:description>
+      <z:language>ar</z:language>
+   </bib:Article>
+   <bib:Article rdf:about="#0D767389-7EE1-4952-9C92-D086DAAFBE92">
+      <z:itemType>newspaperArticle</z:itemType>
+      <dc:title>Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</dc:title>
+      <z:shortTitle>Thamarāt</z:shortTitle>
+      <bib:editors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Qabbānī</foaf:surname>
+                  <foaf:givenName>ʿAbd al-Qādir</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:editors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Bayrūt</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Maṭbaʿa Jamʿiyyat al-Funūn</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#0D767389-7EE1-4952-9C92-D086DAAFBE92-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>newspaper/periodical</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <prism:volume>4</prism:volume>
+      <prism:number>181</prism:number>
+      <bib:pages>1-4</bib:pages>
+      <dc:date>1878-09-09</dc:date>
+      <dcterms:dateSubmitted>2017-11-07</dcterms:dateSubmitted>
+      <dc:description>Citation Key: thamarat-oib-4-181
+date_rumi: 1878-08-28
+date_hijri: 1295-09-12
+issue: 181
+place: Bayrūt
+uuid: 0D767389-7EE1-4952-9C92-D086DAAFBE92
+volume: 4
+</dc:description>
+      <z:language>ar</z:language>
+      <dcterms:abstract>&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;# murāsalāt: &lt;br&gt;## murāsalāt: Damascus, 7 Ram 1295&lt;br&gt;by someone other than our correspondent&lt;br&gt;## murāsalāt: Tripoli, from one of the dignitaries&lt;br&gt;- on the election of the baladiyya in Tripoli&lt;br&gt;## murāsalāt: Shūf, 8 Ram, 1295     </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#0D767389-7EE1-4952-9C92-D086DAAFBE92-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    &amp;lt;pb n="4"/&amp;gt;&lt;br&gt;# murāsalāt: &lt;br&gt;## murāsalāt: Damascus, 7 Ram 1295&lt;br&gt;by someone other than our correspondent&lt;br&gt;## murāsalāt: Tripoli, from one of the dignitaries&lt;br&gt;- on the election of the baladiyya in Tripoli&lt;br&gt;## murāsalāt: Shūf, 8 Ram, 1295     </rdf:value>
+   </bib:Memo>
+   <bib:Manuscript rdf:about="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B">
+      <z:itemType>manuscript</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Book>
+            <dc:title>United States Census</dc:title>
+         </bib:Book>
+      </dcterms:isPartOf>
+      <dc:title>Fourteenth Census of the United States</dc:title>
+      <z:shortTitle>US Federal Census</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Washington, DC</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Census</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>USA</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1920-01-06</dc:date>
+      <z:archive>NARA</z:archive>
+      <dc:coverage>T625</dc:coverage>
+      <dc:description>Citation Key: UnitedStatesCensus+1920
+place: Washington, DC
+uuid: E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- Joseph G Jakem [sic] can be found in the [1920 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW) as living in Ward 7, Lincoln, Lancaster, Nebraska&lt;br&gt;    - The data was recorded on 1920-01-06&lt;br&gt;    - born in 1880 (aged 39), married to Myra M Jakem [sic], aged 29, born in Iowa, who can read and writre&lt;br&gt;        - her father was from Michigan&lt;br&gt;    - 1902: immigration to the US&lt;br&gt;    - 1904: naturalisation&lt;br&gt;    - children&lt;br&gt;        - Rose Ellen, 8&lt;br&gt;        - George G., 6&lt;br&gt;        - Ruth, 4 10/12&lt;br&gt;        - Mitchell E., 2 11/12 </dcterms:abstract>
+   </bib:Manuscript>
+   <bib:Memo rdf:about="#E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- Joseph G Jakem [sic] can be found in the [1920 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW) as living in Ward 7, Lincoln, Lancaster, Nebraska&lt;br&gt;    - The data was recorded on 1920-01-06&lt;br&gt;    - born in 1880 (aged 39), married to Myra M Jakem [sic], aged 29, born in Iowa, who can read and writre&lt;br&gt;        - her father was from Michigan&lt;br&gt;    - 1902: immigration to the US&lt;br&gt;    - 1904: naturalisation&lt;br&gt;    - children&lt;br&gt;        - Rose Ellen, 8&lt;br&gt;        - George G., 6&lt;br&gt;        - Ruth, 4 10/12&lt;br&gt;        - Mitchell E., 2 11/12 </rdf:value>
+   </bib:Memo>
+   <bib:Manuscript rdf:about="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7">
+      <z:itemType>manuscript</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Book>
+            <dc:title>United States Census</dc:title>
+         </bib:Book>
+      </dcterms:isPartOf>
+      <dc:title>Fifteenth Census of the United States</dc:title>
+      <z:shortTitle>US Federal Census</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Washington, DC</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Census</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>USA</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1930-04-09</dc:date>
+      <z:archive>NARA</z:archive>
+      <dc:coverage>T625</dc:coverage>
+      <dc:description>Citation Key: UnitedStatesCensus+1930
+place: Washington, DC
+uuid: 5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zackem can be found in the [1930 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4) as living in Ward 5, Lincoln, Lancaster, Nebraska. He was born in 1882 and aged 27 at first marriage.&lt;br&gt;    * data was recorded on 1930-04-09 amd 1930-04-10&lt;br&gt;    * aged 48, born in Syria&lt;br&gt;    * immigrated to the US in 1904, no info on naturalisation&lt;br&gt;    * occupation: Rug dealer, Oriental Goods&lt;br&gt;    * owns his home, which is valued at 10.000 USD&lt;br&gt;    * married to Myrah, ageed 40, born in Iowa&lt;br&gt;    * children&lt;br&gt;        - Rosalla, 18, working as a sales ladie in a Department Store&lt;br&gt;        - George J, 16&lt;br&gt;        - Ruth J, 15&lt;br&gt;        - Michael R., 13&lt;br&gt;        - Josef G, Jr, 9 </dcterms:abstract>
+   </bib:Manuscript>
+   <bib:Memo rdf:about="#5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zackem can be found in the [1930 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4) as living in Ward 5, Lincoln, Lancaster, Nebraska. He was born in 1882 and aged 27 at first marriage.&lt;br&gt;    * data was recorded on 1930-04-09 amd 1930-04-10&lt;br&gt;    * aged 48, born in Syria&lt;br&gt;    * immigrated to the US in 1904, no info on naturalisation&lt;br&gt;    * occupation: Rug dealer, Oriental Goods&lt;br&gt;    * owns his home, which is valued at 10.000 USD&lt;br&gt;    * married to Myrah, ageed 40, born in Iowa&lt;br&gt;    * children&lt;br&gt;        - Rosalla, 18, working as a sales ladie in a Department Store&lt;br&gt;        - George J, 16&lt;br&gt;        - Ruth J, 15&lt;br&gt;        - Michael R., 13&lt;br&gt;        - Josef G, Jr, 9 </rdf:value>
+   </bib:Memo>
+   <bib:Manuscript rdf:about="#BC2FC361-6369-4E16-87C8-2B255DA5B95C">
+      <z:itemType>manuscript</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Book>
+            <dc:title>United States Census</dc:title>
+         </bib:Book>
+      </dcterms:isPartOf>
+      <dc:title>Thirteenth Census of the United States</dc:title>
+      <z:shortTitle>US Federal Census</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Washington, DC</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#BC2FC361-6369-4E16-87C8-2B255DA5B95C-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Census</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>USA</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <dc:date>1910-04-19</dc:date>
+      <z:archive>NARA</z:archive>
+      <dc:coverage>T625</dc:coverage>
+      <dc:description>Citation Key: UnitedStatesCensus+1910
+place: Washington, DC
+uuid: BC2FC361-6369-4E16-87C8-2B255DA5B95C
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- J. E. Zakem can be found in the [1910 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q) as living in Ward 1, Lincoln, Lancaster, Nebraska&lt;br&gt;    + transcription from sheet is wrong: J.G. Zakem&lt;br&gt;    + data recorded on 1910-04-19&lt;br&gt;    + aged 29, born in Turkey, Assyrian&lt;br&gt;    + both parents from Turkey, Assyrian&lt;br&gt;    + immigrated to US in 1902, no information naturalisation&lt;br&gt;    + speaks English&lt;br&gt;    + trade/profession: correspondant&lt;br&gt;    + industry: newspaper&lt;br&gt;    + all members of his household know how to read and write&lt;br&gt;    + married to Myra Zakem, from Iowa, aged 21&lt;br&gt;    + they had three lodgers from Turkey&lt;br&gt;        * Addad Zakem, aged 32,&lt;br&gt;            + 1895: immigrated to US&lt;br&gt;            + keeper of a café&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;            - waitress at café </dcterms:abstract>
+   </bib:Manuscript>
+   <bib:Memo rdf:about="#BC2FC361-6369-4E16-87C8-2B255DA5B95C-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- J. E. Zakem can be found in the [1910 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q) as living in Ward 1, Lincoln, Lancaster, Nebraska&lt;br&gt;    + transcription from sheet is wrong: J.G. Zakem&lt;br&gt;    + data recorded on 1910-04-19&lt;br&gt;    + aged 29, born in Turkey, Assyrian&lt;br&gt;    + both parents from Turkey, Assyrian&lt;br&gt;    + immigrated to US in 1902, no information naturalisation&lt;br&gt;    + speaks English&lt;br&gt;    + trade/profession: correspondant&lt;br&gt;    + industry: newspaper&lt;br&gt;    + all members of his household know how to read and write&lt;br&gt;    + married to Myra Zakem, from Iowa, aged 21&lt;br&gt;    + they had three lodgers from Turkey&lt;br&gt;        * Addad Zakem, aged 32,&lt;br&gt;            + 1895: immigrated to US&lt;br&gt;            + keeper of a café&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;            - waitress at café </rdf:value>
+   </bib:Memo>
+   <bib:Manuscript rdf:about="#8D143174-D395-4636-AA10-E1699C780EC9">
+      <z:itemType>manuscript</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Book>
+            <dc:title>United States Census</dc:title>
+         </bib:Book>
+      </dcterms:isPartOf>
+      <dc:title>Sixteenth Census of the United States</dc:title>
+      <z:shortTitle>US Federal Census</z:shortTitle>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality>Washington, DC</vcard:locality>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#8D143174-D395-4636-AA10-E1699C780EC9-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Census</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Online</dc:subject>
+      <dc:subject>Source</dc:subject>
+      <dc:subject>USA</dc:subject>
+      <dc:date>1940-04-02</dc:date>
+      <z:archive>NARA</z:archive>
+      <dc:coverage>T625</dc:coverage>
+      <dc:description>Citation Key: UnitedStatesCensus+1940
+place: Washington, DC
+uuid: 8D143174-D395-4636-AA10-E1699C780EC9
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract>Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zaken can be found in the [1940 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:K997-KT2) as living in Ward 9, Omaha City, Douglas, Nebraska&lt;br&gt;    * data was recorded on 1940-04-02&lt;br&gt;    + aged 61, born in Syria </dcterms:abstract>
+   </bib:Manuscript>
+   <bib:Memo rdf:about="#8D143174-D395-4636-AA10-E1699C780EC9-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zaken can be found in the [1940 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:K997-KT2) as living in Ward 9, Omaha City, Douglas, Nebraska&lt;br&gt;    * data was recorded on 1940-04-02&lt;br&gt;    + aged 61, born in Syria </rdf:value>
    </bib:Memo>
 </rdf:RDF>
