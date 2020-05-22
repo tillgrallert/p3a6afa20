@@ -315,7 +315,7 @@ Table: authors that published in more than one journal in our corpus comprising 
 
 ### Individual periodicals
 
-The work on compiling the biographies of all 319 contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations and their geographic distributions. For the purpose of this paper, I will contrast only the two Damascene periodicals in our corpus.
+The work on compiling the biographies of all 319 contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations and their geographic distributions. For the purpose of this paper, I will contrast only *al-Muqtabas* and *al-Ḥaqāʾiq*, the two Damascene periodicals in our corpus.
 
 <!--
 |      journal      | number of authors | authors in VIAF | average year of birth |
