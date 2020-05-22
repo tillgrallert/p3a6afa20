@@ -5,6 +5,10 @@ date: 2019-11-01
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
+bibliography: assets/bibliography/catch-me-if-you-can.csl.json
+# csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
+csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
+lang: en-GB
 markdown:
    - pandoc
    - CriticMarkup
@@ -121,7 +125,7 @@ Finally, even when bibliographic data is internally kept in structured  form, it
 
 [^30]: Technical information on the project is scarce and contradictory {>>they claim to have scanned images in 2007 according 2009 guidelines<<} despite two publications by the project leaders; {Qasem 2015; Matusiak 2009}.
 
-[^25]: Stefan Weber and Jens Hanssen, for instance, missed the fact that the birthday of Sultan ʿAbdülḥamīd II (1876--1909) was celebrated according to the Islamic *hijrī* calendar and thus rotated through the solar year. The annual celebrations of the anniversary of the ʿAbdülḥamīd II's accession to the throne were celebrated according to the empire's *mālī* calendar. Yet, leading scholars read these dates as pertaining to the *hijrī* calendar. Due to the mix-up in 1872 and the resulting growing difference between the two calendars, ʿAbdülḥamīd II's silver jubilee on the throne is wrongly dated to 1901 instead of 1900. {Hanssen 2005@238, 243ff.; Weber 2009@418-420;Deringil 1998@29; Uluengin 2010@20}.
+[^25]: Stefan Weber and Jens Hanssen, for instance, missed the fact that the birthday of Sultan ʿAbdülḥamīd II (1876--1909) was celebrated according to the Islamic *hijrī* calendar and thus rotated through the solar year. The annual celebrations of the anniversary of the ʿAbdülḥamīd II's accession to the throne were celebrated according to the empire's *mālī* calendar. Yet, leading scholars read these dates as pertaining to the *hijrī* calendar. Due to the mix-up in 1872 and the resulting growing difference between the two calendars, ʿAbdülḥamīd II's silver jubilee on the throne is wrongly dated to 1901 instead of 1900. {Hanssen 2005@238, 243ff.;Weber 2009@418-420;Deringil 1998@29;Uluengin 2010@20}.
 
 [^35]: {--The Islamic *hijrī* calendar is a lunar calendar beginning the year with 1 *Muḥarram* and counting years since the prophet Muḥammad's flight (*hijra*) from Mecca to Medina in 622. Dates differ between locations as the beginning of the month is based on sightings of the new moon. They cannot, therefore, be reliably computed. A common workaround without recourse to empirical observations as provided in large tabular publications is to compute the astronomic lunar calendar instead. The reformed Julian calendar is a solar calendar beginning the year with 1 January. Every one hundred years the difference between the Gregorian and Julian calendar increases by one day due to different rules for adding an intercalated 366th day every four years. In the Ottoman context, the reformed Julian calendar is commonly referred to as *rūmī*. Arabic periodicals usually labelled this calendar as *sharqī* (Eastern). The Ottoman fiscal *mālī* calendar is a lunosolar calendar. It is based on the Old Julian calendar beginning the year with 1 March and was designed to synchronise the year count with the *hijrī* calendar. Introduced in 1676 it is also sometimes confusingly called *rūmī*. Due to a printing error in the coupon booklets for the Ottoman consolidated debt repayment program for 1872, synchronisation of *mālī* and *hijrī* years was henceforth abolished.--} For an overview of calendars see {Grallert 2014@26-34;Jajko 1993;Rose 1991;Deny 1921;Georgeon 2011}.
 
@@ -146,7 +150,7 @@ Optical character recognition (OCR), the technology to convert an image into mac
 
 [^7]: The [Open Islamicate Text Initiative (OpenITI)](http://iti-corpus.github.io/) project planned to publish its tool chain in 2018. For an overview of their work see <http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf>.
 
-[^9]: One major research project for HTR is [Transkribus](https://transkribus.eu/Transkribus/). Sinai Rusinek and I have begun experimenting with submitting OpenArabicPE's editions as ground truth for training Transkribus. First results for single-column Arabic periodicals are promising and report a CER of less than 10 per cent, which would be sufficient for some distant reading applications.
+[^9]: One major research project for HTR is [Transkribus](https://transkribus.eu/Transkribus/). Sinai Rusinek and I have begun experimenting with submitting OpenArabicPE's editions as ground truth for training Transkribus. First results for single-column Arabic periodicals are promising and report a CER of about two per cent, which would be sufficient for distant reading applications.
 
 Note that a the full text of a periodical is necessary but not sufficient for many analytical queries and distant reading. It is certainly insufficient for close reading. The full text of a periodical would be nothing but a string of words. But periodicals unite different texts of various genres from multiple authors. These texts are commonly grouped into issues and volumes and longer ones were frequently serialised and scattered across issues. Some of these texts will be reprints from other periodicals or first printed publications of much older manuscripts. Some of the texts are responses, etc. In order to make sense of the full text of a periodical for both humans and machines it has to be modelled.[^29]
 
@@ -184,7 +188,7 @@ The corpus comprises the full text of each issue of *Lughat al-ʿArab*, *al-Muqt
 
 [^16]: For studies assessing these corpora and the methodological implications see {Nicholson 2013;Brake 2012;Horrocks 2014;Mussell 2012;Gooding 2018}. {--For studies and projects based on *Chronicling America* see, for example, {Cordell 2017;Lorang 2015;Torget 2011;Cordell 2015;Smith 2015;Smith 2013;Cordell 2013;Torget 2012;Torget 2012a}. For a study based on *Trove* see {Bode 2016}.--}
 
-| journal             | volumes   | issues   | articles   | independent articles   | articles with author   | in %     | words     |
+| Journal             | Volumes   | Issues   | Articles   | Independent articles   | Articles with author   | in %     | Words     |
 | ------------------- | --------- | -------- | ---------- | ---------------------- | ---------------------- | -------: | --------: |
 | *al-Ḥaqāʾiq*        | 3         | 35       | 389        | 257                    | 163                    | 41.90    | 298090    |
 | *al-Ḥasnāʾ*         | 1         | 11       | 173        | 136                    | 63                     | 36.42    |           |
@@ -409,7 +413,7 @@ On a more empirical level, we can find repeated calls from multiple periodicals 
 
 [^65]: {Ayalon 1995@224} provides examples of two journals informing their readers that they will have to publish double issues due to absences of their publishers. [*al-Zuhūr* 1(8):368](https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) apologises to its readers for the delay in publishing this issue because the editor was travelling outside Egypt/Cairo {>>to Beirut<<}.
 
-[^66]: E.g. {thamarat 181; lisan 442; lisan 1301; thamarat 573; thamarat 729}.
+[^66]: E.g. {thamarat-oib-4-181@4;lisan 442;lisan 1301;tf-oib 573@1;tf-oib 729@1}.
 
 [^67]: Instead, they claimed, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out; {jarmuq 51@3}.
 
