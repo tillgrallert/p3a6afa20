@@ -6,8 +6,8 @@ ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
 bibliography: assets/bibliography/catch-me-if-you-can.csl.json
-# csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
-csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
+csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
+# csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
 lang: en-GB
 markdown:
    - pandoc
@@ -27,16 +27,12 @@ tags:
 <!-- ## 1. HTML -->
 <!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript -o index.html -->
 <!-- ## 2. DOCX -->
-<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t docx-smart -o catch-me-if-you-can.docx -->
+<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc --filter=pandoc-citeproc -s -f markdown -t docx -o catch-me-if-you-can.docx -->
 
 <div id="sec-badges" class="c_badges">
-<!-- ORCID -->
 [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5739-8094)
-<!-- licence -->
 [![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/)
-<!-- release -->
 [![GitHub release](https://img.shields.io/github/release/tillgrallert/p3a6afa20.svg)](https://github.com/tillgrallert/p3a6afa20/releases)
-<!-- DOI -->
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1413610.svg)](https://doi.org/10.5281/zenodo.1413610)
 </div>
 
@@ -54,16 +50,16 @@ This paper presents the dual challenge of {=="digital history"==} to the study o
 
 The second challenge is to actually explore the ideosphere of periodicals and their contributors{>> through computational approaches such as network analysis and stylometry<<}. Early Arabic periodicals {--from the late nineteenth and early twentieth centuries,--} such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic (cultural) renaissance (*nahḍa*), Arab nationalism, and the Islamic reform movement (*ṣalafiyya*). The Arabic periodical press of the late Ottoman Eastern Mediterranean{--[^53]--} has received scholarly attention since the early twentieth century. Yet, core questions concerning the intellectual history of the periodical press and the social history of periodical production are still unanswered. Arabic approaches to the periodical press have been, for a long time, both encyclopaedic and anecdotal as well as biased by an almost exclusive focus on Cairo and Beirut. Many of these works were compiled by authors who themselves were journalist and adhere to a specific political view of Arab nationalism and demonize the Ottoman Empire, particularly during the reign of ʿAbdülḥamīd II (1876--1909).[^28] Non-Arabic scholarship commonly perceives of journals and newspapers as a *source* for intellectual, social and political history but only rarely as a *subject* in its own right. There is the noteworthy exception of Ami Ayalon's extensive writings on the press in the Arab Middle East[^31], but comprehensive, synthesising approaches are severely limited by the almost complete absence of systematic studies on individual periodicals.[^17] Even scholarly approaches to the press as a *source* remain largely anecdotal with a focus on opinion pieces and editorials in a small sample of canonical journals from Beirut and Cairo. The main reasons are scale and scattered collections, which, however, remain {==completely==}{>>largely<<} unacknowledged.
 
-[^28]: E.g. [@Jundī+1925];[@Shaykhū+1926];[@Sarkīs+1928a];[@Sarkīs+1928b], [@Muruwwa+1961];[@AlRifāʿī+1969];[@AlRifāʿī+1969a];[@Dāghir+1950];[@Dāghir+1978];[@Ilyās+1982];[@Khūrīya+1976]
+[^28]: E.g. [@Jundī+1925; @Shaykhū+1926; @Sarkīs+1928], [@Muruwwa+1961; @AlRifāʿī+1969; @AlRifāʿī+1969a; @Dāghir+1950; @Dāghir+1978; @Ilyās+1982; @Khūrīya+1976]
 
 {>>Bibliographies: [@AhmedBioud+1969]<<}
 
-[^31]: [@Ayalon+1995]; [@Ayalon+1984];[@Ayalon+1985];[@Ayalon+1987a];[@Ayalon+1987];[@Ayalon+1992];[@Ayalon+2002];[@Ayalon+2008].
+[^31]: [@Ayalon+1995]; [@Ayalon+1984; @Ayalon+1985; @Ayalon+1987a; @Ayalon+1987; @Ayalon+1992; @Ayalon+2002; @Ayalon+2008].
 
 [^53]: Late Ottoman Eastern Mediterranean is a lose moniker for the pre-dominantly Arabic speaking provinces of the Ottoman Empire along the eastern shore of the Mediterranean between the mountains of Anatolia in the north, Mesopotamia in the east, the deserts of the Arabian Peninsula in the south and the Libyan desert in the west. The area is largely congruent with *al-Mashriq* or the Arab East and Egypt.
 {--Adana to Egypt, the Fertile Crescent and the Arabian Peninsula, encompassing the modern countries (or parts thereof) of Turkey, Syria, Lebanon, Palestine, Israel, Jordan, Egypt, Sudan, Iraq, Saudi Arabia and Yemen.--} The period is delineated by the advent of the press (c.1860) and the collapse of Ottoman rule with the end of WW I (1918). {>>One could reference [@Scheffler+2003] on the mental maps of Southwest Asia<<}
 
-[^17]: Exceptions are [@Glaß+2004b];[@Cioeta+1979a][@Cioeta+1979]. {--At the time of writing, only one study made use of digital texts: [@Zemmin+2018]};{ for methodological comments see also [@Zemmin+2016, 232-233].--} {>>Add comment on [@Dierauff+2018][@Beška+2017]<<}
+[^17]: Exceptions are [@Glaß+2004b; @Cioeta+1979a][@Cioeta+1979]. {--At the time of writing, only one study made use of digital texts: [@Zemmin+2018]};{ for methodological comments see also [@Zemmin+2016, 232-233].--} {>>Add comment on [@Dierauff+2018][@Beška+2017]<<}
 
 
 {>>the following section needs rewriting<<}
@@ -82,7 +78,7 @@ I introduce my corpus-building project [OpenArabicPE](https://openarabicpe.githu
 
 The better known and at the time widely popular Arabic journals of the late Ottoman Empire---unlike their smaller rivals and more ephemeral newspaper copies---do not face the ultimate danger of their last copy being destroyed in the current onslaught from iconoclasts, institutional neglect, and wars raging through Syria, Libya, Yemen, and Iraq. Yet, copies are scattered across library and private collections worldwide. Many collections remain unknown to scholarly communities. If catalogues exist, they are not necessarily available online and union catalogues have fallen out of fashion.[^27] This makes it almost impossible to trace discourses across journals and with the demolition and closure of libraries in the Middle East, they are increasingly accessible to the affluent Western researcher only.
 
-[^27]: [@ElHadi+1965];[@Hopwood+1970];[@Aman+1979];[@DeJong+1979];[@Iḥdādan+1984];[@Khūrī+1985];[@Höpp+1994];[@Atabaki+1995]. I am part of the endeavour to gather and openly share information on all holdings of nineteenth-century Arabic periodicals [@Sadgrove+2012].
+[^27]: [@ElHadi+1965; @Hopwood+1970; @Aman+1979; @DeJong+1979; @Iḥdādan+1984; @Khūrī+1985; @Höpp+1994; @Atabaki+1995]. I am part of the endeavour to gather and openly share information on all holdings of nineteenth-century Arabic periodicals [@Sadgrove+2012].
 
 A quick look at *al-Muqtabas* shall  illustrate this point. A search in [WorldCat](https://www.worldcat.org) for the nine volumes of *al-Muqtabas*  will return six different bibliographic entries, the first of which has 13 variants (called "editions" in the context of WorldCat), pointing to 34 libraries. If one follows each entry to the holding library's catalogue, one will find that the large majority of collections is incomplete and that collections commonly combine original volumes, reprints, microfilms, microfiches and even photo copies. {>>comment on the geographic distribution of collections: the map below shows a surprising distribution of copies, which could either be due to Worldcat's bias towards western collections or a reflection of actual holdings. But even for regions with good coverage, such as central Europe, we can attest that interested readers would need to travel or depend on interlibrary loans to excess every issue of *al-Muqtabas*.<<}
 
@@ -91,7 +87,7 @@ A quick look at *al-Muqtabas* shall  illustrate this point. A search in [WorldCa
 Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of instantaneous one-click answers to any question they might have.
 The public and many scholars expect to be able to put a computer to such diverse tasks as a keyword search: Show me all instances of the word *waṭan* (Arabic for "homeland", "nation") across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I.[^56] Or a social network analysis: Show me the discursive field of authors and their texts and its changes over time. These are important and---for a variety of reasons, some of which will be discussed in this article---still open questions. Unfortunately, the eager student of *digitised* Arabic periodicals will immediately find tools, data and skills lacking.
 
-[^56]: The almost hegemonic interface to digitised collections incorporates focusses on a Google-like search bar and makes browsing titles---the classic way of accessing periodicals---nigh impossible. The de-contextualising of strings of text from the page and the wider context of the periodical immanent to keyword search has been repeatedly criticised as inadequate for the study of periodicals; e.g. [@Brake+2012a];[@Brake+2012, 17];[@Bingham+2010, 229-230];[@Gooding+2018, 12-13].
+[^56]: The almost hegemonic interface to digitised collections incorporates focusses on a Google-like search bar and makes browsing titles---the classic way of accessing periodicals---nigh impossible. The de-contextualising of strings of text from the page and the wider context of the periodical immanent to keyword search has been repeatedly criticised as inadequate for the study of periodicals; e.g. [@Brake+2012a; @Brake+2012, 17; @Bingham+2010, 229-230; @Gooding+2018, 12-13].
 
 <!-- problem: there is no big data. on the difference between *digitised* and *digital* -->
 
@@ -104,7 +100,7 @@ The first question we encounter in our attempt to track the network of authors a
 
 [^18]: [@website_eapb]
 
-[^19]: For good overviews on the issue of digital (scholarly) editions see [@Driscoll+2016];[@Pierazzo+2015];[@Sahle+2013].
+[^19]: For good overviews on the issue of digital (scholarly) editions see [@Driscoll+2016; @Pierazzo+2015; @Sahle+2013].
 
 <!-- If the "data" is lacking, can we use (bibliographic) metadata? -->
 
@@ -123,7 +119,7 @@ Periodicals seem to provide no dating challenges since publication dates were co
 Any attempt to answer these questions relies on the affordances of available information systems, that is people and their skills, abstract concepts, and actual tools to record and retrieve these data points. But cataloguers, librarians and even specialists of the late Ottoman Eastern Mediterranean are frequently unfamiliar with calendric systems beyond the solar Gregorian and the Islamic lunar *hijrī* calendars. *Mālī* years are frequently misread as *hijrī* years, which introduces a margin of error of up to two years for the last decades before World War I.[^25] <!-- 3) short-comings of the software --> Second, most software is unable to work with anything but Gregorian dates out of the box.  Even if cataloguers were able to correctly establish the calendar used in a periodical's masthead, the computing infrastructure would not allow them to enter this date into the digital record.[^20]
 Finally, even when bibliographic data is internally kept in structured  form, it is not commonly shared in a standard-compliant and machine-actionable format{--, such as MARC or MODS--}.[^21] A good example for this state of affairs is the British Library's otherwise excellent Endangered Archives Programme (EAP), which digitised periodical holdings of the al-Aqsa Mosque's library in Jerusalem (EAP119).[^30] If we look at the [fourth volume](https://eap.bl.uk/archive-file/EAP119-1-4-3) of the journal *al-Muqtabas* available through EAP, we find that bibliographic information is solely provided in unstructured plain text{-- either through the web interface or the IIIF API--}.[^22] Publication dates are provided as Gregorian months even though the cover clearly states that *al-Muqtabas* follows the "Arabic", i.e. Islamic *hijrī*, calendar and despite each issue reporting the publication date as *hijrī* month. Consequently, there is a dissonance between the facsimile and the bibliographic information. *al-Muqtabas* 4(1) recorded the month of *Muḥarram* 1327 aH in its masthead. Depending on the local observation of the moon in Damascus, the journal's place of publication, this month began around 27 January 1909. Should *al-Muqtabas* 4(1) therefore be considered the January or the February  issue? The cataloguers at EAP clearly thought the latter or their cataloguing software did not allow for date ranges.
 
-[^30]: Technical information on the project is scarce and contradictory {>>they claim to have scanned images in 2007 according 2009 guidelines<<} despite two publications by the project leaders; [@Qasem+2015];[@Matusiak+2009].
+[^30]: Technical information on the project is scarce and contradictory {>>they claim to have scanned images in 2007 according 2009 guidelines<<} despite two publications by the project leaders; [@Qasem+2015; @Matusiak+2009].
 
 [^25]: Stefan Weber and Jens Hanssen, for instance, missed the fact that the birthday of Sultan ʿAbdülḥamīd II (1876--1909) was celebrated according to the Islamic *hijrī* calendar and thus rotated through the solar year. The annual celebrations of the anniversary of the ʿAbdülḥamīd II's accession to the throne were celebrated according to the empire's *mālī* calendar. Yet, leading scholars read these dates as pertaining to the *hijrī* calendar. Due to the mix-up in 1872 and the resulting growing difference between the two calendars, ʿAbdülḥamīd II's silver jubilee on the throne is wrongly dated to 1901 instead of 1900. [@Hanssen+2005, 238, 243ff.;Weber 2009@418-420;Deringil 1998@29;Uluengin 2010@20].
 
@@ -186,7 +182,7 @@ With OpenArabicPE we argue that by linking facsimiles to the digital text, every
 
 The corpus comprises the full text of each issue of *Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq* and a transcription of article titles and bylines for one volume of *al-Ḥasnāʾ* until the end of World War I, totalling 165 periodical full-text issues with some 2.65 million words. This corpus is small if compared to the vast data sets available for the Global North through [*Chronicling America*](https://chroniclingamerica.loc.gov/), [*Trove*](https://trove.nla.gov.au/) Australia, the [*British Newspaper Archive*](https://www.britishnewspaperarchive.co.uk/) etc., which gave rise to numerous distant reading projects.[^16] However, it is the only corpus of this material. Taken with a grain of salt, a systematic analysis of this corpus helps us test common hypotheses, challenge established narratives about the Arabic periodical press and direct the focus of further scrutiny, as I will show in the following sections after a brief introduction of the individual periodicals.
 
-[^16]: For studies assessing these corpora and the methodological implications see [@Nicholson+2013];[@Brake+2012];[@Horrocks+2014];[@Mussell+2012];[@Gooding+2018]. {--For studies and projects based on *Chronicling America* see, for example, [@Cordell+2017];[@Lorang+2015];[@Torget+2011];[@Cordell+2015];[@Smith+2015];[@Smith+2013];[@Cordell+2013];[@Torget+2012];[@Torget+2012a]. For a study based on *Trove* see [@Bode+2016].--}
+[^16]: For studies assessing these corpora and the methodological implications see [@Nicholson+2013; @Brake+2012; @Horrocks+2014; @Mussell+2012; @Gooding+2018]. {--For studies and projects based on *Chronicling America* see, for example, [@Cordell+2017; @Lorang+2015; @Torget+2011; @Cordell+2015; @Smith+2015; @Smith+2013; @Cordell+2013; @Torget+2012; @Torget+2012a]. For a study based on *Trove* see [@Bode+2016].--}
 
 | Journal             | Volumes   | Issues   | Articles   | Independent articles   | Articles with author   | in %     | Words     |
 | ------------------- | --------- | -------- | ---------- | ---------------------- | ---------------------- | -------: | --------: |
@@ -205,14 +201,14 @@ The edition of *al-Muqtabas* gathers all 96 issues published between 1906 and 19
 
 [^33]: [@Seikaly+1981, 128]
 
-[^34]: For an autobiographic sketch see [@KurdʿAlī+1928, 411-425]. For intellectual biographies see [@Seikaly+1981];[@Hermann+1990].
+[^34]: For an autobiographic sketch see [@KurdʿAlī+1928, 411-425]. For intellectual biographies see [@Seikaly+1981; @Hermann+1990].
 
 <!-- ### *al-Ḥaqāʾiq* -->
 
 Much less is known about the second Damascene journal in our corpus and the people behind it. The *ʿālim* (religious scholar) ʿAbd al-Qādir al-Iskandarānī (1875--1943) came from the notable al-Kaylānī family, who were closely associated with the Qadriyya Sufi order. He published three volumes with a total of 35 issues of *al-Ḥaqāʾiq* (The Facts) in Damascus between 1910 and 1913. *al-Ḥaqāʾiq* was a periodical of the conservative Muslim establishment, who called themselves *mutayyinūn* (the very pious). The journal had a strong focus on Islamic topics and published constant critiques of Salafism and "Westernised" journals, such as *al-Muqtabas*.[^37] Its page layout conveys an apparent lack of familiarity with the by then established conventions of Arabic journals, which further underlines its nature as an outlier in the ideosphere of Arabic periodicals. Unlike Kurd ʿAlī, al-Iskandarānī did not claim a single byline in "his" journal or any other periodical in our corpus.
 Pages contain much less text and issues are much shorter than *al-Muqtabas* with a total of 300186 words across 1436 pages (as some 17 pages are missing from the transcription, the word count is too low). Save for a double issue, the vast majority of issues (28 of 36) comprised 40 pages with an average of slightly more than 200 words each. This results in an average 8516 words per issue compared to the 20636 words of *al-Muqtabas*.
 
-[^37]: For controversies between *al-Muqtabas* and *al-Haqāʾiq* see [@Gelvin+2012];[@Commins+1990, 118-122].
+[^37]: For controversies between *al-Muqtabas* and *al-Haqāʾiq* see [@Gelvin+2012; @Commins+1990, 118-122].
 
 <!-- ### *Lughat al-ʿArab* -->
 
@@ -277,7 +273,7 @@ The first observation, similar the network of periodicals, is that only a very s
 
 If we look at the central nodes of the network more closely, we can observe that only one author published in all four journals: Maʿrūf al-Ruṣāfī was a famous poet from Baghdad who mostly authored *qaṣāʾid* on current political affairs. He moved to Istanbul after the Young Turk Revolution, where he worked as an Arabic teacher at the Royal College and at the newspaper *Sabīl al-Rashad*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became a member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.[^45] al-Ruṣāfī's close ties to *al-Muqtabas* and Kurd ʿAlī are further evident in the announcement in 1910 for the publication of a first collection of his poems, in which *al-Muqtabas* claimed that he was known among some people as "the poet of *al-Muqtabas*" and---wrongly---that "more than three quarters [of the *qaṣāʾid* therein] had been published in this journal".[^46] The publication of al-Ruṣāfī's *qaṣīda*s in so many different periodicals---in addition to the journals in our corpus, I came across his *qaṣīda*s in many other journals and newspapers---raises an important question regarding the production of newspapers: did he send his *qaṣīda*s to the editors of sometimes far away periodicals {==just like that==}{>>better wording<<}? Was he invited to contribute? Did editors take his texts from other sources?[^58]
 
-[^58]: E.g. [@muqtabas+27-eap, 1];[@asr-2-203, 3], *al-ʿIrfān* 1(10):477--78, 1(12): 568-570, *al-Muqtaṭaf* 31(3):237--38. There is at least one case of an unacknowledged reprint: *al-tarbiyya wa-l-ummahāt* (Education and the mothers) was published in [*al-Muqtabas* 4(1):34--36 (January 1909)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_37.TEIP5.xml#div_7.d1e1907), [*al-Manār* 12(2):133--35 (March 1909)](https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_12-i_2.TEIP5.xml#div_11.d2e3024) and [*al-Ḥasnāʾ* 1(1):22--24 (June 1909)](https://openarabicpe.github.io/journal_al-hasna/tei/oclc_792756327-v_1-i_1.TEIP5.xml#div_9.d2e510), with *al-Manār* adding the comment that he sang it to himself in Beirut in Muḥarram 1327 aH (January - February 1909).
+[^58]: E.g. [@muqtabas+27-eap, 1; @asr-2-203, 3], *al-ʿIrfān* 1(10):477--78, 1(12): 568-570, *al-Muqtaṭaf* 31(3):237--38. There is at least one case of an unacknowledged reprint: *al-tarbiyya wa-l-ummahāt* (Education and the mothers) was published in [*al-Muqtabas* 4(1):34--36 (January 1909)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_37.TEIP5.xml#div_7.d1e1907), [*al-Manār* 12(2):133--35 (March 1909)](https://openarabicpe.github.io/journal_al-manar/tei/oclc_1588981-v_12-i_2.TEIP5.xml#div_11.d2e3024) and [*al-Ḥasnāʾ* 1(1):22--24 (June 1909)](https://openarabicpe.github.io/journal_al-hasna/tei/oclc_792756327-v_1-i_1.TEIP5.xml#div_9.d2e510), with *al-Manār* adding the comment that he sang it to himself in Beirut in Muḥarram 1327 aH (January - February 1909).
 
 The other 13 central nodes had bylines in only two out of four journals. Only eight of the fourteen authors can be found in international authority files as aggregated in [VIAF (virtual international authority file)](http://viaf.org), which at least means that they have not authored works catalogued in any of the contributing libraries{-- (which, unsurprisingly, have a bias towards the Global North)--}.[^48] Those for whom we have biographic information (employing more traditional close reading of Arabic prosopographic literature)[^49] were on average in their mid-thirties during the years under investigation.
 There is a {==surprising==}{>>why?<<} number of Iraqis and a notable absence of Syrians from this network of two Damascene journals and one periodical from Beirut and Baghdad each. Among the eleven identifiable authors, there are six Iraqis: Maʿrūf al-Ruṣāfī, Kāẓim al-Dujaylī, Ibrahīm Ḥilmī al-ʿAmr, Anastās Mārī al-Karmalī (often writing under the pen name Sātisnā), the two al-Shabībī brothers, Muḥammad Riḍā and Muḥammad Bāqir; three Egyptians: Muṣṭafā Ṣādiq al-Rāfiʿī, Aḥmad Muḥarram and Walī al-Dīn Yakan; and only two Syrians ʿĪsā Iskandar al-Maʿlūf and Muḥammad Rāghib Ṭabbākh. {==One would expect Syrians to figure much more prominently on account of the vast majority of articles being actually published in Damascus. In addition, Iraqis do not figure as prominently in the scholarly literature on the Arab renaissance (*nahḍa*). The religious composition of this core group raises the same issue: The ratio of two Christians among a group of 14 is a mirror of the larger populations but surprising if one considers the emphasis on Christians for the *nahḍa* in scholarly literature.==}{>>do I need this? Well there is an argument as to the dominance of Christian Arabs in the *nahḍa*<<}. It also important to note that Ami Ayalon, in his quasi standard account of the Arabic press, mentions only one of the fourteen, ʿĪsā Iskandar al-Maʿlūf and only in passing.[^59]
@@ -293,7 +289,7 @@ Another striking observation is that despite two of the journals in our corpus, 
 [^45]: [@Ziriklī+1979f, 268-269]
 [^46]: *al-Muqtabas* 4(10), p.620
 [^47]: [@Thomsen+1912, 214]
-[^49]: The most common prosopographic dictionaries for Arabic authors are [@Ziriklī+1979];[@Kaḥḥāla+1957].
+[^49]: The most common prosopographic dictionaries for Arabic authors are [@Ziriklī+1979; @Kaḥḥāla+1957].
 [^50]: al-Ruṣāfī, al-Dujaylī, the two al-Shabībī brothers, al-Rāfiʿī, Muḥarram, Yakan
 [^51]: al-Ruṣāfī, al-Dujaylī, al-Maʿlūf, Muḥammad Riḍā al-Shabībī.
 
@@ -359,7 +355,7 @@ Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
 
 The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s) and worked as journalists, teachers, and occasionally politicians. All of them were highly mobile and well-travelled and had good command of local as well as foreign languages---to the extent that some of them published translations. The fifth man is not less exemplary, even though his story seems to be rather uncommon among journalists: Yūsuf Jirjis Zakham was one of the many emigrants from Greater Syria to America. He arrived in the USA in 1902 and was naturalised in 1904, settled in Lincoln, Nebraska, where he married Myra from Iowa and had at least five children. Both spouses were literate and Joseph George Zakem provided his profession as newspaper correspondent in the 1910 US Federal Census.[^43]
 
-[^43]: [@UnitedStatesCensus+1910];[@UnitedStatesCensus+1920];[@UnitedStatesCensus+1930];[@UnitedStatesCensus+1940]
+[^43]: [@UnitedStatesCensus+1910; @UnitedStatesCensus+1920; @UnitedStatesCensus+1930; @UnitedStatesCensus+1940]
 
 The map of relative frequencies of locations mentioned in bylines conveys the same image as the network of referenced periodicals and the brief comments on the most prolific authors' biographies: *al-Muqtabas* was a publication of at least regional importance. It reached well beyond Greater Syria to Egypt, Iraq and even America, turning the famous proverb "Cairo writes, Beirut publishes and Baghdad reads" upside down with Baghdad well ahead of even Damascus.
 
@@ -413,7 +409,7 @@ On a more empirical level, we can find repeated calls from multiple periodicals 
 
 [^65]: [@Ayalon+1995, 224] provides examples of two journals informing their readers that they will have to publish double issues due to absences of their publishers. [*al-Zuhūr* 1(8):368](https://openarabicpe.github.io/journal_al-zuhur/tei/oclc_1034545644-i_7.TEIP5.xml#div_1.d2e2020) apologises to its readers for the delay in publishing this issue because the editor was travelling outside Egypt/Cairo {>>to Beirut<<}.
 
-[^66]: E.g. [@thamarat-oib-4-181, 4];[@lisan+442];[@lisan+1301];[@tf-oib+573, 1];[@tf-oib+729, 1].
+[^66]: E.g. [@thamarat-oib-4-181, 4; @lisan+442; @lisan+1301; @tf-oib+573, 1; @tf-oib+729, 1].
 
 [^67]: Instead, they claimed, not all *ʿulamāʾ* and *udabāʾ* in support of progress can speak out; [@jarmuq+51, 3].
 
