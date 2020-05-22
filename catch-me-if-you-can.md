@@ -6,8 +6,8 @@ ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
 bibliography: assets/bibliography/catch-me-if-you-can.csl.json
-csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
-# csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
+# csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
+csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
 lang: en-GB
 markdown:
    - pandoc
@@ -50,7 +50,7 @@ This paper presents the dual challenge of {=="digital history"==} to the study o
 
 The second challenge is to actually explore the ideosphere of periodicals and their contributors{>> through computational approaches such as network analysis and stylometry<<}. Early Arabic periodicals {--from the late nineteenth and early twentieth centuries,--} such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic (cultural) renaissance (*nahḍa*), Arab nationalism, and the Islamic reform movement (*ṣalafiyya*). The Arabic periodical press of the late Ottoman Eastern Mediterranean{--[^53]--} has received scholarly attention since the early twentieth century. Yet, core questions concerning the intellectual history of the periodical press and the social history of periodical production are still unanswered. Arabic approaches to the periodical press have been, for a long time, both encyclopaedic and anecdotal as well as biased by an almost exclusive focus on Cairo and Beirut. Many of these works were compiled by authors who themselves were journalist and adhere to a specific political view of Arab nationalism and demonize the Ottoman Empire, particularly during the reign of ʿAbdülḥamīd II (1876--1909).[^28] Non-Arabic scholarship commonly perceives of journals and newspapers as a *source* for intellectual, social and political history but only rarely as a *subject* in its own right. There is the noteworthy exception of Ami Ayalon's extensive writings on the press in the Arab Middle East[^31], but comprehensive, synthesising approaches are severely limited by the almost complete absence of systematic studies on individual periodicals.[^17] Even scholarly approaches to the press as a *source* remain largely anecdotal with a focus on opinion pieces and editorials in a small sample of canonical journals from Beirut and Cairo. The main reasons are scale and scattered collections, which, however, remain {==completely==}{>>largely<<} unacknowledged.
 
-[^28]: E.g. [@Jundī+1925; @Shaykhū+1926; @Sarkīs+1928], [@Muruwwa+1961; @AlRifāʿī+1969; @AlRifāʿī+1969a; @Dāghir+1950; @Dāghir+1978; @Ilyās+1982; @Khūrīya+1976]
+[^28]: E.g. [@Jundī+1925; @Shaykhū+1926; @Sarkīs+1928], [@Muruwwa+1961; @AlRifāʿī+1969b; @Dāghir+1950; @Dāghir+1978; @Ilyās+1982; @Khūrīya+1976]
 
 {>>Bibliographies: [@AhmedBioud+1969]<<}
 
