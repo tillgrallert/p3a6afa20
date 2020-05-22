@@ -273,7 +273,7 @@ volume: 1: al-Ṣiḥāfa al-Sūriyya fī al-ʿAhd al-ʿUthmānī, 1800-1918
 </dc:description>
       <z:language>ar</z:language>
       <dcterms:abstract>Worldcat is full of erroneously dated copies. As the introduction is signed by the author on 1 Feb 1967 (11), the publication date seems reliable. &lt;br&gt;- table of newspapers according to province (295-304), containing name and year of first publication.&lt;br&gt;- issues with the scan: pages 196/7 are missing&lt;br&gt;- Problem: almost no footnotes or references. Often, such as on page 81, he quotes from a source without properly naming it. Bloody hell!&lt;br&gt;- Muṣṭafā Wāṣif (80, 190f)</dcterms:abstract>
-      <z:numberOfVolumes>1</z:numberOfVolumes>
+      <z:numberOfVolumes>2</z:numberOfVolumes>
    </bib:Book>
    <bib:Memo rdf:about="#A281C0FF-1CFB-45F0-B5C9-DD2A8CDA7DA3-abstract">
       <rdf:value>
@@ -778,7 +778,7 @@ volume: 28
                   <vcard:locality>New York</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Oxford University Press</foaf:name>
+            <foaf:name>Tel Aviv University Oxford University Press</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#9B6BC52B-61A2-4D07-9C98-9F7C6010A90C-abstract"/>
@@ -1013,7 +1013,7 @@ uuid: 8DEB5B52-54AD-4EE1-9016-4CA315B84126
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>Professor of Middle Eastern history in the Department of Middle Eastern and African History, Tel Aviv University, Tel Aviv, Israel</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#1E8CA2C6-6719-4713-8F50-984AE45C1207-abstract"/>*CULTURAL industries*GRAPHIC arts*JOURNALISM*LINGUISTICS*LITERATURE*PRINTING*PRINTS*PUBLISHERS &amp;amp; publishing<dc:subject>2019 GG</dc:subject>
@@ -1331,7 +1331,7 @@ uuid: A7E6E914-56AC-4806-8A1E-4376C8DD9D1C
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Narnia</foaf:name>
+            <foaf:name>University of Sheffield Narnia</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#525D9419-64B1-432F-B613-DC6689A04EF1-abstract"/>
@@ -1597,10 +1597,10 @@ volume: 10
          <foaf:Organization>
             <vcard:adr>
                <vcard:Address>
-                  <vcard:locality/>
+                  <vcard:locality>Chicago</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>University of Chicago</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#46A27314-0BF1-4E2F-82F7-F116A66D2B2F-abstract"/>
@@ -1625,6 +1625,7 @@ volume: 10
          </dcterms:LCC>
       </dc:subject>
       <dc:description>Citation Key: Cioeta+1979a
+place: Chicago
 uuid: 46A27314-0BF1-4E2F-82F7-F116A66D2B2F
 </dc:description>
       <z:language>en</z:language>
@@ -2299,7 +2300,7 @@ uuid: 1D64DA30-2DC5-4499-BD86-DB1806EE4B36
                   <vcard:locality>Tübingen</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>Universität Tübingen</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -2453,7 +2454,7 @@ volume: 28
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Oxford University Press</foaf:name>
+            <foaf:name>Pedagogical University of Kraków, Poland and Polish Academy of Sciences, Institute of Polish Language, Kraków, Poland Oxford University Press</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#E7AFD36C-6A0D-4C6C-9E0E-675A97642C9E-abstract"/>
@@ -2507,7 +2508,7 @@ volume: 30
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Oxford University Press</foaf:name>
+            <foaf:name>Polish Academy of Sciences, Institute of Polish Language, and Pedagogical University of Kraków, Kraków, Poland Oxford University Press</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dcterms:isReferencedBy rdf:resource="#666263D8-D4B2-429D-82D3-A8D3AE5917D0-abstract"/>
@@ -2957,7 +2958,7 @@ uuid: 0B9AF68B-6579-4BBE-8372-5959E71E42A0
                   <vcard:locality>Berlin</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>FU Berlin</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -3554,6 +3555,83 @@ uuid: 68D7C9B5-EC5D-446E-A2A4-11D7A2AD66E5
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     This book consists essentially of a catalogue of print media published in palestine between 1876 and 1948 and the publishing laws relevant for palestine, though only two monthlies are recorded before 1904 (p.3) The book gives for every title a short bibliography and the basic information that can be found at the relevant references.</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#897A8E03-B294-4753-ACF1-F2488A5E74AD">
+      <z:itemType>journalArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>25</prism:volume>
+            <dc:title>al-ʿUṣūr al-Wuṣṭā</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>Important New Developments in Arabographic Optical Character Recognition (OCR)</dc:title>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Kiessling</foaf:surname>
+                  <foaf:givenName>Benjamin</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Miller</foaf:surname>
+                  <foaf:givenName>Matthew Thomas</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Romanov</foaf:surname>
+                  <foaf:givenName>Maxim</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Bowen Savant</foaf:surname>
+                  <foaf:givenName>Sarah</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality/>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#897A8E03-B294-4753-ACF1-F2488A5E74AD-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>2015-OpenArabicPE</dc:subject>
+      <dc:subject>Arabic language</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Digital Humanities</dc:subject>
+      <dc:subject>OCR</dc:subject>
+      <dc:subject>Paper: authorship</dc:subject>
+      <dc:subject>Project: OpenArabicPE</dc:subject>
+      <dc:subject>Technology</dc:subject>
+      <dc:identifier>
+         <dcterms:URI>
+            <rdf:value>http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf</rdf:value>
+         </dcterms:URI>
+      </dc:identifier>
+      <bib:pages>1-13</bib:pages>
+      <dc:date>2017</dc:date>
+      <dcterms:dateSubmitted>2016-10-06</dcterms:dateSubmitted>
+      <dc:description>Citation Key: Kiessling+2017
+uuid: 897A8E03-B294-4753-ACF1-F2488A5E74AD
+volume: 25
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract>This work is part of the OpenITI (Open Islamic Text Initiative) run by the three main authors.</dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#897A8E03-B294-4753-ACF1-F2488A5E74AD-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    This work is part of the OpenITI (Open Islamic Text Initiative) run by the three main authors.</rdf:value>
    </bib:Memo>
    <bib:Document rdf:about="#F8B8F146-77D7-450E-A087-4B9B50FAF377">
       <z:itemType>webpage</z:itemType>
@@ -4212,7 +4290,7 @@ uuid: AAF3E4E0-28B1-4957-8CE4-5ED5AB4205A9
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name>University of Michigan</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -4382,11 +4460,11 @@ volume: 25
       <dc:subject>Middle East</dc:subject>
       <dc:identifier>
          <dcterms:URI>
-            <rdf:value>https://www.zmo.de/jaraid</rdf:value>
+            <rdf:value>https://archiv.zmo.de/jaraid</rdf:value>
          </dcterms:URI>
       </dc:identifier>
       <dc:date>2012</dc:date>
-      <dcterms:dateSubmitted>2013-08-11</dcterms:dateSubmitted>
+      <dcterms:dateSubmitted>2020-01-11</dcterms:dateSubmitted>
       <dc:description>Citation Key: Sadgrove+2012
 uuid: 60012BB5-BF66-4A4E-8329-5494BCEA69C7
 </dc:description>
@@ -4417,7 +4495,7 @@ uuid: 60012BB5-BF66-4A4E-8329-5494BCEA69C7
                   <vcard:locality>Köln</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>Institut für Dokumentologie und Editorik (IDE)</foaf:name>
+            <foaf:name>Institut für Dokumentologie und Editorik (IDE) Institut für Dokumentologie und Editorik (IDE)</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -5189,7 +5267,7 @@ volume: 4: Selected Papers from the 2011 TEI Conference
                   <vcard:locality/>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name/>
+            <foaf:name># sourcesal-Manār# methodology:The author used the digital text from al-shamela and cross checked against the printed edition (which one?).</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -5230,7 +5308,7 @@ volume: 56
                   <vcard:locality>Berlin, Boston</vcard:locality>
                </vcard:Address>
             </vcard:adr>
-            <foaf:name>De Gruyter</foaf:name>
+            <foaf:name>Walter de Gruyter GmbH &amp;amp; Co. KG De Gruyter</foaf:name>
          </foaf:Organization>
       </dc:publisher>
       <dc:subject>2019 GG</dc:subject>
@@ -5287,11 +5365,6 @@ uuid: 4AD0A1F8-9F13-402B-9EB5-93CB15C23067
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>4</prism:volume>
       <dc:date>1979</dc:date>
@@ -5344,11 +5417,6 @@ volume: 4
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>2</prism:volume>
       <dc:date>1979</dc:date>
@@ -5401,11 +5469,6 @@ volume: 2
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>7</prism:volume>
       <dc:date>1979</dc:date>
@@ -5458,11 +5521,6 @@ volume: 7
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>8</prism:volume>
       <dc:date>1979</dc:date>
@@ -5515,11 +5573,6 @@ volume: 8
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>6</prism:volume>
       <dc:date>1979</dc:date>
@@ -5573,11 +5626,6 @@ volume: 6
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://shamela.ws/12286</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <dc:date>1979</dc:date>
       <z:libraryCatalog>OIB</z:libraryCatalog>
@@ -5628,11 +5676,6 @@ uuid: 43000F00-8EF9-4F2C-83EA-FCD6EADEC326
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>1</prism:volume>
       <dc:date>1979</dc:date>
@@ -5685,11 +5728,6 @@ volume: 1
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>5</prism:volume>
       <dc:date>1979</dc:date>
@@ -5742,11 +5780,6 @@ volume: 5
       <dc:subject>Prosopography</dc:subject>
       <dc:subject>Syria</dc:subject>
       <dc:subject>TEI</dc:subject>
-      <dc:identifier>
-         <dcterms:URI>
-            <rdf:value>http://vzlbs2.gbv.de/DB=49/XMLPRS=N/PPN?PPN=171714008</rdf:value>
-         </dcterms:URI>
-      </dc:identifier>
       <prism:edition>4</prism:edition>
       <prism:volume>3</prism:volume>
       <dc:date>1979</dc:date>

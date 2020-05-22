@@ -127,12 +127,12 @@
 <tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
 </tss:keywords>
 <tss:notes>
-<tss:note><title>Shalfūn, Yūsuf</title><comment/><quotation/><pages>1140-</pages></tss:note>
-<tss:note><title>Sarkīs, Saʿīd Efendi</title><comment/><quotation/><pages>1021</pages></tss:note>
 <tss:note><title>Sarkīs, Salīm</title><comment/><quotation/><pages>1021-</pages></tss:note>
 <tss:note><title>Sarkīs, Khalīl</title><comment/><quotation/><pages>1020-</pages></tss:note>
 <tss:note><title>Sarkīs</title><comment/><quotation/><pages>1019-</pages></tss:note>
+<tss:note><title>Shalfūn, Yūsuf</title><comment/><quotation/><pages>1140-</pages></tss:note>
 <tss:note><title>Sarkīs, Ibrāhīm</title><comment/><quotation/><pages>1018-</pages></tss:note>
+<tss:note><title>Sarkīs, Saʿīd Efendi</title><comment/><quotation/><pages>1021</pages></tss:note>
 </tss:notes>
 <tss:attachments>
 <tss:attachmentReference type="Adobe Digital Editions Document"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Sarki%CC%84s%2C%20Yu%CC%84suf%20Ilya%CC%84n/1928%20Mu%CA%BFjam%20al-mat%CC%A3bu%CC%84%CA%BFat%20al-%CA%BFArabiyya%20wa-l-mu%CA%BFarraba%20wa-huwa%20sha%CC%84mil%20li-asma%20al-kutub%20al-mat%CC%A3bu%CC%84%CA%BFa%20fi%CC%84.epub</URL></tss:attachmentReference>
@@ -242,11 +242,11 @@
 <tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
 </tss:keywords>
 <tss:notes>
-<tss:note><title>Sarkīs, Khalīl</title><comment/><quotation/><pages>1020-</pages></tss:note>
-<tss:note><title>Sarkīs, Salīm</title><comment/><quotation/><pages>1021-</pages></tss:note>
-<tss:note><title>Sarkīs, Ibrāhīm</title><comment/><quotation/><pages>1018-</pages></tss:note>
-<tss:note><title>Sarkīs</title><comment/><quotation/><pages>1019-</pages></tss:note>
 <tss:note><title>Sarkīs, Saʿīd Efendi</title><comment/><quotation/><pages>1021</pages></tss:note>
+<tss:note><title>Sarkīs, Khalīl</title><comment/><quotation/><pages>1020-</pages></tss:note>
+<tss:note><title>Sarkīs, Ibrāhīm</title><comment/><quotation/><pages>1018-</pages></tss:note>
+<tss:note><title>Sarkīs, Salīm</title><comment/><quotation/><pages>1021-</pages></tss:note>
+<tss:note><title>Sarkīs</title><comment/><quotation/><pages>1019-</pages></tss:note>
 <tss:note><title>Shalfūn, Yūsuf</title><comment/><quotation/><pages>1140-</pages></tss:note>
 </tss:notes>
 </tss:reference>
@@ -346,20 +346,20 @@
 <tss:keyword assigner="Sente User Sebastian">Zahle</tss:keyword>
 </tss:keywords>
 <tss:notes>
-<tss:note><title>N. in Zahle</title><comment/><quotation/><pages>215</pages></tss:note>
-<tss:note><title>D. in Damascus</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|- &lt;br&gt;al-Asmāʾī (illustrated) | Khayr al-Dīn | weekly | 1910 | Muslim | Ps 41 &lt;br&gt;Baradā | Faḥmī al-Ghazī | weekly | 1911 | Muslim | Ps 23, 29; Frcs. 15 &lt;br&gt;Ḥaṭṭ bi-l-Khurūj (satire) | Muḥammad ʿĀrif al-Ḥabbal | weekly | Muslim | Ps 23, 29 ; Frcs. 10 &lt;br&gt;al-Ḥaqāʾiq | ʿAbd al-Qādir al-Iskandarānī | monthly | 1910 | Ps 23, 29, 40 &lt;br&gt;Sūriye | the province | weekly | 1865 | Muslim | Ps 67, 69 &lt;br&gt;al-ʿAṣr al-Jadīd | Naṣīf Abū Zayd | daily | 1909 | Muslim | Ps 92; £T 1; Frcs. 25 &lt;br&gt;al-Kāʾināt | Adīb Naẓmī | weekly | 1910 | Muslim | Ps 26, 57, 75 &lt;br&gt;al-Majalla al-Shaʿb | Aḥmad ʿAlī Ḥilmī | monthly | 1910 | Muslim | free &lt;br&gt;al-Mishkā | Tawfīq Ḥasan | thrice per week | ? | Muslim | Ps 46, 54"20 &lt;br&gt;al-Muqtabas | Muḥammad Kurd ʿAlī | daily | 1909 | Muslim | Ps 92, 124, 136 &lt;br&gt;al-Naffākha | Yūsuf ʿIzz al-Dīn | weekly | 1911 | Muslim | Ps 23 &lt;br&gt;al-Niʿma | Greek Orthodox Patriarchate | monthly | 1910 | Greek Orthodox | Ps 29, 46; Frcs. 10 &lt;br&gt;al-ʿArūs | Mārī ʿAjamaī | monthly | 1911 | Greek Orthodox ? | Ps 24, 54</comment><quotation/><pages>214</pages></tss:note>
-<tss:note><title>F. in Haifa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-ʿAṣa | Najīb Jāna | weekly | 1912 | Muslim| Ps 23, 29; Frcs 10&lt;br&gt;Jrāb al-Kurdī | Dimītrī Halāj | weekly | 1909 | Greek Orthodox | Ps 23, 29; Frcs 10&lt;br&gt;el-Kurmul / al-Karmil | Najīb Naṣṣār | daily | 1909 | Greek Orthodox | Ps 46; Frcs 10</comment><quotation/><pages>214</pages></tss:note>
-<tss:note><title>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im ...</title><comment/><quotation>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im gleichen Gebiete nur 19 Zeitungen nennen (vgl.Z DPV XII [1889] S. 124?127), heute kann ich 82 auff?hren, und diese oder jene mag mir noch entgangen sein.</quotation><pages>211</pages></tss:note>
-<tss:note><title>E. in Jabal Lubnān</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Ḥikma | Salīm Wahba | weekly | 1909 | Maronite | Frcs. 10, 15</comment><quotation/><pages>214</pages></tss:note>
-<tss:note><title>I. in Jafa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Aṣmāʿī | Ḥannā ʿAbdallah ʿĪsā | monthly | 1908 | Greek Orthodox | Frcs 10&lt;br&gt;Filasṭīn | Yūsuf al-ʿĪsā | bi-weekly | 1911 | Greek Orthodox | Frcs. 10, Ps 68</comment><quotation/><pages>215</pages></tss:note>
 <tss:note><title>M. in Tripoli</title><comment/><quotation/><pages>215</pages></tss:note>
-<tss:note><title>C. in Batrun / Batrūn</title><comment/><quotation/><pages>213</pages></tss:note>
+<tss:note><title>I. in Jafa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Aṣmāʿī | Ḥannā ʿAbdallah ʿĪsā | monthly | 1908 | Greek Orthodox | Frcs 10&lt;br&gt;Filasṭīn | Yūsuf al-ʿĪsā | bi-weekly | 1911 | Greek Orthodox | Frcs. 10, Ps 68</comment><quotation/><pages>215</pages></tss:note>
+<tss:note><title>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im ...</title><comment/><quotation>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im gleichen Gebiete nur 19 Zeitungen nennen (vgl.Z DPV XII [1889] S. 124?127), heute kann ich 82 auff?hren, und diese oder jene mag mir noch entgangen sein.</quotation><pages>211</pages></tss:note>
+<tss:note><title>F. in Haifa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-ʿAṣa | Najīb Jāna | weekly | 1912 | Muslim| Ps 23, 29; Frcs 10&lt;br&gt;Jrāb al-Kurdī | Dimītrī Halāj | weekly | 1909 | Greek Orthodox | Ps 23, 29; Frcs 10&lt;br&gt;el-Kurmul / al-Karmil | Najīb Naṣṣār | daily | 1909 | Greek Orthodox | Ps 46; Frcs 10</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>K. in Jerusalem</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>N. in Zahle</title><comment/><quotation/><pages>215</pages></tss:note>
 <tss:note><title>H. in Homs</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Shabība | ʿAbd al-Bāqi Darūnī | monthly | 1911 | Muslim | Ps 23, 29&lt;br&gt;Dāʿa al-Ṭāsa | Yūsuf al-Masdī | weekly | 1911 | Muslim | Ps 23&lt;br&gt;Dalīl Ḥomṣ | Qusṭandī Yāni | ? | ? | Greek Orthodox | ?&lt;br&gt;Ḥomṣ | al-Muṭrān Athanāsiyūs | weekly | 1909 | Greek Orthodox | Ps 24, 46, 54&lt;br&gt;Samīr al-Ṣība | Shukrī Fāris | monthly | 1910 | Greek Orthodox | ?&lt;br&gt;al-ʿArīs | Nasīb Ishhāb | monthly | 1911 | Greek Orthodox | Ps 23, 29&lt;br&gt;Jāda al-Rashād | Nāji Ḥannā Khabbāz | weekly | 1911 | Protestant | Ps 46, 54, 68</comment><quotation/><pages>215</pages></tss:note>
 <tss:note><title>B. in Beirut</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Raʾī al-ʿĀmm | Munīr al-Muḍawwar | daily | 1910 | Muslim | Frcs 15, 20, 25</comment><quotation/><pages>212</pages></tss:note>
-<tss:note><title>K. in Jerusalem</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>D. in Damascus</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|- &lt;br&gt;al-Asmāʾī (illustrated) | Khayr al-Dīn | weekly | 1910 | Muslim | Ps 41 &lt;br&gt;Baradā | Faḥmī al-Ghazī | weekly | 1911 | Muslim | Ps 23, 29; Frcs. 15 &lt;br&gt;Ḥaṭṭ bi-l-Khurūj (satire) | Muḥammad ʿĀrif al-Ḥabbal | weekly | Muslim | Ps 23, 29 ; Frcs. 10 &lt;br&gt;al-Ḥaqāʾiq | ʿAbd al-Qādir al-Iskandarānī | monthly | 1910 | Ps 23, 29, 40 &lt;br&gt;Sūriye | the province | weekly | 1865 | Muslim | Ps 67, 69 &lt;br&gt;al-ʿAṣr al-Jadīd | Naṣīf Abū Zayd | daily | 1909 | Muslim | Ps 92; £T 1; Frcs. 25 &lt;br&gt;al-Kāʾināt | Adīb Naẓmī | weekly | 1910 | Muslim | Ps 26, 57, 75 &lt;br&gt;al-Majalla al-Shaʿb | Aḥmad ʿAlī Ḥilmī | monthly | 1910 | Muslim | free &lt;br&gt;al-Mishkā | Tawfīq Ḥasan | thrice per week | ? | Muslim | Ps 46, 54"20 &lt;br&gt;al-Muqtabas | Muḥammad Kurd ʿAlī | daily | 1909 | Muslim | Ps 92, 124, 136 &lt;br&gt;al-Naffākha | Yūsuf ʿIzz al-Dīn | weekly | 1911 | Muslim | Ps 23 &lt;br&gt;al-Niʿma | Greek Orthodox Patriarchate | monthly | 1910 | Greek Orthodox | Ps 29, 46; Frcs. 10 &lt;br&gt;al-ʿArūs | Mārī ʿAjamaī | monthly | 1911 | Greek Orthodox ? | Ps 24, 54</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>C. in Batrun / Batrūn</title><comment/><quotation/><pages>213</pages></tss:note>
 <tss:note><title>A. in Bʿabda</title><comment/><quotation/><pages>212</pages></tss:note>
-<tss:note><title>L. in Saida</title><comment/><quotation/><pages>215</pages></tss:note>
 <tss:note><title>G. in Hama</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Insāniyya | Ḥasan al-Razzāq | monthly | 1910 | Muslim | Ps 23, 29, 40&lt;br&gt;al-Sāf | Muḥammad Sālim | weekly | 1911 | Muslim | Ps 23, 29&lt;br&gt;Nahr al-ʿĀṣī | Muḥammad Ṣābir | weekly | 1911 | Muslim | Ps 23, 29, 40&lt;br&gt;al-Acha [?] | Jubrān Massūh | bi-weekly | 1909 | Protestant | Ps 46, Frcs 15</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>E. in Jabal Lubnān</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Ḥikma | Salīm Wahba | weekly | 1909 | Maronite | Frcs. 10, 15</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>L. in Saida</title><comment/><quotation/><pages>215</pages></tss:note>
 </tss:notes>
 <tss:attachments>
 <tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Thomsen%2C%20P/1912%20Zeitschrift%20des%20Deutschen%20Pala%CC%88stina-Vereins%20(1878-1945)%2035%20Verzeichnis%20der%20arabischen%20Zeitunge.pdf</URL></tss:attachmentReference>
@@ -408,30 +408,30 @@
 <tss:keyword assigner="Sente User till">Source</tss:keyword>
 </tss:keywords>
 <tss:notes>
-<tss:note><title>autobiographical sketch</title><comment/><quotation/><pages>411-425</pages></tss:note>
-<tss:note><title>Egypt</title><comment>1901: went to Egypt in order to visit Europe, reported in Egyptian papers and returned to Damascus after 10 months</comment><quotation/><pages>413</pages></tss:note>
-<tss:note><title>Table of Contents</title><comment/><quotation/><pages>0</pages></tss:note>
-<tss:note><title>the journal al-Muqtabas</title><comment>his most important work: 8 volumes and 2 issues. three years in Cairo and 5 in Damascus</comment><quotation/><pages>424</pages></tss:note>
-<tss:note><title>book: gharāʾib al-gharb</title><comment>consists of the 35 articles he wrote in his three months in Paris, during which he stayed at the Quartier Latin</comment><quotation/><pages>417</pages></tss:note>
-<tss:note><title>1906: exile in Egypt</title><comment>in consequence, he went to Egypt and began publishing the journal al-Muqtabas early in 1324. working for three other papers: al-rāʾid al-maṣrī, al-ẓāhir, al-muʾayyad</comment><quotation/><pages>415</pages></tss:note>
-<tss:note><title>1928, summer: end of al-Muqtabas</title><comment/><quotation/><pages>422</pages></tss:note>
-<tss:note><title>1919, Jun 8</title><comment>establishing the al-Majmaʿ al-ʿIlmī al-ʿArabī in Damascus or the Arabic Academy of Sciences</comment><quotation/><pages>420</pages></tss:note>
-<tss:note><title>Arabic, Islam</title><comment>meeting Ṭāhir al-Jazāʾirī etc. studying books and Arabic/Islamic culture</comment><quotation/><pages>412</pages></tss:note>
-<tss:note><title>1912: flight to Egypt</title><comment>As before, he fled to Egypt and returned after 6 months and al-Muqtabas continued publication</comment><quotation/><pages>417</pages></tss:note>
-<tss:note><title>1909: prosecution and flight to Paris</title><comment/><quotation/><pages>416</pages></tss:note>
-<tss:note><title>1912: prosecution</title><comment>The same Hamidian Vali (i.e. Ḥusayn Nāẓim Pasha) prosecuted al-Muqtabas in 1912 and arrested his late brother and responsible editor Aḥmad as well as al-Shaykh Ibrāhīm al-Uskūbī and sent them to Istanbul. this was due to a qaṣīda by the latter published in al-Muqtabas on the mechanisms of Sultanic rule. it had already been published in Damascene newspapers 20 days before al-Muqtabas did so.</comment><quotation/><pages>417</pages></tss:note>
-<tss:note><title>1913: journey to Italy and Switzerland</title><comment/><quotation/><pages>417</pages></tss:note>
-<tss:note><title>Morals and Customs</title><comment/><quotation>al-akhlāq wa al-ʿādāt</quotation><pages>281ff</pages></tss:note>
-<tss:note><title>al-Sharq official paper during WWI</title><comment/><quotation/><pages>419</pages></tss:note>
-<tss:note><title>early education</title><comment>1876: late Ṣaf 1293, born to a Circassian mother in Damascus&lt;br&gt;1883: commenced learning how to write and read, religious knowledge, arithmetics, at the al-Amīriyya school (amīriyya could mean belonging to the state).&lt;br&gt;- continued education at the military rüşdiye, learning the basics of Turkish and French (the latter at a home of a teacher) for some 3 years [i.e. at least until 1888]</comment><quotation/><pages>411-412</pages></tss:note>
-<tss:note><title>1908: Damascus, al-Muqtabas</title><comment/><quotation>After the YTR, I returned to Damascus and published the first issue of the daily al-Muqtabas on 17 Dec 1908, after three years of publication as a monthly scientific journal in Cairo. In addition, the monthly is continued</quotation><pages>416</pages></tss:note>
-<tss:note><title>oppression and oppositional placards</title><comment>1323, winter [this should be the winter 1905/6]: his house was raided by the Ottoman authorities in the context of political placards (manāshīr) being posted in the streets (shawāriʿ) of Damascus, criticising one of the aʿyān and the Vali. However, he was not involved in the affair and did not know anything.</comment><quotation/><pages>413</pages></tss:note>
 <tss:note><title>Foreign languages and cultures</title><comment>- French at the end, he is able to translate in both directions.&lt;br&gt;- as he wasn't good enough in mathematics, he left the rüşdiye with an intermediate exam.&lt;br&gt;- six years as scribe at the foreign affairs office, getting familiar with Turkish culture (he should be found in the salname of the mid-1890s), was able to publish in Turkish as he was in French. differing from his colleagues who all went to the Lazarist convent for studying French</comment><quotation/><pages>412</pages></tss:note>
-<tss:note><title>1913: ban over kashf al-ḥijāb</title><comment>the article was indeed concerned with lifting the veil of the unionists and their “reforms”</comment><quotation/><pages>418</pages></tss:note>
-<tss:note><title>his bibliography</title><comment/><quotation/><pages>424</pages></tss:note>
-<tss:note><title>Until French Mandate: al-Muqtabas ceased publication</title><comment>Due to strife between the people (*al-fitna bayn al-nās*) the newspaper al-Muqtabas was not published for a whole year until the arrival of the French army. It then reappeared under the editorship of his brother Aḥmad Kurd ʿAlī</comment><quotation/><pages>421</pages></tss:note>
+<tss:note><title>Table of Contents</title><comment/><quotation/><pages>0</pages></tss:note>
 <tss:note><title>qaṣīda of Shakīb Arslān recounting the 1323 events</title><comment/><quotation/><pages>414</pages></tss:note>
 <tss:note><title>1913: house under surveillance</title><comment/><quotation/><pages>418</pages></tss:note>
+<tss:note><title>Arabic, Islam</title><comment>meeting Ṭāhir al-Jazāʾirī etc. studying books and Arabic/Islamic culture</comment><quotation/><pages>412</pages></tss:note>
+<tss:note><title>the journal al-Muqtabas</title><comment>his most important work: 8 volumes and 2 issues. three years in Cairo and 5 in Damascus</comment><quotation/><pages>424</pages></tss:note>
+<tss:note><title>1908: Damascus, al-Muqtabas</title><comment/><quotation>After the YTR, I returned to Damascus and published the first issue of the daily al-Muqtabas on 17 Dec 1908, after three years of publication as a monthly scientific journal in Cairo. In addition, the monthly is continued</quotation><pages>416</pages></tss:note>
+<tss:note><title>his bibliography</title><comment/><quotation/><pages>424</pages></tss:note>
+<tss:note><title>al-Sharq official paper during WWI</title><comment/><quotation/><pages>419</pages></tss:note>
+<tss:note><title>1912: flight to Egypt</title><comment>As before, he fled to Egypt and returned after 6 months and al-Muqtabas continued publication</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>oppression and oppositional placards</title><comment>1323, winter [this should be the winter 1905/6]: his house was raided by the Ottoman authorities in the context of political placards (manāshīr) being posted in the streets (shawāriʿ) of Damascus, criticising one of the aʿyān and the Vali. However, he was not involved in the affair and did not know anything.</comment><quotation/><pages>413</pages></tss:note>
+<tss:note><title>1906: exile in Egypt</title><comment>in consequence, he went to Egypt and began publishing the journal al-Muqtabas early in 1324. working for three other papers: al-rāʾid al-maṣrī, al-ẓāhir, al-muʾayyad</comment><quotation/><pages>415</pages></tss:note>
+<tss:note><title>early education</title><comment>1876: late Ṣaf 1293, born to a Circassian mother in Damascus&lt;br&gt;1883: commenced learning how to write and read, religious knowledge, arithmetics, at the al-Amīriyya school (amīriyya could mean belonging to the state).&lt;br&gt;- continued education at the military rüşdiye, learning the basics of Turkish and French (the latter at a home of a teacher) for some 3 years [i.e. at least until 1888]</comment><quotation/><pages>411-412</pages></tss:note>
+<tss:note><title>Until French Mandate: al-Muqtabas ceased publication</title><comment>Due to strife between the people (*al-fitna bayn al-nās*) the newspaper al-Muqtabas was not published for a whole year until the arrival of the French army. It then reappeared under the editorship of his brother Aḥmad Kurd ʿAlī</comment><quotation/><pages>421</pages></tss:note>
+<tss:note><title>1912: prosecution</title><comment>The same Hamidian Vali (i.e. Ḥusayn Nāẓim Pasha) prosecuted al-Muqtabas in 1912 and arrested his late brother and responsible editor Aḥmad as well as al-Shaykh Ibrāhīm al-Uskūbī and sent them to Istanbul. this was due to a qaṣīda by the latter published in al-Muqtabas on the mechanisms of Sultanic rule. it had already been published in Damascene newspapers 20 days before al-Muqtabas did so.</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>1919, Jun 8</title><comment>establishing the al-Majmaʿ al-ʿIlmī al-ʿArabī in Damascus or the Arabic Academy of Sciences</comment><quotation/><pages>420</pages></tss:note>
+<tss:note><title>book: gharāʾib al-gharb</title><comment>consists of the 35 articles he wrote in his three months in Paris, during which he stayed at the Quartier Latin</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>autobiographical sketch</title><comment/><quotation/><pages>411-425</pages></tss:note>
+<tss:note><title>Egypt</title><comment>1901: went to Egypt in order to visit Europe, reported in Egyptian papers and returned to Damascus after 10 months</comment><quotation/><pages>413</pages></tss:note>
+<tss:note><title>1913: journey to Italy and Switzerland</title><comment/><quotation/><pages>417</pages></tss:note>
+<tss:note><title>1928, summer: end of al-Muqtabas</title><comment/><quotation/><pages>422</pages></tss:note>
+<tss:note><title>1913: ban over kashf al-ḥijāb</title><comment>the article was indeed concerned with lifting the veil of the unionists and their “reforms”</comment><quotation/><pages>418</pages></tss:note>
+<tss:note><title>Morals and Customs</title><comment/><quotation>al-akhlāq wa al-ʿādāt</quotation><pages>281ff</pages></tss:note>
+<tss:note><title>1909: prosecution and flight to Paris</title><comment/><quotation/><pages>416</pages></tss:note>
 </tss:notes>
 <tss:attachments>
 <tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1928%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%206%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad.pdf</URL></tss:attachmentReference>
