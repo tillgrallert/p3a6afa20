@@ -1517,6 +1517,60 @@ volume: 18
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     This is a great article summarising observations on the production, preservation and remediation of periodicals.&lt;br&gt;"library editions": are collections of periodical issues bound into volumes (either annually or bi-annually), discarding all sorts of "ephemeral" material, adding supplements, indexes etc. and thus producing a "volume", a codex that fits into middle class consumer culture, libraries etc. &lt;br&gt;it is these library editions that are commonly the only surviving artefact and the one that is digitised &lt;br&gt;# author's abstract&lt;br&gt;A combination of the practices of the printing industry and social institutions has ensured that some of the nineteenth-century press has survived, inviting us to re-think its status as ephemera, and to examine the history of its survival and the meaning of the formats in which it has been preserved. Most of the century’s newspapers and periodicals available today were bound into annual or semi-annual volumes, produced by publishers precisely for the preservation and purchase of single issues in a more durable format by individual and institutional collectors, for private consumption or public circulating libraries. This article questions the assertion that Victorian serials were among the larger category of Victorian ephemera designed to ‘flare and fade in cultural circulation’, and without aesthetic properties. Comparison of bound volumes of serials with individual issues identifies the material culture of both formats in this instance of re-mediation. </rdf:value>
    </bib:Memo>
+   <bib:Article rdf:about="#8D7EF341-F108-4B00-B8A6-AEE1944A76EE">
+      <z:itemType>journalArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>17</prism:volume>
+            <prism:number>3</prism:number>
+            <dc:title>Literary and Linguistic Computing</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>'Delta': a Measure of Stylistic Difference and a Guide to Likely Authorship</dc:title>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Burrows</foaf:surname>
+                  <foaf:givenName>John</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality/>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name>Oxford University Press</foaf:name>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#8D7EF341-F108-4B00-B8A6-AEE1944A76EE-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>Computational stylistics</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Digital Humanities</dc:subject>
+      <dc:subject>Methodological essay</dc:subject>
+      <dc:subject>Paper: authorship</dc:subject>
+      <dc:subject>Stylometry</dc:subject>
+      <dc:subject>Tools</dc:subject>
+      <bib:pages>267-287</bib:pages>
+      <dc:date>2002-09</dc:date>
+      <dc:description>Citation Key: Burrows+2002
+doi: 10.1093/llc/17.3.267
+issue: 3
+uuid: 8D7EF341-F108-4B00-B8A6-AEE1944A76EE
+volume: 17
+</dc:description>
+      <dcterms:abstract># author's abstract&lt;br&gt;This paper is a companion to my ‘Questions of authorship: attribution and beyond’, in which I sketched a new way of using the relative frequencies of the very common words for comparing written texts and testing their likely authorship. The main emphasis of that paper was not on the new procedure but on the broader consequences of our increasing sophistication in making such comparisons and the increasing (although never absolute) reliability of our inferences about authorship. My present objects, accordingly, are to give a more complete account of the procedure itself; to report the outcome of an extensive set of trials; and to consider the strengths and limitations of the new procedure. The procedure offers a simple but comparatively accurate addition to our current methods of distinguishing the most likely author of texts exceeding about 1,500 words in length. It is of even greater value as a method of reducing the field of likely candidates for texts of as little as 100 words in length. Not unexpectedly, it works least well with texts of a genre uncharacteristic of their author and, in one case, with texts far separated in time across a long literary career. Its possible use for other classificatory tasks has not yet been investigated. </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#8D7EF341-F108-4B00-B8A6-AEE1944A76EE-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    # author's abstract&lt;br&gt;This paper is a companion to my ‘Questions of authorship: attribution and beyond’, in which I sketched a new way of using the relative frequencies of the very common words for comparing written texts and testing their likely authorship. The main emphasis of that paper was not on the new procedure but on the broader consequences of our increasing sophistication in making such comparisons and the increasing (although never absolute) reliability of our inferences about authorship. My present objects, accordingly, are to give a more complete account of the procedure itself; to report the outcome of an extensive set of trials; and to consider the strengths and limitations of the new procedure. The procedure offers a simple but comparatively accurate addition to our current methods of distinguishing the most likely author of texts exceeding about 1,500 words in length. It is of even greater value as a method of reducing the field of likely candidates for texts of as little as 100 words in length. Not unexpectedly, it works least well with texts of a genre uncharacteristic of their author and, in one case, with texts far separated in time across a long literary career. Its possible use for other classificatory tasks has not yet been investigated. </rdf:value>
+   </bib:Memo>
    <bib:Article rdf:about="#F23F9DE2-8F27-11DA-87C2-000D9369126E">
       <z:itemType>journalArticle</z:itemType>
       <dcterms:isPartOf>
@@ -3632,6 +3686,72 @@ volume: 25
       <rdf:value>
                     &lt;h1&gt;# abstract&lt;/h1&gt;
                     This work is part of the OpenITI (Open Islamic Text Initiative) run by the three main authors.</rdf:value>
+   </bib:Memo>
+   <bib:Article rdf:about="#CA676645-8659-470C-A072-9705C13C1BE3">
+      <z:itemType>journalArticle</z:itemType>
+      <dcterms:isPartOf>
+         <bib:Periodical>
+            <prism:volume>60</prism:volume>
+            <prism:number>1</prism:number>
+            <dc:title>Journal of the American Society for Information Science and Technology</dc:title>
+         </bib:Periodical>
+      </dcterms:isPartOf>
+      <dc:title>Computational methods in authorship attribution</dc:title>
+      <bib:authors>
+         <rdf:Seq>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Koppel</foaf:surname>
+                  <foaf:givenName>Moshe</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Schler</foaf:surname>
+                  <foaf:givenName>Jonathan</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+            <rdf:li>
+               <foaf:Person>
+                  <foaf:surname>Argamon</foaf:surname>
+                  <foaf:givenName>Shlomo</foaf:givenName>
+               </foaf:Person>
+            </rdf:li>
+         </rdf:Seq>
+      </bib:authors>
+      <dc:publisher>
+         <foaf:Organization>
+            <vcard:adr>
+               <vcard:Address>
+                  <vcard:locality/>
+               </vcard:Address>
+            </vcard:adr>
+            <foaf:name/>
+         </foaf:Organization>
+      </dc:publisher>
+      <dcterms:isReferencedBy rdf:resource="#CA676645-8659-470C-A072-9705C13C1BE3-abstract"/>
+      <dc:subject>2019 GG</dc:subject>
+      <dc:subject>authorship attribution</dc:subject>
+      <dc:subject>Computational stylistics</dc:subject>
+      <dc:subject>Digital copy</dc:subject>
+      <dc:subject>Digital Humanities</dc:subject>
+      <dc:subject>Methodological essay</dc:subject>
+      <dc:subject>Paper: authorship</dc:subject>
+      <dc:subject>Stylometry</dc:subject>
+      <bib:pages>9-26</bib:pages>
+      <dc:date>2009</dc:date>
+      <dc:description>Citation Key: Koppel+2009
+issue: 1
+uuid: CA676645-8659-470C-A072-9705C13C1BE3
+volume: 60
+</dc:description>
+      <z:language>en</z:language>
+      <dcterms:abstract># authors' abstract&lt;br&gt;Statistical authorship attribution has a long history, culminating in the use of modern machine learning classification methods. Nevertheless, most of this work suffers from the limitation of assuming a small closed set of candidate authors and essentially unlimited training text for each. Real-life authorship attribution problems, however, typically fall short of this ideal. Thus, following detailed discussion of previous work, three scenarios are considered here for which solutions to the basic attribution problem are inadequate. In the first variant, the profiling problem, there is no candidate set at all; in this case, the challenge is to provide as much demographic or psychological information as possible about the author. In the second variant, the needle-in-a-haystack problem, there are many thousands of candidates for each of whom we might have a very limited writing sample. In the third variant, the verification problem, there is no closed candidate set but there is one suspect; in this case, the challenge is to determine if the suspect is or is not the author. For each variant, it is shown how machine learning methods can be adapted to handle the special challenges of that variant. </dcterms:abstract>
+   </bib:Article>
+   <bib:Memo rdf:about="#CA676645-8659-470C-A072-9705C13C1BE3-abstract">
+      <rdf:value>
+                    &lt;h1&gt;# abstract&lt;/h1&gt;
+                    # authors' abstract&lt;br&gt;Statistical authorship attribution has a long history, culminating in the use of modern machine learning classification methods. Nevertheless, most of this work suffers from the limitation of assuming a small closed set of candidate authors and essentially unlimited training text for each. Real-life authorship attribution problems, however, typically fall short of this ideal. Thus, following detailed discussion of previous work, three scenarios are considered here for which solutions to the basic attribution problem are inadequate. In the first variant, the profiling problem, there is no candidate set at all; in this case, the challenge is to provide as much demographic or psychological information as possible about the author. In the second variant, the needle-in-a-haystack problem, there are many thousands of candidates for each of whom we might have a very limited writing sample. In the third variant, the verification problem, there is no closed candidate set but there is one suspect; in this case, the challenge is to determine if the suspect is or is not the author. For each variant, it is shown how machine learning methods can be adapted to handle the special challenges of that variant. </rdf:value>
    </bib:Memo>
    <bib:Document rdf:about="#F8B8F146-77D7-450E-A087-4B9B50FAF377">
       <z:itemType>webpage</z:itemType>
