@@ -333,23 +333,23 @@ Only 50 authors published more than one article in *al-Muqtabas*. Two of the fiv
 [^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike. {>>The letters in theses series do not carry his byline but his authorship is beyond doubt<<}
 
 
-| Rank   | Name                   | Name (transliterated)    | VIAF ID                                        | Birth      | Death      | Articles   | Words    |         |
-| ------ | ---------------------: | : ---------------------- | ---------------------------------------------- | :------    | :------    | ---------: | -------: |         |
-| 1      | NA                     | NA                       | NA                                             | NA         | NA         | 2592       | 5632148  | 1243773 |
-| 2      | معروف  الرصافي         | m3rwf  alrSafy           | [14924300](https://viaf.org/viaf/14924300)     | 1875-01-01 | 1945-01-01 | 27         | 58230    |   13730 |
-| 3      | عيسى  اسكندر  المعلوف  | 3ysA  askndr  alm3lwf    | [40250618](https://viaf.org/viaf/40250618)     | 1869-04-11 | 1956-07-02 | 20         | 105688   |   23363 |
-| 4      | ساتسنا                 | satsna                   | [39370998](https://viaf.org/viaf/39370998)     | 1866-08-05 | 1947-01-07 | 14         | 87464    |   19868 |
-| 5      | محمد  كرد علي          | m7md  krd 3ly            | [32272677](https://viaf.org/viaf/32272677)     | 1876-01-01 | 1953-01-01 | 13         | 239829   |   51526 |
-| 6      | يوسف  جرجس  زخم        | ywsf  jrjs  zKm          | NA                                             | 1880-05-14 | NA         | 13         | 97264    |   21624 |
-| 7      | أحمد  تيمور            | a7md  tymwr              | [19737865](https://viaf.org/viaf/19737865)     | 1871-11-06 | 1930       | 9          | 43276    |   10082 |
-| 8      | إبراهيم  حلمي  العمر   | abrahym  7lmy  al3mr     | NA                                             | 1890       | 1942       | 9          | 93120    |   20197 |
-| 9      | جمال الدين  القاسمي    | jmal aldyn  alQasmy      | [93607460](https://viaf.org/viaf/93607460)     | 1866-10-01 | 1914-04-18 | 8          | 165158   |   38553 |
-| 10     | محمد  رضا  الشبيبي     | m7md  rDa  alWbyby       | [22006374](https://viaf.org/viaf/22006374)     | 1889-01-01 | 1965-01-01 | 8          | 88311    |   19964 |
-| 11     | أحمد  زكي              | a7md  zky                | [49218655](https://viaf.org/viaf/49218655)     | 1866-05-26 | 1934-07-06 | 7          | 179694   |   40396 |
-| 12     | جرجي  حداد             | jrjy  7dad               | [305214884](https://viaf.org/viaf/305214884)   | NA         | 1916-05-06 | 7          | 117370   |   26529 |
-| 13     | حافظ  إبراهيم          | 7afZ  abrahym            | [32410755](https://viaf.org/viaf/32410755)     | 1871-04-24 | 1932-06-21 | 7          | 47657    |   11023 |
-| 14     | رفيق  العظم            | rfyQ  al3Zm              | [28125663](https://viaf.org/viaf/28125663)     | 1865-01-01 | 1925-06-30 | 7          | 60390    |   13242 |
-| 15     | عبد القادر  المغربي    | 3bd alQadr  almGrby      | [118432135](https://viaf.org/viaf/118432135)   | 1867       | 1956-06-07 | 7          | 62440    |   14088 |
+| Rank   | Name                   | Name (transliterated)  | VIAF ID                                      | Birth   | Death   | Articles | Words  |
+| :----- | -----------------:     | :------------------    | :-------------------------------------       | :------ | :------ | ------:  | ----:  |
+| 1      | NA                    | NA                    | NA                                           | NA         | NA         | 2592     | 5632148 |
+| 2      | معروف  الرصافي        | m3rwf  alrSafy        | [14924300](https://viaf.org/viaf/14924300)   | 1875-01-01 | 1945-01-01 | 27       | 58230   |
+| 3      | عيسى  اسكندر  المعلوف | 3ysA  askndr  alm3lwf | [40250618](https://viaf.org/viaf/40250618)   | 1869-04-11 | 1956-07-02 | 20       | 105688  |
+| 4      | ساتسنا                | satsna                | [39370998](https://viaf.org/viaf/39370998)   | 1866-08-05 | 1947-01-07 | 14       | 87464   |
+| 5      | محمد  كرد علي         | m7md  krd 3ly         | [32272677](https://viaf.org/viaf/32272677)   | 1876-01-01 | 1953-01-01 | 13       | 239829  |
+| 6      | يوسف  جرجس  زخم       | ywsf  jrjs  zKm       | NA                                           | 1880-05-14 | NA         | 13       | 97264   |
+| 7      | أحمد  تيمور           | a7md  tymwr           | [19737865](https://viaf.org/viaf/19737865)   | 1871-11-06 | 1930       | 9        | 43276   |
+| 8      | إبراهيم  حلمي  العمر  | abrahym  7lmy  al3mr  | NA                                           | 1890       | 1942       | 9        | 93120   |
+| 9      | جمال الدين  القاسمي   | jmal aldyn  alQasmy   | [93607460](https://viaf.org/viaf/93607460)   | 1866-10-01 | 1914-04-18 | 8        | 165158  |
+| 10     | محمد  رضا  الشبيبي    | m7md  rDa  alWbyby    | [22006374](https://viaf.org/viaf/22006374)   | 1889-01-01 | 1965-01-01 | 8        | 88311   |
+| 11     | أحمد  زكي             | a7md  zky             | [49218655](https://viaf.org/viaf/49218655)   | 1866-05-26 | 1934-07-06 | 7        | 179694  |
+| 12     | جرجي  حداد            | jrjy  7dad            | [305214884](https://viaf.org/viaf/305214884) | NA         | 1916-05-06 | 7        | 117370  |
+| 13     | حافظ  إبراهيم         | 7afZ  abrahym         | [32410755](https://viaf.org/viaf/32410755)   | 1871-04-24 | 1932-06-21 | 7        | 47657   |
+| 14     | رفيق  العظم           | rfyQ  al3Zm           | [28125663](https://viaf.org/viaf/28125663)   | 1865-01-01 | 1925-06-30 | 7        | 60390   |
+| 15     | عبد القادر  المغربي   | 3bd alQadr  almGrby   | [118432135](https://viaf.org/viaf/118432135) | 1867       | 1956-06-07 | 7        | 62440   |
 
 
 Table: The most prolific authors in *al-Muqtabas* by number of articles (7 or more). {>>source: oclc_4770057679-stats-authorship.md <<}
@@ -366,23 +366,23 @@ The map of relative frequencies of locations mentioned in bylines conveys the sa
 
 The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents (the average year of birth for *al-Ḥaqāʾiq* is 1837 and 1869 for *al-Muqtabas*). Among them are Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. The initially surprising finding of very limited overlap between the two networks of authors published in journals from the same city, becomes less so against this backdrop. Looking at the top 14 contributors to both journals, we can also note that whereas only two authors from *al-Muqtabas* are missing from VIAF and thus international library catalogues, the same is true for eight of *al-Ḥaqāʾiq*'s most frequent authors.{>>This further affirms the difference between a journal with transregional impact and a more parochial periodical<<}
 
-| Rank   | Name                   | Name (transliterated)    | VIAF ID                                        | Birth   | Death   | Articles   | Words    |
-| ------ | ---------------------: | : ---------------------- | ---------------------------------------------- | :------ | :------ | ---------: | -------: |
-| 1      | NA                     | NA                       | NA                                             | NA      | NA      | 228        | 201669   |
-| 2      | عبد الرحمن  القصار     | 3bd alr7mn  alQSar       | NA                                             | 1863    | 1931    | 10         | 2271     |
-| 3      | إبراهيم  خليل  مردم بك | abrahym  Klyl  mrdm bk   | NA                                             | NA      | NA      | 7          | 4799     |
-| 4      | محمد  فريد  وجدي       | m7md  fryd  wjdy         | [53094077](https://viaf.org/viaf/53094077)     | 1875    | 1954    | 6          | 9152     |
-| 5      | محمد  عارف  المنير     | m7md  3arf  almnyr       | [299025643](https://viaf.org/viaf/299025643)   | NA      | NA      | 5          | 3151     |
-| 6      | صالح  الشريف           | Sal7  alWryf             | [58892856](https://viaf.org/viaf/58892856)     | 1869    | 1920    | 4          | 5003     |
-| 7      | ع                      | 3                        | NA                                             | NA      | NA      | 4          | 2867     |
-| 8      | محمد   القاسمي  الحلاق | m7md   alQasmy  al7laQ   | [51567828](https://viaf.org/viaf/51567828)     | 1843    | 1900    | 4          | 10156    |
-| 9      | محمد  سليم  الحنفي     | m7md  slym  al7nfy       | NA                                             | NA      | NA      | 4          | 563      |
-| 10     | مختار  المؤيد          | mKtar  almoyd            | [267054449](https://viaf.org/viaf/267054449)   | 1822    | 1921    | 4          | 953      |
-| 11     | أبو الضيا              | abw alDya                | NA                                             | NA      | NA      | 3          | 5098     |
-| 12     | أحمد الجوبري           | a7md aljwbry             | NA                                             | NA      | NA      | 3          | 1156     |
-| 13     | احمد  الباشا           | a7md  albaWa             | NA                                             | NA      | NA      | 3          | 4274     |
-| 14     | صلاح الدين  الزعيم     | Sla7 aldyn  alz3ym       | NA                                             | NA      | NA      | 3          | 2448     |
-| 15     | أحمد  محرم             | a7md  m7rm               | [60500457](https://viaf.org/viaf/60500457)     | 1877    | 1945    | 2          | 1021     |
+| Rank   | Name                   | Name (transliterated)  | VIAF ID                                      | Birth   | Death   | Articles | Words  |
+| :----- | -----------------:     | :------------------    | :-------------------------------------       | :------ | :------ | ------:  | ----:  |
+| 1      | NA                     | NA                     | NA                                           | NA      | NA      | 228      | 201669 |
+| 2      | عبد الرحمن  القصار     | 3bd alr7mn  alQSar     | NA                                           | 1863    | 1931    | 10       | 2271   |
+| 3      | إبراهيم  خليل  مردم بك | abrahym  Klyl  mrdm bk | NA                                           | NA      | NA      | 7        | 4799   |
+| 4      | محمد  فريد  وجدي       | m7md  fryd  wjdy       | [53094077](https://viaf.org/viaf/53094077)   | 1875    | 1954    | 6        | 9152   |
+| 5      | محمد  عارف  المنير     | m7md  3arf  almnyr     | [299025643](https://viaf.org/viaf/299025643) | NA      | NA      | 5        | 3151   |
+| 6      | صالح  الشريف           | Sal7  alWryf           | [58892856](https://viaf.org/viaf/58892856)   | 1869    | 1920    | 4        | 5003   |
+| 7      | ع                      | 3                      | NA                                           | NA      | NA      | 4        | 2867   |
+| 8      | محمد   القاسمي  الحلاق | m7md   alQasmy  al7laQ | [51567828](https://viaf.org/viaf/51567828)   | 1843    | 1900    | 4        | 10156  |
+| 9      | محمد  سليم  الحنفي     | m7md  slym  al7nfy     | NA                                           | NA      | NA      | 4        | 563    |
+| 10     | مختار  المؤيد          | mKtar  almoyd          | [267054449](https://viaf.org/viaf/267054449) | 1822    | 1921    | 4        | 953    |
+| 11     | أبو الضيا              | abw alDya              | NA                                           | NA      | NA      | 3        | 5098   |
+| 12     | أحمد الجوبري           | a7md aljwbry           | NA                                           | NA      | NA      | 3        | 1156   |
+| 13     | احمد  الباشا           | a7md  albaWa           | NA                                           | NA      | NA      | 3        | 4274   |
+| 14     | صلاح الدين  الزعيم     | Sla7 aldyn  alz3ym     | NA                                           | NA      | NA      | 3        | 2448   |
+| 15     | أحمد  محرم             | a7md  m7rm             | [60500457](https://viaf.org/viaf/60500457)   | 1877    | 1945    | 2        | 1021   |
 
 Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines {>>source: oclc_644997575-stats-authorship.md <<}
 
