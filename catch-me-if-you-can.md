@@ -328,31 +328,31 @@ The work on compiling the biographies of all 319 contributors is far from being 
 
 #### *al-Muqtabas*
 
-Only 50 authors published more than one article in *al-Muqtabas*. Two of the four most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī and Anastās Mārī al-Karmalī, using the pen name Sātisnā. ʿĪsā Iskandar al-Maʿlūf wrote mostly from Zaḥle and Yūsuf Jirjis Zakham from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Muḥammad Kurd ʿAlī himself.[^60] {>>add comments on genre of texts by these authors<<}
+Only 50 authors published more than one article in *al-Muqtabas*. Two of the five most prolific authors with more than ten bylines to their names wrote from Baghdad (See table below): Maʿrūf al-Ruṣāfī and Anastās Mārī al-Karmalī, using the pen name Sātisnā. ʿĪsā Iskandar al-Maʿlūf wrote mostly from Zaḥle and Yūsuf Jirjis Zakham from Omaha and Lincoln, Nebraska, USA. Only the fifth most prolific author was a native resident of Damascus: Muḥammad Kurd ʿAlī himself.[^60] {>>add comments on genre of texts by these authors<<}
 
-[^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike.
-
-
-| Rank |                   VIAF ID                    |         Name        | Birth | Death | Articles |
-|------|----------------------------------------------|---------------------|-------|-------|----------|
-|    1 | NA                                           | NA                  | NA    | NA    |     2630 |
-|    2 | [14924300](https://viaf.org/viaf/14924300)   | معروف الرصافي       | 1875  | 1945  |       27 |
-|    3 | [40250618](https://viaf.org/viaf/40250618)   | عيسى اسكندر المعلوف | 1869  | 1956  |       20 |
-|    4 | [39370998](https://viaf.org/viaf/39370998)   | ساتسنا              | 1866  | 1947  |       14 |
-|    5 | NA                                           | يوسف جرجس زخم       | 1880  | NA    |       13 |
-|    6 | [32272677](https://viaf.org/viaf/32272677)   | محمد كرد علي        | 1876  | 1953  |       12 |
-|    7 | [19737865](https://viaf.org/viaf/19737865)   | أحمد تيمور          | 1871  | 1930  |        9 |
-|    8 | NA                                           | إبراهيم حلمي العمر  | 1890  | 1942  |        9 |
-|    9 | [93607460](https://viaf.org/viaf/93607460)   | جمال الدين القاسمي  | 1866  | 1914  |        8 |
-|   10 | [49218655](https://viaf.org/viaf/49218655)   | أحمد زكي            | 1866  | 1934  |        7 |
-|   11 | [32410755](https://viaf.org/viaf/32410755)   | حافظ إبراهيم        | 1871  | 1932  |        7 |
-|   12 | [28125663](https://viaf.org/viaf/28125663)   | رفيق العظم          | 1865  | 1925  |        7 |
-|   13 | [118432135](https://viaf.org/viaf/118432135) | عبد القادر المغربي  | 1867  | 1956  |        7 |
-|   14 | [22006374](https://viaf.org/viaf/22006374)   | محمد رضا الشبيبي    | 1889  | 1965  |        7 |
-|   15 | [305214884](https://viaf.org/viaf/305214884) | جرجي حداد           | NA    | 1916  |        5 |
+[^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike. {>>The letters in theses series do not carry his byline but his authorship is beyond doubt<<}
 
 
-Table: The fifteen most prolific authors in *al-Muqtabas* by number of bylines.
+| Rank   | Name                   | Name (transliterated)    | VIAF ID                                        | Birth      | Death      | Articles   | Words    |         |
+| ------ | ---------------------: | : ---------------------- | ---------------------------------------------- | :------    | :------    | ---------: | -------: |         |
+| 1      | NA                     | NA                       | NA                                             | NA         | NA         | 2592       | 5632148  | 1243773 |
+| 2      | معروف  الرصافي         | m3rwf  alrSafy           | [14924300](https://viaf.org/viaf/14924300)     | 1875-01-01 | 1945-01-01 | 27         | 58230    |   13730 |
+| 3      | عيسى  اسكندر  المعلوف  | 3ysA  askndr  alm3lwf    | [40250618](https://viaf.org/viaf/40250618)     | 1869-04-11 | 1956-07-02 | 20         | 105688   |   23363 |
+| 4      | ساتسنا                 | satsna                   | [39370998](https://viaf.org/viaf/39370998)     | 1866-08-05 | 1947-01-07 | 14         | 87464    |   19868 |
+| 5      | محمد  كرد علي          | m7md  krd 3ly            | [32272677](https://viaf.org/viaf/32272677)     | 1876-01-01 | 1953-01-01 | 13         | 239829   |   51526 |
+| 6      | يوسف  جرجس  زخم        | ywsf  jrjs  zKm          | NA                                             | 1880-05-14 | NA         | 13         | 97264    |   21624 |
+| 7      | أحمد  تيمور            | a7md  tymwr              | [19737865](https://viaf.org/viaf/19737865)     | 1871-11-06 | 1930       | 9          | 43276    |   10082 |
+| 8      | إبراهيم  حلمي  العمر   | abrahym  7lmy  al3mr     | NA                                             | 1890       | 1942       | 9          | 93120    |   20197 |
+| 9      | جمال الدين  القاسمي    | jmal aldyn  alQasmy      | [93607460](https://viaf.org/viaf/93607460)     | 1866-10-01 | 1914-04-18 | 8          | 165158   |   38553 |
+| 10     | محمد  رضا  الشبيبي     | m7md  rDa  alWbyby       | [22006374](https://viaf.org/viaf/22006374)     | 1889-01-01 | 1965-01-01 | 8          | 88311    |   19964 |
+| 11     | أحمد  زكي              | a7md  zky                | [49218655](https://viaf.org/viaf/49218655)     | 1866-05-26 | 1934-07-06 | 7          | 179694   |   40396 |
+| 12     | جرجي  حداد             | jrjy  7dad               | [305214884](https://viaf.org/viaf/305214884)   | NA         | 1916-05-06 | 7          | 117370   |   26529 |
+| 13     | حافظ  إبراهيم          | 7afZ  abrahym            | [32410755](https://viaf.org/viaf/32410755)     | 1871-04-24 | 1932-06-21 | 7          | 47657    |   11023 |
+| 14     | رفيق  العظم            | rfyQ  al3Zm              | [28125663](https://viaf.org/viaf/28125663)     | 1865-01-01 | 1925-06-30 | 7          | 60390    |   13242 |
+| 15     | عبد القادر  المغربي    | 3bd alQadr  almGrby      | [118432135](https://viaf.org/viaf/118432135)   | 1867       | 1956-06-07 | 7          | 62440    |   14088 |
+
+
+Table: The most prolific authors in *al-Muqtabas* by number of articles (7 or more). {>>source: oclc_4770057679-stats-authorship.md <<}
 
 The four men out of the five, for which we can find biographical records, are in many aspects exemplary of the modernising late Ottoman Empire and the Middle East: Coming from a plurality of religious and social backgrounds---Greek Orthodox, Catholic and Sunnī Muslim, priest and leading Salafi thinker of the second generation, part-time officials, of simple means and members of the old elites---they belonged to the same generation (born between the mid-1860s and mid-1870s) and worked as journalists, teachers, and occasionally politicians. All of them were highly mobile and well-travelled and had good command of local as well as foreign languages---to the extent that some of them published translations. The fifth man is not less exemplary, even though his story seems to be rather uncommon among journalists: Yūsuf Jirjis Zakham was one of the many emigrants from Greater Syria to America. He arrived in the USA in 1902 and was naturalised in 1904, settled in Lincoln, Nebraska, where he married Myra from Iowa and had at least five children. Both spouses were literate and Joseph George Zakem provided his profession as newspaper correspondent in the 1910 US Federal Census.[^43]
 
@@ -366,25 +366,25 @@ The map of relative frequencies of locations mentioned in bylines conveys the sa
 
 The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents (the average year of birth for *al-Ḥaqāʾiq* is 1837 and 1869 for *al-Muqtabas*). Among them are Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. The initially surprising finding of very limited overlap between the two networks of authors published in journals from the same city, becomes less so against this backdrop. Looking at the top 14 contributors to both journals, we can also note that whereas only two authors from *al-Muqtabas* are missing from VIAF and thus international library catalogues, the same is true for eight of *al-Ḥaqāʾiq*'s most frequent authors.{>>This further affirms the difference between a journal with transregional impact and a more parochial periodical<<}
 
-| Rank |                   VIAF ID                    |         Name         |  Birth  |  Death  | Articles |
-|------|----------------------------------------------|----------------------|---------|---------|----------|
-|    1 | NA                                           | NA                   | NA      | NA      |      286 |
-|    2 | NA                                           | عبد الرحمن القصار    | 1863    | c.1931  |        8 |
-|    3 | NA                                           | إبراهيم خليل مردم بك | NA      | NA      |        7 |
-|    4 | [299025643](https://viaf.org/viaf/299025643) | محمد عارف المنير     | 1847/48 | 1923/24 |        5 |
-|    5 | [53094077](https://viaf.org/viaf/53094077)   | محمد فريد وجدي       | 1875    | 1954    |        5 |
-|    6 | [58892856](https://viaf.org/viaf/58892856)   | صالح الشريف          | 1869    | 1920    |        4 |
-|    7 | NA                                           | ع                    | NA      | NA      |        4 |
-|    8 | [51567828](https://viaf.org/viaf/51567828)   | محمد  القاسمي الحلاق | 1843    | 1900    |        4 |
-|    9 | NA                                           | محمد سليم الحنفي     | NA      | NA      |        4 |
-|   10 | [267054449](https://viaf.org/viaf/267054449) | مختار المؤيد         | 1822    | 1921    |        4 |
-|   11 | NA                                           | أبو الضيا            | NA      | NA      |        3 |
-|   12 | NA                                           | أحمد الجوبري         | NA      | NA      |        3 |
-|   13 | NA                                           | احمد الباشا          | NA      | NA      |        3 |
-|   14 | NA                                           | صلاح الدين الزعيم    | NA      | NA      |        3 |
-|   15 | [60500457](https://viaf.org/viaf/60500457)   | أحمد محرم            | 1877    | 1945    |        2 |
+| Rank   | Name                   | Name (transliterated)    | VIAF ID                                        | Birth   | Death   | Articles   | Words    |
+| ------ | ---------------------: | : ---------------------- | ---------------------------------------------- | :------ | :------ | ---------: | -------: |
+| 1      | NA                     | NA                       | NA                                             | NA      | NA      | 228        | 201669   |
+| 2      | عبد الرحمن  القصار     | 3bd alr7mn  alQSar       | NA                                             | 1863    | 1931    | 10         | 2271     |
+| 3      | إبراهيم  خليل  مردم بك | abrahym  Klyl  mrdm bk   | NA                                             | NA      | NA      | 7          | 4799     |
+| 4      | محمد  فريد  وجدي       | m7md  fryd  wjdy         | [53094077](https://viaf.org/viaf/53094077)     | 1875    | 1954    | 6          | 9152     |
+| 5      | محمد  عارف  المنير     | m7md  3arf  almnyr       | [299025643](https://viaf.org/viaf/299025643)   | NA      | NA      | 5          | 3151     |
+| 6      | صالح  الشريف           | Sal7  alWryf             | [58892856](https://viaf.org/viaf/58892856)     | 1869    | 1920    | 4          | 5003     |
+| 7      | ع                      | 3                        | NA                                             | NA      | NA      | 4          | 2867     |
+| 8      | محمد   القاسمي  الحلاق | m7md   alQasmy  al7laQ   | [51567828](https://viaf.org/viaf/51567828)     | 1843    | 1900    | 4          | 10156    |
+| 9      | محمد  سليم  الحنفي     | m7md  slym  al7nfy       | NA                                             | NA      | NA      | 4          | 563      |
+| 10     | مختار  المؤيد          | mKtar  almoyd            | [267054449](https://viaf.org/viaf/267054449)   | 1822    | 1921    | 4          | 953      |
+| 11     | أبو الضيا              | abw alDya                | NA                                             | NA      | NA      | 3          | 5098     |
+| 12     | أحمد الجوبري           | a7md aljwbry             | NA                                             | NA      | NA      | 3          | 1156     |
+| 13     | احمد  الباشا           | a7md  albaWa             | NA                                             | NA      | NA      | 3          | 4274     |
+| 14     | صلاح الدين  الزعيم     | Sla7 aldyn  alz3ym       | NA                                             | NA      | NA      | 3          | 2448     |
+| 15     | أحمد  محرم             | a7md  m7rm               | [60500457](https://viaf.org/viaf/60500457)     | 1877    | 1945    | 2          | 1021     |
 
-Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines
+Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines {>>source: oclc_644997575-stats-authorship.md <<}
 
 A map of the relative frequency of locations mentioned in bylines confirms the brief overview of the authors' biographies---*al-Ḥasnāʾ* was a parochial paper with a focus on local issues. Its geographic network was mainly restricted to Damascus itself and the cities of the Syrian hinterland. Similarly distinctly regional distributions of authorship can be established for one of the two remain periodicals in our corpus: *al-Ḥasnāʾ*. *Lughat al-ʿArab*, on the other hand, only very rarely provided locations in bylines (26 of 939 articles).{>>add links to the maps, which were reomved in reply to a review<<}
 
