@@ -419,32 +419,37 @@ On a more empirical level, we can find repeated calls from multiple periodicals 
 
 ## Stylometry
 
-What are the computational means for casting some light on the more than four fifths of articles without authorship information and to test the hypothesis that editors were indeed the authors of unattributed texts? A common approach in linguistics and literary studies is the analysis of "style" based on the observation "that authors tend to write in relatively consistent, recognizable and unique ways", which is particularly true for an author's vocabulary.[^14] Computational stylistics or stylometry is one of the methods frequently referred to as *distant reading*[^13] and can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of words used in a given text.[^11] Stylometry then computes degrees of similarity between texts, called distance measure, through comparing multivariant frequency lists of textual features. The important catch is that in order to establish similarities one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
+What are the computational means for casting some light on the more than four fifths of articles without authorship information and to test the hypothesis that editors were indeed the authors of unattributed texts? A common approach in linguistics and literary studies is the analysis of "style" based on the observation "that authors tend to write in relatively consistent, recognizable and unique ways", which is particularly true for an author's {==choice of words==}{>>But here, "vocabulary" should not be reduced to Lexikalität<<}.[^14] Computational stylistics or stylometry is one of the methods frequently referred to as *distant reading*[^13] and can be summarised as the statistical analysis of literary style for the purpose of authorship attribution and genre detection, whereby "style" commonly means a frequency count of words used in a given text.[^11] Stylometry then computes degrees of similarity between texts, called distance measure, through comparing multivariant frequency lists of textual features. The important catch is that in order to establish similarities one has to have access to a significant corpus of digital texts by authors likely to be found among the unattributed texts. If we only compare every article in our periodical corpus to every other article in the same corpus, we cannot possibly identify any author not yet named in a byline. Instead, the best we could hope for would be to establish groups of texts that have a certain likelihood of having been authored by the same person.
 
 [^14]: [@Laramée+2018]
 
 [^13]: For a good summary of genealogy of large-scale literary history under the label "distant reading" see [@Underwood+2017]. The most often referenced founding works are [@Moretti+2013] (collection of reprinted essays), [@Jockers+2013].
 
-[^11]: For an introduction to stylometry see {>>add references<<}
+[^11]: For an introduction to stylometry see {==missing references==} {>>add references<<}
 
-Christiane Czygan's work is the only attempt at stylometric authorship attribution for Ottoman periodicals I have come across, but, after developing a set of style markers for individual editors-cum-authors, the author did not apply them for actual authorship attribution.[^5] The present paper is the first foray into stylometric authorship attribution for Arabic periodicals.
+The present paper is the first foray into stylometric authorship attribution for Arabic periodicals. Christiane Czygan's work is the only attempt at stylometric authorship attribution for Ottoman periodicals I have come across, but, after developing a set of style markers for individual editors-cum-authors, the author did not apply them for actual authorship attribution.[^5] 
 
 [^5]: [@Czygan+2012]. This work falls short on many counts beyond introducing a promising approach. Basic statistic measures about her corpus and computational approaches remain unknown and most importantly, she tested only one (sic!) anonymous article with a set of parameters she took 80 pages to develop.
 
-There is some debate as to which style-markers and distance measure should be considered for authorship attribution, but <!-- throughout the following sections of this paper --> I settled on lists of Most Frequent Words (MFWs) and Burrow's Delta{--, which can be visualised as dendrograms--}.[^38] Unlike other forms of computational linguistics, texts should not be pre-processed by, for instance, morphologising or lemmatizing, as this would reduce the authorship signal to the vocabulary used. All stylometric analysis was done using the "stylo" package for [R](https://www.r-project.org/)[^15] on plain-text versions of our corpus.[^41] Results were then visualised using [Gephi](https://gephi.org).[^42]
+There is some debate as to which style-markers and distance measure should be considered for authorship attribution, but <!-- throughout the following sections of this paper --> I settled on {--lists of--} Most Frequent Words (MFWs) and Burrows' Delta{--, which can be visualised as dendrograms--}.[^38] All stylometric analysis was done using the "stylo" package for [R](https://www.r-project.org/)[^15] on plain-text versions of our corpus.[^41] Texts were not pre-processed by, for instance, morphologising or lemmatizing, as this would reduce the authorship signal to the vocabulary used. Similarly, function words, which, by definition are the most frequent words, were not removed. Their frequency is independent of a text's topic and it is unlikely that an author can consciously control this frequency.[^32] Results were then visualised using [Gephi](https://gephi.org).[^42]
 
-[^38]: {==missing footnote==}{>>footnote on Burrow's Delta<<}
-[^15]: [@Eder+2016b]. R is a widely used free software environment for statistical computing and graphics.
-[^41]: Plain text, here, means that everything but the actual textual content, including mark-up, metadata and structural information, was computationally removed.
-[^42]: [@Bastian+2009]
+[^32]: [@Koppel+2009, 11]
+[^38]: [@Burrows+2002; @Koppel+2009; @Eder+2015]
 
 Maciej Eder{--, inspired by phylogenetics,--} suggested to use *bootstrap consensus trees* and *consensus networks* in order to separate signal and noise and in order to overcome selection bias when picking from a range of dendrograms. In the latter method, one computes the nearest neighbour as well as the first two runners-up for a sequence of MFWs, let's say from 100 to 1000 MFWs in increments of 100, and then combine the results in a single output, which serves as a form of self-validation for the more robust signals. The results can then be visualised using network analysis.[^39]
 
 <!-- minimum length of texts -->
 
-Finally, there is an important caveat in applying stylometry to periodicals: the minimal required length of a text for meaningful attribution. Eder experimentally established a threshold length of 5000 words using medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek and applying Burrow's Delta on 200 MFWs. Below 5000 words, the signal was "immensely affected by random noise".[^40] {--Yet, contrary to common assumptions that longer text will lead to ever improving attribution results, Eder also established that beyond a length of 15000 words accuracy of authorship attribution does not improve any further.--}
-These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling. Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor.
+Finally, there is an important caveat in applying stylometry to periodicals: the minimal required length of a text for meaningful attribution. Eder experimentally established a threshold length of 5000 words using medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek and applying Burrows' Delta on 200 MFWs. Below 5000 words, the signal was "immensely affected by random noise".[^40] These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling. 
+Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor. 
 
+[^15]: [@Eder+2016b]. R is a widely used free software environment for statistical computing and graphics.
+[^41]: Plain text, here, means that everything but the actual textual content, including mark-up, metadata and structural information, was computationally removed.
+[^42]: [@Bastian+2009]
+[^39]: [@Eder+2017]
+[^40]: [@Eder+2015, 170]. Eder also established that contrary to common assumptions accuracy of authorship attribution does not improve any further beyond a length of 15000 words.
+
+<!--
 | article length | number of articles |
 |----------------|--------------------|
 | > 5000         |                 50 |
@@ -452,22 +457,19 @@ These findings have severe implications---most texts in our corpus are much shor
 | 1000--2000     |                449 |
 
 Table: Length of articles in our corpus
-
-[^39]: [@Eder+2017]
-[^40]: [@Eder+2015, 170]
-
+-->
 
 ## Results
-
-Our initial analysis of all articles of 5000 words and more using bootstrap consensus trees for 100--1000 MFWs confirms the general applicability of stylometry to our corpus. Articles form clusters based on edge weight and modularity {>>number of edges among members higher than to other clusters<<} around authors, editors and translators. Thus, we find clusters of articles authored by Jamāl al-Dīn al-Qāsimī, Aḥmad Zakī, Charles Seignobos and Muḥammad Kurd ʿAlī. The latter was the translator of Seignobos works from French, which is clearly visible in the clustering of works by both authors on the right of the plot. A similar clustering appears on the left of the plot where one can observe a proximity between works authored by Jamāl al-Dīn al-Qāsimī ({==dark green==}) and classic texts he discovered and edited ({==pink==}). The plot shows only limited {==stylistic overlap==}{>>in terms of modularity and edge weights<<} between authors and we can assume with a high degree of confidence that the cluster of anonymous articles in {==light green==} on the bottom right was authored by Kurd ʿAlī. Since the sample contains almost exclusively articles from *al-Muqtabas*, this would tentatively confirm the authorship hypothesis of editors. However, this plot also shows a {==red==} cluster of non-attributed articles in the centre that are stylistically distinct from Kurd ʿAlī's texts. This contradicts the hypothesis and points to another, unknown author.
-
-Furthermore, the plot also shows a strong signal of genre: the {==light green==} cluster of texts most likely written by Kurd ʿAlī are all geographic works.
 
 <!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
 
 <!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
 
 ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
+
+Our initial analysis of all articles of 5000 words and more using bootstrap consensus trees for 100--1000 MFWs confirms the general applicability of stylometry to our corpus. Articles form clusters based on edge weight and modularity {>>number of edges among members higher than to other clusters<<} around authors, editors and translators. Thus, we find clusters of articles authored by Jamāl al-Dīn al-Qāsimī, Aḥmad Zakī, Charles Seignobos and Muḥammad Kurd ʿAlī. The latter was the translator of Seignobos works from French, which is clearly visible in the clustering of works by both authors on the right of the plot. A similar clustering appears on the left of the plot where one can observe a proximity between works authored by Jamāl al-Dīn al-Qāsimī ({==dark green==}) and classic texts he discovered and edited ({==pink==}). The plot shows only limited {==stylistic overlap==}{>>in terms of modularity and edge weights<<} between authors and we can assume with a high degree of confidence that the cluster of anonymous articles in {==light green==} on the bottom right was authored by Kurd ʿAlī. Since the sample contains almost exclusively articles from *al-Muqtabas*, this would tentatively confirm the authorship hypothesis of editors. However, this plot also shows a {==red==} cluster of non-attributed articles in the centre that are stylistically distinct from Kurd ʿAlī's texts. This contradicts the hypothesis and points to another, unknown author.
+
+Furthermore, the plot also shows a strong signal of genre: the {==light green==} cluster of texts most likely written by Kurd ʿAlī are all geographic works.
 
 {--Our initial submission of a corpus of all articles longer than 3000 words to stylometric analysis using bootstrap consensus trees for 100--1000 MFWs confirmed the methods' usefulness by establishing clusters of: a) texts from the same authors or translators};{ b) serialised texts with or without explicit authorship information};{ c) texts within the same genre, such as travelogues or *qaṣāʾid*};{ d) manuscripts by different authors but with the same editor.--}
 
@@ -504,11 +506,6 @@ Modelling the network of references to periodical titles, I could confirm establ
 The exploration of the network of article authors{-- published in our corpus--}, on the other hand, provided a number of surprising results that will need to be addressed in future scholarship: The noted importance of Iraqi writers over Syrians among the core nodes of the network contradicts the common narrative about the Arabic renaissance (*nahḍa*). A similar importance of Baghdad over the more commonly assumed centres of Arab intellectual production is found in the geographic distribution of toponyms in bylines for *al-Muqtabas*. One would, again, need to test other transregional periodicals to see whether they provide a similar Iraqi connection or if *al-Muqtabas* is an outlier in this regard. The network analysis of authors also demonstrated lacunae in the historiography of the Arabic press and the intellectual history of the late Ottoman Arab ideosphere, namely the absence of the core nodes in our network from major works of scholarship.
 
 Noting that any analysis of authorship and socio-intellectual networks is limited by the fact that less than one fifths of all articles carry identifiable authorship information, I finally submitted our corpus to stylometric analysis. This provided  significant hints towards authors of the small number of anonymous articles longer than 5000 words. Testing the hypothesis that a journal's editors were the actual authors of anonymous texts, the results are inconclusive. The analysis of articles of more than 5000 words in *al-Muqtabas* returned one cluster of texts by an anonymous author very different from those articles that can indeed by attributed to the editor.
-
-
-{--- limited overlap between journals from the same city--}
-{>>- impossibility of confirming editors as authors at this point
-- This is the first application of stylometry to Arabic <<}
 
 
 [almeshkat]: http://almeshkat.net/
