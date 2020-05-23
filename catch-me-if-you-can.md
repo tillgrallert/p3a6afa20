@@ -60,7 +60,7 @@ The second challenge is to actually explore the ideosphere of periodicals and th
 [^53]: Late Ottoman Eastern Mediterranean is a lose moniker for the pre-dominantly Arabic speaking provinces of the Ottoman Empire along the eastern shore of the Mediterranean between the mountains of Anatolia in the north, Mesopotamia in the east, the deserts of the Arabian Peninsula in the south and the Libyan desert in the west. The area is largely congruent with *al-Mashriq* or the Arab East and Egypt.
 {--Adana to Egypt, the Fertile Crescent and the Arabian Peninsula, encompassing the modern countries (or parts thereof) of Turkey, Syria, Lebanon, Palestine, Israel, Jordan, Egypt, Sudan, Iraq, Saudi Arabia and Yemen.--} The period is delineated by the advent of the press (c.1860) and the collapse of Ottoman rule with the end of WW I (1918). {>>One could reference [@Scheffler+2003] on the mental maps of Southwest Asia<<}
 
-[^17]: Exceptions are [@Glaß+2004b; @Cioeta+1979a][@Cioeta+1979]. {--At the time of writing, only one study made use of digital texts: [@Zemmin+2018]};{ for methodological comments see also [@Zemmin+2016, 232-233].--} {>>Add comment on [@Dierauff+2018][@Beška+2017]<<}
+[^17]: Exceptions are [@Glaß+2004b; @Cioeta+1979a; @Cioeta+1979]. {--At the time of writing, only one study made use of digital texts: [@Zemmin+2018]};{ for methodological comments see also [@Zemmin+2016, 232-233].--} {>>Add comment on [@Dierauff+2018][@Beška+2017]<<}
 
 
 {>>the following section needs rewriting<<}
@@ -425,7 +425,7 @@ What are the computational means for casting some light on the more than four fi
 
 [^13]: For a good summary of genealogy of large-scale literary history under the label "distant reading" see [@Underwood+2017]. The most often referenced founding works are [@Moretti+2013] (collection of reprinted essays), [@Jockers+2013].
 
-[^11]: For an introduction to stylometry see {==missing references==} {>>add references<<}
+[^11]: For an introduction to computational methods for authorship attribution see [@Koppel+2009].
 
 The present paper is the first foray into stylometric authorship attribution for Arabic periodicals. Christiane Czygan's work is the only attempt at stylometric authorship attribution for Ottoman periodicals I have come across, but, after developing a set of style markers for individual editors-cum-authors, the author did not apply them for actual authorship attribution.[^5] 
 
