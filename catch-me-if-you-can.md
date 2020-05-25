@@ -45,7 +45,7 @@ tags:
 
 >Note that network plots make use of a computational transcription of Arabic into Latin script because the intended general audience is assumed to not be able to read Arabic. 
 
->High-resolution plots, data sets and other supplementary data can can be found at <https://github.com/tillgrallert/s3a6afa20>. If this paper gets accepted for pulication, releases of this repository will be uploaded to Zenodo and get a DOI.
+>High-resolution plots, data sets and other supplementary data can can be found at <https://github.com/tillgrallert/s3a6afa20>. If this paper gets accepted for publication, releases of this repository will be uploaded to Zenodo and get a DOI.
 
 # Introduction
 
@@ -85,7 +85,7 @@ The better known and at the time widely popular Arabic journals of the late Otto
 
 A quick look at *al-Muqtabas* shall  illustrate this point. A search in [WorldCat](https://www.worldcat.org) for the nine volumes of *al-Muqtabas*  will return six different bibliographic entries, the first of which has 13 variants (called "editions" in the context of WorldCat), pointing to 34 libraries. If one follows each entry to the holding library's catalogue, one will find that the large majority of collections is incomplete and that collections commonly combine original volumes, reprints, microfilms, microfiches and even photo copies. {>>comment on the geographic distribution of collections: the map below shows a surprising distribution of copies, which could either be due to Worldcat's bias towards western collections or a reflection of actual holdings. But even for regions with good coverage, such as central Europe, we can attest that interested readers would need to travel or depend on interlibrary loans to excess every issue of *al-Muqtabas*.<<}
 
-![geographic distribution of library holdings of *al-Muqtabas*](assets/plots/map-oclc_4770057679-holdings-vol_1-9.png)
+![Geographic distribution of library holdings of *al-Muqtabas*](assets/plots/map-oclc_4770057679-holdings-vol_1-9.png)
 
 Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of instantaneous one-click answers to any question they might have.
 The public and many scholars expect to be able to put a computer to such diverse tasks as a keyword search: Show me all instances of the word *waṭan* (Arabic for "homeland", "nation") across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I.[^56] Or a social network analysis: Show me the discursive field of authors and their texts and its changes over time. These are important and---for a variety of reasons, some of which will be discussed in this article---still open questions. Unfortunately, the eager student of *digitised* Arabic periodicals will immediately find tools, data and skills lacking.
@@ -232,6 +232,7 @@ The monthly journal *al-Ḥasnāʾ* (The Fair Lady), published by Jirjī Niqūl�
 
 [^69]: [@AbouHodeib+2017, 122, 208]
 [^74]: [@grallert2019OpenCollaborativeScholarlya]
+
 # Network of authors and texts
 
 With major work on modelling on three journals from Baghdad, Cairo and Damascus---*Lughat al-ʿArab*, *al-Muqtabas* and *al-Ḥaqāʾiq*---done, we can now begin to submit this corpus to initial analyses of the social and geographic networks of authors and their texts as well as the network of periodicals referenced and cited in these three journals.
@@ -244,7 +245,7 @@ The quality and significance of the analysis of bibliographic data is directly d
 
 [^48]: Contributing institutions and libraries are listed on the homepage [http://viaf.org](http://viaf.org). There is a small number of efforts to build historical gazetteers for the Eastern Mediterranean. The most noteworthy is [al-Thurrayā Gazetteer](https://althurayya.github.io/) by Maxim Romanov and Masoumeh Seydi and based on [@Cornu+1983]. The Digital Ottoman Platform at Princeton University, in which I participated, aimed at building a digital gazetteer of the Ottoman Empire but all faltered after summer 2016.{>>Could be expanded<<}
 
-## Evaluating the corpus: network of referenced periodicals
+## Evaluating the corpus: Network of referenced periodicals
 
 Knowing that we work with a corpus whose composition is the result of external and unknown decisions by the contributors to *al-Maktaba al-Shāmila* as to which periodical to transcribe, we can evaluate the performance of this corpus in representing the larger ideosphere of the periodical press in the late Ottoman Eastern Mediterranean by looking at the network of referenced periodicals. Explicit references to periodicals indicated by "*jarīda* XYZ" or "*majalla* ABC" were automatically marked-up using XSLT and regular expressions and linked to local and external authority files for disambiguation and additional bibliographic information. I then counted the references to each mentioned periodical and plotted the result as a network graph. The plots feature the number references by issue to account for the varying length of articles in each journal.{>>sequencing into even-sized chunks might be a good idea for statistical validity<<} In the network plots below each node signifies a periodical (newspapers and journals are not distinguished at the moment). Edges are drawn between periodical titles when one references the other. The thickness of the edges and the size of the nodes indicate the number of issues that reference a periodical (weight). Colours signify the {==in-degree==}{>>i.e. the number of edges that connect to a node};{<<} or the number of journals in our corpus that mention this periodical (3 = orange, 2 = green, 1 = purple).
 
@@ -268,7 +269,7 @@ A third observation of the larger network is that *al-Muqtabas* accounts for the
 
 {>>what are the lacunae in this network? which periodicals are not referenced?<<}
 
-## analysis of metadata: network of authors
+## Analysis of metadata: Network of authors
 
 Sketching a network of periodicals and the references between them is only one part in the endeavour to layout the ideosphere of the late Ottoman Eastern Mediterranean. Another is the network of authors who published in these periodicals and the geographic distribution of places mentioned in bylines. {>>Other layers of this ideosphere not covered in this short overview but worth exploring are the network of works reviewed and mentioned in our corpus. What was read and written about in Damascus and Baghdad?<<} Knowing the importance of certain authors for an individual periodical is the basis for mapping the {>>social<<} network of authors across the late Ottoman ideosphere.{>>these findings would need to be contextualised by traditional intellectual history<<} The aim would be to map such a network for the hundreds of journals and newspapers published between Alexandria and Aleppo, Jaffa and Basra. Nevertheless, this method already provides valuable insights using our small corpus of bibliographic metadata.
 
@@ -474,11 +475,11 @@ Table: Length of articles in our corpus
 
 <!-- ## Results -->
 
-<!-- ![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
+<!-- ![Bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
 
-<!-- ![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
+<!-- ![Bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
 
-![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
+![Bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
 
 Our initial analysis of all articles of 5000 words and more using bootstrap consensus trees for 100--1000 MFWs confirms the general applicability of stylometry to our corpus. Articles form clusters based on edge weight and modularity {>>number of edges among members higher than to other clusters<<} around authors, editors and translators. Thus, we find clusters of articles authored by Jamāl al-Dīn al-Qāsimī, Aḥmad Zakī, Charles Seignobos and Muḥammad Kurd ʿAlī. The latter was the translator of Seignobos works from French, which is clearly visible in the clustering of works by both authors on the right of the plot. A similar clustering appears on the left of the plot, where one can observe a proximity between works authored by Jamāl al-Dīn al-Qāsimī ({==dark green==}) and classic texts he discovered and edited ({==pink==}). The plot shows only limited {==stylistic overlap==}{>>in terms of modularity and edge weights<<} between authors and we can assume with a high degree of confidence that the cluster of anonymous articles in {==light green==} on the bottom right was authored by Kurd ʿAlī. Since the sample contains almost exclusively articles from *al-Muqtabas*, this would tentatively confirm the authorship hypothesis of editors. However, this plot also shows a {==red==} cluster of non-attributed articles in the centre that are stylistically distinct from Kurd ʿAlī's texts. This contradicts the hypothesis and points to another, unknown author.
 
