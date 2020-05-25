@@ -1,7 +1,7 @@
 ---
 title: "Catch me if you can! Computational approaches to track the late Ottoman ideosphere of authors and periodicals in the wasteland of the 'digitised' Arabic press"
 author: Till Grallert
-date: 2020-05-22
+date: 2020-05-24
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
@@ -83,7 +83,7 @@ The better known and at the time widely popular Arabic journals of the late Otto
 
 A quick look at *al-Muqtabas* shall  illustrate this point. A search in [WorldCat](https://www.worldcat.org) for the nine volumes of *al-Muqtabas*  will return six different bibliographic entries, the first of which has 13 variants (called "editions" in the context of WorldCat), pointing to 34 libraries. If one follows each entry to the holding library's catalogue, one will find that the large majority of collections is incomplete and that collections commonly combine original volumes, reprints, microfilms, microfiches and even photo copies. {>>comment on the geographic distribution of collections: the map below shows a surprising distribution of copies, which could either be due to Worldcat's bias towards western collections or a reflection of actual holdings. But even for regions with good coverage, such as central Europe, we can attest that interested readers would need to travel or depend on interlibrary loans to excess every issue of *al-Muqtabas*.<<}
 
-![Figure: geographic distribution of library holdings of *al-Muqtabas*](assets/plots/map-oclc_4770057679-holdings-vol_1-9.png)
+![geographic distribution of library holdings of *al-Muqtabas*](assets/plots/map-oclc_4770057679-holdings-vol_1-9.png)
 
 Digitisation promises an "easy" solution to the problems of preservation and access. Instant access to tens if not hundreds of thousands of *digitised* periodical issues from the late Ottoman Empire evokes the gold rush in the American west and many people imagine a promised land of instantaneous one-click answers to any question they might have.
 The public and many scholars expect to be able to put a computer to such diverse tasks as a keyword search: Show me all instances of the word *waṭan* (Arabic for "homeland", "nation") across the ideosphere of the early Arabic press between Morocco and Iraq from its beginnings until the World War I.[^56] Or a social network analysis: Show me the discursive field of authors and their texts and its changes over time. These are important and---for a variety of reasons, some of which will be discussed in this article---still open questions. Unfortunately, the eager student of *digitised* Arabic periodicals will immediately find tools, data and skills lacking.
@@ -234,13 +234,13 @@ The quality and significance of the analysis of bibliographic data is directly d
 
 Knowing that we work with a corpus whose composition is the result of external and unknown decisions by the contributors to *al-Maktaba al-Shāmila* as to which periodical to transcribe, we can evaluate the performance of this corpus in representing the larger ideosphere of the periodical press in the late Ottoman Eastern Mediterranean by looking at the network of referenced periodicals. Explicit references to periodicals indicated by "*jarīda* XYZ" or "*majalla* ABC" were automatically marked-up using XSLT and regular expressions and linked to local and external authority files for disambiguation and additional bibliographic information. I then counted the references to each mentioned periodical and plotted the result as a network graph. The plots feature the number references by issue to account for the varying length of articles in each journal.{>>sequencing into even-sized chunks might be a good idea for statistical validity<<} In the network plots below each node signifies a periodical (newspapers and journals are not distinguished at the moment). Edges are drawn between periodical titles when one references the other. The thickness of the edges and the size of the nodes indicate the number of issues that reference a periodical (weight). Colours signify the {==in-degree==}{>>i.e. the number of edges that connect to a node};{<<} or the number of journals in our corpus that mention this periodical (3 = orange, 2 = green, 1 = purple).
 
-![Figure: Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue.png)
+![Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue.png)
 
-<!-- ![Figure: Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue_ar.png) -->
+<!-- ![Network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue_ar.png) -->
 
-![Figure: Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core.png)
+![Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core.png)
 
-<!-- ![Figure: Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core_ar.png) -->
+<!-- ![Core nodes in the network of periodicals mentioned *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*; weights per issue](assets/plots/network_oape-p3a6afa20_referenced-periodicals-per-issue-core_ar.png) -->
 
 The first observation, common to all social networks, is that only a very small number of nodes are of relative importance, as measured in in-degree (number of edges connecting to a node) and weight of the edges connecting nodes. Out of a total of 465 different periodical titles, 421 or c. 90% were referred to by only a single journal. 344 periodicals are only mentioned in a single issue and 335 in a single article. The second figure shows the 44 core nodes---periodicals that were referenced in more than one journal---in more detail. Only 9 (2,13%) were referenced by three journals in our corpus. {==They are: *al-Manār*, *al-Muqtaṭaf*, *al-Hilāl* and *al-Ḍiyā* from Cairo, *al-Muqtabas* itself, *al-Mufīd*, *al-Waṭan* and *al-Ḥaqīqa* from Beirut and *al-Ḥuqūq* from Mt. Lebanon ==}{>>comment: this fits the standard narrative of important journals, with the exception of *al-Mufīd* <<} The centrality of the {==three==} Cairene periodicals, *al-Manār*, *al-Muqtaṭaf*, *al-Hilāl*, which were all published by Syrian immigrants, tentatively confirms the standard narratives of the Arabic press.[^54] If we had the means to construct our own corpus without the severe limitations alluded to above, these would be the journals to digitise. Second, this network is highly centralised in terms of geographic distribution. The 44 core nodes were published in only a handful of locations: Beirut (9), Cairo (7), Baghdad, Damascus, Paris (3), Alexandria,  London, Mt. Lebanon, Saida and Zahle (1).{>>plot this information on a map?<<}{>>how many at which locations?<<}
 
@@ -258,9 +258,9 @@ A third observation of the larger network is that *al-Muqtabas* accounts for the
 
 Sketching a network of periodicals and the references between them is only one part in the endeavour to layout the ideosphere of the late Ottoman Eastern Mediterranean. Another is the network of authors who published in these periodicals and the geographic distribution of places mentioned in bylines. {>>Other layers of this ideosphere not covered in this short overview but worth exploring are the network of works reviewed and mentioned in our corpus. What was read and written about in Damascus and Baghdad?<<} Knowing the importance of certain authors for an individual periodical is the basis for mapping the {>>social<<} network of authors across the late Ottoman ideosphere.{>>these findings would need to be contextualised by traditional intellectual history<<} The aim would be to map such a network for the hundreds of journals and newspapers published between Alexandria and Aleppo, Jaffa and Basra. Nevertheless, this method already provides valuable insights using our small corpus of bibliographic metadata.
 
-![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal.png)
+![Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal.png)
 
-<!-- ![Figure: Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal_ar.png) -->
+<!-- ![Network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors_unimodal_ar.png) -->
 
 It is worth going back to the bibliographic {>>meta<<}data, its shortcomings and the resulting consequences for our analysis before looking at this aggregated information. We are particularly concerned with the number of articles that carried bylines or otherwise easily identifiable authorship information.[^55] All journals in our corpus, like any other periodical at the time I have seen, published only limited authorship information. In this regard *al-Ḥaqāʾiq* is the least offending. About 42 per cent of all articles (163 of 389) carried authorship information. Second is *al-Ḥasnāʾ* with 36 per cent (63 of 173), followed by *Lughat al-ʿArab* with 16 per cent (152 of 939) and *al-Muqtabas* with not even 13 per cent (377 of 2964). The picture becomes more favourable for the latter if we look only at longer articles. About two fifths of articles outside news and review sections explicitly mentioned an author. However, in consequence and due to the heavy weight of *al-Muqtabas*, this means that we can only map 16,91 per cent of the entire network of articles by looking at available bibliographic information alone. {==More than four fifths are hidden from our view.==} We can currently identify only a total of 319 named authors within this sample: 139 for *al-Muqtabas*, 103 for *al-Haqāʾiq*, 52 for *Lughat al-ʿArab*, and 42 for *al-Ḥasnāʾ*. Quite a significant number appear only with their initials, particularly in *al-Ḥaqāʾiq*, and---with the exception of *al-Ḥasnāʾ*---all of them were men.
 
@@ -268,9 +268,9 @@ It is worth going back to the bibliographic {>>meta<<}data, its shortcomings and
 
 The first observation, similar the network of periodicals, is that only a very small number of nodes (14 of 319) are of relative importance as measured in degree (number of edges connecting to a node) and weight of the edges. In the above network plot, edges were drawn between authors when they published in the same periodical. The thickness of the edges and size of nodes are functions of the number of articles carrying the byline of a given author. Colours signify the out-degree or the number of journals an author is connected to. Authors who published only in a single journal form dense clusters{-- around that periodical's node--}. These are: *al-Ḥaqāʾiq* to the left, *al-Muqtabas* top centre, *Lughat al-ʿArab* bottom centre, and *al-Ḥasnāʾ* to the right.
 
-![Figure: Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal.png)
+![Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal.png)
 
-<!-- ![Figure: Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal_ar.png) -->
+<!-- ![Core nodes in the network of authors with bylines in *al-Ḥaqāʾiq*, *al-Ḥasnāʾ*, *Lughat al-ʿArab* and *al-Muqtabas*](assets/plots/network_oape-p3a6afa20_authors-core_unimodal_ar.png) -->
 
 If we look at the central nodes of the network more closely, we can observe that only one author published in all four journals: Maʿrūf al-Ruṣāfī was a famous poet from Baghdad who mostly authored *qaṣāʾid* on current political affairs. He moved to Istanbul after the Young Turk Revolution, where he worked as an Arabic teacher at the Royal College and at the newspaper *Sabīl al-Rashad*. He was elected MP for al-Muthanna (Iraq) in 1912 and 1914. After WWI he became a member of the Arab Scientific Academy, established by Muḥammad Kurd ʿAlī in Damascus.[^45] al-Ruṣāfī's close ties to *al-Muqtabas* and Kurd ʿAlī are further evident in the announcement in 1910 for the publication of a first collection of his poems, in which *al-Muqtabas* claimed that he was known among some people as "the poet of *al-Muqtabas*" and---wrongly---that "more than three quarters [of the *qaṣāʾid* therein] had been published in this journal".[^46] The publication of al-Ruṣāfī's *qaṣīda*s in so many different periodicals---in addition to the journals in our corpus, I came across his *qaṣīda*s in many other journals and newspapers---raises an important question regarding the production of newspapers: did he send his *qaṣīda*s to the editors of sometimes far away periodicals {==just like that==}{>>better wording<<}? Was he invited to contribute? Did editors take his texts from other sources?[^58]
 
@@ -333,23 +333,23 @@ Only 50 authors published more than one article in *al-Muqtabas*. Two of the fiv
 [^60]: The article count for Muḥammad Kurd ʿAlī depends on the definition of an "article". If we count each section, originally published as letters in the newspaper *al-Muqtabas*, in his series *gharāʾib al-gharb* and *fī diyār al-gharb* as independent article, his article count would significantly spike. {>>The letters in theses series do not carry his byline but his authorship is beyond doubt<<}
 
 
-| Rank   | Name                   | Name (transliterated)  | VIAF ID                                      | Birth   | Death   | Articles | Words  |
-| :----- | -----------------:     | :------------------    | :-------------------------------------       | :------ | :------ | ------:  | ----:  |
-| 1      | NA                    | NA                    | NA                                           | NA         | NA         | 2592     | 5632148 |
-| 2      | معروف  الرصافي        | m3rwf  alrSafy        | [14924300](https://viaf.org/viaf/14924300)   | 1875-01-01 | 1945-01-01 | 27       | 58230   |
-| 3      | عيسى  اسكندر  المعلوف | 3ysA  askndr  alm3lwf | [40250618](https://viaf.org/viaf/40250618)   | 1869-04-11 | 1956-07-02 | 20       | 105688  |
-| 4      | ساتسنا                | satsna                | [39370998](https://viaf.org/viaf/39370998)   | 1866-08-05 | 1947-01-07 | 14       | 87464   |
-| 5      | محمد  كرد علي         | m7md  krd 3ly         | [32272677](https://viaf.org/viaf/32272677)   | 1876-01-01 | 1953-01-01 | 13       | 239829  |
-| 6      | يوسف  جرجس  زخم       | ywsf  jrjs  zKm       | NA                                           | 1880-05-14 | NA         | 13       | 97264   |
-| 7      | أحمد  تيمور           | a7md  tymwr           | [19737865](https://viaf.org/viaf/19737865)   | 1871-11-06 | 1930       | 9        | 43276   |
-| 8      | إبراهيم  حلمي  العمر  | abrahym  7lmy  al3mr  | NA                                           | 1890       | 1942       | 9        | 93120   |
-| 9      | جمال الدين  القاسمي   | jmal aldyn  alQasmy   | [93607460](https://viaf.org/viaf/93607460)   | 1866-10-01 | 1914-04-18 | 8        | 165158  |
-| 10     | محمد  رضا  الشبيبي    | m7md  rDa  alWbyby    | [22006374](https://viaf.org/viaf/22006374)   | 1889-01-01 | 1965-01-01 | 8        | 88311   |
-| 11     | أحمد  زكي             | a7md  zky             | [49218655](https://viaf.org/viaf/49218655)   | 1866-05-26 | 1934-07-06 | 7        | 179694  |
-| 12     | جرجي  حداد            | jrjy  7dad            | [305214884](https://viaf.org/viaf/305214884) | NA         | 1916-05-06 | 7        | 117370  |
-| 13     | حافظ  إبراهيم         | 7afZ  abrahym         | [32410755](https://viaf.org/viaf/32410755)   | 1871-04-24 | 1932-06-21 | 7        | 47657   |
-| 14     | رفيق  العظم           | rfyQ  al3Zm           | [28125663](https://viaf.org/viaf/28125663)   | 1865-01-01 | 1925-06-30 | 7        | 60390   |
-| 15     | عبد القادر  المغربي   | 3bd alQadr  almGrby   | [118432135](https://viaf.org/viaf/118432135) | 1867       | 1956-06-07 | 7        | 62440   |
+| Rank | Name                  | Name (transliterated) | VIAF ID                                      | Birth      | Death      | Articles | Words   |
+| :--- | ---:                  | :---                  | :---                                         | :---       | :---       | ---:     | ---:    |
+| 1    | NA                    | NA                    | NA                                           | NA         | NA         | 2592     | 5632148 |
+| 2    | معروف  الرصافي        | m3rwf  alrSafy        | [14924300](https://viaf.org/viaf/14924300)   | 1875-01-01 | 1945-01-01 | 27       | 58230   |
+| 3    | عيسى  اسكندر  المعلوف | 3ysA  askndr  alm3lwf | [40250618](https://viaf.org/viaf/40250618)   | 1869-04-11 | 1956-07-02 | 20       | 105688  |
+| 4    | ساتسنا                | satsna                | [39370998](https://viaf.org/viaf/39370998)   | 1866-08-05 | 1947-01-07 | 14       | 87464   |
+| 5    | محمد  كرد علي         | m7md  krd 3ly         | [32272677](https://viaf.org/viaf/32272677)   | 1876-01-01 | 1953-01-01 | 13       | 239829  |
+| 6    | يوسف  جرجس  زخم       | ywsf  jrjs  zKm       | NA                                           | 1880-05-14 | NA         | 13       | 97264   |
+| 7    | أحمد  تيمور           | a7md  tymwr           | [19737865](https://viaf.org/viaf/19737865)   | 1871-11-06 | 1930       | 9        | 43276   |
+| 8    | إبراهيم  حلمي  العمر  | abrahym  7lmy  al3mr  | NA                                           | 1890       | 1942       | 9        | 93120   |
+| 9    | جمال الدين  القاسمي   | jmal aldyn  alQasmy   | [93607460](https://viaf.org/viaf/93607460)   | 1866-10-01 | 1914-04-18 | 8        | 165158  |
+| 10   | محمد  رضا  الشبيبي    | m7md  rDa  alWbyby    | [22006374](https://viaf.org/viaf/22006374)   | 1889-01-01 | 1965-01-01 | 8        | 88311   |
+| 11   | أحمد  زكي             | a7md  zky             | [49218655](https://viaf.org/viaf/49218655)   | 1866-05-26 | 1934-07-06 | 7        | 179694  |
+| 12   | جرجي  حداد            | jrjy  7dad            | [305214884](https://viaf.org/viaf/305214884) | NA         | 1916-05-06 | 7        | 117370  |
+| 13   | حافظ  إبراهيم         | 7afZ  abrahym         | [32410755](https://viaf.org/viaf/32410755)   | 1871-04-24 | 1932-06-21 | 7        | 47657   |
+| 14   | رفيق  العظم           | rfyQ  al3Zm           | [28125663](https://viaf.org/viaf/28125663)   | 1865-01-01 | 1925-06-30 | 7        | 60390   |
+| 15   | عبد القادر  المغربي   | 3bd alQadr  almGrby   | [118432135](https://viaf.org/viaf/118432135) | 1867       | 1956-06-07 | 7        | 62440   |
 
 
 Table: The most prolific authors in *al-Muqtabas* by number of articles (7 or more). {>>source: oclc_4770057679-stats-authorship.md <<}
@@ -360,29 +360,29 @@ The four men out of the five, for which we can find biographical records, are in
 
 The map of relative frequencies of locations mentioned in bylines conveys the same image as the network of referenced periodicals and the brief comments on the most prolific authors' biographies: *al-Muqtabas* was a publication of at least regional importance. It reached well beyond Greater Syria to Egypt, Iraq and even America, turning the famous proverb "Cairo writes, Beirut publishes and Baghdad reads" upside down with Baghdad well ahead of even Damascus.
 
-![Figure: Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](assets/plots/map-oclc_4770057679-bylines-middle-east.png)
+![Locations in bylines in *al-Muqtabas* (Cairo and Damascus)](assets/plots/map-oclc_4770057679-bylines-middle-east.png)
 
 #### *al-Ḥaqāʾiq*
 
 The picture is different for *al-Ḥaqāʾiq*, which was repeatedly in conflict with *al-Muqtabas* over the latter's supposed moral laxity. Its most prolific contributors were Damascene Sunni religious scholars from notable families, many of whom were at least one generation older than its opponents (the average year of birth for *al-Ḥaqāʾiq* is 1837 and 1869 for *al-Muqtabas*). Among them are Ibrāhīm Mardam Bek, Muḥammad ʿĀrif al-Munīr al-Ḥusaynī (b.1847/48), Mukhtār al-Muʾayyad (b.1822) and Muḥammad al-Qāsimī (b.1843), whose son Jamāl al-Dīn al-Qāsimī was among *al-Muqtabas*' contributors. The initially surprising finding of very limited overlap between the two networks of authors published in journals from the same city, becomes less so against this backdrop. Looking at the top 14 contributors to both journals, we can also note that whereas only two authors from *al-Muqtabas* are missing from VIAF and thus international library catalogues, the same is true for eight of *al-Ḥaqāʾiq*'s most frequent authors.{>>This further affirms the difference between a journal with transregional impact and a more parochial periodical<<}
 
-| Rank   | Name                   | Name (transliterated)  | VIAF ID                                      | Birth   | Death   | Articles | Words  |
-| :----- | -----------------:     | :------------------    | :-------------------------------------       | :------ | :------ | ------:  | ----:  |
-| 1      | NA                     | NA                     | NA                                           | NA      | NA      | 228      | 201669 |
-| 2      | عبد الرحمن  القصار     | 3bd alr7mn  alQSar     | NA                                           | 1863    | 1931    | 10       | 2271   |
-| 3      | إبراهيم  خليل  مردم بك | abrahym  Klyl  mrdm bk | NA                                           | NA      | NA      | 7        | 4799   |
-| 4      | محمد  فريد  وجدي       | m7md  fryd  wjdy       | [53094077](https://viaf.org/viaf/53094077)   | 1875    | 1954    | 6        | 9152   |
-| 5      | محمد  عارف  المنير     | m7md  3arf  almnyr     | [299025643](https://viaf.org/viaf/299025643) | NA      | NA      | 5        | 3151   |
-| 6      | صالح  الشريف           | Sal7  alWryf           | [58892856](https://viaf.org/viaf/58892856)   | 1869    | 1920    | 4        | 5003   |
-| 7      | ع                      | 3                      | NA                                           | NA      | NA      | 4        | 2867   |
-| 8      | محمد   القاسمي  الحلاق | m7md   alQasmy  al7laQ | [51567828](https://viaf.org/viaf/51567828)   | 1843    | 1900    | 4        | 10156  |
-| 9      | محمد  سليم  الحنفي     | m7md  slym  al7nfy     | NA                                           | NA      | NA      | 4        | 563    |
-| 10     | مختار  المؤيد          | mKtar  almoyd          | [267054449](https://viaf.org/viaf/267054449) | 1822    | 1921    | 4        | 953    |
-| 11     | أبو الضيا              | abw alDya              | NA                                           | NA      | NA      | 3        | 5098   |
-| 12     | أحمد الجوبري           | a7md aljwbry           | NA                                           | NA      | NA      | 3        | 1156   |
-| 13     | احمد  الباشا           | a7md  albaWa           | NA                                           | NA      | NA      | 3        | 4274   |
-| 14     | صلاح الدين  الزعيم     | Sla7 aldyn  alz3ym     | NA                                           | NA      | NA      | 3        | 2448   |
-| 15     | أحمد  محرم             | a7md  m7rm             | [60500457](https://viaf.org/viaf/60500457)   | 1877    | 1945    | 2        | 1021   |
+| Rank | Name                   | Name (transliterated)  | VIAF ID                                      | Birth | Death | Articles | Words  |
+| :--- | ---:                   | :---                   | :---                                         | :---  | :---  | ---:     | ---:   |
+| 1    | NA                     | NA                     | NA                                           | NA    | NA    | 228      | 201669 |
+| 2    | عبد الرحمن  القصار     | 3bd alr7mn  alQSar     | NA                                           | 1863  | 1931  | 10       | 2271   |
+| 3    | إبراهيم  خليل  مردم بك | abrahym  Klyl  mrdm bk | NA                                           | NA    | NA    | 7        | 4799   |
+| 4    | محمد  فريد  وجدي       | m7md  fryd  wjdy       | [53094077](https://viaf.org/viaf/53094077)   | 1875  | 1954  | 6        | 9152   |
+| 5    | محمد  عارف  المنير     | m7md  3arf  almnyr     | [299025643](https://viaf.org/viaf/299025643) | NA    | NA    | 5        | 3151   |
+| 6    | صالح  الشريف           | Sal7  alWryf           | [58892856](https://viaf.org/viaf/58892856)   | 1869  | 1920  | 4        | 5003   |
+| 7    | ع                      | 3                      | NA                                           | NA    | NA    | 4        | 2867   |
+| 8    | محمد   القاسمي  الحلاق | m7md   alQasmy  al7laQ | [51567828](https://viaf.org/viaf/51567828)   | 1843  | 1900  | 4        | 10156  |
+| 9    | محمد  سليم  الحنفي     | m7md  slym  al7nfy     | NA                                           | NA    | NA    | 4        | 563    |
+| 10   | مختار  المؤيد          | mKtar  almoyd          | [267054449](https://viaf.org/viaf/267054449) | 1822  | 1921  | 4        | 953    |
+| 11   | أبو الضيا              | abw alDya              | NA                                           | NA    | NA    | 3        | 5098   |
+| 12   | أحمد الجوبري           | a7md aljwbry           | NA                                           | NA    | NA    | 3        | 1156   |
+| 13   | احمد  الباشا           | a7md  albaWa           | NA                                           | NA    | NA    | 3        | 4274   |
+| 14   | صلاح الدين  الزعيم     | Sla7 aldyn  alz3ym     | NA                                           | NA    | NA    | 3        | 2448   |
+| 15   | أحمد  محرم             | a7md  m7rm             | [60500457](https://viaf.org/viaf/60500457)   | 1877  | 1945  | 2        | 1021   |
 
 Table: The fifteen most prolific authors in *al-Ḥaqāʾiq* by number of bylines {>>source: oclc_644997575-stats-authorship.md <<}
 
@@ -423,7 +423,7 @@ What are the computational means for casting some light on the more than four fi
 
 [^14]: [@Laramée+2018]
 
-[^13]: For a good summary of genealogy of large-scale literary history under the label "distant reading" see [@Underwood+2017]. The most often referenced founding works are [@Moretti+2013] (collection of reprinted essays), [@Jockers+2013].
+[^13]: For the genealogy of large-scale literary history under the label "distant reading" see [@Underwood+2017]. The most often referenced founding works are [@Moretti+2013] (collection of reprinted essays), [@Jockers+2013].
 
 [^11]: For an introduction to computational methods for authorship attribution see [@Koppel+2009].
 
@@ -461,11 +461,11 @@ Table: Length of articles in our corpus
 
 ## Results
 
-<!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
+<!-- ![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors.png) -->
 
-<!-- ![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
+<!-- ![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
 
-![Figure: bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
+![bootstrap consensus network, colours by modularity group](assets/plots/stylo_articles-w_5000-modularity_1-label_authors-ar-annotated.png)
 
 Our initial analysis of all articles of 5000 words and more using bootstrap consensus trees for 100--1000 MFWs confirms the general applicability of stylometry to our corpus. Articles form clusters based on edge weight and modularity {>>number of edges among members higher than to other clusters<<} around authors, editors and translators. Thus, we find clusters of articles authored by Jamāl al-Dīn al-Qāsimī, Aḥmad Zakī, Charles Seignobos and Muḥammad Kurd ʿAlī. The latter was the translator of Seignobos works from French, which is clearly visible in the clustering of works by both authors on the right of the plot. A similar clustering appears on the left of the plot, where one can observe a proximity between works authored by Jamāl al-Dīn al-Qāsimī ({==dark green==}) and classic texts he discovered and edited ({==pink==}). The plot shows only limited {==stylistic overlap==}{>>in terms of modularity and edge weights<<} between authors and we can assume with a high degree of confidence that the cluster of anonymous articles in {==light green==} on the bottom right was authored by Kurd ʿAlī. Since the sample contains almost exclusively articles from *al-Muqtabas*, this would tentatively confirm the authorship hypothesis of editors. However, this plot also shows a {==red==} cluster of non-attributed articles in the centre that are stylistically distinct from Kurd ʿAlī's texts. This contradicts the hypothesis and points to another, unknown author.
 
