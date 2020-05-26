@@ -192,7 +192,7 @@ uuid: 9A15F125-00CC-4D95-81C2-F37BEC2706C0
    <bib:Book rdf:about="#EA8D6DF3-A23C-4B73-BE3C-0CF8F8245FCE">
       <z:itemType>book</z:itemType>
       <dc:title>Muʿjam al-muʾallifīn: tarajim muṣannifi al-kutub al-ʿarabiyya</dc:title>
-      <z:shortTitle>Muʿjam al-muʾallifīn: tarajim muṣannifi al-kutub</z:shortTitle>
+      <z:shortTitle>Muʿjam al-muʾallifīn</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -274,7 +274,7 @@ uuid: 45D3E827-294E-43E0-BE53-C32B9CCF16F0
          </bib:Series>
       </dcterms:isPartOf>
       <dc:title>Union list of Arabic serials in the United States: the Arabic serial holdings of seventeen libraries</dc:title>
-      <z:shortTitle>Union list of Arabic serials</z:shortTitle>
+      <z:shortTitle>Union list of Arabic serials in the United States</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -310,7 +310,7 @@ uuid: 5AC86858-C6D1-47EF-87CE-4FA7D6957D45
    <bib:Book rdf:about="#61F8E6BA-0F39-4410-8516-004B1FD2A3A9">
       <z:itemType>book</z:itemType>
       <dc:title>3200 revues et journaux arabes de 1800 à 1965: Titres arabes et titres translittérés</dc:title>
-      <z:shortTitle>3200 revues et journaux arabes</z:shortTitle>
+      <z:shortTitle>3200 revues et journaux arabes de 1800 à 1965</z:shortTitle>
       <bib:editors>
          <rdf:Seq>
             <rdf:li>
@@ -517,7 +517,7 @@ volume: 2: al-Intidāb al-Faransī Ḥattā al-Istiqlāl, 1918-1947
    <bib:Book rdf:about="#63ECF8D5-53B6-4473-8302-E9E994E5D7DB">
       <z:itemType>book</z:itemType>
       <dc:title>Arabic periodicals in Oxford: a union list</dc:title>
-      <z:shortTitle>Arabic periodicals in Oxford: a</z:shortTitle>
+      <z:shortTitle>Arabic periodicals in Oxford</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -656,7 +656,7 @@ uuid: 0B122312-984E-401C-A7DB-86963CEBCE12
    <bib:Book rdf:about="#90B7C1CA-97DE-4805-A23C-34A75AFDAE96">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -709,7 +709,7 @@ volume: 4
    <bib:Book rdf:about="#77DE5DDE-543C-410C-91DF-DE5C331889CC">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -762,7 +762,7 @@ volume: 2
    <bib:Book rdf:about="#108DF256-AD4E-4A6B-AA7F-2C0CB77E379F">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -815,7 +815,7 @@ volume: 7
    <bib:Book rdf:about="#D31BD583-78A7-44A2-9234-23B7B501BD8C">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -868,7 +868,7 @@ volume: 8
    <bib:Book rdf:about="#7448D113-3801-4D6E-A082-81A49D53F940">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -921,7 +921,7 @@ volume: 6
    <bib:Book rdf:about="#43000F00-8EF9-4F2C-83EA-FCD6EADEC326">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -973,7 +973,7 @@ uuid: 43000F00-8EF9-4F2C-83EA-FCD6EADEC326
    <bib:Book rdf:about="#CFE7B6DF-D316-49C6-BE50-DCC2245E6E94">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1026,7 +1026,7 @@ volume: 1
    <bib:Book rdf:about="#9F778676-2B36-41E1-B377-4F72A24619DA">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1079,7 +1079,7 @@ volume: 5
    <bib:Book rdf:about="#4E70FD0E-FE49-4CD7-BB97-D91A78C44032">
       <z:itemType>book</z:itemType>
       <dc:title>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl wa-l-nisāʾ min al-ʿArab wa-l-mustaʿribīn wa-l-mustashriqīn</dc:title>
-      <z:shortTitle>al-Aʿlām: Qāmūs tarājim li-ahshar al-rijāl</z:shortTitle>
+      <z:shortTitle>al-Aʿlām</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1137,7 +1137,7 @@ volume: 3
          </bib:Series>
       </dcterms:isPartOf>
       <dc:title>Arab periodicals and serials: a subject bibliography</dc:title>
-      <z:shortTitle>Arab periodicals and serials: a</z:shortTitle>
+      <z:shortTitle>Arab periodicals and serials</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1192,7 +1192,7 @@ uuid: F6A251BC-B481-4DD0-9E94-214AADB73DF2
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Arabic Periodicals Published in Syria before 1946: The Holdings of Zahiriyya Library in Damascus</dc:title>
-      <z:shortTitle>Arabic Periodicals Published in Syria</z:shortTitle>
+      <z:shortTitle>Arabic Periodicals Published in Syria before 1946</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1858,7 +1858,7 @@ volume: 66
    <bib:Book rdf:about="#684948DA-77D6-43EE-8664-6D69BB205E31">
       <z:itemType>book</z:itemType>
       <dc:title>Islamic Reform: Politics and Social Change in Late Ottoman Syria</dc:title>
-      <z:shortTitle>Islamic Reform: Politics and Social</z:shortTitle>
+      <z:shortTitle>Islamic Reform</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -1915,7 +1915,7 @@ uuid: 684948DA-77D6-43EE-8664-6D69BB205E31
          </bib:Series>
       </dcterms:isPartOf>
       <dc:title>Kulturkrise und konservative Erneuerung: Muhammad Kurd ʿAlī (1876-1953) und das geistige Leben im Damaskus zu Beginn des 20. Jahrhunderts</dc:title>
-      <z:shortTitle>Kulturkrise und konservative Erneuerung: Muhammad Kurd ʿAlī (1876-1953) und das geistige Leben im Damaskus zu Beginn des 20</z:shortTitle>
+      <z:shortTitle>Kulturkrise und konservative Erneuerung</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2024,7 +2024,7 @@ volume: 25
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Sihafa: The Arab Experiment in Journalism</dc:title>
-      <z:shortTitle>Sihafa: The Arab Experiment in</z:shortTitle>
+      <z:shortTitle>Sihafa</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2175,7 +2175,7 @@ uuid: E86A9A40-2D40-494E-B1BD-96A44097B86A
    <bib:Book rdf:about="#14BA91A0-E443-4274-A00C-07FA2B20CDC8">
       <z:itemType>book</z:itemType>
       <dc:title>Baku documents: union catalogue of Persian, Azerbaijani, Ottoman Turkish and Arabic serials and newspapers in the libraries of the Republic of Azerbaijan</dc:title>
-      <z:shortTitle>Baku documents: union catalogue of</z:shortTitle>
+      <z:shortTitle>Baku documents</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2292,7 +2292,7 @@ uuid: 9B6BC52B-61A2-4D07-9C98-9F7C6010A90C
    <bib:Book rdf:about="#1D64DA30-2DC5-4499-BD86-DB1806EE4B36">
       <z:itemType>book</z:itemType>
       <dc:title>The well-protected domains: ideology and the legitimation of power in the Ottoman Empire, 1876-1909</dc:title>
-      <z:shortTitle>The well-protected domains: ideology and</z:shortTitle>
+      <z:shortTitle>The well-protected domains</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2421,7 +2421,7 @@ volume: 38
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>'Delta': a Measure of Stylistic Difference and a Guide to Likely Authorship</dc:title>
-      <z:shortTitle>'Delta': a Measure of Stylistic</z:shortTitle>
+      <z:shortTitle>'Delta'</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2476,7 +2476,7 @@ volume: 17
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>‘Fertile Crescent’, ‘Orient’, ‘Middle East’: The Changing Mental Maps of Southwest Asia</dc:title>
-      <z:shortTitle>‘Fertile Crescent’, ‘Orient’, ‘Middle East’:</z:shortTitle>
+      <z:shortTitle>‘Fertile Crescent’, ‘Orient’, ‘Middle East’</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2566,7 +2566,7 @@ uuid: 8C1D9291-F9A4-462C-A684-8EE26DF06EB6
    <bib:Book rdf:about="#A26235DF-63E5-4D49-8210-1F6C1632BE36">
       <z:itemType>book</z:itemType>
       <dc:title>Reading Palestine: Printing and Literacy, 1900–1948</dc:title>
-      <z:shortTitle>Reading Palestine: Printing and Literacy,</z:shortTitle>
+      <z:shortTitle>Reading Palestine</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2780,7 +2780,7 @@ volume: 40
    <bib:Book rdf:about="#57526030-1630-43E0-883A-8846C042CDEC">
       <z:itemType>book</z:itemType>
       <dc:title>Damascus: Ottoman Modernity and Urban Transformation, 1808-1918</dc:title>
-      <z:shortTitle>Damascus: Ottoman Modernity and Urban</z:shortTitle>
+      <z:shortTitle>Damascus</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2850,7 +2850,7 @@ volume: I
    <bib:Book rdf:about="#E19519FF-75CC-485B-96F3-E0C56AA80CB2">
       <z:itemType>book</z:itemType>
       <dc:title>Damascus: Ottoman Modernity and Urban Transformation, 1808-1918</dc:title>
-      <z:shortTitle>Damascus: Ottoman Modernity and Urban</z:shortTitle>
+      <z:shortTitle>Damascus</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -2986,7 +2986,7 @@ volume: 60
          </bib:Book>
       </dcterms:isPartOf>
       <dc:title>Gephi: An Open Source Software for Exploring and Manipulating Networks</dc:title>
-      <z:shortTitle>Gephi: An Open Source Software</z:shortTitle>
+      <z:shortTitle>Gephi</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3175,7 +3175,7 @@ volume: 42
          </bib:Book>
       </dcterms:isPartOf>
       <dc:title>Ambiguities of the Modern: The Great War in the Memoirs and Poetry of the Iraqis</dc:title>
-      <z:shortTitle>Ambiguities of the Modern: The</z:shortTitle>
+      <z:shortTitle>Ambiguities of the Modern</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3324,7 +3324,7 @@ volume: 37
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>‘The Digitization of Newspaper Archives: Opportunities and Challenges for Historians’</dc:title>
-      <z:shortTitle>‘The Digitization of Newspaper Archives:</z:shortTitle>
+      <z:shortTitle>‘The Digitization of Newspaper Archives</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3375,7 +3375,7 @@ volume: 21
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Changes of time: An aspect of Ottoman modernization</dc:title>
-      <z:shortTitle>Changes of time: An aspect</z:shortTitle>
+      <z:shortTitle>Changes of time</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3417,7 +3417,7 @@ volume: 44
          </bib:Book>
       </dcterms:isPartOf>
       <dc:title>Mapping Texts: Combining Text-Mining and Geo-Visualization to Unlock the Research Potential of Historical Newspapers</dc:title>
-      <z:shortTitle>Mapping Texts: Combining Text-Mining and</z:shortTitle>
+      <z:shortTitle>Mapping Texts</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3480,7 +3480,7 @@ uuid: 0662EB51-DB92-4833-91AC-4DB2B1750F91
          <bib:Book/>
       </dcterms:isPartOf>
       <dc:title>Jara'id: A Chronology of Nineteenth Century  Periodicals in Arabic (1800-1900). A Research Tool</dc:title>
-      <z:shortTitle>Jara'id: A Chronology of Nineteenth Century  Periodicals in Arabic (1800-1900)</z:shortTitle>
+      <z:shortTitle>Jara'id</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3718,7 +3718,7 @@ uuid: 5A6ECB4F-552F-4B26-94E0-F406D622AE4D
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Mapping Texts: Visualizing American Historical Newspapers</dc:title>
-      <z:shortTitle>Mapping Texts: Visualizing American Historical</z:shortTitle>
+      <z:shortTitle>Mapping Texts</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3830,7 +3830,7 @@ volume: 1
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>The Longevity Of ‘Ephemera’: Library editions of nineteenth-century periodicals and newspapers</dc:title>
-      <z:shortTitle>The Longevity Of ‘Ephemera’: Library</z:shortTitle>
+      <z:shortTitle>The Longevity Of ‘Ephemera’</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -3922,7 +3922,7 @@ uuid: 17E2CB49-0908-4632-827A-C06059796CDD
    <bib:Book rdf:about="#98032D83-A627-407E-A081-E3F287F7E143">
       <z:itemType>book</z:itemType>
       <dc:title>Zur Ordnung des Staates: jungosmanische Intellektuelle und ihre Konzepte in der Zeitung Ḥürriyet (1868-1870)</dc:title>
-      <z:shortTitle>Zur Ordnung des Staates: jungosmanische</z:shortTitle>
+      <z:shortTitle>Zur Ordnung des Staates</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4038,7 +4038,7 @@ volume: 17
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Infectious texts: Modeling text reuse in nineteenth-century newspapers</dc:title>
-      <z:shortTitle>Infectious texts: Modeling text reuse</z:shortTitle>
+      <z:shortTitle>Infectious texts</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4139,7 +4139,7 @@ uuid: A714067B-3C89-482F-9504-D05C90171F52
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>"Taken Possession of": The Reprinting and Reauthorship of Hawthorne's "Celestial Railroad" in the Antebellum Religious Press.</dc:title>
-      <z:shortTitle>"Taken Possession of": The Reprinting</z:shortTitle>
+      <z:shortTitle>"Taken Possession of"</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4335,7 +4335,7 @@ uuid: F690D2EA-3005-4516-979C-FEB39C9F7E2D
          </bib:Series>
       </dcterms:isPartOf>
       <dc:title>Macroanalysis: Digital Methods and Literary History</dc:title>
-      <z:shortTitle>Macroanalysis: Digital Methods and Literary</z:shortTitle>
+      <z:shortTitle>Macroanalysis</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4378,7 +4378,7 @@ uuid: 42318149-0F0F-4C53-8AA0-1B223989E26E
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>The Digital Turn: Exploring the methodological possibilities of digital newspaper archives</dc:title>
-      <z:shortTitle>The Digital Turn: Exploring the</z:shortTitle>
+      <z:shortTitle>The Digital Turn</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4436,7 +4436,7 @@ volume: 19
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Beyond TEI: Returning the Text to the Reader</dc:title>
-      <z:shortTitle>Beyond TEI: Returning the Text</z:shortTitle>
+      <z:shortTitle>Beyond TEI</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4485,7 +4485,7 @@ volume: 4: Selected Papers from the 2011 TEI Conference
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Mind your corpus: systematic errors in authorship attribution</dc:title>
-      <z:shortTitle>Mind your corpus: systematic errors</z:shortTitle>
+      <z:shortTitle>Mind your corpus</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4627,7 +4627,7 @@ uuid: F8FEB70F-AE24-4C37-981F-C4038CD8CAD6
    <bib:Book rdf:about="#E0B69E73-56AE-49FF-85BC-A9A3DBAB3009">
       <z:itemType>book</z:itemType>
       <dc:title>Digital Scholarly Editing: Theories, Models and Methods</dc:title>
-      <z:shortTitle>Digital Scholarly Editing: Theories, Models</z:shortTitle>
+      <z:shortTitle>Digital Scholarly Editing</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -4991,7 +4991,7 @@ volume: 27
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Thousands of Titles Without Authors: Digitized Newspapers, Serial Fiction, and the Challenges of Anonymity</dc:title>
-      <z:shortTitle>Thousands of Titles Without Authors:</z:shortTitle>
+      <z:shortTitle>Thousands of Titles Without Authors</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5093,7 +5093,7 @@ volume: 56
    <bib:Book rdf:about="#9D9EBEE5-EABC-4ED6-AEAF-4B90E45D1F83">
       <z:itemType>book</z:itemType>
       <dc:title>Digital Scholarly Editing: Theories and Practices</dc:title>
-      <z:shortTitle>Digital Scholarly Editing: Theories and</z:shortTitle>
+      <z:shortTitle>Digital Scholarly Editing</z:shortTitle>
       <bib:editors>
          <rdf:Seq>
             <rdf:li>
@@ -5152,7 +5152,7 @@ uuid: 9D9EBEE5-EABC-4ED6-AEAF-4B90E45D1F83
    <bib:Book rdf:about="#CDBAAB06-A45F-4565-AE1F-35FE3B75E04A">
       <z:itemType>book</z:itemType>
       <dc:title>The Arabic Print Revolution: Cultural Production and Mass Readership</dc:title>
-      <z:shortTitle>The Arabic Print Revolution: Cultural</z:shortTitle>
+      <z:shortTitle>The Arabic Print Revolution</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5252,7 +5252,7 @@ uuid: C695E71F-ED7F-49A1-896F-7D923B1D4A34
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Stylometry with R: A Package for Computational Text Analysis</dc:title>
-      <z:shortTitle>Stylometry with R: A Package</z:shortTitle>
+      <z:shortTitle>Stylometry with R</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5402,7 +5402,7 @@ uuid: B32C0C2E-64F5-4154-915D-B96360D76B3D
    <bib:Book rdf:about="#0D79F0BF-7014-4DDF-A755-F74F952E0D8C">
       <z:itemType>book</z:itemType>
       <dc:title>A taste for home: the modern middle class in Ottoman Beirut</dc:title>
-      <z:shortTitle>A taste for home: the</z:shortTitle>
+      <z:shortTitle>A taste for home</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5536,7 +5536,7 @@ volume: 25
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>"Q i-jtb the Raven": Taking Dirty OCR Seriously </dc:title>
-      <z:shortTitle>"Q i-jtb the Raven": Taking</z:shortTitle>
+      <z:shortTitle>"Q i-jtb the Raven"</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5586,7 +5586,7 @@ volume: 20
          </bib:Series>
       </dcterms:isPartOf>
       <dc:title>From ambivalence to hostility: the Arabic newspaper Filasṭīn and Zionism, 1911-1914</dc:title>
-      <z:shortTitle>From ambivalence to hostility: the</z:shortTitle>
+      <z:shortTitle>From ambivalence to hostility</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5709,7 +5709,7 @@ uuid: AAF3E4E0-28B1-4957-8CE4-5ED5AB4205A9
          </bib:Periodical>
       </dcterms:isPartOf>
       <dc:title>Visualization in stylometry: Cluster analysis using networks</dc:title>
-      <z:shortTitle>Visualization in stylometry: Cluster analysis</z:shortTitle>
+      <z:shortTitle>Visualization in stylometry</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5816,7 +5816,7 @@ volume: 11
    <bib:Book rdf:about="#0B9AF68B-6579-4BBE-8372-5959E71E42A0">
       <z:itemType>book</z:itemType>
       <dc:title>Historic newspapers in the digital age: "search all about it"</dc:title>
-      <z:shortTitle>Historic newspapers in the digital</z:shortTitle>
+      <z:shortTitle>Historic newspapers in the digital age</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5865,7 +5865,7 @@ uuid: 0B9AF68B-6579-4BBE-8372-5959E71E42A0
    <bib:Book rdf:about="#4AD0A1F8-9F13-402B-9EB5-93CB15C23067">
       <z:itemType>book</z:itemType>
       <dc:title>Modernity in Islamic Tradition: The Concept of 'Society' in the Journal al-Manar (Cairo, 1898-1940)</dc:title>
-      <z:shortTitle>Modernity in Islamic Tradition: The</z:shortTitle>
+      <z:shortTitle>Modernity in Islamic Tradition</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
@@ -5910,7 +5910,7 @@ uuid: 4AD0A1F8-9F13-402B-9EB5-93CB15C23067
    <bib:Thesis rdf:about="#3661666B-B9FB-47D6-A260-4616A55A70E4">
       <z:itemType>thesis</z:itemType>
       <dc:title>Negotiating Ethno-Confessional Relations in Late Ottoman Palestine: Debates in the Arab Palestinian Newspaper Filasṭīn (1911-1914)</dc:title>
-      <z:shortTitle>Negotiating Ethno-Confessional Relations in Late</z:shortTitle>
+      <z:shortTitle>Negotiating Ethno-Confessional Relations in Late Ottoman Palestine</z:shortTitle>
       <bib:authors>
          <rdf:Seq>
             <rdf:li>
