@@ -7,7 +7,8 @@ DOI: doi.org/10.5281/zenodo.1413610
 licence: http://creativecommons.org/licenses/by-nd/4.0/
 bibliography: assets/bibliography/catch-me-if-you-can.csl.json
 # csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
-csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
+# csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl # CSL is set through the transformation pipeline in Sublime Text
+suppress-bibliography: true
 lang: en-GB
 markdown:
    - pandoc
@@ -25,10 +26,6 @@ tags:
 <!-- # processing instructions -->
 <!-- pre-process with pancritic -->
 <!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept -o catch-me-if-you-can_changes-accepted.md -->
-<!-- ## 1. HTML -->
-<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc -F pandoc-crossref -s -f markdown -t html5-smart --toc --include-in-header=/BachUni/programming/Pandoc/css-pandoc_online-publication.txt --include-in-header=/BachUni/programming/Pandoc/css-pandoc_code-highlight_oxygen-xml.txt --email-obfuscation=javascript -o index.html -->
-<!-- ## 2. DOCX -->
-<!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept | pandoc --filter=pandoc-citeproc -s -f markdown -t docx -o catch-me-if-you-can.docx -->
 
 <div id="sec-badges" class="c_badges">
 [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5739-8094)
@@ -43,13 +40,13 @@ tags:
 
 >The current stable draft of this paper is version [v0.3](https://tillgrallert.github.io/p3a6afa20/v0-3/index.html) and contains unprocessed references to sources and secondary literature, cross-references, and CriticMarkup. To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://tillgrallert.github.io/p3a6afa20/v0-3/index.html). The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html).
 
->Note that network plots make use of a computational transcription of Arabic into Latin script because the intended general audience is assumed to not be able to read Arabic. 
+>Note that network plots make use of a computational transcription of Arabic into Latin script because the intended general audience is assumed to not be able to read Arabic.
 
 >High-resolution plots, data sets and other supplementary data can can be found at <https://github.com/tillgrallert/s3a6afa20>. If this paper gets accepted for publication, releases of this repository will be uploaded to Zenodo and get a DOI.
 
 # Introduction
 
-This paper presents the dual challenge of {=="digital history"==} to the study of the ideosphere of the late Ottoman Eastern Mediterranean[^53] through its periodical press. The first challenge is to confront hyperbolic promises of mass digitisation and computational methods for the exploration of digitised cultural heritage as a hegemonic episteme rooted in 20th-century, english-speaking, neoliberal capitalism from the margins---That is, the study of a historical multilingual society whose material heritage has been looted, destroyed and neglected. A society, whose material heritage resists digitisation efforts by being dependent on non-Latin scripts and, for instance, non-Gregorian calendars. A society, whose contemporary heirs cannot draw on the vast resources in wealth and socio-technical infrastructures of the Global North. The second challenge is to actually explore the ideosphere of periodicals and their contributors{>> through computational approaches such as network analysis and stylometry<<}. 
+This paper presents the dual challenge of {=="digital history"==} to the study of the ideosphere of the late Ottoman Eastern Mediterranean[^53] through its periodical press. The first challenge is to confront hyperbolic promises of mass digitisation and computational methods for the exploration of digitised cultural heritage as a hegemonic episteme rooted in 20th-century, english-speaking, neoliberal capitalism from the margins---That is, the study of a historical multilingual society whose material heritage has been looted, destroyed and neglected. A society, whose material heritage resists digitisation efforts by being dependent on non-Latin scripts and, for instance, non-Gregorian calendars. A society, whose contemporary heirs cannot draw on the vast resources in wealth and socio-technical infrastructures of the Global North. The second challenge is to actually explore the ideosphere of periodicals and their contributors{>> through computational approaches such as network analysis and stylometry<<}.
 
 Early Arabic periodicals{-- from the late nineteenth and early twentieth centuries--}, such as Butrus al-Bustānī's *al-Jinān* (Beirut, 1876–86), Yaʿqūb Ṣarrūf, Fāris Nimr, and Shāhīn Makāriyūs' *al-Muqtaṭaf* (Beirut and Cairo, 1876–1952), Muḥammad Kurd ʿAlī's *al-Muqtabas* (Cairo and Damascus, 1906–18/19) or Rashīd Riḍā's *al-Manār* (Cairo, 1898–1941) are at the core of formative discourses that still reverberate through the Arabic-speaking Middle East: the Arabic (cultural) renaissance (*nahḍa*), Arab nationalism, and the Islamic reform movement (*ṣalafiyya*). The Arabic periodical press of the late Ottoman Eastern Mediterranean{--[^53]--} has received scholarly attention since the early twentieth century. Yet, core questions concerning the intellectual history of the periodical press and the social history of periodical production are still unanswered. Arabic approaches to the periodical press have been, for a long time, both encyclopaedic and anecdotal as well as biased by an almost exclusive focus on Cairo and Beirut. Many of these works were compiled by authors who themselves were journalist and adhere to a specific political view of Arab nationalism and demonize the Ottoman Empire, particularly during the reign of ʿAbdülḥamīd II (1876--1909).[^28] Non-Arabic scholarship commonly perceives of journals and newspapers as a *source* for intellectual, social and political history but only rarely as a *subject* in its own right. There is the noteworthy exception of Ami Ayalon's extensive writings on the press in the Arab Middle East[^31], but comprehensive, synthesising approaches are severely limited by the almost complete absence of systematic studies on individual periodicals.[^17] Even scholarly approaches to the press as a *source* remain largely anecdotal with a focus on opinion pieces and editorials in a small sample of canonical journals from Beirut and Cairo. The main reasons are scale and scattered collections, which, however, remain {==completely==}{>>largely<<} unacknowledged.
 
@@ -171,7 +168,7 @@ Within OpenArabicPE we devise workflows and tools to transform digital texts fro
 
 [^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. [@DfgPraxisregelnDigitalisierung+2016].
 
-[^36]: The website was previously hosted at [archive.sakhrit.co][sakhrit]. 
+[^36]: The website was previously hosted at [archive.sakhrit.co][sakhrit].
 
 All tools and the editions are hosted on the code-sharing platform [GitHub](https://www.github.com) under MIT and Creative Commons [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses for reading, contribution, and re-use.[^10] {>>mention collaboration with Leipzig and the integration of Muqtabas into CLARIN<<} We also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems.[^26]
 
@@ -441,7 +438,7 @@ What are the computational means for casting some light on the more than four fi
 [^14]: [@Laramée+2018]
 [^11]: For an introduction to computational methods for authorship attribution see [@Koppel+2009].
 
-The present paper is the first foray into stylometric authorship attribution for Arabic periodicals. Christiane Czygan's work is the only attempt at stylometric authorship attribution for Ottoman periodicals I have come across, but, after developing a set of style markers for individual editors-cum-authors, the author did not apply them for actual authorship attribution.[^5] 
+The present paper is the first foray into stylometric authorship attribution for Arabic periodicals. Christiane Czygan's work is the only attempt at stylometric authorship attribution for Ottoman periodicals I have come across, but, after developing a set of style markers for individual editors-cum-authors, the author did not apply them for actual authorship attribution.[^5]
 
 [^5]: [@Czygan+2012]. This work falls short on many counts beyond introducing a promising approach. Basic statistic measures about her corpus and computational approaches remain unknown and most importantly, she tested only one (sic!) anonymous article with a set of parameters she took 80 pages to develop.
 
@@ -454,8 +451,8 @@ Maciej Eder{--, inspired by phylogenetics,--} suggested to use *bootstrap consen
 
 <!-- minimum length of texts -->
 
-Finally, there is an important caveat in applying stylometry to periodicals: the minimal required length of a text for meaningful attribution. Eder experimentally established a threshold length of 5000 words using medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek and applying Burrows' Delta on 200 MFWs. Below 5000 words, the signal was "immensely affected by random noise".[^40] These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling. 
-Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor. 
+Finally, there is an important caveat in applying stylometry to periodicals: the minimal required length of a text for meaningful attribution. Eder experimentally established a threshold length of 5000 words using medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek and applying Burrows' Delta on 200 MFWs. Below 5000 words, the signal was "immensely affected by random noise".[^40] These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling.
+Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor.
 
 [^15]: [@Eder+2016b]. R is a widely used free software environment for statistical computing and graphics.
 [^41]: Plain text, here, means that everything but the actual textual content, including mark-up, metadata and structural information, was computationally removed.
@@ -520,4 +517,4 @@ Noting that any analysis of authorship and socio-intellectual networks is limite
 [sakhrit]: http://archive.sakhrit.co
 [shamela]: http://www.shamela.ws/
 [shamela 2]: http://shamela.ws/index.php/book/26523
-[wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1 
+[wikisource]: https://ar.wikisource.org/wiki/%D9%85%D8%AC%D9%84%D8%A9_%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%A8%D8%B3/%D8%A7%D9%84%D8%B9%D8%AF%D8%AF_1
