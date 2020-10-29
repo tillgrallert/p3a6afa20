@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?><tss:senteContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tss="http://www.thirdstreetsoftware.com/SenteXML-1.0" xmlns="http://www.thirdstreetsoftware.com/SenteXML-1.0" version="1.0" xsi:schemaLocation="http://www.thirdstreetsoftware.com/SenteXML-1.0 SenteXML.xsd">
+<tss:library>
+<tss:references>
+<tss:reference>
+<tss:publicationType name="Bill"/>
+<tss:dates>
+<tss:date type="Publication" year="1872"/>
+<tss:date type="Original" day="31" month="12" year="1864"/>
+<tss:date type="Entry" day="21" month="11" year="2011"/>
+<tss:date type="Modification" day="25" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">maṭbūʿāt niẓāmnāmesi</tss:characteristic>
+<tss:characteristic name="publicationTitle">Düstur: kavanin ve nizamat ve muahedat ile umuma ait mukavelat ve iradat-i seniyeyi muhtevidir.</tss:characteristic>
+<tss:characteristic name="abstractText">A French translation is printed in Règlement de la Censure de la Presse." Promulgated on 2 Shaʿ 1281 aH [1 Feb. 1865]. In Corps de Droit Ottoman II Edited by George Young. Translated by Aristarchi. Oxford: Clarendon Press, 1905: 321-326&lt;br&gt;&lt;a href="sente:/BachBibliographie/Young+1905e"&gt;sente:/BachBibliographie/Young+1905e&lt;/a&gt; </tss:characteristic>
+<tss:characteristic name="language">ota</tss:characteristic>
+<tss:characteristic name="pages">220-226</tss:characteristic>
+<tss:characteristic name="publicationCountry">Der-i Saʿādet</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿa-yi ʿĀmire</tss:characteristic>
+<tss:characteristic name="status">Reviewed</tss:characteristic>
+<tss:characteristic name="UUID">5BC2C944-EBB6-4572-AFA2-3C17259300AE</tss:characteristic>
+<tss:characteristic name="volume">2</tss:characteristic>
+<tss:characteristic name="OCLCID">81476270</tss:characteristic>
+<tss:characteristic name="RIS reference number">81476270</tss:characteristic>
+<tss:characteristic name="call-num">EC87.109 /77862</tss:characteristic>
+<tss:characteristic name="Short Titel">Düstur</tss:characteristic>
+<tss:characteristic name="Date Rumi">19 Kan I 1280</tss:characteristic>
+<tss:characteristic name="Signatur">EC87.109 /77862</tss:characteristic>
+<tss:characteristic name="Date Hijri">2 Shaʿ 1281</tss:characteristic>
+<tss:characteristic name="EndNote reference number">320</tss:characteristic>
+<tss:characteristic name="Web data source">WorldCat</tss:characteristic>
+<tss:characteristic name="Series">Tertip I</tss:characteristic>
+<tss:characteristic name="Repository">HTU</tss:characteristic>
+<tss:characteristic name="Translated title">Law on printed material</tss:characteristic>
+<tss:characteristic name="Standort">SOAS, FU Islamwissenschaft (MF), StaBi</tss:characteristic>
+<tss:characteristic name="Citation identifier">DüsturKavaninVeNizamat 1872j</tss:characteristic>
+<tss:characteristic name="URL">http://www.tufs.ac.jp/common/fs/asw/tur/htu/list1.html#d</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">Laws: press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Legal text</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">official records</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Ottoman source</tss:keyword>
+<tss:keyword assigner="Sente User till">Ottoman Law</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>Art 13</title><comment>banning the disrution of internal security (emeniyet dāḫiliyesini) and public order (ve memālik-i meḥrüseniñ āsāyışini iḫlāl)</comment><quotation/><pages>222</pages></tss:note>
+<tss:note><title>art 14</title><comment>banning contempt against public morals and religious customs (ādāb-ı ʿumūmiye ve meḥāsin-i eḫlāḳ-ı milliye muġāyır bir şey)</comment><quotation/><pages>222</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1872%20Du%CC%88stur%20kavanin%20ve%20nizamat%20ve%20muahedat%20ile%20umuma%20ait%20mukavelat%20ve%20iradat-i%20seniyeyi%20muhtevidir%20%236.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="9" month="9" year="1878"/>
+<tss:date type="Original" day="4" month="9" year="1878"/>
+<tss:date type="Entry" day="1" month="12" year="2010"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">al-Shām fī 7 ramaḍān</tss:characteristic>
+<tss:characteristic name="publicationTitle">Thamarāt al-Funūn</tss:characteristic>
+<tss:characteristic name="abstractText">municipal elections took place: the elections are legitimised (*tafwīḍ*) for the people by the chastity (*al-ʿaffa*) and righteousness of the candidates and we hope for the progress of our town (*baladatunā*). unfortunately, we are not informed about the reasons for the resignation of some of the members and the old president Muḥammad Āğā al-Bārūdī, reported by some newspapers.&lt;br&gt;- Suriye: the new municipality embarked on the cleaning of the Suqs and the prohibition of stalls for presenting goods etc. in the streets (*ṭaraqāt*). Further they appointed some officials for overseeing the market: that no rotten fruits are sold. then they turned their attention to the bread sold and the gas used to light the streets and alleyways of the town . expressing gratitude of thousands of people (*ulūf min al-ahlīn*)&lt;br&gt;- but the problem is that these lights do not emit any light, that the pedestrians cannot walk the streets (*ṭaraqāt*) full of trash and dirt. yet, we cannot blame the new baladiyya&lt;br&gt;&lt;br&gt;- another letter from Damascus, replying to reports in some Arabic newspapers. they received quite a few and will publish them as soon as the authorship etc is established</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Jamʿiyyat al-Funūn</tss:characteristic>
+<tss:characteristic name="rating">3</tss:characteristic>
+<tss:characteristic name="status">Complete</tss:characteristic>
+<tss:characteristic name="UUID">C38758DB-AF23-46F2-842D-E2368B68825B</tss:characteristic>
+<tss:characteristic name="issue">181</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-NA:000026, Inv 9583 Mic-A 297</tss:characteristic>
+<tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+<tss:characteristic name="EndNote reference number">795</tss:characteristic>
+<tss:characteristic name="Standort">AUB, FU Islamwissenschaft</tss:characteristic>
+<tss:characteristic name="Citation identifier">thamarat 181</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">critique, authorities</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Elections</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Market inspector</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Municipal government</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Official gazette</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press review</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Reply</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Street cleaning</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Street lighting</tss:keyword>
+<tss:keyword assigner="Sente User till">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User till">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference type="PDF (Portable Document Format)"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1878%20thamara%CC%84t%20al-funu%CC%84n%20181%20al-sha%CC%84m%20fi%CC%84%207%20ramad%CC%A3a%CC%84n%20%233.pdf</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1878%20thamara%CC%84t%20al-funu%CC%84n%20181%20al-sha%CC%84m%20fi%CC%84%207%20ramad%CC%A3a%CC%84n.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:authors>
+<tss:author role="Editor"><tss:surname>Qabbānī</tss:surname><tss:forenames>ʿAbd al-Qādir</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" day="9" month="9" year="1878"/>
+<tss:date type="Retrieval" day="7" month="11" year="2017"/>
+<tss:date type="Entry" day="7" month="11" year="2017"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;# murāsalāt: &lt;br&gt;## murāsalāt: Damascus, 7 Ram 1295&lt;br&gt;by someone other than our correspondent&lt;br&gt;## murāsalāt: Tripoli, from one of the dignitaries&lt;br&gt;- on the election of the baladiyya in Tripoli&lt;br&gt;## murāsalāt: Shūf, 8 Ram, 1295     </tss:characteristic>
+<tss:characteristic name="volume">4</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿa Jamʿiyyat al-Funūn</tss:characteristic>
+<tss:characteristic name="UUID">0D767389-7EE1-4952-9C92-D086DAAFBE92</tss:characteristic>
+<tss:characteristic name="issue">181</tss:characteristic>
+<tss:characteristic name="Shortened title">Thamarāt</tss:characteristic>
+<tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+<tss:characteristic name="Date Rumi">28 Āb 1878</tss:characteristic>
+<tss:characteristic name="Date Hijri">12 Ram 1295</tss:characteristic>
+<tss:characteristic name="Citation identifier">thamarat-oib-4-181</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Qabba%CC%84ni%CC%84%2C%20%CA%BFAbd%20al-Qa%CC%84dir/1878%20Thamara%CC%84t%20al-Funu%CC%84n%20Inna%20hadhihi%20al-s%CC%A3ah%CC%A3i%CC%84fa%20%CA%BFala%CC%84%20h%CC%A3awa%CC%84dith%20siya%CC%84siyya%20wa-mah%CC%A3alliyya%20wa-tija%CC%84ra%20wa-f%20%2342.pdf</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>(null):images/issues/oclc_792755216-i_181-p_1.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>(null):images/issues/oclc_792755216-i_181-p_2.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>(null):images/issues/oclc_792755216-i_181-p_3.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>(null):images/issues/oclc_792755216-i_181-p_4.jpg</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="13" month="2" year="1882"/>
+<tss:date type="Entry" day="26" month="2" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">ḥawādith baladiyya</tss:characteristic>
+<tss:characteristic name="publicationTitle">Lisān al-Ḥāl</tss:characteristic>
+<tss:characteristic name="abstractText">- received an anonymous letter from Ṣāliḥiyya about Aḥmad Agha, head of the Karakul of Ṣāliḥiyya, which will be printed as soon as the name of its author is revealed to the publishers&lt;br&gt;- the severe cold, strong winds, and snow prevented the opening of shops on Damascus for some days</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="UUID">0B779CAB-9E29-46CF-9623-7342BFFBA35E</tss:characteristic>
+<tss:characteristic name="issue">442</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-Na:000111-4</tss:characteristic>
+<tss:characteristic name="Short Titel">Lisān</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1122</tss:characteristic>
+<tss:characteristic name="Physical description">microfilm reel.</tss:characteristic>
+<tss:characteristic name="Standort">AUB</tss:characteristic>
+<tss:characteristic name="Citation identifier">lisan 442</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">cold</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Economic aspects</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">snow</tss:keyword>
+<tss:keyword assigner="Sente User till">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="22" month="3" year="1886"/>
+<tss:date type="Entry" day="18" month="1" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">[ḥawādith maḥalliyya]</tss:characteristic>
+<tss:characteristic name="publicationTitle">Thamarāt al-Funūn</tss:characteristic>
+<tss:characteristic name="abstractText">- Wed mornig: Nāshid Pasha arrived in Damascus&lt;br&gt;- election for the admin council of the sancak Beirut; giving names&lt;br&gt;- order from the Porte: Ps 65.000 to be spend on the mausoleum of Aḥmad Ḥamdī Pasha in Beirut&lt;br&gt;- on a letter from Damascus and whether it should be published under the real names of its author&lt;br&gt;- on the military rüşdiye in Aleppo</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Jamʿiyyat al-Funūn</tss:characteristic>
+<tss:characteristic name="UUID">7A368DB2-E14A-42F2-9054-6CFAE291501D</tss:characteristic>
+<tss:characteristic name="issue">573</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-NA:000026, Inv 9583 Mic-A 297</tss:characteristic>
+<tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1124</tss:characteristic>
+<tss:characteristic name="Standort">AUB, FU Islamwissenschaft</tss:characteristic>
+<tss:characteristic name="Citation identifier">thamarat 573</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">administrative council</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Aleppo</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Beirut</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Funeral/burial</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Military</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Public works</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Elections</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">I.A The Newspapers</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">State schools</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User till">weekly</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference type="PDF (Portable Document Format)"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1886%20thamara%CC%84t%20al-funu%CC%84n%20573%20%5Bh%CC%A3awa%CC%84dith%20mah%CC%A3alliyya%5D%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="22" month="3" year="1886"/>
+<tss:date type="Retrieval" day="11" month="07" year="2013"/>
+<tss:date type="Entry" day="1" month="8" year="2013"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">573</tss:characteristic>
+<tss:characteristic name="publicationTitle">Thamarāt al-Funūn</tss:characteristic>
+<tss:characteristic name="volume">12</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Jamʿiyyat al-Funūn</tss:characteristic>
+<tss:characteristic name="UUID">53F830E3-98D9-485D-B3F0-3F8E44ADE161</tss:characteristic>
+<tss:characteristic name="issue">573</tss:characteristic>
+<tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+<tss:characteristic name="BibTeX cite tag">ThamaratAlFunun:1886</tss:characteristic>
+<tss:characteristic name="Repository">OIB</tss:characteristic>
+<tss:characteristic name="Citation identifier">tf-oib 573</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">weekly</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1886%20Thamara%CC%84t%20al-Funu%CC%84n%20573%20573%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="15" month="4" year="1889"/>
+<tss:date type="Retrieval" day="11" month="07" year="2013"/>
+<tss:date type="Entry" day="1" month="8" year="2013"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">729</tss:characteristic>
+<tss:characteristic name="publicationTitle">Thamarāt al-Funūn</tss:characteristic>
+<tss:characteristic name="volume">15</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Jamʿiyyat al-Funūn</tss:characteristic>
+<tss:characteristic name="UUID">73BF7D0E-5165-4BB3-81A7-0650804DF790</tss:characteristic>
+<tss:characteristic name="issue">729</tss:characteristic>
+<tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+<tss:characteristic name="Date Rumi">3 Nīs 1889</tss:characteristic>
+<tss:characteristic name="BibTeX cite tag">ThamaratAlFunun:1889</tss:characteristic>
+<tss:characteristic name="Date Hijri">14 Shaʿ 1306</tss:characteristic>
+<tss:characteristic name="Repository">OIB</tss:characteristic>
+<tss:characteristic name="Citation identifier">tf-oib 729</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">weekly</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1889%20Thamara%CC%84t%20al-Funu%CC%84n%20729%20729%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="15" month="1" year="1891"/>
+<tss:date type="Entry" day="13" month="4" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">akhbār maḥalliyya</tss:characteristic>
+<tss:characteristic name="publicationTitle">Lisān al-Ḥāl</tss:characteristic>
+<tss:characteristic name="abstractText">received a weird letter from Damascus with the title "&amp;lt;title level="a"&amp;gt;waqt aḍīq min ṣadr al-mahjūr&amp;lt;/title&amp;gt;", which was not printed for the following reasons:&lt;br&gt;a) written on both sides of the sheet&lt;br&gt;b) unknown / anonymous author&lt;br&gt;c) far too long (only 800 lines allowed of 10 words)&lt;br&gt;d) hardly decipherable&lt;br&gt;- thus, the 4 rules to be obeyed by correspondents are explicated</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="rating">4</tss:characteristic>
+<tss:characteristic name="UUID">3D75F728-E4D2-443D-875B-CC5FD2A02A0A</tss:characteristic>
+<tss:characteristic name="issue">1301</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-Na:111-9</tss:characteristic>
+<tss:characteristic name="Short Titel">Lisān</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1123</tss:characteristic>
+<tss:characteristic name="Physical description">microfilm reel.</tss:characteristic>
+<tss:characteristic name="Standort">AUB</tss:characteristic>
+<tss:characteristic name="Citation identifier">lisan 1301</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">periodical production</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="15" month="1" year="1891"/>
+<tss:date type="Entry" day="13" month="4" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">al-marāt fī baytihā </tss:characteristic>
+<tss:characteristic name="publicationTitle">Lisān al-Ḥāl</tss:characteristic>
+<tss:characteristic name="abstractText">the article is continued in numbers 1302, 1303, 1304, and 1305</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">3</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="UUID">B26B219A-F436-46D1-A9EE-AB18BF6A5688</tss:characteristic>
+<tss:characteristic name="issue">1301</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-Na:111-9</tss:characteristic>
+<tss:characteristic name="Short Titel">Lisān</tss:characteristic>
+<tss:characteristic name="Physical description">microfilm reel.</tss:characteristic>
+<tss:characteristic name="Standort">AUB</tss:characteristic>
+<tss:characteristic name="Citation identifier">lisan 1301a</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">gender roles</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Sbāʿī</tss:surname><tss:forenames>Muṣṭafā</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" day="15" month="1" year="1891"/>
+<tss:date type="Entry" day="13" month="4" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">murāsilāt al-jihāt: al-shām fī 25 kanūn al-awwal</tss:characteristic>
+<tss:characteristic name="publicationTitle">Lisān al-Ḥāl</tss:characteristic>
+<tss:characteristic name="abstractText">on the crafts in Damascus&lt;br&gt;- correcting an earlier report [which?]</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">3-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="rating">2</tss:characteristic>
+<tss:characteristic name="UUID">05FDB4A5-7A3A-4700-9CE6-CABBD47C8479</tss:characteristic>
+<tss:characteristic name="issue">1301</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-Na:111-9</tss:characteristic>
+<tss:characteristic name="Short Titel">Lisān</tss:characteristic>
+<tss:characteristic name="Physical description">microfilm reel.</tss:characteristic>
+<tss:characteristic name="Standort">AUB</tss:characteristic>
+<tss:characteristic name="Citation identifier">lisan 1301b</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Economic report</tss:keyword>
+<tss:keyword assigner="Sente User BachPrivat">Industries</tss:keyword>
+<tss:keyword assigner="Sente User till">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="17" month="2" year="1909"/>
+<tss:date type="Entry" day="27" month="8" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">ḥawādith dākhiliyya</tss:characteristic>
+<tss:characteristic name="publicationTitle">al-Muqtabas: Jarīda yawmiyya siyāsiyya iqtiṣādiyya</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya: &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;  &amp;lt;persName&amp;gt;Ṣādiq al-Muʾayyad Pasha al-ʿAẓm&amp;lt;/persName&amp;gt; replaces Kyāẓim Pasha as Nazir of the Hijaz railway, the latter being appointed Vali of the Hijaz&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt; municipal elections go on in the prescribed manner. the electorate has to appear in person and write or have written his vote on the ballot which he then has to put into the box. muqtabas: this is easy rigging, as now no privacy is provided and the people come together to the baladiyya to vote (e.g. the Mīdānis who selected only their own flock), now can approach the election committee and raise his voice to elect one man in place of another etc.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;replying to allegations that all the anonymous articles printed under the names (Mīdāni, husan, za'id al-khayr, arraf al-yamani, rabi'a, ana, najid tahami), are indeed the work of the editors of muqtabas: the people should be aware of the many fine ʿulamāʾ and literati in support of progress, who cannot dare to speak out under their clear name.&lt;br&gt;- addressing Mīdāni, author of three articles, whose fourth is about his wife and not printed</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">3</tss:characteristic>
+<tss:characteristic name="publicationCountry">Dimashq</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat al-Muqtabas</tss:characteristic>
+<tss:characteristic name="rating">1</tss:characteristic>
+<tss:characteristic name="status">Complete</tss:characteristic>
+<tss:characteristic name="UUID">81A979A0-FE34-46A2-A66F-5FB3CCC0566D</tss:characteristic>
+<tss:characteristic name="issue">51</tss:characteristic>
+<tss:characteristic name="Medium consulted">Microfilm</tss:characteristic>
+<tss:characteristic name="call-num">Mic-Na:142-1</tss:characteristic>
+<tss:characteristic name="Short Titel">Jarīdat al-Muqtabas</tss:characteristic>
+<tss:characteristic name="Signatur">Mic-Na:142-1</tss:characteristic>
+<tss:characteristic name="EndNote reference number">422</tss:characteristic>
+<tss:characteristic name="Citation identifier">jarmuq 51</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">periodical production</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">administrative change</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">critique, authorities</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">daily</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Elections</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Hajj</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Municipal government</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">neighbourhood</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Opinion piece</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Reply</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">rigged elections</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="7" month="3" year="1909"/>
+<tss:date type="Entry" day="5" month="1" year="2013"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">ḥawādith dākhiliyya</tss:characteristic>
+<tss:characteristic name="publicationTitle">al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# baʿd al-dustūr&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf al-Ruṣāfī&amp;lt;/persName&amp;gt; from Istanbul, Qaṣīda &lt;br&gt;# al-ʿArab maʿ al-turk [Arabs and Turks]&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# al-tawqīf&lt;br&gt;by &amp;lt;persName&amp;gt;Aḥmad Ṣābūnī&amp;lt;/persName&amp;gt; from Hama&lt;br&gt;# ḥawādith dākhiliyya:  ## ḥawādith dākhiliyya: &lt;br&gt;the refugees commission in the province received £T 5.000 from the agricultural bank in istanbul&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;on differences/ problems of the Ḥijāz railway company: the last prove needed is the way they fail to deal with the estimated 6.600 Caucasian pilgrims who will arrive shortly in Damascus to take the train to Medina&lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;yest, arrival of the Vali, Nāẓim Pasha, from Jerusalem were he went because of the civil strife (fitna) between the Bedouins (ʿarab) and the Greek Orthodox.&lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;police announced that the arrested a burglar who had broken into the house of &amp;lt;persName&amp;gt;Malik bin Ḥasan Mirzā Khān&amp;lt;/persName&amp;gt;, the Iranian consul&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya: &lt;br&gt;the province had ordered all administrative divisions to observe that their officials are present at the offices between 5 and 11 o'clock.&lt;br&gt;a</tss:characteristic>
+<tss:characteristic name="volume">1</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Dimashq</tss:characteristic>
+<tss:characteristic name="UUID">195E9ADC-E01C-48F2-96CF-BC9E52656033</tss:characteristic>
+<tss:characteristic name="issue">66</tss:characteristic>
+<tss:characteristic name="call-num">EAP119/1/19/27</tss:characteristic>
+<tss:characteristic name="Short Titel">Jarīdat al-Muqtabas</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1394</tss:characteristic>
+<tss:characteristic name="Repository">EAP</tss:characteristic>
+<tss:characteristic name="Standort">Masjid al-Aqṣā</tss:characteristic>
+<tss:characteristic name="Citation identifier">muqtabas 27-eap</tss:characteristic>
+<tss:characteristic name="URL">http://eap.bl.uk/database/overview_item.a4d?catId=6782;r=26134</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Burglary</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">critique</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">daily</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">expanding government control</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Hijaz Railway</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>address of Muqtabas</title><comment/><quotation>maḥall idārat al-jarīda&lt;br&gt;fī al-ṭābiq al-ʿalawī min khān al-murādiyya&lt;br&gt;bi-bāb al-barīd</quotation><pages>1</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1909%20al-Muqtabas%2070%206782.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1909%20al-Muqtabas%2070%206782%20%232.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1909%20al-Muqtabas%2070%206782%20%233.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1909%20al-Muqtabas%2070%206782%20%234.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1909%20al-Muqtabas%20Jari%CC%84dat%20Yawmiyya%20Siya%CC%84siyya%20Iqtis%CC%A3a%CC%84diyya%20Ijtima%CC%84%CA%BFiyya%2066%20h%CC%A3awa%CC%84dith%20da%CC%84khiliyya.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:authors>
+<tss:author role="Editor"><tss:surname>Ḥabīb Ḥanāniyā</tss:surname><tss:forenames>Jirjī</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" day="11" month="6" year="1909"/>
+<tss:date type="Retrieval" day="17" month="5" year="2017"/>
+<tss:date type="Entry" day="17" month="5" year="2017"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">al-Quds: Jarīda ʿilmiyya adabiyya akhbāriyya</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# the Ottoman gendarmerie&lt;br&gt;- presenting the rules for those who want to enter the service&lt;br&gt;# tajnīb jamīʿ al-ʿuthmāniyīn / general mobilization of all Ottomans&lt;br&gt;&amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# a strange dream&lt;br&gt;- some papers reporting on a strange dream of ʿAbdülḥamīd II some five years ago&lt;br&gt;# muqtabasāt&lt;br&gt;## muqtabasāt&lt;br&gt;the secretary of printed material at the Sublime Porte published the following announcement in the papers of Constantinople: &lt;br&gt;- it is not allowed to publish reports on military installations / locations, or on executions, or anything related to the Ministry of War. The commander of the third ... announced that the publication of images, drawings, and anything related to this is prohibited&lt;br&gt;## muqtabasāt&lt;br&gt;the ministry of the private treasury called on the ministry of finance to pay the &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="month" quantity="1"&amp;gt;monthly salary&amp;lt;/measure&amp;gt; of the Sultan, which amounts to &amp;lt;measure commodity="currency" unit="ops" quantity="2000000"&amp;gt;Ps 2 Million&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;, in four &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="labor" unit="week" quantity="1"&amp;gt;weekly installments&amp;lt;/measure&amp;gt; of &amp;lt;measure commodity="currency" unit="ops" quantity="500000"&amp;gt;Ps 500.000&amp;lt;/measure&amp;gt;&amp;lt;/measureGrp&amp;gt;.&lt;br&gt;## muqtabasāt&lt;br&gt;- Imperial irade announcing the minting of new coinage in the name of the new Sultan Mehmed V&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;&lt;br&gt;- initially they will mint £T 200000&lt;br&gt;# invention (*ikhtirāʿ*)&lt;br&gt;by a Syrian in Buenos Aires&lt;br&gt;# important invention &lt;br&gt;reported in the journal &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt; [4(2):133]&lt;br&gt;- two psychologists, one German the other American, developed an electric Psychometer&lt;br&gt;# iʿlān: plea&lt;br&gt;calling on all subscribers who have not yet paid their annual subscription for the first year [sic!] to finally do so&lt;br&gt;# iʿlān:&lt;br&gt;*nuʿlinu li-l-jumhūr*  </tss:characteristic>
+<tss:characteristic name="volume">1</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">al-Quds</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿa Jirji Ḥabīb Ḥanāniyā</tss:characteristic>
+<tss:characteristic name="status">Reviewed</tss:characteristic>
+<tss:characteristic name="UUID">BA12870D-C5EC-4F97-833B-E6BFC2A350EF</tss:characteristic>
+<tss:characteristic name="issue">60</tss:characteristic>
+<tss:characteristic name="Short Titel">Quds</tss:characteristic>
+<tss:characteristic name="Date Rumi">29 Ayyār 1909</tss:characteristic>
+<tss:characteristic name="Date Hijri">22 Jum I 1327</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1401</tss:characteristic>
+<tss:characteristic name="Date read">2017-06-16</tss:characteristic>
+<tss:characteristic name="Citation identifier">al-quds-1-60</tss:characteristic>
+<tss:characteristic name="URL">http://www.palestine.mei.columbia.edu/alquds-issues/2017/2/21/issue-60</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">biweekly</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Censorship</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">freedom of speech</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Gendarmerie</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Jerusalem</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Legal text</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Military Service</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Ottoman Empire</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference type="Portable Document Format (PDF)"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/H%CC%A3abi%CC%84b%20H%CC%A3ana%CC%84niya%CC%84%2C%20Jirji%CC%84/1909%20al-Quds%20Jari%CC%84da%20%CA%BFilmiyya%20adabiyya%20akhba%CC%84riyya%2060%20H%CC%A3abi%CC%84b%20H%CC%A3ana%CC%84niya%CC%84%2C%20Jirji%CC%84.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="7" month="4" year="1910"/>
+<tss:date type="Entry" day="5" month="8" year="2013"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">6831</tss:characteristic>
+<tss:characteristic name="publicationTitle">al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="1"/&amp;gt;&lt;br&gt;# Arabs and Turks&lt;br&gt;by Jaʿfar al-Baramkī&lt;br&gt;&amp;lt;pb n="2"/&amp;gt;&lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;new tax of £T 0.5 to 1.5 to finance the Ḥijāz railway. &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;- Vol. 4, no. 8 of &amp;lt;title level="j"&amp;gt;Majallat al-Muqtabas&amp;lt;/title&amp;gt; has been published. It    comprises five long articles.&lt;br&gt;- Vol. 4, no. 7 was published last week. naming the authors&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;some police officers have been arrested in Damascus for minting counterfeit coins: pound sterling, Egyptian mecidiyes etc.&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the people of Sūq al-Arwām called for the plastering of their shops at the beginning of the street .... and to pave the entire street on their expense (*bi-nafawatihim*). The municipality replied to their demand and the Vali listened to them and works will begin shortly&lt;br&gt;- if this means that the majority of the streets will be done in this way within only a short period of time, the baladiyya will soon be tiled with pavement.&lt;br&gt;## &lt;br&gt;by a Mīdānī&lt;br&gt;- telling the story how he was walking in the streets&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </tss:characteristic>
+<tss:characteristic name="volume">2</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">Dimashq</tss:characteristic>
+<tss:characteristic name="status">Reviewed</tss:characteristic>
+<tss:characteristic name="UUID">612A0D98-4A8C-4DF9-8E76-ED85FAD47C21</tss:characteristic>
+<tss:characteristic name="issue">338</tss:characteristic>
+<tss:characteristic name="call-num">EAP119/1/19/76</tss:characteristic>
+<tss:characteristic name="Short Titel">Jarīdat al-Muqtabas</tss:characteristic>
+<tss:characteristic name="Date Hijri">27 Rab I 1328</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1391</tss:characteristic>
+<tss:characteristic name="Repository">EAP</tss:characteristic>
+<tss:characteristic name="Standort">Masjid al-Aqṣā</tss:characteristic>
+<tss:characteristic name="Citation identifier">muqtabas 76-eap</tss:characteristic>
+<tss:characteristic name="URL">http://eap.bl.uk/database/overview_item.a4d?catId=6831;r=10426</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">daily</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1910%20al-Muqtabas%20Jari%CC%84dat%20Yawmiyya%20Siya%CC%84siyya%20Iqtis%CC%A3a%CC%84diyya%20Ijtima%CC%84%CA%BFiyya%20410%206831%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:authors>
+<tss:author role="Editor"><tss:surname>Abū Zayd</tss:surname><tss:forenames>Nāṣīf</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" day="7" month="4" year="1910"/>
+<tss:date type="Retrieval" day="2" month="3" year="2019"/>
+<tss:date type="Entry" day="2" month="3" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">al-ʿAṣr al-Jadīd: Jarīda siyāsiyya tujāriyya ʿilmiyya ṣināʿiyya adabiyya zirāʿiyya</tss:characteristic>
+<tss:characteristic name="abstractText">&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# dākhiliyya:&lt;br&gt;## dākhiliyya: The Cretan question&lt;br&gt;  &amp;lt;pb n="3"/&amp;gt;&lt;br&gt;# Qaṣīda&lt;br&gt;by &amp;lt;persName&amp;gt;Maʿrūf Efendi al-Ruṣāfī&amp;lt;/persName&amp;gt;&lt;br&gt;- according to the *Dīwān al-Ruṣāfī*, published by Hindawi, the title of this qaṣīda is "to the Arab nation" (*ilā al-umma al-ʿarabiyya*)&lt;br&gt;&amp;lt;pb n="4"/&amp;gt;  </tss:characteristic>
+<tss:characteristic name="volume">2</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="pages">1-4</tss:characteristic>
+<tss:characteristic name="publicationCountry">al-Shām</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿa al-ʿilmiyya</tss:characteristic>
+<tss:characteristic name="status">Reviewed</tss:characteristic>
+<tss:characteristic name="UUID">1186E689-BAB1-4FFF-BB01-3B1636B096F6</tss:characteristic>
+<tss:characteristic name="issue">203</tss:characteristic>
+<tss:characteristic name="Shortened title">al-ʿAṣr</tss:characteristic>
+<tss:characteristic name="Short Titel">al-ʿAṣr</tss:characteristic>
+<tss:characteristic name="Date Rumi">25 Mārt 1326</tss:characteristic>
+<tss:characteristic name="Date Hijri">26 Rab I 1328</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1395</tss:characteristic>
+<tss:characteristic name="Citation identifier">asr-2-203</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">daily</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Poetry</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Abu%CC%84%20Zayd%2C%20Na%CC%84s%CC%A3i%CC%84f/1910%20al-%CA%BFAs%CC%A3r%20al-Jadi%CC%84d%20Jari%CC%84da%20siya%CC%84siyya%20tuja%CC%84riyya%20%CA%BFilmiyya%20s%CC%A3ina%CC%84%CA%BFiyya%20adabiyya%20zira%CC%84%CA%BFiyya%20203%20Abu%CC%84%20Zay.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Archival Material"/>
+<tss:dates>
+<tss:date type="Publication" day="19" month="4" year="1910"/>
+<tss:date type="Entry" day="13" month="2" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">Thirteenth Census of the United States</tss:characteristic>
+<tss:characteristic name="publicationTitle">United States Census</tss:characteristic>
+<tss:characteristic name="abstractText">Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- J. E. Zakem can be found in the [1910 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q) as living in Ward 1, Lincoln, Lancaster, Nebraska&lt;br&gt;    + transcription from sheet is wrong: J.G. Zakem&lt;br&gt;    + data recorded on 1910-04-19&lt;br&gt;    + aged 29, born in Turkey, Assyrian&lt;br&gt;    + both parents from Turkey, Assyrian&lt;br&gt;    + immigrated to US in 1902, no information naturalisation&lt;br&gt;    + speaks English&lt;br&gt;    + trade/profession: correspondant&lt;br&gt;    + industry: newspaper&lt;br&gt;    + all members of his household know how to read and write&lt;br&gt;    + married to Myra Zakem, from Iowa, aged 21&lt;br&gt;    + they had three lodgers from Turkey&lt;br&gt;        * Addad Zakem, aged 32,&lt;br&gt;            + 1895: immigrated to US&lt;br&gt;            + keeper of a café&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;        * Emely Zakem, aged 21&lt;br&gt;            - 1907: immigrated to US&lt;br&gt;            - waitress at café </tss:characteristic>
+<tss:characteristic name="language">en</tss:characteristic>
+<tss:characteristic name="publicationCountry">Washington, DC</tss:characteristic>
+<tss:characteristic name="UUID">BC2FC361-6369-4E16-87C8-2B255DA5B95C</tss:characteristic>
+<tss:characteristic name="Short Titel">US Federal Census</tss:characteristic>
+<tss:characteristic name="Signatur">T625</tss:characteristic>
+<tss:characteristic name="File">roll 850</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1397</tss:characteristic>
+<tss:characteristic name="Repository">NARA</tss:characteristic>
+<tss:characteristic name="Citation identifier">UnitedStatesCensus 1910</tss:characteristic>
+<tss:characteristic name="URL">https://www.familysearch.org/ark:/61903/1:1:ML42-G7Q</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Census</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">USA</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1910%20United%20States%20Census%20United%20States%20Census.png</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1910%20United%20States%20Census%20United%20States%20Census.jpg</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Newspaper article"/>
+<tss:dates>
+<tss:date type="Publication" day="6" month="7" year="1911"/>
+<tss:date type="Entry" day="5" month="1" year="2013"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">7043</tss:characteristic>
+<tss:characteristic name="publicationTitle">al-Muqtabas: Jarīdat yawmiyya siyāsiyya iqtiṣādiyya ijtimāʿiyya</tss:characteristic>
+<tss:characteristic name="abstractText">allegedly (Gelvin 2012) calling for the regulation of prostitution. The article is not to be found on pages 1, 3-4. page 2 is too blurred to be read&lt;br&gt;&amp;lt;pb n="1"/&amp;gt; &lt;br&gt;# "Who is Dr. Riḍā Tawfīq?" &lt;br&gt;by &amp;lt;persName&amp;gt;Shukrī al-ʿAsalī&amp;lt;/persName&amp;gt;&lt;br&gt;- replying to an article by &amp;lt;persName&amp;gt;Riḍā Tawfīq&amp;lt;/persName&amp;gt;, whose Arabic translation was published in the last issue of &amp;lt;title level="j"&amp;gt;al-Muqtabas&amp;lt;/title&amp;gt;&lt;br&gt;- basically concerned with the current politics of the unionists&lt;br&gt;# "Azmat al-Wukalāʾ fī Faransā"&lt;br&gt;&amp;lt;pb n="2"/&amp;gt; &lt;br&gt;# ḥawādith dākhiliyya:&lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;might be the reply to &amp;lt;title level="j"&amp;gt;al-Ḥaqāʾiq&amp;lt;/title&amp;gt;'s accusation of fostering prostitution and moral corruption (fasād al-ādāb) … &lt;br&gt;&amp;lt;pb n="3"/&amp;gt; &lt;br&gt;## ḥawādith dākhiliyya:&lt;br&gt;the baladiyya published new tariffs for coach drivers etc. but as with earlier reforms this will remain on paper only. one of the reason being that the roads are in such a bad condition that the drivers cannot lower their fares. if the municipality does repair the streets, we will accept the new tariffs, what does it say to that?&lt;br&gt;## ḥawādith dākhiliyya: al-ṣadaq&lt;br&gt;- &amp;lt;title level="j"&amp;gt;al-Ṣadaq&amp;lt;/title&amp;gt; is a new weekly paper published every Wed in Aleppo by the concessionary &amp;lt;persName&amp;gt;Muṣṭafā Rushdī Efendi al-Ḥumṣī&amp;lt;/persName&amp;gt;. &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="newspaper" unit="year" quantity="1"&amp;gt;annual subscription&amp;lt;/measure&amp;gt; at &amp;lt;measure commodity="currency" unit="mec" quantity="1"&amp;gt;1 mecidiye&amp;lt;/measure&amp;gt; in &amp;lt;persName&amp;gt;Aleppo&amp;lt;/persName&amp;gt;&amp;lt;/measureGrp&amp;gt;, and &amp;lt;measureGrp&amp;gt;&amp;lt;measure commodity="currency" unit="mec" quantity="1.25"&amp;gt;1,25 mecidiye&amp;lt;/measure&amp;gt; at other places&amp;lt;measure commodity="newspaper" unit="year" quantity="1"/&amp;gt;&amp;lt;/measureGrp&amp;gt;&lt;br&gt;&amp;lt;pb n="4"/&amp;gt; &lt;br&gt;# iʿlān: al-tamsīd al-nāfiʿ (beneficial massage), by &amp;lt;persName&amp;gt;Wartha bint al-Ṭurāb&amp;lt;/persName&amp;gt;&lt;br&gt;it is generally known that for decades massages (*mihnat al-tamsīd "al-Masāj"*) had been located in our place in Bāb al-Sarījā. in the view of the death of our mother, we divided the establishment with one part remaining at the old location, the second in Zuqāq Rāmī opposite the Post Office in the house of the Muftī of Baalbek. at the latter location we specialise in the massage of the poor on Sat and Wed. this is announced to the public (al-ʿumūm).    </tss:characteristic>
+<tss:characteristic name="volume">3</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Dimashq</tss:characteristic>
+<tss:characteristic name="rating">3</tss:characteristic>
+<tss:characteristic name="status">Get Copy</tss:characteristic>
+<tss:characteristic name="UUID">3621987B-3D19-47CE-B638-79C5E1427E43</tss:characteristic>
+<tss:characteristic name="issue">722</tss:characteristic>
+<tss:characteristic name="call-num">EAP119/1/19/288</tss:characteristic>
+<tss:characteristic name="Short Titel">Jarīdat al-Muqtabas</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1392</tss:characteristic>
+<tss:characteristic name="Date read">2013-09-20</tss:characteristic>
+<tss:characteristic name="Repository">EAP</tss:characteristic>
+<tss:characteristic name="Standort">Masjid al-Aqṣā</tss:characteristic>
+<tss:characteristic name="Citation identifier">muqtabas 288-eap</tss:characteristic>
+<tss:characteristic name="URL">http://eap.bl.uk/database/overview_item.a4d?catId=7043;r=20237</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">2019 Weltweit vor Ort</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Commodity prices</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">critique, authorities</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">daily</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">expanding government control</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">gender</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Municipal government</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">permit</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Poetry</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Price regulation</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Propriety</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Prostitution</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Road works</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">To be acquired</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1911%20al-Muqtabas%20800%207043.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1911%20al-Muqtabas%20800%207043%20%232.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1911%20al-Muqtabas%20800%207043%20%233.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1911%20al-Muqtabas%20800%207043%20%234.jpg</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1911%20al-Muqtabas%20Jari%CC%84dat%20Yawmiyya%20Siya%CC%84siyya%20Iqtis%CC%A3a%CC%84diyya%20Ijtima%CC%84%CA%BFiyya%20722%207043%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Journal Article"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Thomsen</tss:surname><tss:forenames>P.</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1912"/>
+<tss:date type="Entry" day="6" month="3" year="2014"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">Verzeichnis der arabischen Zeitungen und Zeitschriften Palästinas</tss:characteristic>
+<tss:characteristic name="publicationTitle">Zeitschrift des Deutschen Palästina-Vereins (1878-1945)</tss:characteristic>
+<tss:characteristic name="abstractText">The list of 88 newspapers / periodicals is at least partially incomplete as the author himself freely admitted or it might be that he only recorded the papers still published: &lt;br&gt;- missing papers:&lt;br&gt;    + &amp;lt;title level="j"&amp;gt;Lisān al-Sharq&amp;lt;/title&amp;gt;, published in Ḥamāh in 1910 is absent from the list (214) [because it had ceased publication by that time]</tss:characteristic>
+<tss:characteristic name="issue">4</tss:characteristic>
+<tss:characteristic name="language">en</tss:characteristic>
+<tss:characteristic name="pages">211-215</tss:characteristic>
+<tss:characteristic name="publisher">Deutscher Verein zur Erforschung Palästinas</tss:characteristic>
+<tss:characteristic name="rating">4</tss:characteristic>
+<tss:characteristic name="status">Complete</tss:characteristic>
+<tss:characteristic name="UUID">52ED9A5D-7E77-4A73-A8E0-AA2B90E216CA</tss:characteristic>
+<tss:characteristic name="volume">35</tss:characteristic>
+<tss:characteristic name="DOI">10.2307/27929096</tss:characteristic>
+<tss:characteristic name="ISSN">21923124</tss:characteristic>
+<tss:characteristic name="Medium consulted">Web</tss:characteristic>
+<tss:characteristic name="Shortened title">Verzeichnis der arabischen Zeitungen</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1396</tss:characteristic>
+<tss:characteristic name="Web data source">JSTOR</tss:characteristic>
+<tss:characteristic name="Copyright">1912 Deutscher Verein zur Erforschung Palästinas</tss:characteristic>
+<tss:characteristic name="Sente Internal PDF Cover Page Counts By Attachment UUID">{&amp;quot;BF581DD6-9512-4F9E-B6DD-38D9AC8E8C79&amp;quot;:1}</tss:characteristic>
+<tss:characteristic name="Date read">2014-03</tss:characteristic>
+<tss:characteristic name="JSTOR ID">27929096</tss:characteristic>
+<tss:characteristic name="Citation identifier">Thomsen 1912</tss:characteristic>
+<tss:characteristic name="URL">http://www.jstor.org/stable/27929096</tss:characteristic>
+<tss:characteristic name="jstor formatteddate">1912</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Beirut</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Catalogue</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Haifa</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Hama</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Homs</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Jaffa</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Jerusalem</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Lebanon</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Palestine</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Saida</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Secondary source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Syria</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Tripoli</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Zahle</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>M. in Tripoli</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>F. in Haifa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-ʿAṣa | Najīb Jāna | weekly | 1912 | Muslim| Ps 23, 29; Frcs 10&lt;br&gt;Jrāb al-Kurdī | Dimītrī Halāj | weekly | 1909 | Greek Orthodox | Ps 23, 29; Frcs 10&lt;br&gt;el-Kurmul / al-Karmil | Najīb Naṣṣār | daily | 1909 | Greek Orthodox | Ps 46; Frcs 10</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>N. in Zahle</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>L. in Saida</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>D. in Damascus</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|- &lt;br&gt;al-Asmāʾī (illustrated) | Khayr al-Dīn | weekly | 1910 | Muslim | Ps 41 &lt;br&gt;Baradā | Faḥmī al-Ghazī | weekly | 1911 | Muslim | Ps 23, 29; Frcs. 15 &lt;br&gt;Ḥaṭṭ bi-l-Khurūj (satire) | Muḥammad ʿĀrif al-Ḥabbal | weekly | Muslim | Ps 23, 29 ; Frcs. 10 &lt;br&gt;al-Ḥaqāʾiq | ʿAbd al-Qādir al-Iskandarānī | monthly | 1910 | Ps 23, 29, 40 &lt;br&gt;Sūriye | the province | weekly | 1865 | Muslim | Ps 67, 69 &lt;br&gt;al-ʿAṣr al-Jadīd | Naṣīf Abū Zayd | daily | 1909 | Muslim | Ps 92; £T 1; Frcs. 25 &lt;br&gt;al-Kāʾināt | Adīb Naẓmī | weekly | 1910 | Muslim | Ps 26, 57, 75 &lt;br&gt;al-Majalla al-Shaʿb | Aḥmad ʿAlī Ḥilmī | monthly | 1910 | Muslim | free &lt;br&gt;al-Mishkā | Tawfīq Ḥasan | thrice per week | ? | Muslim | Ps 46, 54"20 &lt;br&gt;al-Muqtabas | Muḥammad Kurd ʿAlī | daily | 1909 | Muslim | Ps 92, 124, 136 &lt;br&gt;al-Naffākha | Yūsuf ʿIzz al-Dīn | weekly | 1911 | Muslim | Ps 23 &lt;br&gt;al-Niʿma | Greek Orthodox Patriarchate | monthly | 1910 | Greek Orthodox | Ps 29, 46; Frcs. 10 &lt;br&gt;al-ʿArūs | Mārī ʿAjamaī | monthly | 1911 | Greek Orthodox ? | Ps 24, 54</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>H. in Homs</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Shabība | ʿAbd al-Bāqi Darūnī | monthly | 1911 | Muslim | Ps 23, 29&lt;br&gt;Dāʿa al-Ṭāsa | Yūsuf al-Masdī | weekly | 1911 | Muslim | Ps 23&lt;br&gt;Dalīl Ḥomṣ | Qusṭandī Yāni | ? | ? | Greek Orthodox | ?&lt;br&gt;Ḥomṣ | al-Muṭrān Athanāsiyūs | weekly | 1909 | Greek Orthodox | Ps 24, 46, 54&lt;br&gt;Samīr al-Ṣība | Shukrī Fāris | monthly | 1910 | Greek Orthodox | ?&lt;br&gt;al-ʿArīs | Nasīb Ishhāb | monthly | 1911 | Greek Orthodox | Ps 23, 29&lt;br&gt;Jāda al-Rashād | Nāji Ḥannā Khabbāz | weekly | 1911 | Protestant | Ps 46, 54, 68</comment><quotation/><pages>215</pages></tss:note>
+<tss:note><title>I. in Jafa</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Aṣmāʿī | Ḥannā ʿAbdallah ʿĪsā | monthly | 1908 | Greek Orthodox | Frcs 10&lt;br&gt;Filasṭīn | Yūsuf al-ʿĪsā | bi-weekly | 1911 | Greek Orthodox | Frcs. 10, Ps 68</comment><quotation/><pages>215</pages></tss:note>
+<tss:note><title>E. in Jabal Lubnān</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Ḥikma | Salīm Wahba | weekly | 1909 | Maronite | Frcs. 10, 15</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>A. in Bʿabda</title><comment/><quotation/><pages>212</pages></tss:note>
+<tss:note><title>K. in Jerusalem</title><comment/><quotation/><pages>215</pages></tss:note>
+<tss:note><title>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im ...</title><comment/><quotation>Generalkonsul Dr. Schroeder konnte vor 23 Jahren im gleichen Gebiete nur 19 Zeitungen nennen (vgl.Z DPV XII [1889] S. 124?127), heute kann ich 82 auff?hren, und diese oder jene mag mir noch entgangen sein.</quotation><pages>211</pages></tss:note>
+<tss:note><title>C. in Batrun / Batrūn</title><comment/><quotation/><pages>213</pages></tss:note>
+<tss:note><title>G. in Hama</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad)&lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Insāniyya | Ḥasan al-Razzāq | monthly | 1910 | Muslim | Ps 23, 29, 40&lt;br&gt;al-Sāf | Muḥammad Sālim | weekly | 1911 | Muslim | Ps 23, 29&lt;br&gt;Nahr al-ʿĀṣī | Muḥammad Ṣābir | weekly | 1911 | Muslim | Ps 23, 29, 40&lt;br&gt;al-Acha [?] | Jubrān Massūh | bi-weekly | 1909 | Protestant | Ps 46, Frcs 15</comment><quotation/><pages>214</pages></tss:note>
+<tss:note><title>B. in Beirut</title><comment>name | editor | interval | since | type | price (local, within the empire, abroad) &lt;br&gt;-|-|-|-|-|-&lt;br&gt;al-Raʾī al-ʿĀmm | Munīr al-Muḍawwar | daily | 1910 | Muslim | Frcs 15, 20, 25</comment><quotation/><pages>212</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Thomsen%2C%20P/1912%20Zeitschrift%20des%20Deutschen%20Pala%CC%88stina-Vereins%20(1878-1945)%2035%20Verzeichnis%20der%20arabischen%20Zeitunge.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Bill"/>
+<tss:dates>
+<tss:date type="Publication" year="1913"/>
+<tss:date type="Original" day="29" month="7" year="1909"/>
+<tss:date type="Entry" day="27" month="11" year="2011"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">maṭbūʿāt ḳānūnu</tss:characteristic>
+<tss:characteristic name="publicationTitle">Düstur: kavanin ve nizamat ve muahedat ile umuma ait mukavelat ve iradat-i seniyeyi muhtevidir.</tss:characteristic>
+<tss:characteristic name="abstractText">published in Taḳvīm-i Vaḳāyiʿ of 13 Raj 1327&lt;br&gt;&lt;br&gt;Law on printed material / press law&lt;br&gt;as decided by the parliament and signed by the Sultan, reprint from the official gazette. printed in düstur &lt;a href="sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909"&gt;sente:/BachBibliographie/D%C3%BCsturKavaninVeNizamat+1909&lt;/a&gt;; A French translation was published in 1912 &lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 1-7]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6094 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6094"&gt;sente:/BachBibliographie/lisan+6094&lt;/a&gt;&lt;br&gt;&lt;br&gt;Part I: modes of publication&lt;br&gt;more or less exact translation. &lt;br&gt;&lt;br&gt;The articles are called al-band, paragraphs&lt;br&gt;- Art 1: every periodical publication needs a responsible director (*müdir-i mesʾūl*) of publication&lt;br&gt;- Art 2: directors most be older than 21 and free of criminal records, must be literate in the language they are publishing in &lt;br&gt;- Art 3: everybody willing to publish a periodical has to apply to the ministry of the interior in writing, stating the name of the publication and its director(s). In addition the provincial and mutassariflik authorities must be supplied with the following information: title, place of publication, topics covered, kind of publication (daily, etc.), name, age, address of the applicant, name and address of the director, languages of publication&lt;br&gt;- Art 4: the owner of every publication published before providing a written statement as laid down in the preceding paragraph is liable to a penal payment of £T 5-25, in case of repeated offences the punishment will be multiplied to £T10-100 or imprisonment between 1 day and 1 month …&lt;br&gt;- Art 5: in case of the concessionaires death possession of the permit falls into the hands of the heirs in accordance with the inheritance laws and its publication continues under the responsibility of the responsible director&lt;br&gt;- Art 6: it is not allowed to use the title and name of a newspaper or periodical publication for any other publications until 15 years after the end of publication&lt;br&gt;- Art 7: if the responsible director leaves his job, dies or is prosecuted under the laws of the city (al-madīna) [municipality] a new application must be supplied in accordance with Art 3 within 5 days. failure to do so will result in the punishments prescribed by Art 4&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 8-16]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6096 Bayrūt, 1909: 1-2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6096"&gt;sente:/BachBibliographie/lisan+6096&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 8: two copies of every number of a newspaper etc. must be supplied to the highest-ranking official in the local government (ḥukūma maḥalliyya), belonging to the MoI, and to the public prosecutor on the day of printing and on the expense of the responsible director. the latter is liable to a payment of £T ½ for every number not supplied to the aforementioned authorities &lt;br&gt;- Art 9: every newspaper etc. is liable to the payment of £T 1 if the name of the responsible director is not printed in the header of every number.  such penalty does not save the director from any other personal liabilities for not complying with the laws.&lt;br&gt;- Art 10: selling newspapers, or any printed material in the sūqs and public places (maḥallāt ʿumūmiyya / yāḫūd ʿumūmī maḥallarda) by announcing anything with a loud voice but the name of the newspaper, the name of the author … [very bad copy] &amp;lt;pb&amp;gt;&lt;br&gt;&lt;br&gt;"Loi Sur la Presse." Promulgated on 11 Raj 1327 aH [29 Jul. 1909]. In Législation Ottomane Depuis le Rétablissement de la Constitution 24 Djemazi-ulahir 1326 - 10 Juillet 1324/1908 1 Translated by Adrien Biliotti and Ahmed Sedad Bey. Paris: Jouve, 1912: 241-251.&lt;br&gt;&lt;a href="sente:/BachBibliographie/Biliotti+1912b"&gt;sente:/BachBibliographie/Biliotti+1912b&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 11: the following persons are liable to legal prosecution: 1) the responsible director, 2) the author of an article and those who signed it, 3) the printer, 4) those selling and distributing copies.&lt;br&gt;&amp;lt;/add&amp;gt; &lt;br&gt;- Art 12: if bay person (shakhṣ) deems himself morally or materially hurt / damaged by a newspaper etc., he has the right to level legal charges against the person (shakhṣ) who is specified by Art 11 as bearing the responsibility for its publication. this is independent of any actions of the public prosecutor. the court will then establish the moral or material damages and necessary reparations or hand down a prison sentence. the sentence must then be published in the next or second-to-next number of the offending paper. failure to do so will be punished with a payment of £T 50&lt;br&gt;- Art 13: all newspapers etc. have the right to publish the minutes of any trial or the meetings of official councils (majālis rasmiyya), unless they were declared secret in accordance with the relevant laws. … penalty of £T 5-20.&lt;br&gt;- Art 14: courts can prohibit the publication of reports on its proceedings if they could harm public morals (adāb ʿumūmiyya).&lt;br&gt;- Art 15: it is forbidden to publish (broadcast = idhāʿa) any laws or regulations (qawānīn wa niẓāmāt) before they are officially promulgated. offenders will be punished by an official [sic] penalty of £T 2-10 and the confiscation of the offending publications&lt;br&gt;- Art 16: if writings containing the works (ashghāl) … of one of the officially recognised sects / religions (diyānāt) or one of the peoples (ʿanāṣir) of the Sultanate are published, the person responsible according to Art 11 will be punished with imprisonment of one month to one year and the payment of £T20-100 or by either one of those penalties. this is not considered as relating to the doctrines and creeds …. philosophy [bad copy]&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Bashīr 1925 Bayrūt: Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn, 1909: 3-4&lt;br&gt;&lt;a href="sente:/BachBibliographie/bashir+1925a"&gt;sente:/BachBibliographie/bashir+1925a&lt;/a&gt;&lt;br&gt;&lt;br&gt;"Niẓām Al-Maṭbūʿāt [Art 17-28]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6097 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6097"&gt;sente:/BachBibliographie/lisan+6097&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Art 17: if incitements to crimes specified in the second part of the penal code are published, the responsible person (art 11) is to be punished as if he had committed these crimes himself. but … [bad copy]&lt;br&gt;- Art 18: those persons (ashkhāṣ) who whose the newspapers etc. to blackmail others are liable to 3 months to 2 years imprisonment and a fee of £T 10-100&lt;br&gt;- Art 19: those publishing false or fabricated news and when the publication disturbed public tranquility (rāḥat ʿumūmiyya / āsāyış ʿāmma) … will be punished by ½-1 year of imprisonment and/or payment of £T 5-100&lt;br&gt;- Art 20: if they publish articles (fuṣūl) or drawings (rusūm) endangering / damaging public morals (adāb ʿumūmiyya), the responsible person (art 11) is liable to the payment of £T 2-10&lt;br&gt;- Art 21: if newspapers publish an article etc. agains a person (shakhṣ), he has the right to reply in the next number and on the same amount of space. they are also obliged to publish official denials (takhshīb) of the government for false stories, and announcements of a ban of publication. penalty of non-compliance is £T 5-50&lt;br&gt;- Art 22: if the violations of he preceding article are repeated they are to be subjected to stronger punishment (tashdīd al-ʿuqūba)&lt;br&gt;- Art 23: if newspapers etc. contain incitements to crimes specified as specified in Art 17, the authorities are allowed to take further measures against the publication after the courts had ruled a verdict in order to protect public tranquility (muḥāfiẓ-i āsāyış için). if they decide to discharge (tabarraʾa) the responsible director, he has the right to demand compensation (taʿwīḍ) for damages caused by this step.&lt;br&gt;- Art 24: every conviction / judgement as specified above by this law for journalistic violations  covers also charges against daily newspapers, periodicals, and articles, printed or handwritten leaflets (awrāq) sold or distributed in public places (maḥallāt ʿumūmiyya /  ʿumūmī maḥall), places of congregation (amākin al-ijtimāʿ / ve ijtimāʿlarda), as well as schedules and announcement on public display (taʿruḍ ʿalā inẓār al-ʿumūm / inẓār ʿāmmaya vadaʿ onlunmuş) / visible to the public.&lt;br&gt;&lt;br&gt;Part II: on vituperation (qadḥ) and &lt;br&gt;Art 25: concerning the vituperation of anything that is attributed to a person (shakhṣ) or a group (hīʾat) that is part of the aforementioned incident (ḥādatha) and damages his honour or reputation … [bad copy]&lt;br&gt;Art 26: the person responsible (art 11) for publishing articles insulting the Sultan will be punished with imprisonment of 3 months to 3 years.&lt;br&gt;Art 27: anybody insulting or vituperating the kings and governments of foreign countries will be imprisoned for 1 month - 1 year&lt;br&gt;Art 28: for publishing vituperations (qadḥ) of the imperial family, the senate (majlis al-aʿyān) or the lower house (nawāb), official administrations, official groups, the Ottoman army and navy, political envoys, foreign consuls, the responsible person (art11) will be punished with imprisonment of 15 days to 6 months or the payment of £T 5-50&lt;br&gt;insults will be punished by imprisonment of a week to 3 months and/ or payment of £T 1-25&lt;br&gt;if the insult or vituperation was prosecuted by courts and the public prosecutor, the resulting penalty will be added &lt;br&gt;&lt;br&gt;["Niẓām Al-Maṭbūʿāt [Art 29-37]." Promulgated on 11 Raj 1327 aH, 16 Tam 1325 R [29 Jul. 1909]. In Lisān 6098 Bayrūt, 1909: 2&lt;br&gt;&lt;a href="sente:/BachBibliographie/lisan+6098"&gt;sente:/BachBibliographie/lisan+6098&lt;/a&gt;]&lt;br&gt;&lt;br&gt;Art 29: if the vituperation is levelled against a common person (shakhṣ min ahālī), punishment is 1 week to 3 months and / or payment of £T 2-25. insult: imprisonment of 1 week - 2 months, and / or payment of £T 1-15&lt;br&gt;Art 30: personal vituperation or insult of ministers, senators / MPs (aʿyān), or officials of the state ….&lt;br&gt;&lt;br&gt;Part IV: various articles&lt;br&gt;Art 31: if the journalistic violations … very long article further concerning vituperations and insults and the penal code, again listing the various possible victims&lt;br&gt;Art 32: if violations are not prosecuted within 3 months from their publication they are barred [and cannot be further prosecuted]&lt;br&gt;Art 33: during military campaigns etc. newspapers can be prohibited from publishing any news on movements of troops on land or seaborn or any preparations of the country’s defence. penal fee of £T 50-200 and/or imprisonment of ½ -2 years&lt;br&gt;Art 34: journals or periodicals published with a permit for literary or scientific research are not allowed to publish any political news&lt;br&gt;Art 35: foreign newspapers etc. can be banned from publication and distribution in the empire by a private decision of the cabinet. the MoI can ban a single number/ issue. transgression will be punished with a payment of  £T 2-15&lt;br&gt;Art 36: this law abrogates the press code (qānūn al-Maṭbūʿāt) promulgated on 2 Shaʿ 1281&lt;br&gt;Art 37: the MoI and the MoJ are responsible for the implementation of this law&lt;br&gt;&lt;br&gt;Supplementary / final clause&lt;br&gt;present publishers and owners of newspapers etc. have to comply with this law within one month from the date of its promulgation. non-compliance will be punished according to Art 4.</tss:characteristic>
+<tss:characteristic name="language">ota</tss:characteristic>
+<tss:characteristic name="pages">395-403</tss:characteristic>
+<tss:characteristic name="publicationCountry">Der-i Saʿādet</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿa-yi ʿOŝmaniye</tss:characteristic>
+<tss:characteristic name="status">Reviewed</tss:characteristic>
+<tss:characteristic name="UUID">96DBE129-17E5-4A79-B533-53E3C8C07E19</tss:characteristic>
+<tss:characteristic name="volume">1</tss:characteristic>
+<tss:characteristic name="OCLCID">81476270</tss:characteristic>
+<tss:characteristic name="RIS reference number">81476270</tss:characteristic>
+<tss:characteristic name="call-num">Ui 9191;Tert.2</tss:characteristic>
+<tss:characteristic name="Short Titel">Düstur</tss:characteristic>
+<tss:characteristic name="Date Rumi">16 Tam 1325</tss:characteristic>
+<tss:characteristic name="Signatur">Ui 9191;Tert.2</tss:characteristic>
+<tss:characteristic name="Date Hijri">11 Raj 1327</tss:characteristic>
+<tss:characteristic name="EndNote reference number">363</tss:characteristic>
+<tss:characteristic name="Web data source">WorldCat</tss:characteristic>
+<tss:characteristic name="Series">Tertip II</tss:characteristic>
+<tss:characteristic name="Translated title">Law on Printed Materials</tss:characteristic>
+<tss:characteristic name="Standort">StaBi</tss:characteristic>
+<tss:characteristic name="Citation identifier">DüsturKavaninVeNizamat 1909</tss:characteristic>
+<tss:characteristic name="URL">http://www.tufs.ac.jp/common/fs/asw/tur/htu/data/HTU0576-09/index.djvu</tss:characteristic>
+<tss:characteristic name="publicationStatus">Published</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">Laws: press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Legal text</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">newspaper/periodical</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">official records</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Ottoman source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">printing</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Reply</tss:keyword>
+<tss:keyword assigner="Sente User till">Ottoman Law</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+<tss:keyword assigner="Sente User XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1913%20Du%CC%88stur%20kavanin%20ve%20nizamat%20ve%20muahedat%20ile%20umuma%20ait%20mukavelat%20ve%20iradat-i%20seniyeyi%20muhtevidir%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Archival Material"/>
+<tss:dates>
+<tss:date type="Publication" day="6" month="1" year="1920"/>
+<tss:date type="Entry" day="13" month="2" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">Fourteenth Census of the United States</tss:characteristic>
+<tss:characteristic name="publicationTitle">United States Census</tss:characteristic>
+<tss:characteristic name="abstractText">Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;- Joseph G Jakem [sic] can be found in the [1920 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW) as living in Ward 7, Lincoln, Lancaster, Nebraska&lt;br&gt;    - The data was recorded on 1920-01-06&lt;br&gt;    - born in 1880 (aged 39), married to Myra M Jakem [sic], aged 29, born in Iowa, who can read and writre&lt;br&gt;        - her father was from Michigan&lt;br&gt;    - 1902: immigration to the US&lt;br&gt;    - 1904: naturalisation&lt;br&gt;    - children&lt;br&gt;        - Rose Ellen, 8&lt;br&gt;        - George G., 6&lt;br&gt;        - Ruth, 4 10/12&lt;br&gt;        - Mitchell E., 2 11/12 </tss:characteristic>
+<tss:characteristic name="language">en</tss:characteristic>
+<tss:characteristic name="publicationCountry">Washington, DC</tss:characteristic>
+<tss:characteristic name="UUID">E5AAC839-F42C-43C4-B3C2-7C504FFA8B3B</tss:characteristic>
+<tss:characteristic name="Short Titel">US Federal Census</tss:characteristic>
+<tss:characteristic name="Signatur">T625</tss:characteristic>
+<tss:characteristic name="File">roll 996</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1398</tss:characteristic>
+<tss:characteristic name="Repository">NARA</tss:characteristic>
+<tss:characteristic name="Citation identifier">UnitedStatesCensus 1920</tss:characteristic>
+<tss:characteristic name="URL">https://www.familysearch.org/ark:/61903/1:1:MCKV-NXW</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Census</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">USA</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1920%20United%20States%20Census%20United%20States%20Census.png</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1920%20United%20States%20Census%20United%20States%20Census.jpg</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Jundī</tss:surname><tss:forenames>Muḥammad Salīm</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1925"/>
+<tss:date type="Retrieval" day="13" month="6" year="2012"/>
+<tss:date type="Entry" day="13" month="6" year="2012"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Iṣlāḥ al-fāsid min lughat al-jarāʾid : yaḥtawī ʿalā naqd kitāb Lughat al-jarāʾid li-l-Shaykh Ibrāhīm al-Yāzijī, wa-al-radd ʿalā Qusṭākī Afandī al-Ḥimṣī / bi-qalam Muḥammad Salīm al-Jundī</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">[Dimashq]</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat al-Taraqqī</tss:characteristic>
+<tss:characteristic name="UUID">801DB913-B0EF-415F-B610-68192123AEBA</tss:characteristic>
+<tss:characteristic name="call-num">cn. 9403119.03</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1380</tss:characteristic>
+<tss:characteristic name="Web data source">gso.gbv.de</tss:characteristic>
+<tss:characteristic name="Standort">Princeton Arabic Microfilming Project</tss:characteristic>
+<tss:characteristic name="Citation identifier">Jundī 1925</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic language</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic newspapers</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">II. Terminology</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Reply</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Terminology</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><name>Web Page Archived 13.06.2012 15:33:10</name><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Jundi%CC%84%2C%20Muh%CC%A3ammad%20Sali%CC%84m/1925%20Is%CC%A3la%CC%84h%CC%A3%20al-fa%CC%84sid%20min%20lughat%20al-jara%CC%84%CA%BEid%20%20yah%CC%A3tawi%CC%84%20%CA%BFala%CC%84%20naqd%20kita%CC%84b%20Lughat%20al-jara%CC%84%CA%BEid%20li-l-Shaykh%20I.webarchive</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Shaykhū</tss:surname><tss:forenames>Luwīs</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1926"/>
+<tss:date type="Entry" day="19" month="11" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Tārīkh al-ādāb al-ʿArabiyya fī al-rubʿ al-awwal min al-qarn al-ʿishrīn</tss:characteristic>
+<tss:characteristic name="abstractText">28-29: biographical sketch of Khalīl al-Khūrī</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn</tss:characteristic>
+<tss:characteristic name="UUID">6C374885-E50D-4D4D-A142-B6805D0FF88F</tss:characteristic>
+<tss:characteristic name="call-num">J 892.709:Sh599tA:c.1</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1298</tss:characteristic>
+<tss:characteristic name="Translated title">History of Arabic Literature during the first Quarter of the Twentieth Century</tss:characteristic>
+<tss:characteristic name="Primary contributor role">Author</tss:characteristic>
+<tss:characteristic name="Standort">AUB, UM, Oxford, Harvard</tss:characteristic>
+<tss:characteristic name="Citation identifier">Shaykhū 1926</tss:characteristic>
+<tss:characteristic name="URL">http://hdl.handle.net/2027/mdp.39015008612619</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">20th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Beirut</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Biography</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">referenced: PhD thesis</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="XSLT">referenced: PhD thesis</tss:keyword>
+</tss:keywords>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Kurd ʿAlī</tss:surname><tss:forenames>Muḥammad</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1928"/>
+<tss:date type="Retrieval" day="24" month="5" year="2012"/>
+<tss:date type="Entry" day="24" month="5" year="2012"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Khiṭaṭ al-Shām</tss:characteristic>
+<tss:characteristic name="abstractText">The volume contains two particularly interesting chapters: al-akhlāq wa al-ʿādāt (morals and customs, 274ff) and a biographical sketch of Muḥammad Kurd ʿAlī.  &lt;br&gt;- al-akhlāq wa al-ʿādāt (274-81): detailing the regular festivities and religious holidays celebrated by the Damascenes, [but commencing with the Midḥat Pasha and the reform movement of the nahḍa, who established, coffeehouses, theatres (dār al-tamthīl), schools, later cinemas (qaʿa al-ṣuwar al-mutaḥarrika).]. &lt;br&gt;- Muslim holidays (274), customs of the people on these occasions (275) &lt;br&gt;- autobiographical sketch (tarjamatuhu bi-nafsihi, 333-47)</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Dimashq</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat al-Mufīd</tss:characteristic>
+<tss:characteristic name="status">Started</tss:characteristic>
+<tss:characteristic name="UUID">DFDD1059-9A61-4523-B057-AB6D2AB5225F</tss:characteristic>
+<tss:characteristic name="volume">6</tss:characteristic>
+<tss:characteristic name="Signatur">P956.91 /451245</tss:characteristic>
+<tss:characteristic name="Short Titel"/>
+<tss:characteristic name="Date Hijri">1347</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1393</tss:characteristic>
+<tss:characteristic name="Primary contributor role">Author</tss:characteristic>
+<tss:characteristic name="Standort">SOAS, Till</tss:characteristic>
+<tss:characteristic name="Citation identifier">KurdʿAlī 1928</tss:characteristic>
+<tss:characteristic name="URL">http://www.archive.org/details/kutat_cham_06</tss:characteristic>
+<tss:characteristic name="publicationStatus">Unknown</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">19th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">20th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Autobiography</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Censorship</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Damascus</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Memoirs</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>autobiographical sketch</title><comment/><quotation/><pages>411-425</pages></tss:note>
+<tss:note><title>al-Sharq official paper during WWI</title><comment/><quotation/><pages>419</pages></tss:note>
+<tss:note><title>1906: exile in Egypt</title><comment>in consequence, he went to Egypt and began publishing the journal al-Muqtabas early in 1324. working for three other papers: al-rāʾid al-maṣrī, al-ẓāhir, al-muʾayyad</comment><quotation/><pages>415</pages></tss:note>
+<tss:note><title>Until French Mandate: al-Muqtabas ceased publication</title><comment>Due to strife between the people (*al-fitna bayn al-nās*) the newspaper al-Muqtabas was not published for a whole year until the arrival of the French army. It then reappeared under the editorship of his brother Aḥmad Kurd ʿAlī</comment><quotation/><pages>421</pages></tss:note>
+<tss:note><title>his bibliography</title><comment/><quotation/><pages>424</pages></tss:note>
+<tss:note><title>Morals and Customs</title><comment/><quotation>al-akhlāq wa al-ʿādāt</quotation><pages>281ff</pages></tss:note>
+<tss:note><title>1913: journey to Italy and Switzerland</title><comment/><quotation/><pages>417</pages></tss:note>
+<tss:note><title>Foreign languages and cultures</title><comment>- French at the end, he is able to translate in both directions.&lt;br&gt;- as he wasn't good enough in mathematics, he left the rüşdiye with an intermediate exam.&lt;br&gt;- six years as scribe at the foreign affairs office, getting familiar with Turkish culture (he should be found in the salname of the mid-1890s), was able to publish in Turkish as he was in French. differing from his colleagues who all went to the Lazarist convent for studying French</comment><quotation/><pages>412</pages></tss:note>
+<tss:note><title>1908: Damascus, al-Muqtabas</title><comment/><quotation>After the YTR, I returned to Damascus and published the first issue of the daily al-Muqtabas on 17 Dec 1908, after three years of publication as a monthly scientific journal in Cairo. In addition, the monthly is continued</quotation><pages>416</pages></tss:note>
+<tss:note><title>early education</title><comment>1876: late Ṣaf 1293, born to a Circassian mother in Damascus&lt;br&gt;1883: commenced learning how to write and read, religious knowledge, arithmetics, at the al-Amīriyya school (amīriyya could mean belonging to the state).&lt;br&gt;- continued education at the military rüşdiye, learning the basics of Turkish and French (the latter at a home of a teacher) for some 3 years [i.e. at least until 1888]</comment><quotation/><pages>411-412</pages></tss:note>
+<tss:note><title>qaṣīda of Shakīb Arslān recounting the 1323 events</title><comment/><quotation/><pages>414</pages></tss:note>
+<tss:note><title>the journal al-Muqtabas</title><comment>his most important work: 8 volumes and 2 issues. three years in Cairo and 5 in Damascus</comment><quotation/><pages>424</pages></tss:note>
+<tss:note><title>book: gharāʾib al-gharb</title><comment>consists of the 35 articles he wrote in his three months in Paris, during which he stayed at the Quartier Latin</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>1928, summer: end of al-Muqtabas</title><comment/><quotation/><pages>422</pages></tss:note>
+<tss:note><title>oppression and oppositional placards</title><comment>1323, winter [this should be the winter 1905/6]: his house was raided by the Ottoman authorities in the context of political placards (manāshīr) being posted in the streets (shawāriʿ) of Damascus, criticising one of the aʿyān and the Vali. However, he was not involved in the affair and did not know anything.</comment><quotation/><pages>413</pages></tss:note>
+<tss:note><title>Egypt</title><comment>1901: went to Egypt in order to visit Europe, reported in Egyptian papers and returned to Damascus after 10 months</comment><quotation/><pages>413</pages></tss:note>
+<tss:note><title>Arabic, Islam</title><comment>meeting Ṭāhir al-Jazāʾirī etc. studying books and Arabic/Islamic culture</comment><quotation/><pages>412</pages></tss:note>
+<tss:note><title>1913: ban over kashf al-ḥijāb</title><comment>the article was indeed concerned with lifting the veil of the unionists and their “reforms”</comment><quotation/><pages>418</pages></tss:note>
+<tss:note><title>1919, Jun 8</title><comment>establishing the al-Majmaʿ al-ʿIlmī al-ʿArabī in Damascus or the Arabic Academy of Sciences</comment><quotation/><pages>420</pages></tss:note>
+<tss:note><title>Table of Contents</title><comment/><quotation/><pages>0</pages></tss:note>
+<tss:note><title>1912: flight to Egypt</title><comment>As before, he fled to Egypt and returned after 6 months and al-Muqtabas continued publication</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>1912: prosecution</title><comment>The same Hamidian Vali (i.e. Ḥusayn Nāẓim Pasha) prosecuted al-Muqtabas in 1912 and arrested his late brother and responsible editor Aḥmad as well as al-Shaykh Ibrāhīm al-Uskūbī and sent them to Istanbul. this was due to a qaṣīda by the latter published in al-Muqtabas on the mechanisms of Sultanic rule. it had already been published in Damascene newspapers 20 days before al-Muqtabas did so.</comment><quotation/><pages>417</pages></tss:note>
+<tss:note><title>1909: prosecution and flight to Paris</title><comment/><quotation/><pages>416</pages></tss:note>
+<tss:note><title>1913: house under surveillance</title><comment/><quotation/><pages>418</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1928%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%206%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Sarkīs</tss:surname><tss:forenames>Yūsuf Ilyān</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1928"/>
+<tss:date type="Retrieval" day="14" month="12" year="2018"/>
+<tss:date type="Entry" day="30" month="9" year="2016"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</tss:characteristic>
+<tss:characteristic name="abstractText"># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Miṣr</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat Sarkīs</tss:characteristic>
+<tss:characteristic name="UUID">2A212304-16BE-4983-8549-19DBB12BA0C5</tss:characteristic>
+<tss:characteristic name="volume">1</tss:characteristic>
+<tss:characteristic name="OCLCID">6776656</tss:characteristic>
+<tss:characteristic name="RIS reference number">6776656</tss:characteristic>
+<tss:characteristic name="call-num">OLS Ac VOR arab 60-1</tss:characteristic>
+<tss:characteristic name="Web data source">WorldCat</tss:characteristic>
+<tss:characteristic name="Translated title">Union Catalogue of Arabic Publications and Translations</tss:characteristic>
+<tss:characteristic name="Standort">StaBi</tss:characteristic>
+<tss:characteristic name="Citation identifier">Sarkīs 1928a</tss:characteristic>
+<tss:characteristic name="Number of volumes">2</tss:characteristic>
+<tss:characteristic name="URL">http://shamela.ws/index.php/book/1242</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">Project: OpenArabicPE</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">19th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">20th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic literature</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic periodicals</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Article: Reading</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Catalogue</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">EPub</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">PDF</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">secondary education</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Secondary source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>Sarkīs</title><comment/><quotation/><pages>1019-</pages></tss:note>
+<tss:note><title>Sarkīs, Salīm</title><comment/><quotation/><pages>1021-</pages></tss:note>
+<tss:note><title>Sarkīs, Ibrāhīm</title><comment/><quotation/><pages>1018-</pages></tss:note>
+<tss:note><title>Sarkīs, Khalīl</title><comment/><quotation/><pages>1020-</pages></tss:note>
+<tss:note><title>Sarkīs, Saʿīd Efendi</title><comment/><quotation/><pages>1021</pages></tss:note>
+<tss:note><title>Shalfūn, Yūsuf</title><comment/><quotation/><pages>1140-</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference type="Adobe Digital Editions Document"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Sarki%CC%84s%2C%20Yu%CC%84suf%20Ilya%CC%84n/1928%20Mu%CA%BFjam%20al-mat%CC%A3bu%CC%84%CA%BFat%20al-%CA%BFArabiyya%20wa-l-mu%CA%BFarraba%20wa-huwa%20sha%CC%84mil%20li-asma%20al-kutub%20al-mat%CC%A3bu%CC%84%CA%BFa%20fi%CC%84.epub</URL></tss:attachmentReference>
+<tss:attachmentReference type="Portable Document Format (PDF)"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Sarki%CC%84s%2C%20Yu%CC%84suf%20Ilya%CC%84n/1928%20Mu%CA%BFjam%20al-mat%CC%A3bu%CC%84%CA%BFat%20al-%CA%BFArabiyya%20wa-l-mu%CA%BFarraba%20wa-huwa%20sha%CC%84mil%20li-asma%20al-kutub%20al-mat%CC%A3bu%CC%84%CA%BFa%20fi%CC%84.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Sarkīs</tss:surname><tss:forenames>Yūsuf Ilyān</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1928"/>
+<tss:date type="Entry" day="2" month="10" year="2016"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-Hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</tss:characteristic>
+<tss:characteristic name="abstractText"># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;&lt;br&gt;# content&lt;br&gt;II, 745-46: biographical sketch of Khalīl al-Khūrī and Ḥadīqat al-Akhbār </tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Miṣr</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat Sarkīs</tss:characteristic>
+<tss:characteristic name="UUID">FAED103C-0885-4C0F-8DAB-5CFC3794C76B</tss:characteristic>
+<tss:characteristic name="volume">2</tss:characteristic>
+<tss:characteristic name="OCLCID">6776656</tss:characteristic>
+<tss:characteristic name="RIS reference number">6776656</tss:characteristic>
+<tss:characteristic name="call-num">OLS Ac VOR arab 60-2</tss:characteristic>
+<tss:characteristic name="Web data source">WorldCat</tss:characteristic>
+<tss:characteristic name="Translated title">Union Catalogue of Arabic Publications and Translations</tss:characteristic>
+<tss:characteristic name="Standort">StaBi</tss:characteristic>
+<tss:characteristic name="Citation identifier">Sarkīs 1928b</tss:characteristic>
+<tss:characteristic name="URL">http://shamela.ws/index.php/book/1242</tss:characteristic>
+<tss:characteristic name="Number of volumes">2</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">Project: OpenArabicPE</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">19th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">20th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic literature</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic periodicals</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Article: Reading</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Catalogue</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">EPub</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">PDF</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">secondary education</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Secondary source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>Shaykhū, al-Ab Lūyis</title><comment/><quotation/><pages>1166-</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference type="Portable Document Format (PDF)"><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Sarki%CC%84s%2C%20Yu%CC%84suf%20Ilya%CC%84n/1928%20Mu%CA%BFjam%20al-mat%CC%A3bu%CC%84%CA%BFat%20al-%CA%BFArabiyya%20wa-l-mu%CA%BFarraba%20wa-huwa%20sha%CC%84mil%20li-asma%20al-kutub%20al-mat%CC%A3bu%CC%84%CA%BFa%20fi%CC%84%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Sarkīs</tss:surname><tss:forenames>Yūsuf Ilyān</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1928"/>
+<tss:date type="Retrieval" day="14" month="12" year="2018"/>
+<tss:date type="Entry" day="22" month="5" year="2020"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba: wa-huwa shāmil li-asmāʾ al-kutub al-maṭbūʿa fī al-aqtar al-sharqiyya wa-l-gharbiyya, maʿa dhikr asmāʾ muʾallifiha wa-lumʿa min tarjamātihim; wa-dhalik min yawm ẓuhūr al-ṭabaʿa ilā nihāyat al-sanat al-hijriyya 1339 al-muwāfiqa li-sanat 1919 milādiyya</tss:characteristic>
+<tss:characteristic name="abstractText"># digital files&lt;br&gt;- imagery is available from HathiTrust: http://hdl.handle.net/2027/inu.30000011432139&lt;br&gt;- the full text is available from shamela.ws:  &lt;a href="http://shamela.ws/index.php/book/1242"&gt;http://shamela.ws/index.php/book/1242&lt;/a&gt;</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Miṣr</tss:characteristic>
+<tss:characteristic name="publisher">Maṭbaʿat Sarkīs</tss:characteristic>
+<tss:characteristic name="UUID">1A09077F-F382-45F3-8A55-9C3169FD12FB</tss:characteristic>
+<tss:characteristic name="OCLCID">6776656</tss:characteristic>
+<tss:characteristic name="RIS reference number">6776656</tss:characteristic>
+<tss:characteristic name="call-num">OLS Ac VOR arab 60</tss:characteristic>
+<tss:characteristic name="Standort">StaBi</tss:characteristic>
+<tss:characteristic name="Translated title">Union Catalogue of Arabic Publications and Translations</tss:characteristic>
+<tss:characteristic name="Shortened title">Muʿjam al-maṭbūʿat al-ʿArabiyya wa-l-muʿarraba</tss:characteristic>
+<tss:characteristic name="Number of volumes">2</tss:characteristic>
+<tss:characteristic name="URL">http://shamela.ws/index.php/book/1242</tss:characteristic>
+<tss:characteristic name="Citation identifier">Sarkīs 1928</tss:characteristic>
+<tss:characteristic name="Web data source">WorldCat</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Albert">Project: OpenArabicPE</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">19th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">20th century</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic literature</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Arabic periodicals</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Article: Reading</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Catalogue</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">EPub</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">History of press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">PDF</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Press</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">secondary education</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Secondary source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title>Shalfūn, Yūsuf</title><comment/><quotation/><pages>1140-</pages></tss:note>
+<tss:note><title>Sarkīs</title><comment/><quotation/><pages>1019-</pages></tss:note>
+<tss:note><title>Sarkīs, Saʿīd Efendi</title><comment/><quotation/><pages>1021</pages></tss:note>
+<tss:note><title>Sarkīs, Salīm</title><comment/><quotation/><pages>1021-</pages></tss:note>
+<tss:note><title>Sarkīs, Khalīl</title><comment/><quotation/><pages>1020-</pages></tss:note>
+<tss:note><title>Sarkīs, Ibrāhīm</title><comment/><quotation/><pages>1018-</pages></tss:note>
+</tss:notes>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Archival Material"/>
+<tss:dates>
+<tss:date type="Publication" day="9" month="4" year="1930"/>
+<tss:date type="Entry" day="13" month="2" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">Fifteenth Census of the United States</tss:characteristic>
+<tss:characteristic name="publicationTitle">United States Census</tss:characteristic>
+<tss:characteristic name="abstractText">Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zackem can be found in the [1930 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4) as living in Ward 5, Lincoln, Lancaster, Nebraska. He was born in 1882 and aged 27 at first marriage.&lt;br&gt;    * data was recorded on 1930-04-09 amd 1930-04-10&lt;br&gt;    * aged 48, born in Syria&lt;br&gt;    * immigrated to the US in 1904, no info on naturalisation&lt;br&gt;    * occupation: Rug dealer, Oriental Goods&lt;br&gt;    * owns his home, which is valued at 10.000 USD&lt;br&gt;    * married to Myrah, ageed 40, born in Iowa&lt;br&gt;    * children&lt;br&gt;        - Rosalla, 18, working as a sales ladie in a Department Store&lt;br&gt;        - George J, 16&lt;br&gt;        - Ruth J, 15&lt;br&gt;        - Michael R., 13&lt;br&gt;        - Josef G, Jr, 9 </tss:characteristic>
+<tss:characteristic name="language">en</tss:characteristic>
+<tss:characteristic name="publicationCountry">Washington, DC</tss:characteristic>
+<tss:characteristic name="UUID">5D6C0506-E524-4B75-B3D0-3A6E83B7AEA7</tss:characteristic>
+<tss:characteristic name="Short Titel">US Federal Census</tss:characteristic>
+<tss:characteristic name="File">roll 1285</tss:characteristic>
+<tss:characteristic name="Signatur">T625</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1399</tss:characteristic>
+<tss:characteristic name="Repository">NARA</tss:characteristic>
+<tss:characteristic name="Citation identifier">UnitedStatesCensus 1930</tss:characteristic>
+<tss:characteristic name="URL">https://www.familysearch.org/ark:/61903/1:1:XQKB-3V4</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Census</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">USA</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1930%20United%20States%20Census%20United%20States%20Census.png</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1930%20United%20States%20Census%20United%20States%20Census.jpg</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Archival Material"/>
+<tss:dates>
+<tss:date type="Publication" day="2" month="4" year="1940"/>
+<tss:date type="Entry" day="13" month="2" year="2019"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="articleTitle">Sixteenth Census of the United States</tss:characteristic>
+<tss:characteristic name="publicationTitle">United States Census</tss:characteristic>
+<tss:characteristic name="abstractText">Data for &amp;lt;persName&amp;gt;Yūsuf Jirjis Zakham&amp;lt;/persName&amp;gt;&lt;br&gt;+ Joseph G Zaken can be found in the [1940 US Federal Census](https://www.familysearch.org/ark:/61903/1:1:K997-KT2) as living in Ward 9, Omaha City, Douglas, Nebraska&lt;br&gt;    * data was recorded on 1940-04-02&lt;br&gt;    + aged 61, born in Syria </tss:characteristic>
+<tss:characteristic name="language">en</tss:characteristic>
+<tss:characteristic name="publicationCountry">Washington, DC</tss:characteristic>
+<tss:characteristic name="UUID">8D143174-D395-4636-AA10-E1699C780EC9</tss:characteristic>
+<tss:characteristic name="Short Titel">US Federal Census</tss:characteristic>
+<tss:characteristic name="Signatur">T625</tss:characteristic>
+<tss:characteristic name="File">roll 850</tss:characteristic>
+<tss:characteristic name="EndNote reference number">1400</tss:characteristic>
+<tss:characteristic name="Repository">NARA</tss:characteristic>
+<tss:characteristic name="Citation identifier">UnitedStatesCensus 1940</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Census</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Digital copy</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Online</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Source</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">USA</tss:keyword>
+</tss:keywords>
+<tss:attachments>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1940%20United%20States%20Census%20United%20States%20Census.png</URL></tss:attachmentReference>
+<tss:attachmentReference><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/!%20Unknown%20Author(s)/1940%20United%20States%20Census%20United%20States%20Census.jpg</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+<tss:reference>
+<tss:publicationType name="Book"/>
+<tss:authors>
+<tss:author role="Author"><tss:surname>Kurd ʿAlī</tss:surname><tss:forenames>Muḥammad</tss:forenames><tss:initials/></tss:author>
+</tss:authors>
+<tss:dates>
+<tss:date type="Publication" year="1969"/>
+<tss:date type="Entry" day="22" month="8" year="2008"/>
+<tss:date type="Modification" day="22" month="5" year="2020"/>
+</tss:dates>
+<tss:characteristics>
+<tss:characteristic name="publicationTitle">Khiṭaṭ al-Shām</tss:characteristic>
+<tss:characteristic name="abstractText">6 volumes in 3, new pagination</tss:characteristic>
+<tss:characteristic name="language">ar</tss:characteristic>
+<tss:characteristic name="publicationCountry">Beirut</tss:characteristic>
+<tss:characteristic name="publisher">dār al-ʿilm</tss:characteristic>
+<tss:characteristic name="status">Started</tss:characteristic>
+<tss:characteristic name="UUID">5B465B93-8742-48E0-83BC-32B28D38CA15</tss:characteristic>
+<tss:characteristic name="volume">4</tss:characteristic>
+<tss:characteristic name="call-num">P956.91 /451245</tss:characteristic>
+<tss:characteristic name="Primary contributor role">Author</tss:characteristic>
+<tss:characteristic name="Standort">SOAS, Till</tss:characteristic>
+<tss:characteristic name="Citation identifier">KurdʿAlī 1969a</tss:characteristic>
+<tss:characteristic name="Edition">2</tss:characteristic>
+</tss:characteristics>
+<tss:keywords>
+<tss:keyword assigner="Sente User Albert">2019 GG</tss:keyword>
+<tss:keyword assigner="Sente User Sebastian">Hard copy</tss:keyword>
+<tss:keyword assigner="Sente User till">Source</tss:keyword>
+</tss:keywords>
+<tss:notes>
+<tss:note><title># al-ṣiḥāfa al-ʿarabiyya</title><comment/><quotation/><pages>80-86</pages></tss:note>
+<tss:note><title>requirements for being a journalist</title><comment>Quoted in Ayalon 1995</comment><quotation/><pages>86</pages></tss:note>
+</tss:notes>
+<tss:attachments>
+<tss:attachmentReference type="PDF-Dokument"><name>content 3-4</name><source>Manual Link</source><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1969%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%204%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad.pdf</URL></tss:attachmentReference>
+<tss:attachmentReference type="PDF-Dokument"><name>al-ṣināʿāt al-šāmiyya</name><source>Manual Link</source><URL>file:///BachCore/SenteLibrary/BachBibliographie.sente6lib/Contents/Attachments/Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad/1969%20khit%CC%A3at%CC%A3%20al-sha%CC%84m%204%20Kurd%20%CA%BFAli%CC%84%2C%20Muh%CC%A3ammad%20%232.pdf</URL></tss:attachmentReference>
+</tss:attachments>
+</tss:reference>
+</tss:references>
+</tss:library>
+</tss:senteContainer>
