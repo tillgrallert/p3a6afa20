@@ -1,6 +1,6 @@
 ---
 title: "Catch me if you can!"
-subtitle: "Computational approaches to the Arabic press of the late Ottoman Eastern Mediterranean"
+subtitle: "Approaching the Arabic press of the late Ottoman Eastern Mediterranean through digital history"
 author: Till Grallert
 date: 2020-11-14
 ORCID: orcid.org/0000-0002-5739-8094
