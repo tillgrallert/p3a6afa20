@@ -512,7 +512,7 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^fn47]: A map is available at <https://doi.org/10.5281/zenodo.4174305>.
 
-[^fn48]: Maps are available at <https://doi.org/10.5281/zenodo.4174335> and <https://doi.org/10.5281/zenodo.4174335>.
+[^fn48]: Maps are available at <https://doi.org/10.5281/zenodo.4174327> and <https://doi.org/10.5281/zenodo.4174335>.
 
 [^fn49]: In addition to intrinsic bibliographic information, such as bylines and footnotes, I also explicitly encoded extrinsic information on authorship. Muḥammad Kurd ʿAlī, for instance, is well known to be the author of a series of letters titled *Gharāʾib al-Gharb* (Oddities of the West). The gathering and encoding of extrinsic information cannot considered systematic or comprehensive at this point.
 

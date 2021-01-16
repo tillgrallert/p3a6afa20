@@ -145,7 +145,7 @@ Knowing that we work with a corpus whose composition is the result of external a
 
 
 
-The first observation, common to all social networks, is that only a very small number of nodes are of relative importance, as measured by in-degree (number of edges connecting to a node) and weight of the edges connecting nodes. Out of a total of 465 different periodical titles, 421 or c. 90% were referred to by only a single journal. 344 periodicals are only mentioned in a single issue and 335 in a single article. 
+The first observation, common to all social networks, is that only a very small number of nodes are of relative importance, as measured by in-degree (number of edges connecting to a node) and weight of the edges connecting nodes. Out of a total of 465 different periodical titles, 421 or c. 90% were referred to by only a single journal. 344 periodicals are only mentioned in a single issue and 335 in a single article.
 The core of the network in [@fig:network-periodicals] comprises only 44 periodicals mentioned by more than one journal. Only 9 of those (or 2,13% of all periodicals) were referenced by three journals in our corpus. They are: *al-Manār*, *al-Muqtaṭaf*, *al-Hilāl* and *al-Ḍiyā* from <placeName>Cairo</placeName>, *al-Muqtabas* itself, *al-Mufīd*, *al-Waṭan* and *al-Ḥaqīqa* from <placeName>Beirut</placeName> and *al-Ḥuqūq* from <placeName>Mt. Lebanon</placeName>.  The centrality of the three Cairene periodicals, *al-Manār*, *al-Muqtaṭaf*, *al-Hilāl*, which were all published by Syrian immigrants, tentatively confirms standard narratives of the Arabic press.[^fn37] The remaining six, however, do not figure prominently in scholarly literature. If we had the means to construct our own corpus without the severe limitations alluded to above, these would be the journals to digitise. Second, this network is highly centralised in terms of geographic distribution. The 44 core nodes were published in only a handful of locations: <placeName>Beirut</placeName> (9), <placeName>Cairo</placeName> (7), <placeName>Baghdad</placeName>, <placeName>Damascus</placeName>, <placeName>Paris</placeName> (3), <placeName>Alexandria</placeName>, <placeName>London</placeName>, <placeName>Mt. Lebanon</placeName>, <placeName>Saida</placeName> and <placeName>Zahle</placeName> (1).
 
 A third observation of the larger network is that *al-Muqtabas* accounts for the vast majority of references to other periodicals by some orders of magnitude even after we account for *al-Muqtabas* having almost thrice as many issues as either *al-Ḥaqāʾiq* or *Lughat al-ʿArab* ([@tbl:corpus]). If we assume that we haven't missed a significant number of references, then *al-Muqtabas* was more outward-looking and more involved in larger discourses of the day. Fourth, a closer look at the core nodes in the network reveals that all periodicals were primarily self-referential---indicated by the thickest edges connecting a journal to itself (for the purpose of this visualisation and to prevent circular edges, source and target nodes were separated). Fifth, the core nodes include number of surprises: *al-Jinān* was published by <persName>Butrus al-Bustānī</persName> and later his son <persName>Salīm al-Bustānī</persName> in Beirut between 1876 and 1886. This means that either *al-Jinān* was still relevant for certain discourses long after it ceased publication or that the corpus, spanning the years 1906 until 1918, contains a number of historiographic texts mentioning important journals of the past.[^fn38] Articles in <persName>Ibrāhīm al-Yazījī</persName>'s *al-Ḍiyā*ʾ, published in Cairo between 1898 and 1906, were also referenced after the end of this journal. Finally, the group of periodicals mentioned in more than one journal in our corpus comprises a number of foreign titles such as *Le Temps*, *Revue des Revues* and *Revue du Monde Musulman* from <placeName>Paris</placeName> and *The Times* from <placeName>London</placeName>.
@@ -196,7 +196,7 @@ Another striking observation can be found in the proximity and overlap of cluste
 
 The work on compiling the biographies of all 319 currently identifiable contributors is far from being done, but after looking at the most productive authors for each journal, we can identify certain trends in the author populations and their geographic distributions. For the purpose of this essay, I will contrast *al-Muqtabas* and *al-Ḥaqāʾiq*, the two Damascene periodicals in our corpus.
 
-Only 50 authors published more than one article in *al-Muqtabas*. Two of the five most prolific authors with more than ten bylines to their names wrote from <placeName>Baghdad</placeName> ([@tbl:authors-muqtabas]): <persName>Maʿrūf al-Ruṣāfī</persName> and <persName>Anastās Mārī al-Karmalī</persName>. <persName>ʿĪsā Iskandar al-Maʿlūf</persName> wrote mostly from <placeName>Zaḥle</placeName> and <persName>Yūsuf Jirjis Zakham</persName> from <placeName>Omaha</placeName> and <placeName>Lincoln</placeName>, <placeName>Nebraska</placeName>, <placeName>USA</placeName>. Only the fifth most prolific author was a native resident of Damascus: <persName>Muḥammad Kurd ʿAlī</persName> himself.[^cf15] 
+Only 50 authors published more than one article in *al-Muqtabas*. Two of the five most prolific authors with more than ten bylines to their names wrote from <placeName>Baghdad</placeName> ([@tbl:authors-muqtabas]): <persName>Maʿrūf al-Ruṣāfī</persName> and <persName>Anastās Mārī al-Karmalī</persName>. <persName>ʿĪsā Iskandar al-Maʿlūf</persName> wrote mostly from <placeName>Zaḥle</placeName> and <persName>Yūsuf Jirjis Zakham</persName> from <placeName>Omaha</placeName> and <placeName>Lincoln</placeName>, <placeName>Nebraska</placeName>, <placeName>USA</placeName>. Only the fifth most prolific author was a native resident of Damascus: <persName>Muḥammad Kurd ʿAlī</persName> himself.[^cf15]
 
 | Rank | Name (transliterated)     | VIAF ID                                      | Birth | Death | Articles | Words   |
 | ---: | :---                      | :---                                         | :---  | :---  | ---:     | ---:    |
@@ -300,7 +300,7 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^fn5]: [@Ayalon+1995]; [-@Ayalon+1984; -@Ayalon+1985; -@Ayalon+1987a; -@Ayalon+1987; -@Ayalon+1992; -@Ayalon+2002; -@Ayalon+2008].
 
-[^cf1]: Exceptions are [@Glaß+2004b; @Cioeta+1979a]. 
+[^cf1]: Exceptions are [@Glaß+2004b; @Cioeta+1979a].
 
 [^fn6]: [@Zemmin+2019, 81]. In addition, al-ʿAẓm also published in *al-Muqtabas*, *al-Ittiḥād al-ʿUthmānī* and other periodicals.
 
@@ -330,7 +330,7 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^fn18]: [@Kiessling+2017]. The approaches of the [Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project (OpenITI AOCP)](https://openiti.org/projects/openitiaocp) will eventually find their way into HathiTrust etc.; see [@2020+HathiTrustResearchCenter].
 
-[^cf3]: The validity of this statement, of course, depends on the purpose of digitisation. If one was, for instance, interested in distant reading approaches to large corpora, such as the temporal distribution of certain keywords during a long print run, this would allow not just for aggregation on the issue level but probably even periods of full months and more. In consequence, error margins of almost one fourth in both Character Error Rate (CER) and Word Error Rate (WER) become seemingly acceptable; [e.g. @Cristianini+2018, 144]. 
+[^cf3]: The validity of this statement, of course, depends on the purpose of digitisation. If one was, for instance, interested in distant reading approaches to large corpora, such as the temporal distribution of certain keywords during a long print run, this would allow not just for aggregation on the issue level but probably even periods of full months and more. In consequence, error margins of almost one fourth in both Character Error Rate (CER) and Word Error Rate (WER) become seemingly acceptable; [e.g. @Cristianini+2018, 144].
 
 [^fn19]: [@website_eapb]
 
@@ -346,9 +346,9 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^cf5]:  For an overview of calendars see [@Jajko+1993; @Rose+1991; @Deny+1921; @Georgeon+2011; @Grallert+2014, 26--34].
 
-[^cf6]: A particularly crass example with four errors in a single dateline can be found in the masthead to [*al-Haqāʾiq* 1(6)](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_6.TEIP5.xml). 
+[^cf6]: A particularly crass example with four errors in a single dateline can be found in the masthead to [*al-Haqāʾiq* 1(6)](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_6.TEIP5.xml).
 
-[^cf7]: *al-Muqtabas*, for instance, was severely lagging behind its publication schedule by summer 1909. [No. 4(7)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_42.TEIP5.xml) was scheduled for Rajab 1327 aH (July/August 1909) according to its masthead, but only published in the first week of April the following year; see [@muqtabas+76-eap, 3]. 
+[^cf7]: *al-Muqtabas*, for instance, was severely lagging behind its publication schedule by summer 1909. [No. 4(7)](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_42.TEIP5.xml) was scheduled for Rajab 1327 aH (July/August 1909) according to its masthead, but only published in the first week of April the following year; see [@muqtabas+76-eap, 3].
 
 [^cf8]: Both Weber and Hanssen, for instance, missed the fact that the birthday of Sultan <persName>ʿAbdülḥamīd II</persName> (1876--1909) was celebrated according to the Islamic *hijrī* calendar and thus rotated through the solar year. The annual celebrations of the anniversary of the <persName>ʿAbdülḥamīd II</persName>'s accession to the throne were celebrated according to the empire's *mālī* calendar. Yet, leading scholars read these dates as pertaining to the *hijrī* calendar. Due to a mix-up in 1872 and the resulting growing difference between the two calendars, <persName>ʿAbdülḥamīd II</persName>'s silver jubilee on the throne is wrongly dated to 1901 instead of 1900. [@Hanssen+2005, 238, 243ff.;@Weber+2009, 418--420; @Deringil+1998, 29; @Uluengin+2010, 20].
 
@@ -358,7 +358,7 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^cf10]: Technical information on the project is scarce and contradictory despite two publications by the project leaders; [@Qasem+2015; @Matusiak+2009].
 
-[^cf11]: This is true for the web interface and the [IIIF (International Image Interoperability Framework)](https://iiif.io/) API. See <https://eap.bl.uk/archive-file/EAP119-1-4-3>. 
+[^cf11]: This is true for the web interface and the [IIIF (International Image Interoperability Framework)](https://iiif.io/) API. See <https://eap.bl.uk/archive-file/EAP119-1-4-3>.
 
 [^fn25]: [@OpenArabicPE:website]
 
@@ -414,7 +414,7 @@ Any analysis of authorship and socio-intellectual networks is limited by the fac
 
 [^fn47]: A map is available at <https://doi.org/10.5281/zenodo.4174305>.
 
-[^fn48]: Maps are available at <https://doi.org/10.5281/zenodo.4174335> and <https://doi.org/10.5281/zenodo.4174335>.
+[^fn48]: Maps are available at <https://doi.org/10.5281/zenodo.4174327> and <https://doi.org/10.5281/zenodo.4174335>.
 
 [^fn49]: In addition to intrinsic bibliographic information, such as bylines and footnotes, I also explicitly encoded extrinsic information on authorship. Muḥammad Kurd ʿAlī, for instance, is well known to be the author of a series of letters titled *Gharāʾib al-Gharb* (Oddities of the West). The gathering and encoding of extrinsic information cannot considered systematic or comprehensive at this point.
 
