@@ -23,27 +23,13 @@ tags:
     - stylometry
     - Arabic periodicals
     - digital humanities
+    - OpenArabicPE
 ---
 
 
 <!-- # processing instructions -->
 <!-- pre-process with pancritic -->
 <!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept -o catch-me-if-you-can_changes-accepted.md -->
-
-<div id="sec-badges" class="c_badges">
-[![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5739-8094)
-[![CC BY-ND 4.0](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/)
-[![GitHub release](https://img.shields.io/github/release/tillgrallert/p3a6afa20.svg)](https://github.com/tillgrallert/p3a6afa20/releases)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1413610.svg)](https://doi.org/10.5281/zenodo.1413610)
-</div>
-
-# About #
-
-> This paper originated in a presentation at Turkologentag 2018 in Bamberg, Germany, 19--21 September 2018. The computational analysis was first presented at the international workshop "Creating Spaces, Connecting Worlds: Dimensions of the Press in the Middle East and Eurasia" in Zurich, 31 October -- 2 November 2019. The final version was submitted to a special issue of "Geschichte und Gesellschaft" for publication.
->
-> The current stable draft of this paper is version [v0.4](https://tillgrallert.github.io/p3a6afa20/v0-4/index.html). To comment / review / annotate this version via hypothes.is click [here](https://via.hypothes.is/https://tillgrallert.github.io/p3a6afa20/v0-4/index.html). The most recent changes are available [here](https://tillgrallert.github.io/p3a6afa20/index.html).
->
-> High-resolution plots, data sets and other supplementary data can can be found at <https://github.com/tillgrallert/s3a6afa20>. If this paper gets accepted for publication, releases of this repository will be uploaded to Zenodo and get a DOI.
 
 # Introduction #
 
@@ -266,7 +252,7 @@ Because the number of MFW has a significant impact on the results,Eder suggested
 
 Finally, there is an important caveat in applying stylometry to periodicals: Eder experimentally established a threshold length of 5000 words as the minimal required length of a text for meaningful attribution. Below 5000 words, the signal was "immensely affected by random noise".[^cf18] These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling. Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor.[^fn62]
 
-![Bootstrap consensus network of all articles of 5000+ words combing the results of 100--1000 MFW (100 word increments); colours indicate modularity groups](../s3a6afa20/plots/stylo_articles-w_5000-modularity_1-label_authors.png){#fig:stylometry}
+![Bootstrap consensus network of all articles of 5000+ words combing the results of 100--1000 MFW (100 word increments); colours indicate modularity groups](../s3a6afa20/plots/stylo_oape-p3a6afa20_articles-w_5000-modularity_1-label_authors.png){#fig:stylometry}
 
 <!-- ![Bootstrap consensus network, colours by modularity group](../s3a6afa20/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
 

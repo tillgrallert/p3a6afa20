@@ -29,6 +29,7 @@ tags:
 <!-- # processing instructions -->
 <!-- pre-process with pancritic -->
 <!-- pancritic catch-me-if-you-can.md -t markdown --critic-mode accept -o catch-me-if-you-can_changes-accepted.md -->
+<!-- delete the badges and about section for submission -->
 
 <div id="sec-badges" class="c_badges">
 [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-5739-8094)
@@ -364,7 +365,7 @@ There is some debate as to which style-markers and distance measure should be co
 Finally, there is an important caveat in applying stylometry to periodicals: Eder experimentally established a threshold length of 5000 words as the minimal required length of a text for meaningful attribution{-- using medium-sized corpora of prose texts in English, Polish, German, Hungarian, Latin and Greek and applying Burrows' Delta on 200 MFW--}. Below 5000 words, the signal was "immensely affected by random noise".[^cf18] These findings have severe implications---most texts in our corpus are much shorter than 5000 words and even the longer ones are too short for random sampling. Nevertheless, limiting our experiments with stylometric analysis to the some fifty articles of more than 5000 words yielded promising results and shows at least three distinct signals: genre, author and translator/editor.[^fn62]
 
 ![Bootstrap consensus network of all articles of 5000+ words combing the results of 100--1000 MFW (100 word increments); {==colours indicate modularity group==}{>>GuG: Ich glaube nicht, dass das Gros der Leser von GG in der Lage ist, einer Graphik zu folgen, die im Wesentlich arabische Referenzen hat.
-Till: das habe ich geändert.<<}s](../s3a6afa20/plots/stylo_articles-w_5000-modularity_1-label_authors.png){#fig:stylometry}
+Till: das habe ich geändert.<<}s](../s3a6afa20/plots/stylo_oape-p3a6afa20_articles-w_5000-modularity_1-label_authors.png){#fig:stylometry}
 
 <!-- ![Bootstrap consensus network, colours by modularity group](../s3a6afa20/plots/stylo_articles-w_5000-modularity_1-label_authors-ar.png) -->
 
